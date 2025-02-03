@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="sets/AZG-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>AZG visual spoiler</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 3%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/AZG-files/logo.png" />
+	<img class="preload-hidden" src="/sets/ANX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/AZG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SWTG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VRN-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="ANX-spoiler"><img src="sets/ANX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="AZG-spoiler"><img src="sets/AZG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="SWTG-spoiler"><img src="sets/SWTG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="VRN-spoiler"><img src="sets/VRN-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="sets/AZG-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="sets\AZG-files\img\23_One of Many and Many of One.png" id="23_One of Many and Many of One" data-flag="@X" onclick="openSidebar('23_One of Many and Many of One',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\68_Madia Spellslinger Savant.png" id="68_Madia Spellslinger Savant" data-flag="@X" onclick="openSidebar('68_Madia Spellslinger Savant',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\85_Abyssal Overseer.png" id="85_Abyssal Overseer" data-flag="@X" onclick="openSidebar('85_Abyssal Overseer',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\135_Curse of Draconic Doom.png" id="135_Curse of Draconic Doom" data-flag="@X" onclick="openSidebar('135_Curse of Draconic Doom',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\187_Leyline Reformation.png" id="187_Leyline Reformation" data-flag="@X" onclick="openSidebar('187_Leyline Reformation',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\32_Suvvaris Citadel Stalwart.png" id="32_Suvvaris Citadel Stalwart" data-flag="@X" onclick="openSidebar('32_Suvvaris Citadel Stalwart',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\84_Xixshang Cursed with Knowledge.png" id="84_Xixshang Cursed with Knowledge" data-flag="@X" onclick="openSidebar('84_Xixshang Cursed with Knowledge',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\89_Ashiok Defiler of Azgol.png" id="89_Ashiok Defiler of Azgol" data-flag="@X" onclick="openSidebar('89_Ashiok Defiler of Azgol',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\153_Magmatic Apparition.png" id="153_Magmatic Apparition" data-flag="@X" onclick="openSidebar('153_Magmatic Apparition',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\209_Vivien Friend to Monsters.png" id="209_Vivien Friend to Monsters" data-flag="@X" onclick="openSidebar('209_Vivien Friend to Monsters',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\1_Ancient Judgement.png" id="1_Ancient Judgement" data-flag="@X" onclick="openSidebar('1_Ancient Judgement',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\43_The Aberrant Order.png" id="43_The Aberrant Order" data-flag="@X" onclick="openSidebar('43_The Aberrant Order',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\88_Ashen Animation.png" id="88_Ashen Animation" data-flag="@X" onclick="openSidebar('88_Ashen Animation',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\131_Blind Rage.png" id="131_Blind Rage" data-flag="@X" onclick="openSidebar('131_Blind Rage',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\169_Azurefang Hydra Overlord.png" id="169_Azurefang Hydra Overlord" data-flag="@X" onclick="openSidebar('169_Azurefang Hydra Overlord',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\8_Emaciated Roc.png" id="8_Emaciated Roc" data-flag="@X" onclick="openSidebar('8_Emaciated Roc',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\48_Calzara the Face Stealer.png" id="48_Calzara the Face Stealer" data-flag="@X" onclick="openSidebar('48_Calzara the Face Stealer',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\90_Ashioks Metamorphosis.png" id="90_Ashioks Metamorphosis" data-flag="@X" onclick="openSidebar('90_Ashioks Metamorphosis',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\137_Decapitator Dragon.png" id="137_Decapitator Dragon" data-flag="@X" onclick="openSidebar('137_Decapitator Dragon',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\170_Bestial Fusion.png" id="170_Bestial Fusion" data-flag="@X" onclick="openSidebar('170_Bestial Fusion',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\11_Fildarn the Watchful Eye.png" id="11_Fildarn the Watchful Eye" data-flag="@X" onclick="openSidebar('11_Fildarn the Watchful Eye',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\49_Calzaras Apprentice.png" id="49_Calzaras Apprentice" data-flag="@X" onclick="openSidebar('49_Calzaras Apprentice',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\92_Baleful Omen.png" id="92_Baleful Omen" data-flag="@X" onclick="openSidebar('92_Baleful Omen',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\142_Fealty Lich.png" id="142_Fealty Lich" data-flag="@X" onclick="openSidebar('142_Fealty Lich',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\177_Dirden Draconis.png" id="177_Dirden Draconis" data-flag="@X" onclick="openSidebar('177_Dirden Draconis',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\13_Greater Restoration.png" id="13_Greater Restoration" data-flag="@X" onclick="openSidebar('13_Greater Restoration',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\57_Curse of Secrets.png" id="57_Curse of Secrets" data-flag="@X" onclick="openSidebar('57_Curse of Secrets',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\97_Bloodline Defiler.png" id="97_Bloodline Defiler" data-flag="@X" onclick="openSidebar('97_Bloodline Defiler',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\144_Hexblaze Hellkite.png" id="144_Hexblaze Hellkite" data-flag="@X" onclick="openSidebar('144_Hexblaze Hellkite',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\182_Intruders Bane.png" id="182_Intruders Bane" data-flag="@X" onclick="openSidebar('182_Intruders Bane',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\18_Lymma Benevolent Pacifist.png" id="18_Lymma Benevolent Pacifist" data-flag="@X" onclick="openSidebar('18_Lymma Benevolent Pacifist',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\58_Cursed Broker.png" id="58_Cursed Broker" data-flag="@X" onclick="openSidebar('58_Cursed Broker',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\100_Curse of Misfortunes.png" id="100_Curse of Misfortunes" data-flag="@X" onclick="openSidebar('100_Curse of Misfortunes',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\147_Infernal Dominion.png" id="147_Infernal Dominion" data-flag="@X" onclick="openSidebar('147_Infernal Dominion',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\183_Jadelight Arcanist.png" id="183_Jadelight Arcanist" data-flag="@X" onclick="openSidebar('183_Jadelight Arcanist',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\27_Refraction Dragon.png" id="27_Refraction Dragon" data-flag="@X" onclick="openSidebar('27_Refraction Dragon',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\63_Dreamlike Duality.png" id="63_Dreamlike Duality" data-flag="@X" onclick="openSidebar('63_Dreamlike Duality',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\101_Curse of the Wasteful.png" id="101_Curse of the Wasteful" data-flag="@X" onclick="openSidebar('101_Curse of the Wasteful',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\149_IxNaar Dragonrider.png" id="149_IxNaar Dragonrider" data-flag="@X" onclick="openSidebar('149_IxNaar Dragonrider',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\184_Kami of Manifestation.png" id="184_Kami of Manifestation" data-flag="@X" onclick="openSidebar('184_Kami of Manifestation',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\33_Trials of Suvvaris.png" id="33_Trials of Suvvaris" data-flag="@X" onclick="openSidebar('33_Trials of Suvvaris',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\69_Madias Gaze.png" id="69_Madias Gaze" data-flag="@X" onclick="openSidebar('69_Madias Gaze',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\115_Necrotized Necromancer.png" id="115_Necrotized Necromancer" data-flag="@X" onclick="openSidebar('115_Necrotized Necromancer',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\159_Proud Manablade.png" id="159_Proud Manablade" data-flag="@X" onclick="openSidebar('159_Proud Manablade',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\192_Primordial Crusader.png" id="192_Primordial Crusader" data-flag="@X" onclick="openSidebar('192_Primordial Crusader',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\39_Warcaster Rejuvenation.png" id="39_Warcaster Rejuvenation" data-flag="@X" onclick="openSidebar('39_Warcaster Rejuvenation',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\71_Precursor Caster.png" id="71_Precursor Caster" data-flag="@X" onclick="openSidebar('71_Precursor Caster',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\116_Ophiomancer.png" id="116_Ophiomancer" data-flag="@X" onclick="openSidebar('116_Ophiomancer',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\160_Reality Gape.png" id="160_Reality Gape" data-flag="@X" onclick="openSidebar('160_Reality Gape',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\197_Shaman of the Past.png" id="197_Shaman of the Past" data-flag="@X" onclick="openSidebar('197_Shaman of the Past',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\40_Warding Enchantress.png" id="40_Warding Enchantress" data-flag="@X" onclick="openSidebar('40_Warding Enchantress',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\74_Reality Inversion.png" id="74_Reality Inversion" data-flag="@X" onclick="openSidebar('74_Reality Inversion',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\122_Ulgleyth Corrupted King.png" id="122_Ulgleyth Corrupted King" data-flag="@X" onclick="openSidebar('122_Ulgleyth Corrupted King',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\163_Tear the Seam.png" id="163_Tear the Seam" data-flag="@X" onclick="openSidebar('163_Tear the Seam',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\206_Umbral Reaver.png" id="206_Umbral Reaver" data-flag="@X" onclick="openSidebar('206_Umbral Reaver',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\42_Zof Voqu Magistrate.png" id="42_Zof Voqu Magistrate" data-flag="@X" onclick="openSidebar('42_Zof Voqu Magistrate',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\76_Sorrow of Azgol.png" id="76_Sorrow of Azgol" data-flag="@X" onclick="openSidebar('76_Sorrow of Azgol',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\123_Undead Patron.png" id="123_Undead Patron" data-flag="@X" onclick="openSidebar('123_Undead Patron',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\168_Zeyn Frenetic Sorceress.png" id="168_Zeyn Frenetic Sorceress" data-flag="@X" onclick="openSidebar('168_Zeyn Frenetic Sorceress',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\208_Vile Summoner.png" id="208_Vile Summoner" data-flag="@X" onclick="openSidebar('208_Vile Summoner',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\3_Citadel Dissenter.png" id="3_Citadel Dissenter" data-flag="@X" onclick="openSidebar('3_Citadel Dissenter',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\47_Bibliomancer Savant.png" id="47_Bibliomancer Savant" data-flag="@X" onclick="openSidebar('47_Bibliomancer Savant',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\93_Bitterheart Revival.png" id="93_Bitterheart Revival" data-flag="@X" onclick="openSidebar('93_Bitterheart Revival',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\127_Another Brother.png" id="127_Another Brother" data-flag="@X" onclick="openSidebar('127_Another Brother',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\175_Charge from Disaster.png" id="175_Charge from Disaster" data-flag="@X" onclick="openSidebar('175_Charge from Disaster',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\4_Coven Luminarch.png" id="4_Coven Luminarch" data-flag="@X" onclick="openSidebar('4_Coven Luminarch',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\51_Consult the Microverse.png" id="51_Consult the Microverse" data-flag="@X" onclick="openSidebar('51_Consult the Microverse',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\94_Bitterheart Witch.png" id="94_Bitterheart Witch" data-flag="@X" onclick="openSidebar('94_Bitterheart Witch',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\128_Ashen Eviscerator.png" id="128_Ashen Eviscerator" data-flag="@X" onclick="openSidebar('128_Ashen Eviscerator',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\176_Cultivate.png" id="176_Cultivate" data-flag="@X" onclick="openSidebar('176_Cultivate',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\6_Desolate Pilgrimage.png" id="6_Desolate Pilgrimage" data-flag="@X" onclick="openSidebar('6_Desolate Pilgrimage',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\56_Curse of Lethargy.png" id="56_Curse of Lethargy" data-flag="@X" onclick="openSidebar('56_Curse of Lethargy',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\104_Fanatic of the Ashen Idol.png" id="104_Fanatic of the Ashen Idol" data-flag="@X" onclick="openSidebar('104_Fanatic of the Ashen Idol',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\129_Ashen Insight.png" id="129_Ashen Insight" data-flag="@X" onclick="openSidebar('129_Ashen Insight',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\188_Making a Monster.png" id="188_Making a Monster" data-flag="@X" onclick="openSidebar('188_Making a Monster',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\12_Gift of Estates.png" id="12_Gift of Estates" data-flag="@X" onclick="openSidebar('12_Gift of Estates',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\62_Dreadculler Codex.png" id="62_Dreadculler Codex" data-flag="@X" onclick="openSidebar('62_Dreadculler Codex',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\106_Gaze of the Ashen Idol.png" id="106_Gaze of the Ashen Idol" data-flag="@X" onclick="openSidebar('106_Gaze of the Ashen Idol',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\130_Ashen Judgement.png" id="130_Ashen Judgement" data-flag="@X" onclick="openSidebar('130_Ashen Judgement',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\195_Savage Awakener.png" id="195_Savage Awakener" data-flag="@X" onclick="openSidebar('195_Savage Awakener',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\15_Janus Voqu Arbiter.png" id="15_Janus Voqu Arbiter" data-flag="@X" onclick="openSidebar('15_Janus Voqu Arbiter',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\64_Ethercast Intuition.png" id="64_Ethercast Intuition" data-flag="@X" onclick="openSidebar('64_Ethercast Intuition',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\107_Heros Remorse.png" id="107_Heros Remorse" data-flag="@X" onclick="openSidebar('107_Heros Remorse',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\133_Cataclysmic Eruption.png" id="133_Cataclysmic Eruption" data-flag="@X" onclick="openSidebar('133_Cataclysmic Eruption',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\198_Shamanic Chide.png" id="198_Shamanic Chide" data-flag="@X" onclick="openSidebar('198_Shamanic Chide',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\16_Kami of Stalemates.png" id="16_Kami of Stalemates" data-flag="@X" onclick="openSidebar('16_Kami of Stalemates',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\65_Father Alcron.png" id="65_Father Alcron" data-flag="@X" onclick="openSidebar('65_Father Alcron',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\108_Horror of IxNaar.png" id="108_Horror of IxNaar" data-flag="@X" onclick="openSidebar('108_Horror of IxNaar',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\134_Curse of Conflagration.png" id="134_Curse of Conflagration" data-flag="@X" onclick="openSidebar('134_Curse of Conflagration',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\200_Soulreader Kirin.png" id="200_Soulreader Kirin" data-flag="@X" onclick="openSidebar('200_Soulreader Kirin',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\20_Mistglide Dragon.png" id="20_Mistglide Dragon" data-flag="@X" onclick="openSidebar('20_Mistglide Dragon',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\70_Manaplume Augury.png" id="70_Manaplume Augury" data-flag="@X" onclick="openSidebar('70_Manaplume Augury',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\110_IxNaar High Priest.png" id="110_IxNaar High Priest" data-flag="@X" onclick="openSidebar('110_IxNaar High Priest',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\151_Kami of Boundless Fervor.png" id="151_Kami of Boundless Fervor" data-flag="@X" onclick="openSidebar('151_Kami of Boundless Fervor',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\201_Strained Metamorphosis.png" id="201_Strained Metamorphosis" data-flag="@X" onclick="openSidebar('201_Strained Metamorphosis',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\25_Pious Indoctrination.png" id="25_Pious Indoctrination" data-flag="@X" onclick="openSidebar('25_Pious Indoctrination',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\72_Psychic Sphinx.png" id="72_Psychic Sphinx" data-flag="@X" onclick="openSidebar('72_Psychic Sphinx',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\112_Kami of Deaths Veil.png" id="112_Kami of Deaths Veil" data-flag="@X" onclick="openSidebar('112_Kami of Deaths Veil',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\154_Manablade Warrior.png" id="154_Manablade Warrior" data-flag="@X" onclick="openSidebar('154_Manablade Warrior',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\203_Sylvan Caryatid.png" id="203_Sylvan Caryatid" data-flag="@X" onclick="openSidebar('203_Sylvan Caryatid',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\30_Spirit Shield.png" id="30_Spirit Shield" data-flag="@X" onclick="openSidebar('30_Spirit Shield',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\77_Spell Transfusion.png" id="77_Spell Transfusion" data-flag="@X" onclick="openSidebar('77_Spell Transfusion',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\113_Mark of the Ashen Idol.png" id="113_Mark of the Ashen Idol" data-flag="@X" onclick="openSidebar('113_Mark of the Ashen Idol',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\164_Unravel the Aether.png" id="164_Unravel the Aether" data-flag="@X" onclick="openSidebar('164_Unravel the Aether',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\204_Tiefling Animist.png" id="204_Tiefling Animist" data-flag="@X" onclick="openSidebar('204_Tiefling Animist',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\31_Split Infinities.png" id="31_Split Infinities" data-flag="@X" onclick="openSidebar('31_Split Infinities',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\79_Time Hole.png" id="79_Time Hole" data-flag="@X" onclick="openSidebar('79_Time Hole',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\117_Shaad Lone Alchemist.png" id="117_Shaad Lone Alchemist" data-flag="@X" onclick="openSidebar('117_Shaad Lone Alchemist',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\165_Urden OneEye.png" id="165_Urden OneEye" data-flag="@X" onclick="openSidebar('165_Urden OneEye',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\207_Up and at Em.png" id="207_Up and at Em" data-flag="@X" onclick="openSidebar('207_Up and at Em',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\37_Voqu Resolution.png" id="37_Voqu Resolution" data-flag="@X" onclick="openSidebar('37_Voqu Resolution',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\82_Voqu Historian.png" id="82_Voqu Historian" data-flag="@X" onclick="openSidebar('82_Voqu Historian',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\119_Sinister Kirin.png" id="119_Sinister Kirin" data-flag="@X" onclick="openSidebar('119_Sinister Kirin',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\167_Zealot of the Ashen Idol.png" id="167_Zealot of the Ashen Idol" data-flag="@X" onclick="openSidebar('167_Zealot of the Ashen Idol',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\210_Wild Weirding.png" id="210_Wild Weirding" data-flag="@X" onclick="openSidebar('210_Wild Weirding',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\2_Ashen Ascetic.png" id="2_Ashen Ascetic" data-flag="@X" onclick="openSidebar('2_Ashen Ascetic',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\44_Accursed Fathomer.png" id="44_Accursed Fathomer" data-flag="@X" onclick="openSidebar('44_Accursed Fathomer',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\86_Ancient Consultation.png" id="86_Ancient Consultation" data-flag="@X" onclick="openSidebar('86_Ancient Consultation',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\132_Bloodthirst.png" id="132_Bloodthirst" data-flag="@X" onclick="openSidebar('132_Bloodthirst',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\171_Bloodscent Trackers.png" id="171_Bloodscent Trackers" data-flag="@X" onclick="openSidebar('171_Bloodscent Trackers',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\5_Coven Solspeaker.png" id="5_Coven Solspeaker" data-flag="@X" onclick="openSidebar('5_Coven Solspeaker',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\45_Adept Cryomancer.png" id="45_Adept Cryomancer" data-flag="@X" onclick="openSidebar('45_Adept Cryomancer',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\87_Apprentice Witch.png" id="87_Apprentice Witch" data-flag="@X" onclick="openSidebar('87_Apprentice Witch',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\136_Curse of the Pierced Heart.png" id="136_Curse of the Pierced Heart" data-flag="@X" onclick="openSidebar('136_Curse of the Pierced Heart',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\172_Bloodthorn Elemental.png" id="172_Bloodthorn Elemental" data-flag="@X" onclick="openSidebar('172_Bloodthorn Elemental',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\7_Due Respect.png" id="7_Due Respect" data-flag="@X" onclick="openSidebar('7_Due Respect',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\46_Battlefield Seer.png" id="46_Battlefield Seer" data-flag="@X" onclick="openSidebar('46_Battlefield Seer',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\91_Assassinate.png" id="91_Assassinate" data-flag="@X" onclick="openSidebar('91_Assassinate',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\138_Distracting Kami.png" id="138_Distracting Kami" data-flag="@X" onclick="openSidebar('138_Distracting Kami',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\173_Bonecrusher Asp.png" id="173_Bonecrusher Asp" data-flag="@X" onclick="openSidebar('173_Bonecrusher Asp',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\9_Enthari Sentinel.png" id="9_Enthari Sentinel" data-flag="@X" onclick="openSidebar('9_Enthari Sentinel',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\50_Citadel Witch.png" id="50_Citadel Witch" data-flag="@X" onclick="openSidebar('50_Citadel Witch',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\95_Blightcaster.png" id="95_Blightcaster" data-flag="@X" onclick="openSidebar('95_Blightcaster',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\139_Electrobane Mage.png" id="139_Electrobane Mage" data-flag="@X" onclick="openSidebar('139_Electrobane Mage',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\174_Burlau Breaker.png" id="174_Burlau Breaker" data-flag="@X" onclick="openSidebar('174_Burlau Breaker',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\10_Enthari Shaman.png" id="10_Enthari Shaman" data-flag="@X" onclick="openSidebar('10_Enthari Shaman',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\52_Coven Amalgam.png" id="52_Coven Amalgam" data-flag="@X" onclick="openSidebar('52_Coven Amalgam',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\96_Bloodharvest Ritualist.png" id="96_Bloodharvest Ritualist" data-flag="@X" onclick="openSidebar('96_Bloodharvest Ritualist',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\140_Emberize.png" id="140_Emberize" data-flag="@X" onclick="openSidebar('140_Emberize',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\178_Erode into the Past.png" id="178_Erode into the Past" data-flag="@X" onclick="openSidebar('178_Erode into the Past',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\14_IxNaar Arbiter.png" id="14_IxNaar Arbiter" data-flag="@X" onclick="openSidebar('14_IxNaar Arbiter',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\53_Coven Scheme.png" id="53_Coven Scheme" data-flag="@X" onclick="openSidebar('53_Coven Scheme',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\98_Bloodseeker Calyptra.png" id="98_Bloodseeker Calyptra" data-flag="@X" onclick="openSidebar('98_Bloodseeker Calyptra',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\141_Failed Cauterization.png" id="141_Failed Cauterization" data-flag="@X" onclick="openSidebar('141_Failed Cauterization',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\179_Evolution Ooze.png" id="179_Evolution Ooze" data-flag="@X" onclick="openSidebar('179_Evolution Ooze',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\17_Kami of Wandering.png" id="17_Kami of Wandering" data-flag="@X" onclick="openSidebar('17_Kami of Wandering',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\54_Crystallize.png" id="54_Crystallize" data-flag="@X" onclick="openSidebar('54_Crystallize',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\99_Coven Psychosis.png" id="99_Coven Psychosis" data-flag="@X" onclick="openSidebar('99_Coven Psychosis',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\143_Gnashing Burlau.png" id="143_Gnashing Burlau" data-flag="@X" onclick="openSidebar('143_Gnashing Burlau',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\180_Explorer Shaman.png" id="180_Explorer Shaman" data-flag="@X" onclick="openSidebar('180_Explorer Shaman',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\19_Martial Aptitude.png" id="19_Martial Aptitude" data-flag="@X" onclick="openSidebar('19_Martial Aptitude',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\55_Curse of Fugue.png" id="55_Curse of Fugue" data-flag="@X" onclick="openSidebar('55_Curse of Fugue',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\102_Dire Kami.png" id="102_Dire Kami" data-flag="@X" onclick="openSidebar('102_Dire Kami',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\145_Ichorspine Kirin.png" id="145_Ichorspine Kirin" data-flag="@X" onclick="openSidebar('145_Ichorspine Kirin',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\181_Intrepid Kirin.png" id="181_Intrepid Kirin" data-flag="@X" onclick="openSidebar('181_Intrepid Kirin',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\21_Mistral Giant.png" id="21_Mistral Giant" data-flag="@X" onclick="openSidebar('21_Mistral Giant',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\59_Cursestalker Strix.png" id="59_Cursestalker Strix" data-flag="@X" onclick="openSidebar('59_Cursestalker Strix',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\103_Eldritch Blast.png" id="103_Eldritch Blast" data-flag="@X" onclick="openSidebar('103_Eldritch Blast',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\146_Igneous Salvo.png" id="146_Igneous Salvo" data-flag="@X" onclick="openSidebar('146_Igneous Salvo',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\185_Kami of Seeding.png" id="185_Kami of Seeding" data-flag="@X" onclick="openSidebar('185_Kami of Seeding',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\22_Moment of Heroism.png" id="22_Moment of Heroism" data-flag="@X" onclick="openSidebar('22_Moment of Heroism',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\60_Dewfrost Kami.png" id="60_Dewfrost Kami" data-flag="@X" onclick="openSidebar('60_Dewfrost Kami',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\105_Fleshstripper Hex.png" id="105_Fleshstripper Hex" data-flag="@X" onclick="openSidebar('105_Fleshstripper Hex',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\148_Innervator Kami.png" id="148_Innervator Kami" data-flag="@X" onclick="openSidebar('148_Innervator Kami',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\186_Kami of Vigor.png" id="186_Kami of Vigor" data-flag="@X" onclick="openSidebar('186_Kami of Vigor',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\24_Pious Adjudicator.png" id="24_Pious Adjudicator" data-flag="@X" onclick="openSidebar('24_Pious Adjudicator',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\61_Disrupt Leyline.png" id="61_Disrupt Leyline" data-flag="@X" onclick="openSidebar('61_Disrupt Leyline',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\109_IxNaar Abomination.png" id="109_IxNaar Abomination" data-flag="@X" onclick="openSidebar('109_IxNaar Abomination',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\150_Kami Flesh.png" id="150_Kami Flesh" data-flag="@X" onclick="openSidebar('150_Kami Flesh',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\189_Managlean Enchanter.png" id="189_Managlean Enchanter" data-flag="@X" onclick="openSidebar('189_Managlean Enchanter',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\26_Readied Spear.png" id="26_Readied Spear" data-flag="@X" onclick="openSidebar('26_Readied Spear',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\66_Gravitate.png" id="66_Gravitate" data-flag="@X" onclick="openSidebar('66_Gravitate',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\111_IxNaar Witches.png" id="111_IxNaar Witches" data-flag="@X" onclick="openSidebar('111_IxNaar Witches',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\152_Knight of IxNaar.png" id="152_Knight of IxNaar" data-flag="@X" onclick="openSidebar('152_Knight of IxNaar',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\190_Mystic Communion.png" id="190_Mystic Communion" data-flag="@X" onclick="openSidebar('190_Mystic Communion',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\28_Siltwalker Kirin.png" id="28_Siltwalker Kirin" data-flag="@X" onclick="openSidebar('28_Siltwalker Kirin',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\67_Kami of Truesight.png" id="67_Kami of Truesight" data-flag="@X" onclick="openSidebar('67_Kami of Truesight',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\114_Mournful Reject.png" id="114_Mournful Reject" data-flag="@X" onclick="openSidebar('114_Mournful Reject',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\155_Moltenspear Warlock.png" id="155_Moltenspear Warlock" data-flag="@X" onclick="openSidebar('155_Moltenspear Warlock',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\191_Outlands Primordial.png" id="191_Outlands Primordial" data-flag="@X" onclick="openSidebar('191_Outlands Primordial',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\29_Soultrap Ascetic.png" id="29_Soultrap Ascetic" data-flag="@X" onclick="openSidebar('29_Soultrap Ascetic',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\73_Pulled into the Pages.png" id="73_Pulled into the Pages" data-flag="@X" onclick="openSidebar('73_Pulled into the Pages',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\118_Siltform Rebirth.png" id="118_Siltform Rebirth" data-flag="@X" onclick="openSidebar('118_Siltform Rebirth',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\156_Monstrous Pursuit.png" id="156_Monstrous Pursuit" data-flag="@X" onclick="openSidebar('156_Monstrous Pursuit',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\193_Quakestep Ents.png" id="193_Quakestep Ents" data-flag="@X" onclick="openSidebar('193_Quakestep Ents',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\34_Void Renewal.png" id="34_Void Renewal" data-flag="@X" onclick="openSidebar('34_Void Renewal',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\75_Rift Reversal.png" id="75_Rift Reversal" data-flag="@X" onclick="openSidebar('75_Rift Reversal',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\120_Tormentors Miasma.png" id="120_Tormentors Miasma" data-flag="@X" onclick="openSidebar('120_Tormentors Miasma',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\157_Outland Berserker.png" id="157_Outland Berserker" data-flag="@X" onclick="openSidebar('157_Outland Berserker',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\194_Reinforced Sinnew.png" id="194_Reinforced Sinnew" data-flag="@X" onclick="openSidebar('194_Reinforced Sinnew',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\35_Voqu Highborn.png" id="35_Voqu Highborn" data-flag="@X" onclick="openSidebar('35_Voqu Highborn',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\78_Targan Speaker.png" id="78_Targan Speaker" data-flag="@X" onclick="openSidebar('78_Targan Speaker',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\121_Twisted Fate.png" id="121_Twisted Fate" data-flag="@X" onclick="openSidebar('121_Twisted Fate',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\158_Peddling Dissenter.png" id="158_Peddling Dissenter" data-flag="@X" onclick="openSidebar('158_Peddling Dissenter',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\196_Second Skin Viper.png" id="196_Second Skin Viper" data-flag="@X" onclick="openSidebar('196_Second Skin Viper',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\36_Voqu Politician.png" id="36_Voqu Politician" data-flag="@X" onclick="openSidebar('36_Voqu Politician',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\80_Tomeskimmer Mage.png" id="80_Tomeskimmer Mage" data-flag="@X" onclick="openSidebar('80_Tomeskimmer Mage',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\124_Veldt Stalker.png" id="124_Veldt Stalker" data-flag="@X" onclick="openSidebar('124_Veldt Stalker',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\161_Shaman of Might.png" id="161_Shaman of Might" data-flag="@X" onclick="openSidebar('161_Shaman of Might',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\199_Skullcap Arachnid.png" id="199_Skullcap Arachnid" data-flag="@X" onclick="openSidebar('199_Skullcap Arachnid',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\38_Voqu Sojourner.png" id="38_Voqu Sojourner" data-flag="@X" onclick="openSidebar('38_Voqu Sojourner',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\81_Truesight Kirin.png" id="81_Truesight Kirin" data-flag="@X" onclick="openSidebar('81_Truesight Kirin',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\125_Witch of Foul Ends.png" id="125_Witch of Foul Ends" data-flag="@X" onclick="openSidebar('125_Witch of Foul Ends',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\162_Solemn Hexblade.png" id="162_Solemn Hexblade" data-flag="@X" onclick="openSidebar('162_Solemn Hexblade',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\202_Survivalists Guile.png" id="202_Survivalists Guile" data-flag="@X" onclick="openSidebar('202_Survivalists Guile',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\41_Warding Witch.png" id="41_Warding Witch" data-flag="@X" onclick="openSidebar('41_Warding Witch',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\83_Wandering Mage.png" id="83_Wandering Mage" data-flag="@X" onclick="openSidebar('83_Wandering Mage',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\126_Wretched Kami.png" id="126_Wretched Kami" data-flag="@X" onclick="openSidebar('126_Wretched Kami',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\166_Wretched Atronach.png" id="166_Wretched Atronach" data-flag="@X" onclick="openSidebar('166_Wretched Atronach',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\205_Titanic Straining.png" id="205_Titanic Straining" data-flag="@X" onclick="openSidebar('205_Titanic Straining',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\233_Nezhu Ethercast Ronin.png" id="233_Nezhu Ethercast Ronin" data-flag="@X" onclick="openSidebar('233_Nezhu Ethercast Ronin',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\219_Damnable Dreams.png" id="219_Damnable Dreams" data-flag="@X" onclick="openSidebar('219_Damnable Dreams',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\211_Agent of the Idol.png" id="211_Agent of the Idol" data-flag="@X" onclick="openSidebar('211_Agent of the Idol',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\216_Bloodlight Ritual.png" id="216_Bloodlight Ritual" data-flag="@X" onclick="openSidebar('216_Bloodlight Ritual',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\221_Druid of the Old Ways.png" id="221_Druid of the Old Ways" data-flag="@X" onclick="openSidebar('221_Druid of the Old Ways',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\213_Astral Negator.png" id="213_Astral Negator" data-flag="@X" onclick="openSidebar('213_Astral Negator',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\231_Mindless Memoir.png" id="231_Mindless Memoir" data-flag="@X" onclick="openSidebar('231_Mindless Memoir',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\214_Azgol Duskwitch.png" id="214_Azgol Duskwitch" data-flag="@X" onclick="openSidebar('214_Azgol Duskwitch',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\238_Sentinel of the Eternal Flame.png" id="238_Sentinel of the Eternal Flame" data-flag="@X" onclick="openSidebar('238_Sentinel of the Eternal Flame',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\228_Laishul Balance Keeper.png" id="228_Laishul Balance Keeper" data-flag="@X" onclick="openSidebar('228_Laishul Balance Keeper',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\236_Reprimand.png" id="236_Reprimand" data-flag="@X" onclick="openSidebar('236_Reprimand',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\242_Woe Sculptor.png" id="242_Woe Sculptor" data-flag="@X" onclick="openSidebar('242_Woe Sculptor',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\215_Bitterblade Warlock.png" id="215_Bitterblade Warlock" data-flag="@X" onclick="openSidebar('215_Bitterblade Warlock',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\243_Zodiac Kirin.png" id="243_Zodiac Kirin" data-flag="@X" onclick="openSidebar('243_Zodiac Kirin',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\232_Muse Kami.png" id="232_Muse Kami" data-flag="@X" onclick="openSidebar('232_Muse Kami',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\227_Kami of Rippling Clouds.png" id="227_Kami of Rippling Clouds" data-flag="@X" onclick="openSidebar('227_Kami of Rippling Clouds',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\222_Duskwalker Witch.png" id="222_Duskwalker Witch" data-flag="@X" onclick="openSidebar('222_Duskwalker Witch',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\234_Poltergeist Procession.png" id="234_Poltergeist Procession" data-flag="@X" onclick="openSidebar('234_Poltergeist Procession',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\220_Defenders Gambit.png" id="220_Defenders Gambit" data-flag="@X" onclick="openSidebar('220_Defenders Gambit',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\217_Crack the Code.png" id="217_Crack the Code" data-flag="@X" onclick="openSidebar('217_Crack the Code',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\223_Eclipse Hellkite.png" id="223_Eclipse Hellkite" data-flag="@X" onclick="openSidebar('223_Eclipse Hellkite',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\237_Reward of the Faithful.png" id="237_Reward of the Faithful" data-flag="@X" onclick="openSidebar('237_Reward of the Faithful',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\241_Wildclaw Kami.png" id="241_Wildclaw Kami" data-flag="@X" onclick="openSidebar('241_Wildclaw Kami',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\235_Primordial Awakening.png" id="235_Primordial Awakening" data-flag="@X" onclick="openSidebar('235_Primordial Awakening',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\225_Frostflame Witch.png" id="225_Frostflame Witch" data-flag="@X" onclick="openSidebar('225_Frostflame Witch',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\240_Voqu Judgement.png" id="240_Voqu Judgement" data-flag="@X" onclick="openSidebar('240_Voqu Judgement',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\224_Eclipse Witch.png" id="224_Eclipse Witch" data-flag="@X" onclick="openSidebar('224_Eclipse Witch',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\226_Kami of Boundless Sacrifice.png" id="226_Kami of Boundless Sacrifice" data-flag="@X" onclick="openSidebar('226_Kami of Boundless Sacrifice',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\239_Thornshift Battlements.png" id="239_Thornshift Battlements" data-flag="@X" onclick="openSidebar('239_Thornshift Battlements',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\218_Curse of Fleeting Focus.png" id="218_Curse of Fleeting Focus" data-flag="@X" onclick="openSidebar('218_Curse of Fleeting Focus',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\230_Manablade Reckoner.png" id="230_Manablade Reckoner" data-flag="@X" onclick="openSidebar('230_Manablade Reckoner',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\212_The Ashen Idol.png" id="212_The Ashen Idol" data-flag="@X" onclick="openSidebar('212_The Ashen Idol',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\229_Lunar Convergence.png" id="229_Lunar Convergence" data-flag="@X" onclick="openSidebar('229_Lunar Convergence',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\248_Mox Derelict.png" id="248_Mox Derelict" data-flag="@X" onclick="openSidebar('248_Mox Derelict',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\252_Sword of the Ashen Idol.png" id="252_Sword of the Ashen Idol" data-flag="@X" onclick="openSidebar('252_Sword of the Ashen Idol',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\245_Hall of Mirrors.png" id="245_Hall of Mirrors" data-flag="@X" onclick="openSidebar('245_Hall of Mirrors',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\250_Singularity Cube.png" id="250_Singularity Cube" data-flag="@X" onclick="openSidebar('250_Singularity Cube',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\251_Solemn Simulacrum.png" id="251_Solemn Simulacrum" data-flag="@X" onclick="openSidebar('251_Solemn Simulacrum',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\246_Icy Manipulator.png" id="246_Icy Manipulator" data-flag="@X" onclick="openSidebar('246_Icy Manipulator',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\253_Torpor Orb.png" id="253_Torpor Orb" data-flag="@X" onclick="openSidebar('253_Torpor Orb',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\254_Witches Broom.png" id="254_Witches Broom" data-flag="@X" onclick="openSidebar('254_Witches Broom',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\255_Witches Chalice.png" id="255_Witches Chalice" data-flag="@X" onclick="openSidebar('255_Witches Chalice',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\256_Witches Tome.png" id="256_Witches Tome" data-flag="@X" onclick="openSidebar('256_Witches Tome',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\244_Coven Phylactery.png" id="244_Coven Phylactery" data-flag="@X" onclick="openSidebar('244_Coven Phylactery',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\247_IxNaar Overseers.png" id="247_IxNaar Overseers" data-flag="@X" onclick="openSidebar('247_IxNaar Overseers',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\249_Nomads Bauble.png" id="249_Nomads Bauble" data-flag="@X" onclick="openSidebar('249_Nomads Bauble',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\257_Worn Spellcasting Focus.png" id="257_Worn Spellcasting Focus" data-flag="@X" onclick="openSidebar('257_Worn Spellcasting Focus',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\265_Isolated Chapel.png" id="265_Isolated Chapel" data-flag="@X" onclick="openSidebar('265_Isolated Chapel',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\273_Woodland Cemetery.png" id="273_Woodland Cemetery" data-flag="@X" onclick="openSidebar('273_Woodland Cemetery',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\264_Hinterland Harbor.png" id="264_Hinterland Harbor" data-flag="@X" onclick="openSidebar('264_Hinterland Harbor',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\270_Sulfur Falls.png" id="270_Sulfur Falls" data-flag="@X" onclick="openSidebar('270_Sulfur Falls',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\259_Clifftop Retreat.png" id="259_Clifftop Retreat" data-flag="@X" onclick="openSidebar('259_Clifftop Retreat',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\272_Voqu Citadel.png" id="272_Voqu Citadel" data-flag="@X" onclick="openSidebar('272_Voqu Citadel',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\260_Coven Archives.png" id="260_Coven Archives" data-flag="@X" onclick="openSidebar('260_Coven Archives',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\263_Cursed Labyrinth.png" id="263_Cursed Labyrinth" data-flag="@X" onclick="openSidebar('263_Cursed Labyrinth',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\267_Monstrous Outpost.png" id="267_Monstrous Outpost" data-flag="@X" onclick="openSidebar('267_Monstrous Outpost',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\266_Manablade's Bastion.png" id="266_Manablades Bastion" data-flag="@X" onclick="openSidebar('266_Manablades Bastion',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\258_Aurora Frontier.png" id="258_Aurora Frontier" data-flag="@X" onclick="openSidebar('258_Aurora Frontier',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\261_Coven Hideout.png" id="261_Coven Hideout" data-flag="@X" onclick="openSidebar('261_Coven Hideout',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\262_Crumbling Ruins.png" id="262_Crumbling Ruins" data-flag="@X" onclick="openSidebar('262_Crumbling Ruins',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\268_Reliquary Tower.png" id="268_Reliquary Tower" data-flag="@X" onclick="openSidebar('268_Reliquary Tower',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\269_Sacrificial Stupa.png" id="269_Sacrificial Stupa" data-flag="@X" onclick="openSidebar('269_Sacrificial Stupa',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\271_Terramorphic Expanse.png" id="271_Terramorphic Expanse" data-flag="@X" onclick="openSidebar('271_Terramorphic Expanse',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\274_Plains.png" id="274_Plains" data-flag="@X" onclick="openSidebar('274_Plains',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\276_Island.png" id="276_Island" data-flag="@X" onclick="openSidebar('276_Island',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\278_Swamp.png" id="278_Swamp" data-flag="@X" onclick="openSidebar('278_Swamp',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\280_Mountain.png" id="280_Mountain" data-flag="@X" onclick="openSidebar('280_Mountain',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\282_Forest.png" id="282_Forest" data-flag="@X" onclick="openSidebar('282_Forest',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\275_Plains.1.png" id="275_Plains.1" data-flag="@X" onclick="openSidebar('275_Plains.1',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\277_Island.1.png" id="277_Island.1" data-flag="@X" onclick="openSidebar('277_Island.1',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\279_Swamp.1.png" id="279_Swamp.1" data-flag="@X" onclick="openSidebar('279_Swamp.1',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\281_Mountain.1.png" id="281_Mountain.1" data-flag="@X" onclick="openSidebar('281_Mountain.1',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\283_Forest.1.png" id="283_Forest.1" data-flag="@X" onclick="openSidebar('283_Forest.1',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\1t_Azgol Draft Archetypes.png" id="1t_Azgol Draft Archetypes" data-flag="@X" onclick="openSidebar('1t_Azgol Draft Archetypes',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\2t_Copy.png" id="2t_Copy" data-flag="@X" onclick="openSidebar('2t_Copy',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\3t_Spirit.png" id="3t_Spirit" data-flag="@X" onclick="openSidebar('3t_Spirit',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\4t_Spirit.1.png" id="4t_Spirit.1" data-flag="@X" onclick="openSidebar('4t_Spirit.1',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\5t_Monk.png" id="5t_Monk" data-flag="@X" onclick="openSidebar('5t_Monk',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\6t_Snake.png" id="6t_Snake" data-flag="@X" onclick="openSidebar('6t_Snake',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\7t_Zombie.png" id="7t_Zombie" data-flag="@X" onclick="openSidebar('7t_Zombie',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\8t_Dragon.png" id="8t_Dragon" data-flag="@X" onclick="openSidebar('8t_Dragon',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\9t_Wolf Spirit.png" id="9t_Wolf Spirit" data-flag="@X" onclick="openSidebar('9t_Wolf Spirit',false)"></div>
+			<div class="container"><img alt="sets\AZG-files\img\10t_Mirror.png" id="10t_Mirror" data-flag="@X" onclick="openSidebar('10t_Mirror',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = 'img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		if (horizontal && rotated_img.style.display == 'none')
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+	}
+
+	function openSidebar(id, h=false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+
+		if (horizontal)
+		{
+			rotated_img.src = document.getElementById(id).src;
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+			if (event.key === "Enter") {
+				event.preventDefault();
+				search();
+			}
+		});
+
+		function search() {
+			window.location = ("/search?search=" + document.getElementById("search").value);
+		}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let card_name = card_list_arrayified[i].card_name;
+				for (const char of specialchars)
+				{
+					card_name = card_name.replaceAll(char, "");
+				}
+
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
+			}
+	</script>
+</body>
+</html>

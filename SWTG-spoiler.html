@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="sets/SWTG-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>SWTG visual spoiler</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 3%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/SWTG-files/logo.png" />
+	<img class="preload-hidden" src="/sets/ANX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/AZG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SWTG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VRN-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="ANX-spoiler"><img src="sets/ANX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="AZG-spoiler"><img src="sets/AZG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="SWTG-spoiler"><img src="sets/SWTG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="VRN-spoiler"><img src="sets/VRN-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="sets/SWTG-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="sets\SWTG-files\img\1_AT-AT.png" id="1_AT-AT" data-flag="@X" onclick="openSidebar('1_AT-AT',false)"></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\38_The Battle of Naboo_back.png" alt="sets\SWTG-files\img\38_The Battle of Naboo_front.png" id="38_The Battle of Naboo" data-flag="@XD" onclick="openSidebar('38_The Battle of Naboo',true)"><button class="flip-btn" onclick="imgFlip(38_The Battle of Naboo)"></button></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\70_The Battle of Yavin_back.png" alt="sets\SWTG-files\img\70_The Battle of Yavin_front.png" id="70_The Battle of Yavin" data-flag="@XD" onclick="openSidebar('70_The Battle of Yavin',true)"><button class="flip-btn" onclick="imgFlip(70_The Battle of Yavin)"></button></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\102_The Battle of Geonosis_back.png" alt="sets\SWTG-files\img\102_The Battle of Geonosis_front.png" id="102_The Battle of Geonosis" data-flag="@XD" onclick="openSidebar('102_The Battle of Geonosis',true)"><button class="flip-btn" onclick="imgFlip(102_The Battle of Geonosis)"></button></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\135_The Battle of Endor_back.png" alt="sets\SWTG-files\img\135_The Battle of Endor_front.png" id="135_The Battle of Endor" data-flag="@XD" onclick="openSidebar('135_The Battle of Endor',true)"><button class="flip-btn" onclick="imgFlip(135_The Battle of Endor)"></button></div>
+			<div class="container"><img alt="sets\SWTG-files\img\2_Bantha Herd.png" id="2_Bantha Herd" data-flag="@X" onclick="openSidebar('2_Bantha Herd',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\34_Admiral Ackbar.png" id="34_Admiral Ackbar" data-flag="@X" onclick="openSidebar('34_Admiral Ackbar',false)"></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\69_The Battle of Utapau_back.png" alt="sets\SWTG-files\img\69_The Battle of Utapau_front.png" id="69_The Battle of Utapau" data-flag="@XD" onclick="openSidebar('69_The Battle of Utapau',true)"><button class="flip-btn" onclick="imgFlip(69_The Battle of Utapau)"></button></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\103_The Battle of Heroes_back.png" alt="sets\SWTG-files\img\103_The Battle of Heroes_front.png" id="103_The Battle of Heroes" data-flag="@XD" onclick="openSidebar('103_The Battle of Heroes',true)"><button class="flip-btn" onclick="imgFlip(103_The Battle of Heroes)"></button></div>
+			<div class="container"><img alt="sets\SWTG-files\img\133_AT-ST.png" id="133_AT-ST" data-flag="@X" onclick="openSidebar('133_AT-ST',false)"></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\4_The Battle of Scarif_back.png" alt="sets\SWTG-files\img\4_The Battle of Scarif_front.png" id="4_The Battle of Scarif" data-flag="@XD" onclick="openSidebar('4_The Battle of Scarif',true)"><button class="flip-btn" onclick="imgFlip(4_The Battle of Scarif)"></button></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\36_The Battle of Christophsis_back.png" alt="sets\SWTG-files\img\36_The Battle of Christophsis_front.png" id="36_The Battle of Christophsis" data-flag="@XD" onclick="openSidebar('36_The Battle of Christophsis',true)"><button class="flip-btn" onclick="imgFlip(36_The Battle of Christophsis)"></button></div>
+			<div class="container"><img alt="sets\SWTG-files\img\71_Bib Fortuna.png" id="71_Bib Fortuna" data-flag="@X" onclick="openSidebar('71_Bib Fortuna',false)"></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\108_Duel of the Fates_back.png" alt="sets\SWTG-files\img\108_Duel of the Fates_front.png" id="108_Duel of the Fates" data-flag="@XD" onclick="openSidebar('108_Duel of the Fates',true)"><button class="flip-btn" onclick="imgFlip(108_Duel of the Fates)"></button></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\136_The Battle of Felucia_back.png" alt="sets\SWTG-files\img\136_The Battle of Felucia_front.png" id="136_The Battle of Felucia" data-flag="@XD" onclick="openSidebar('136_The Battle of Felucia',true)"><button class="flip-btn" onclick="imgFlip(136_The Battle of Felucia)"></button></div>
+			<div class="container"><img alt="sets\SWTG-files\img\20_Lando Calrissian.png" id="20_Lando Calrissian" data-flag="@X" onclick="openSidebar('20_Lando Calrissian',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\44_Jar Jar Binks.png" id="44_Jar Jar Binks" data-flag="@X" onclick="openSidebar('44_Jar Jar Binks',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\80_Grand Moff Tarkin.png" id="80_Grand Moff Tarkin" data-flag="@X" onclick="openSidebar('80_Grand Moff Tarkin',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\109_Force Lightning.png" id="109_Force Lightning" data-flag="@X" onclick="openSidebar('109_Force Lightning',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\138_Bossk.png" id="138_Bossk" data-flag="@X" onclick="openSidebar('138_Bossk',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\23_Maintenance Hangar.png" id="23_Maintenance Hangar" data-flag="@X" onclick="openSidebar('23_Maintenance Hangar',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\46_Jedi Mind Trick.png" id="46_Jedi Mind Trick" data-flag="@X" onclick="openSidebar('46_Jedi Mind Trick',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\84_IG-88B.png" id="84_IG-88B" data-flag="@X" onclick="openSidebar('84_IG-88B',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\114_Han Solo.png" id="114_Han Solo" data-flag="@X" onclick="openSidebar('114_Han Solo',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\143_Exogorth.png" id="143_Exogorth" data-flag="@X" onclick="openSidebar('143_Exogorth',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\26_Orbital Bombardment.png" id="26_Orbital Bombardment" data-flag="@X" onclick="openSidebar('26_Orbital Bombardment',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\49_Mace Windu.png" id="49_Mace Windu" data-flag="@X" onclick="openSidebar('49_Mace Windu',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\88_Order 66.png" id="88_Order 66" data-flag="@X" onclick="openSidebar('88_Order 66',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\116_Jango Fett.png" id="116_Jango Fett" data-flag="@X" onclick="openSidebar('116_Jango Fett',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\149_Ki-Adi-Mundi.png" id="149_Ki-Adi-Mundi" data-flag="@X" onclick="openSidebar('149_Ki-Adi-Mundi',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\27_Plo Koon.png" id="27_Plo Koon" data-flag="@X" onclick="openSidebar('27_Plo Koon',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\66_Zam Wesell.png" id="66_Zam Wesell" data-flag="@X" onclick="openSidebar('66_Zam Wesell',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\94_Sith Lord.png" id="94_Sith Lord" data-flag="@X" onclick="openSidebar('94_Sith Lord',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\122_Rocket Trooper.png" id="122_Rocket Trooper" data-flag="@X" onclick="openSidebar('122_Rocket Trooper',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\153_Millennium Falcon.png" id="153_Millennium Falcon" data-flag="@X" onclick="openSidebar('153_Millennium Falcon',false)"></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\3_The Battle of Hoth_back.png" alt="sets\SWTG-files\img\3_The Battle of Hoth_front.png" id="3_The Battle of Hoth" data-flag="@XD" onclick="openSidebar('3_The Battle of Hoth',true)"><button class="flip-btn" onclick="imgFlip(3_The Battle of Hoth)"></button></div>
+			<div class="container"><img alt="sets\SWTG-files\img\35_Armed Protocol Droid.png" id="35_Armed Protocol Droid" data-flag="@X" onclick="openSidebar('35_Armed Protocol Droid',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\72_Black Market Dealer.png" id="72_Black Market Dealer" data-flag="@X" onclick="openSidebar('72_Black Market Dealer',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\100_A-Wing.png" id="100_A-Wing" data-flag="@X" onclick="openSidebar('100_A-Wing',false)"></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\137_The Battle of Kashyyyk_back.png" alt="sets\SWTG-files\img\137_The Battle of Kashyyyk_front.png" id="137_The Battle of Kashyyyk" data-flag="@XD" onclick="openSidebar('137_The Battle of Kashyyyk',true)"><button class="flip-btn" onclick="imgFlip(137_The Battle of Kashyyyk)"></button></div>
+			<div class="container"><img alt="sets\SWTG-files\img\5_Battle Tactics.png" id="5_Battle Tactics" data-flag="@X" onclick="openSidebar('5_Battle Tactics',false)"></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\37_The Battle of Kamino_back.png" alt="sets\SWTG-files\img\37_The Battle of Kamino_front.png" id="37_The Battle of Kamino" data-flag="@XD" onclick="openSidebar('37_The Battle of Kamino',true)"><button class="flip-btn" onclick="imgFlip(37_The Battle of Kamino)"></button></div>
+			<div class="container"><img alt="sets\SWTG-files\img\74_Bounty Spotter.png" id="74_Bounty Spotter" data-flag="@X" onclick="openSidebar('74_Bounty Spotter',false)"></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\101_The Battle of Coruscant_back.png" alt="sets\SWTG-files\img\101_The Battle of Coruscant_front.png" id="101_The Battle of Coruscant" data-flag="@XD" onclick="openSidebar('101_The Battle of Coruscant',true)"><button class="flip-btn" onclick="imgFlip(101_The Battle of Coruscant)"></button></div>
+			<div class="container"><img alt="sets\SWTG-files\img\139_Bounty Collector.png" id="139_Bounty Collector" data-flag="@X" onclick="openSidebar('139_Bounty Collector',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\7_Condemn.png" id="7_Condemn" data-flag="@X" onclick="openSidebar('7_Condemn',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\41_Force Push.png" id="41_Force Push" data-flag="@X" onclick="openSidebar('41_Force Push',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\75_Death Trooper.png" id="75_Death Trooper" data-flag="@X" onclick="openSidebar('75_Death Trooper',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\104_Bounty Sniper.png" id="104_Bounty Sniper" data-flag="@X" onclick="openSidebar('104_Bounty Sniper',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\146_Hutt Crime Lord.png" id="146_Hutt Crime Lord" data-flag="@X" onclick="openSidebar('146_Hutt Crime Lord',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\8_Deploy The Troops.png" id="8_Deploy The Troops" data-flag="@X" onclick="openSidebar('8_Deploy The Troops',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\45_Jedi Battle Mage.png" id="45_Jedi Battle Mage" data-flag="@X" onclick="openSidebar('45_Jedi Battle Mage',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\76_Dengar.png" id="76_Dengar" data-flag="@X" onclick="openSidebar('76_Dengar',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\107_Dark Apprenticeship.png" id="107_Dark Apprenticeship" data-flag="@X" onclick="openSidebar('107_Dark Apprenticeship',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\148_Jedi Battle Sage.png" id="148_Jedi Battle Sage" data-flag="@X" onclick="openSidebar('148_Jedi Battle Sage',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\9_Droideka.png" id="9_Droideka" data-flag="@X" onclick="openSidebar('9_Droideka',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\47_Jedi Training.png" id="47_Jedi Training" data-flag="@X" onclick="openSidebar('47_Jedi Training',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\77_Doom Blade.png" id="77_Doom Blade" data-flag="@X" onclick="openSidebar('77_Doom Blade',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\110_Force Scream.png" id="110_Force Scream" data-flag="@X" onclick="openSidebar('110_Force Scream',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\150_Legacy of the Beloved.png" id="150_Legacy of the Beloved" data-flag="@X" onclick="openSidebar('150_Legacy of the Beloved',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\16_Jedi Inquirer.png" id="16_Jedi Inquirer" data-flag="@X" onclick="openSidebar('16_Jedi Inquirer',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\48_Jump to Hyperspace.png" id="48_Jump to Hyperspace" data-flag="@X" onclick="openSidebar('48_Jump to Hyperspace',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\81_Hazard Trooper.png" id="81_Hazard Trooper" data-flag="@X" onclick="openSidebar('81_Hazard Trooper',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\112_Gamorrean Prison Guard.png" id="112_Gamorrean Prison Guard" data-flag="@X" onclick="openSidebar('112_Gamorrean Prison Guard',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\151_Mantellian Savrip.png" id="151_Mantellian Savrip" data-flag="@X" onclick="openSidebar('151_Mantellian Savrip',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\18_Jedi Starfighter.png" id="18_Jedi Starfighter" data-flag="@X" onclick="openSidebar('18_Jedi Starfighter',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\50_Mon Calamari Cruiser.png" id="50_Mon Calamari Cruiser" data-flag="@X" onclick="openSidebar('50_Mon Calamari Cruiser',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\87_Open Season.png" id="87_Open Season" data-flag="@X" onclick="openSidebar('87_Open Season',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\117_Lightning Bolt.png" id="117_Lightning Bolt" data-flag="@X" onclick="openSidebar('117_Lightning Bolt',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\154_Nerf Herder.png" id="154_Nerf Herder" data-flag="@X" onclick="openSidebar('154_Nerf Herder',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\19_LAAT Gunship.png" id="19_LAAT Gunship" data-flag="@X" onclick="openSidebar('19_LAAT Gunship',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\54_Ponder.png" id="54_Ponder" data-flag="@X" onclick="openSidebar('54_Ponder',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\90_Rule of Two.png" id="90_Rule of Two" data-flag="@X" onclick="openSidebar('90_Rule of Two',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\123_Shock Trooper.png" id="123_Shock Trooper" data-flag="@X" onclick="openSidebar('123_Shock Trooper',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\155_Nexu Stalker.png" id="155_Nexu Stalker" data-flag="@X" onclick="openSidebar('155_Nexu Stalker',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\24_Miraculous Recovery.png" id="24_Miraculous Recovery" data-flag="@X" onclick="openSidebar('24_Miraculous Recovery',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\59_Shore Trooper.png" id="59_Shore Trooper" data-flag="@X" onclick="openSidebar('59_Shore Trooper',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\91_Sith Assassin.png" id="91_Sith Assassin" data-flag="@X" onclick="openSidebar('91_Sith Assassin',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\125_Sith Marauder.png" id="125_Sith Marauder" data-flag="@X" onclick="openSidebar('125_Sith Marauder',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\158_Rancor.png" id="158_Rancor" data-flag="@X" onclick="openSidebar('158_Rancor',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\28_Riding Ronto.png" id="28_Riding Ronto" data-flag="@X" onclick="openSidebar('28_Riding Ronto',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\60_Sith Manipulator.png" id="60_Sith Manipulator" data-flag="@X" onclick="openSidebar('60_Sith Manipulator',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\97_TIE Bomber.png" id="97_TIE Bomber" data-flag="@X" onclick="openSidebar('97_TIE Bomber',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\127_Smash to Smithereens.png" id="127_Smash to Smithereens" data-flag="@X" onclick="openSidebar('127_Smash to Smithereens',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\163_Show of Dominance.png" id="163_Show of Dominance" data-flag="@X" onclick="openSidebar('163_Show of Dominance',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\31_Snow Trooper.png" id="31_Snow Trooper" data-flag="@X" onclick="openSidebar('31_Snow Trooper',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\65_Y-Wing.png" id="65_Y-Wing" data-flag="@X" onclick="openSidebar('65_Y-Wing',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\99_Unruly Sureshot.png" id="99_Unruly Sureshot" data-flag="@X" onclick="openSidebar('99_Unruly Sureshot',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\132_Weequay Beastmaster.png" id="132_Weequay Beastmaster" data-flag="@X" onclick="openSidebar('132_Weequay Beastmaster',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\164_Trooper Commando.png" id="164_Trooper Commando" data-flag="@X" onclick="openSidebar('164_Trooper Commando',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\6_Cantina Band.png" id="6_Cantina Band" data-flag="@X" onclick="openSidebar('6_Cantina Band',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\39_Cloaking Device.png" id="39_Cloaking Device" data-flag="@X" onclick="openSidebar('39_Cloaking Device',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\67_Acquire Target.png" id="67_Acquire Target" data-flag="@X" onclick="openSidebar('67_Acquire Target',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\105_Capture.png" id="105_Capture" data-flag="@X" onclick="openSidebar('105_Capture',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\134_Bathe in Bacta.png" id="134_Bathe in Bacta" data-flag="@X" onclick="openSidebar('134_Bathe in Bacta',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\10_Escape Pod.png" id="10_Escape Pod" data-flag="@X" onclick="openSidebar('10_Escape Pod',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\40_Force Denial.png" id="40_Force Denial" data-flag="@X" onclick="openSidebar('40_Force Denial',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\68_Aqualish Bounty Hunter.png" id="68_Aqualish Bounty Hunter" data-flag="@X" onclick="openSidebar('68_Aqualish Bounty Hunter',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\106_Crossfire.png" id="106_Crossfire" data-flag="@X" onclick="openSidebar('106_Crossfire',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\140_Corellian Corvette.png" id="140_Corellian Corvette" data-flag="@X" onclick="openSidebar('140_Corellian Corvette',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\11_Force Healing.png" id="11_Force Healing" data-flag="@X" onclick="openSidebar('11_Force Healing',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\42_Gungan Captain.png" id="42_Gungan Captain" data-flag="@X" onclick="openSidebar('42_Gungan Captain',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\73_Bludgeoning Pain.png" id="73_Bludgeoning Pain" data-flag="@X" onclick="openSidebar('73_Bludgeoning Pain',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\111_Force Spark.png" id="111_Force Spark" data-flag="@X" onclick="openSidebar('111_Force Spark',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\141_Ewok Ambush.png" id="141_Ewok Ambush" data-flag="@X" onclick="openSidebar('141_Ewok Ambush',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\12_Gifted Initiate.png" id="12_Gifted Initiate" data-flag="@X" onclick="openSidebar('12_Gifted Initiate',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\43_It's a Trap!.png" id="43_Its a Trap!" data-flag="@X" onclick="openSidebar('43_Its a Trap!',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\78_Droid Commando.png" id="78_Droid Commando" data-flag="@X" onclick="openSidebar('78_Droid Commando',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\113_Geonosian Warrior.png" id="113_Geonosian Warrior" data-flag="@X" onclick="openSidebar('113_Geonosian Warrior',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\142_Ewok Firedancers.png" id="142_Ewok Firedancers" data-flag="@X" onclick="openSidebar('142_Ewok Firedancers',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\13_Gonk Droid.png" id="13_Gonk Droid" data-flag="@X" onclick="openSidebar('13_Gonk Droid',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\51_Mon Calamari Initiate.png" id="51_Mon Calamari Initiate" data-flag="@X" onclick="openSidebar('51_Mon Calamari Initiate',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\79_Force Drain.png" id="79_Force Drain" data-flag="@X" onclick="openSidebar('79_Force Drain',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\115_Imperial Gunner.png" id="115_Imperial Gunner" data-flag="@X" onclick="openSidebar('115_Imperial Gunner',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\144_Force Pull.png" id="144_Force Pull" data-flag="@X" onclick="openSidebar('144_Force Pull',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\14_Hello There.png" id="14_Hello There" data-flag="@X" onclick="openSidebar('14_Hello There',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\52_Ortolan Keyboardist.png" id="52_Ortolan Keyboardist" data-flag="@X" onclick="openSidebar('52_Ortolan Keyboardist',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\82_Head Hunting.png" id="82_Head Hunting" data-flag="@X" onclick="openSidebar('82_Head Hunting',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\118_Novice Bounty Hunter.png" id="118_Novice Bounty Hunter" data-flag="@X" onclick="openSidebar('118_Novice Bounty Hunter',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\145_Hungry Dragonsnake.png" id="145_Hungry Dragonsnake" data-flag="@X" onclick="openSidebar('145_Hungry Dragonsnake',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\15_Jedi Battle Healer.png" id="15_Jedi Battle Healer" data-flag="@X" onclick="openSidebar('15_Jedi Battle Healer',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\53_Personal Energy Shield.png" id="53_Personal Energy Shield" data-flag="@X" onclick="openSidebar('53_Personal Energy Shield',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\83_Heavy Trooper.png" id="83_Heavy Trooper" data-flag="@X" onclick="openSidebar('83_Heavy Trooper',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\119_Raging Reek.png" id="119_Raging Reek" data-flag="@X" onclick="openSidebar('119_Raging Reek',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\147_Ithorian Initiate.png" id="147_Ithorian Initiate" data-flag="@X" onclick="openSidebar('147_Ithorian Initiate',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\17_Jedi Instructor.png" id="17_Jedi Instructor" data-flag="@X" onclick="openSidebar('17_Jedi Instructor',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\55_Probe Droid.png" id="55_Probe Droid" data-flag="@X" onclick="openSidebar('55_Probe Droid',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\85_Interrogation.png" id="85_Interrogation" data-flag="@X" onclick="openSidebar('85_Interrogation',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\120_Rallying Fire.png" id="120_Rallying Fire" data-flag="@X" onclick="openSidebar('120_Rallying Fire',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\152_Massiff Swarm.png" id="152_Massiff Swarm" data-flag="@X" onclick="openSidebar('152_Massiff Swarm',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\21_Lockdown.png" id="21_Lockdown" data-flag="@X" onclick="openSidebar('21_Lockdown',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\56_Republic Frigate.png" id="56_Republic Frigate" data-flag="@X" onclick="openSidebar('56_Republic Frigate',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\86_Neophyte Hateflayer.png" id="86_Neophyte Hateflayer" data-flag="@X" onclick="openSidebar('86_Neophyte Hateflayer',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\121_Ravenous Wampa.png" id="121_Ravenous Wampa" data-flag="@X" onclick="openSidebar('121_Ravenous Wampa',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\156_Nightspider.png" id="156_Nightspider" data-flag="@X" onclick="openSidebar('156_Nightspider',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\22_Loyal Tauntaun.png" id="22_Loyal Tauntaun" data-flag="@X" onclick="openSidebar('22_Loyal Tauntaun',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\57_Rumination.png" id="57_Rumination" data-flag="@X" onclick="openSidebar('57_Rumination',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\89_Repurpose.png" id="89_Repurpose" data-flag="@X" onclick="openSidebar('89_Repurpose',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\124_Shoot First.png" id="124_Shoot First" data-flag="@X" onclick="openSidebar('124_Shoot First',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\157_No Contest.png" id="157_No Contest" data-flag="@X" onclick="openSidebar('157_No Contest',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\25_Nebulon-B Frigate.png" id="25_Nebulon-B Frigate" data-flag="@X" onclick="openSidebar('25_Nebulon-B Frigate',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\58_Shadow Trooper.png" id="58_Shadow Trooper" data-flag="@X" onclick="openSidebar('58_Shadow Trooper',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\92_Sith Evoker.png" id="92_Sith Evoker" data-flag="@X" onclick="openSidebar('92_Sith Evoker',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\126_Sith Ravager.png" id="126_Sith Ravager" data-flag="@X" onclick="openSidebar('126_Sith Ravager',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\159_Regression.png" id="159_Regression" data-flag="@X" onclick="openSidebar('159_Regression',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\29_Sand Trooper.png" id="29_Sand Trooper" data-flag="@X" onclick="openSidebar('29_Sand Trooper',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\61_Sith Sorcerer.png" id="61_Sith Sorcerer" data-flag="@X" onclick="openSidebar('61_Sith Sorcerer',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\93_Sith Inquisitor.png" id="93_Sith Inquisitor" data-flag="@X" onclick="openSidebar('93_Sith Inquisitor',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\128_Speeder Trooper.png" id="128_Speeder Trooper" data-flag="@X" onclick="openSidebar('128_Speeder Trooper',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\160_Scout the Perimeter.png" id="160_Scout the Perimeter" data-flag="@X" onclick="openSidebar('160_Scout the Perimeter',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\30_Security Droid.png" id="30_Security Droid" data-flag="@X" onclick="openSidebar('30_Security Droid',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\62_Spider Droid.png" id="62_Spider Droid" data-flag="@X" onclick="openSidebar('62_Spider Droid',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\95_Sith Thoughtseeker.png" id="95_Sith Thoughtseeker" data-flag="@X" onclick="openSidebar('95_Sith Thoughtseeker',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\129_Syndicate Enforcer.png" id="129_Syndicate Enforcer" data-flag="@X" onclick="openSidebar('129_Syndicate Enforcer',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\161_Scout Trooper.png" id="161_Scout Trooper" data-flag="@X" onclick="openSidebar('161_Scout Trooper',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\32_Womp Rat.png" id="32_Womp Rat" data-flag="@X" onclick="openSidebar('32_Womp Rat',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\63_Super Battle Droid.png" id="63_Super Battle Droid" data-flag="@X" onclick="openSidebar('63_Super Battle Droid',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\96_Swarm the Skies.png" id="96_Swarm the Skies" data-flag="@X" onclick="openSidebar('96_Swarm the Skies',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\130_Terentatek Cub.png" id="130_Terentatek Cub" data-flag="@X" onclick="openSidebar('130_Terentatek Cub',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\162_Shaak Herd.png" id="162_Shaak Herd" data-flag="@X" onclick="openSidebar('162_Shaak Herd',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\33_X-Wing.png" id="33_X-Wing" data-flag="@X" onclick="openSidebar('33_X-Wing',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\64_Vapor Snag.png" id="64_Vapor Snag" data-flag="@X" onclick="openSidebar('64_Vapor Snag',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\98_TIE Interceptor.png" id="98_TIE Interceptor" data-flag="@X" onclick="openSidebar('98_TIE Interceptor',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\131_V-Wing.png" id="131_V-Wing" data-flag="@X" onclick="openSidebar('131_V-Wing',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\165_Wookiee Bounty Hunter.png" id="165_Wookiee Bounty Hunter" data-flag="@X" onclick="openSidebar('165_Wookiee Bounty Hunter',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\208_Obi-Wan Kenobi.png" id="208_Obi-Wan Kenobi" data-flag="@X" onclick="openSidebar('208_Obi-Wan Kenobi',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\187_Darth Tyranus, Count Dooku.png" id="187_Darth Tyranus, Count Dooku" data-flag="@X" onclick="openSidebar('187_Darth Tyranus, Count Dooku',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\172_Aurra Sing, Bane of Jedi.png" id="172_Aurra Sing, Bane of Jedi" data-flag="@X" onclick="openSidebar('172_Aurra Sing, Bane of Jedi',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\216_Sarlacc Pit.png" id="216_Sarlacc Pit" data-flag="@X" onclick="openSidebar('216_Sarlacc Pit',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\169_Amidala, Queen of Naboo.png" id="169_Amidala, Queen of Naboo" data-flag="@X" onclick="openSidebar('169_Amidala, Queen of Naboo',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\176_C-3PO and R2D2.png" id="176_C-3PO and R2D2" data-flag="@X" onclick="openSidebar('176_C-3PO and R2D2',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\182_Cunning Abduction.png" id="182_Cunning Abduction" data-flag="@X" onclick="openSidebar('182_Cunning Abduction',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\185_Darth Maul.png" id="185_Darth Maul" data-flag="@X" onclick="openSidebar('185_Darth Maul',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\225_Tarfful, Wookiee General.png" id="225_Tarfful, Wookiee General" data-flag="@X" onclick="openSidebar('225_Tarfful, Wookiee General',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\217_Senator Bail Organa.png" id="217_Senator Bail Organa" data-flag="@X" onclick="openSidebar('217_Senator Bail Organa',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\177_Carbonite Chamber.png" id="177_Carbonite Chamber" data-flag="@X" onclick="openSidebar('177_Carbonite Chamber',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\218_Senator Lott Dod.png" id="218_Senator Lott Dod" data-flag="@X" onclick="openSidebar('218_Senator Lott Dod',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\194_Hondo Ohnaka.png" id="194_Hondo Ohnaka" data-flag="@X" onclick="openSidebar('194_Hondo Ohnaka',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\211_Primal Instinct.png" id="211_Primal Instinct" data-flag="@X" onclick="openSidebar('211_Primal Instinct',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\197_Images of the Past.png" id="197_Images of the Past" data-flag="@X" onclick="openSidebar('197_Images of the Past',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\219_Senator Padmé Amidala.png" id="219_Senator Padmé Amidala" data-flag="@X" onclick="openSidebar('219_Senator Padmé Amidala',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\189_Force Choke.png" id="189_Force Choke" data-flag="@X" onclick="openSidebar('189_Force Choke',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\184_Dark Decision.png" id="184_Dark Decision" data-flag="@X" onclick="openSidebar('184_Dark Decision',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\235_Wookiee Raidleader.png" id="235_Wookiee Raidleader" data-flag="@X" onclick="openSidebar('235_Wookiee Raidleader',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\233_Strike Team Commando.png" id="233_Strike Team Commando" data-flag="@X" onclick="openSidebar('233_Strike Team Commando',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\204_Maintenance Droid.png" id="204_Maintenance Droid" data-flag="@X" onclick="openSidebar('204_Maintenance Droid',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\234_Tri-Fighter.png" id="234_Tri-Fighter" data-flag="@X" onclick="openSidebar('234_Tri-Fighter',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\231_Fulfill Contract.png" id="231_Fulfill Contract" data-flag="@X" onclick="openSidebar('231_Fulfill Contract',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\232_N-1 Starfighter.png" id="232_N-1 Starfighter" data-flag="@X" onclick="openSidebar('232_N-1 Starfighter',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\230_Yoda, Jedi Master.png" id="230_Yoda, Jedi Master" data-flag="@X" onclick="openSidebar('230_Yoda, Jedi Master',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\203_Luke Skywalker.png" id="203_Luke Skywalker" data-flag="@X" onclick="openSidebar('203_Luke Skywalker',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\191_General Grievous.png" id="191_General Grievous" data-flag="@X" onclick="openSidebar('191_General Grievous',false)"></div>
+			<div class="container"><img data-alt_src="sets\SWTG-files\img\170_Anakin Skywalker_back.png" alt="sets\SWTG-files\img\170_Anakin Skywalker_front.png" id="170_Anakin Skywalker" data-flag="@XD" onclick="openSidebar('170_Anakin Skywalker',false)"><button class="flip-btn" onclick="imgFlip(170_Anakin Skywalker)"></button></div>
+			<div class="container"><img alt="sets\SWTG-files\img\174_Boba Fett.png" id="174_Boba Fett" data-flag="@X" onclick="openSidebar('174_Boba Fett',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\192_Greater Krayt Dragon.png" id="192_Greater Krayt Dragon" data-flag="@X" onclick="openSidebar('192_Greater Krayt Dragon',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\190_Force Mastery.png" id="190_Force Mastery" data-flag="@X" onclick="openSidebar('190_Force Mastery',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\205_March of the Droids.png" id="205_March of the Droids" data-flag="@X" onclick="openSidebar('205_March of the Droids',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\186_Darth Sidious, Sith Lord.png" id="186_Darth Sidious, Sith Lord" data-flag="@X" onclick="openSidebar('186_Darth Sidious, Sith Lord',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\193_Greedo.png" id="193_Greedo" data-flag="@X" onclick="openSidebar('193_Greedo',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\167_Acklay of the Arena.png" id="167_Acklay of the Arena" data-flag="@X" onclick="openSidebar('167_Acklay of the Arena',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\202_Kit Fisto.png" id="202_Kit Fisto" data-flag="@X" onclick="openSidebar('202_Kit Fisto',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\207_Nute Gunray.png" id="207_Nute Gunray" data-flag="@X" onclick="openSidebar('207_Nute Gunray',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\171_Asajj Ventress.png" id="171_Asajj Ventress" data-flag="@X" onclick="openSidebar('171_Asajj Ventress',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\195_Hot Pursuit.png" id="195_Hot Pursuit" data-flag="@X" onclick="openSidebar('195_Hot Pursuit',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\173_Blind Worship.png" id="173_Blind Worship" data-flag="@X" onclick="openSidebar('173_Blind Worship',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\210_Precipice of Mortis.png" id="210_Precipice of Mortis" data-flag="@X" onclick="openSidebar('210_Precipice of Mortis',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\224_Tank Droid.png" id="224_Tank Droid" data-flag="@X" onclick="openSidebar('224_Tank Droid',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\198_Iron Fist of the Empire.png" id="198_Iron Fist of the Empire" data-flag="@X" onclick="openSidebar('198_Iron Fist of the Empire',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\196_Hunt to Extinction.png" id="196_Hunt to Extinction" data-flag="@X" onclick="openSidebar('196_Hunt to Extinction',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\175_Bull Rancor.png" id="175_Bull Rancor" data-flag="@X" onclick="openSidebar('175_Bull Rancor',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\212_Princess Leia.png" id="212_Princess Leia" data-flag="@X" onclick="openSidebar('212_Princess Leia',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\226_Trade Federation Battleship.png" id="226_Trade Federation Battleship" data-flag="@X" onclick="openSidebar('226_Trade Federation Battleship',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\220_Sith Magic.png" id="220_Sith Magic" data-flag="@X" onclick="openSidebar('220_Sith Magic',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\199_Jabba the Hutt.png" id="199_Jabba the Hutt" data-flag="@X" onclick="openSidebar('199_Jabba the Hutt',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\178_Chewbacca.png" id="178_Chewbacca" data-flag="@X" onclick="openSidebar('178_Chewbacca',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\213_Qui-Gon Jinn.png" id="213_Qui-Gon Jinn" data-flag="@X" onclick="openSidebar('213_Qui-Gon Jinn',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\166_AAT-1.png" id="166_AAT-1" data-flag="@X" onclick="openSidebar('166_AAT-1',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\223_Star Destroyer.png" id="223_Star Destroyer" data-flag="@X" onclick="openSidebar('223_Star Destroyer',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\222_Slave I.png" id="222_Slave I" data-flag="@X" onclick="openSidebar('222_Slave I',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\179_Chief Chirpa.png" id="179_Chief Chirpa" data-flag="@X" onclick="openSidebar('179_Chief Chirpa',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\200_Jedi Knight.png" id="200_Jedi Knight" data-flag="@X" onclick="openSidebar('200_Jedi Knight',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\227_Unity of the Droids.png" id="227_Unity of the Droids" data-flag="@X" onclick="openSidebar('227_Unity of the Droids',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\181_Cruelty of the Sith.png" id="181_Cruelty of the Sith" data-flag="@X" onclick="openSidebar('181_Cruelty of the Sith',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\188_Ferocity of the Underworld.png" id="188_Ferocity of the Underworld" data-flag="@X" onclick="openSidebar('188_Ferocity of the Underworld',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\206_Might of the Wild.png" id="206_Might of the Wild" data-flag="@X" onclick="openSidebar('206_Might of the Wild',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\228_Wisdom of the Jedi.png" id="228_Wisdom of the Jedi" data-flag="@X" onclick="openSidebar('228_Wisdom of the Jedi',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\215_Salvage Squad.png" id="215_Salvage Squad" data-flag="@X" onclick="openSidebar('215_Salvage Squad',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\221_Sith Mindseer.png" id="221_Sith Mindseer" data-flag="@X" onclick="openSidebar('221_Sith Mindseer',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\214_Rumor Monger.png" id="214_Rumor Monger" data-flag="@X" onclick="openSidebar('214_Rumor Monger',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\229_Wookiee Mystic.png" id="229_Wookiee Mystic" data-flag="@X" onclick="openSidebar('229_Wookiee Mystic',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\201_Jedi Sentinel.png" id="201_Jedi Sentinel" data-flag="@X" onclick="openSidebar('201_Jedi Sentinel',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\168_Adroit Hateflayer.png" id="168_Adroit Hateflayer" data-flag="@X" onclick="openSidebar('168_Adroit Hateflayer',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\209_Outer Rim Slaver.png" id="209_Outer Rim Slaver" data-flag="@X" onclick="openSidebar('209_Outer Rim Slaver',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\183_Dagobah Maw Slug.png" id="183_Dagobah Maw Slug" data-flag="@X" onclick="openSidebar('183_Dagobah Maw Slug',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\180_Commander Cody.png" id="180_Commander Cody" data-flag="@X" onclick="openSidebar('180_Commander Cody',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\236_Ancient Holocron.png" id="236_Ancient Holocron" data-flag="@X" onclick="openSidebar('236_Ancient Holocron',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\237_Dark Trooper.png" id="237_Dark Trooper" data-flag="@X" onclick="openSidebar('237_Dark Trooper',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\243_Trooper Armor.png" id="243_Trooper Armor" data-flag="@X" onclick="openSidebar('243_Trooper Armor',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\238_Drone Holocron.png" id="238_Drone Holocron" data-flag="@X" onclick="openSidebar('238_Drone Holocron',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\239_Jedi Holocron.png" id="239_Jedi Holocron" data-flag="@X" onclick="openSidebar('239_Jedi Holocron',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\240_Lightsaber.png" id="240_Lightsaber" data-flag="@X" onclick="openSidebar('240_Lightsaber',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\241_Outlaw Holocron.png" id="241_Outlaw Holocron" data-flag="@X" onclick="openSidebar('241_Outlaw Holocron',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\242_Sith Holocron.png" id="242_Sith Holocron" data-flag="@X" onclick="openSidebar('242_Sith Holocron',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\244_Wild Holocron.png" id="244_Wild Holocron" data-flag="@X" onclick="openSidebar('244_Wild Holocron',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\251_Jedi Temple.png" id="251_Jedi Temple" data-flag="@X" onclick="openSidebar('251_Jedi Temple',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\247_Droid Foundry.png" id="247_Droid Foundry" data-flag="@X" onclick="openSidebar('247_Droid Foundry',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\255_Sith Citadel.png" id="255_Sith Citadel" data-flag="@X" onclick="openSidebar('255_Sith Citadel',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\249_Hutt Palace.png" id="249_Hutt Palace" data-flag="@X" onclick="openSidebar('249_Hutt Palace',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\248_Ewok Village.png" id="248_Ewok Village" data-flag="@X" onclick="openSidebar('248_Ewok Village',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\245_The Death Star.png" id="245_The Death Star" data-flag="@X" onclick="openSidebar('245_The Death Star',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\257_The Tomb of Miktrull.png" id="257_The Tomb of Miktrull" data-flag="@X" onclick="openSidebar('257_The Tomb of Miktrull',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\253_Kamino Cloning Facility.png" id="253_Kamino Cloning Facility" data-flag="@X" onclick="openSidebar('253_Kamino Cloning Facility',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\254_Moisture Farm.png" id="254_Moisture Farm" data-flag="@X" onclick="openSidebar('254_Moisture Farm',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\246_Droid Factory.png" id="246_Droid Factory" data-flag="@X" onclick="openSidebar('246_Droid Factory',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\250_Jedi Enclave.png" id="250_Jedi Enclave" data-flag="@X" onclick="openSidebar('250_Jedi Enclave',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\252_Jungle Village.png" id="252_Jungle Village" data-flag="@X" onclick="openSidebar('252_Jungle Village',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\256_Sith Ruins.png" id="256_Sith Ruins" data-flag="@X" onclick="openSidebar('256_Sith Ruins',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\258_Underworld Slums.png" id="258_Underworld Slums" data-flag="@X" onclick="openSidebar('258_Underworld Slums',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\259_Plains.png" id="259_Plains" data-flag="@X" onclick="openSidebar('259_Plains',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\261_Island.png" id="261_Island" data-flag="@X" onclick="openSidebar('261_Island',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\263_Swamp.png" id="263_Swamp" data-flag="@X" onclick="openSidebar('263_Swamp',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\265_SWTG Mountain.png" id="265_SWTG Mountain" data-flag="@X" onclick="openSidebar('265_SWTG Mountain',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\267_SWTG Forest.png" id="267_SWTG Forest" data-flag="@X" onclick="openSidebar('267_SWTG Forest',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\260_Plains1.png" id="260_Plains1" data-flag="@X" onclick="openSidebar('260_Plains1',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\262_Island1.png" id="262_Island1" data-flag="@X" onclick="openSidebar('262_Island1',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\264_SWTG Swamp1.png" id="264_SWTG Swamp1" data-flag="@X" onclick="openSidebar('264_SWTG Swamp1',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\266_SWTG Mountain1.png" id="266_SWTG Mountain1" data-flag="@X" onclick="openSidebar('266_SWTG Mountain1',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\268_SWTG Forest1.png" id="268_SWTG Forest1" data-flag="@X" onclick="openSidebar('268_SWTG Forest1',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\1t_SWTG 2-Color Archetypes.png" id="1t_SWTG 2-Color Archetypes" data-flag="@X" onclick="openSidebar('1t_SWTG 2-Color Archetypes',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\2t_SWTG 3+Color Archetypes.png" id="2t_SWTG 3+Color Archetypes" data-flag="@X" onclick="openSidebar('2t_SWTG 3+Color Archetypes',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\3t_Rebel.png" id="3t_Rebel" data-flag="@X" onclick="openSidebar('3t_Rebel',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\4t_Trooper.png" id="4t_Trooper" data-flag="@X" onclick="openSidebar('4t_Trooper',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\5t_Trooper1.png" id="5t_Trooper1" data-flag="@X" onclick="openSidebar('5t_Trooper1',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\6t_Tusken Raider.png" id="6t_Tusken Raider" data-flag="@X" onclick="openSidebar('6t_Tusken Raider',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\7t_B-Wing.png" id="7t_B-Wing" data-flag="@X" onclick="openSidebar('7t_B-Wing',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\8t_TIE Fighter.png" id="8t_TIE Fighter" data-flag="@X" onclick="openSidebar('8t_TIE Fighter',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\9t_Bounty Hunter.png" id="9t_Bounty Hunter" data-flag="@X" onclick="openSidebar('9t_Bounty Hunter',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\10t_Royal Guard.png" id="10t_Royal Guard" data-flag="@X" onclick="openSidebar('10t_Royal Guard',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\11t_Ewok Rebel.png" id="11t_Ewok Rebel" data-flag="@X" onclick="openSidebar('11t_Ewok Rebel',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\12t_Droid.png" id="12t_Droid" data-flag="@X" onclick="openSidebar('12t_Droid',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\13t_Aurra Sing, Bane of Jedi Emblem.png" id="13t_Aurra Sing, Bane of Jedi Emblem" data-flag="@X" onclick="openSidebar('13t_Aurra Sing, Bane of Jedi Emblem',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\14t_Darth Sidious, Sith Lord Emblem.png" id="14t_Darth Sidious, Sith Lord Emblem" data-flag="@X" onclick="openSidebar('14t_Darth Sidious, Sith Lord Emblem',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\15t_Obi-Wan Kenobi Emblem.png" id="15t_Obi-Wan Kenobi Emblem" data-flag="@X" onclick="openSidebar('15t_Obi-Wan Kenobi Emblem',false)"></div>
+			<div class="container"><img alt="sets\SWTG-files\img\16t_Yoda, Jedi Master Emblem.png" id="16t_Yoda, Jedi Master Emblem" data-flag="@X" onclick="openSidebar('16t_Yoda, Jedi Master Emblem',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = 'img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		if (horizontal && rotated_img.style.display == 'none')
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+	}
+
+	function openSidebar(id, h=false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+
+		if (horizontal)
+		{
+			rotated_img.src = document.getElementById(id).src;
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+			if (event.key === "Enter") {
+				event.preventDefault();
+				search();
+			}
+		});
+
+		function search() {
+			window.location = ("/search?search=" + document.getElementById("search").value);
+		}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let card_name = card_list_arrayified[i].card_name;
+				for (const char of specialchars)
+				{
+					card_name = card_name.replaceAll(char, "");
+				}
+
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
+			}
+	</script>
+</body>
+</html>
