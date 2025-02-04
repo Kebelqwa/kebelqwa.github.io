@@ -1523,7 +1523,7 @@
 		{
 			"name": "Baleful Omen",
 			"rarity": "rare",
-			"mana_cost": "{3}{B}",
+			"mana_cost": "{2}{B}",
 			"type": "Enchantment",
 			"collector_number": "92",
 			"image_uris": {
@@ -1644,7 +1644,7 @@
 			"name": "Bestial Fusion",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{G}",
-			"type": "Enchantment",
+			"type": "Enchantment — Aura ",
 			"collector_number": "170",
 			"image_uris": {
 				"en": "https://kebelqwa.github.io/sets/AZG-files/img/170_Bestial Fusion.png"
@@ -2624,7 +2624,7 @@
 			"name": "Wolf Spirit",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Wolf Spirit ",
+			"type": "Token Enchantment Creature — Wolf Spirit ",
 			"collector_number": "9",
 			"image_uris": {
 				"en": "https://kebelqwa.github.io/sets/AZG-files/img/9_Wolf Spirit.png"
@@ -2774,7 +2774,7 @@
 			"name": "Trials of Suvvaris",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
-			"type": "Enchantment",
+			"type": "Legendary Enchantment",
 			"collector_number": "33",
 			"image_uris": {
 				"en": "https://kebelqwa.github.io/sets/AZG-files/img/33_Trials of Suvvaris.png"

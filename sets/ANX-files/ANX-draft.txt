@@ -250,7 +250,7 @@
 		{
 			"name": "Looting Devil",
 			"rarity": "uncommon",
-			"mana_cost": "{4}{R}",
+			"mana_cost": "{3}{R}",
 			"type": "Creature — Devil ",
 			"collector_number": "141",
 			"image_uris": {

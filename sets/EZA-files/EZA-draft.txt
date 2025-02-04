@@ -1,0 +1,2910 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Ghostblade Spirit",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Spirit ",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/49_Ghostblade Spirit.png"
+			}
+		},
+		{
+			"name": "Landsurge",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/168_Landsurge.png"
+			}
+		},
+		{
+			"name": "Sunquash Colossus",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Elemental ",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/144_Sunquash Colossus.png"
+			}
+		},
+		{
+			"name": "Gitaxian Engine",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"type": "Artifact Creature — Phyrexian Construct ",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/52_Gitaxian Engine.png"
+			}
+		},
+		{
+			"name": "Blazing Abomination",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Phyrexian Elemental Horror ",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/119_Blazing Abomination.png"
+			}
+		},
+		{
+			"name": "Malfunction Myr",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Phyrexian Myr ",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/238_Malfunction Myr.png"
+			}
+		},
+		{
+			"name": "Dragonflame Spitter",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Elemental Knight ",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/124_Dragonflame Spitter.png"
+			}
+		},
+		{
+			"name": "Aetherbond Titan",
+			"rarity": "uncommon",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Phyrexian Construct ",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/229_Aetherbond Titan.png"
+			}
+		},
+		{
+			"name": "Inquisitor's Scorn",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Instant",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/204_Inquisitor's Scorn.png"
+			}
+		},
+		{
+			"name": "Descry",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/47_Descry.png"
+			}
+		},
+		{
+			"name": "Phyretic Templar",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Phyrexian Human Knight ",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/96_Phyretic Templar.png"
+			}
+		},
+		{
+			"name": "Alloy Knight",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Construct Knight ",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/230_Alloy Knight.png"
+			}
+		},
+		{
+			"name": "Gather Allies",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/12_Gather Allies.png"
+			}
+		},
+		{
+			"name": "Darkworld Nuisance",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Phyrexian Imp ",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/82_Darkworld Nuisance.png"
+			}
+		},
+		{
+			"name": "Mystic Polymorph",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Shapeshifter ",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/61_Mystic Polymorph.png"
+			}
+		},
+		{
+			"name": "Living Probe",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Phyrexian Bird Horror ",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/59_Living Probe.png"
+			}
+		},
+		{
+			"name": "Smog Reaper",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Demon ",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/106_Smog Reaper.png"
+			}
+		},
+		{
+			"name": "Writhing Nightmare",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Phyrexian Horror ",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/111_Writhing Nightmare.png"
+			}
+		},
+		{
+			"name": "Modified Thopter",
+			"rarity": "uncommon",
+			"mana_cost": "{0}",
+			"type": "Artifact Creature — Thopter ",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/240_Modified Thopter.png"
+			}
+		},
+		{
+			"name": "Ralixan Cleric",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Cleric ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/29_Ralixan Cleric.png"
+			}
+		},
+		{
+			"name": "Order of Norn",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{H/W}{H/W}",
+			"type": "Instant",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/23_Order of Norn.png"
+			}
+		},
+		{
+			"name": "Warper's Amulet",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/245_Warper's Amulet.png"
+			}
+		},
+		{
+			"name": "Path of War",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}{R}",
+			"type": "Enchantment",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/138_Path of War.png"
+			}
+		},
+		{
+			"name": "Noble Griffin",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Griffin ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/20_Noble Griffin.png"
+			}
+		},
+		{
+			"name": "Skyway Hellkite",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/143_Skyway Hellkite.png"
+			}
+		},
+		{
+			"name": "Scroll Keeper",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/66_Scroll Keeper.png"
+			}
+		},
+		{
+			"name": "Adaptive Blade",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/227_Adaptive Blade.png"
+			}
+		},
+		{
+			"name": "Axemad Monger",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/115_Axemad Monger.png"
+			}
+		},
+		{
+			"name": "Menrylia's Chosen",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Elf Shaman ",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/169_Menrylia's Chosen.png"
+			}
+		},
+		{
+			"name": "Might of the Carnivore",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/170_Might of the Carnivore.png"
+			}
+		},
+		{
+			"name": "Steel Wall",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact Creature — Wall ",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/243_Steel Wall.png"
+			}
+		},
+		{
+			"name": "Roilsoul",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{G}{G}",
+			"type": "Creature — Giant Druid ",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/176_Roilsoul.png"
+			}
+		},
+		{
+			"name": "Imperial Elf",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Elf Shaman ",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/165_Imperial Elf.png"
+			}
+		},
+		{
+			"name": "Goblin Firecaller",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Goblin Shaman ",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/130_Goblin Firecaller.png"
+			}
+		},
+		{
+			"name": "Sylvan Gift",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/219_Sylvan Gift.png"
+			}
+		},
+		{
+			"name": "Overworld Ghast",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Spirit Wizard ",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/211_Overworld Ghast.png"
+			}
+		},
+		{
+			"name": "Enter the Den",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/10_Enter the Den.png"
+			}
+		},
+		{
+			"name": "Scattered Lightning",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/142_Scattered Lightning.png"
+			}
+		},
+		{
+			"name": "Ezanavi Apocalypse",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/85_Ezanavi Apocalypse.png"
+			}
+		},
+		{
+			"name": "Pathway Messengers",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Phyrexian Horror ",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/26_Pathway Messengers.png"
+			}
+		},
+		{
+			"name": "Soulrend",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Instant",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/218_Soulrend.png"
+			}
+		},
+		{
+			"name": "Voice of Gix",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Phyrexian Human Horror ",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/110_Voice of Gix.png"
+			}
+		},
+		{
+			"name": "Dalwood Protector",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Elf ",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/153_Dalwood Protector.png"
+			}
+		},
+		{
+			"name": "Thenebras",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}{B}{B}",
+			"type": "Legendary Creature — Demon ",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/109_Thenebras.png"
+			}
+		},
+		{
+			"name": "Recycle Machinery",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/175_Recycle Machinery.png"
+			}
+		},
+		{
+			"name": "Blade of the Survivor",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/118_Blade of the Survivor.png"
+			}
+		},
+		{
+			"name": "Overworld Sage",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/62_Overworld Sage.png"
+			}
+		},
+		{
+			"name": "Dreadculler Headhunter",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Creature — Human Assassin ",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/197_Dreadculler Headhunter.png"
+			}
+		},
+		{
+			"name": "Silent Entity",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Phyrexian Spider Horror ",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/68_Silent Entity.png"
+			}
+		},
+		{
+			"name": "Souleater Machine",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{H}",
+			"type": "Artifact Creature — Phyrexian Construct ",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/242_Souleater Machine.png"
+			}
+		},
+		{
+			"name": "Overworld Palace",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/256_Overworld Palace.png"
+			}
+		},
+		{
+			"name": "Ralixan Oasis",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/259_Ralixan Oasis.png"
+			}
+		},
+		{
+			"name": "Tangled Ruins",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/262_Tangled Ruins.png"
+			}
+		},
+		{
+			"name": "Nimul Mucklands",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/255_Nimul Mucklands.png"
+			}
+		},
+		{
+			"name": "Dreadculler Lair",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/250_Dreadculler Lair.png"
+			}
+		},
+		{
+			"name": "Lunar Gateway",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/253_Lunar Gateway.png"
+			}
+		},
+		{
+			"name": "Thane's Knight",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Phyrexian Horror Knight ",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/108_Thane's Knight.png"
+			}
+		},
+		{
+			"name": "Brink",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/42_Brink.png"
+			}
+		},
+		{
+			"name": "Sowrazer Stag",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elk ",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/180_Sowrazer Stag.png"
+			}
+		},
+		{
+			"name": "Illusory Phenomenon",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Sorcery",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/56_Illusory Phenomenon.png"
+			}
+		},
+		{
+			"name": "Adapted Warhorse",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Artifact Creature — Phyrexian Horse Horror ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/112_Adapted Warhorse.png"
+			}
+		},
+		{
+			"name": "Pthisus Contamination",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/98_Pthisus Contamination.png"
+			}
+		},
+		{
+			"name": "Thran Probe",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Phyrexian Construct ",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/73_Thran Probe.png"
+			}
+		},
+		{
+			"name": "Ei'tal Horror",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Artifact Creature — Phyrexian Beast Horror ",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/159_Ei'tal Horror.png"
+			}
+		},
+		{
+			"name": "Hidden Armory",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/235_Hidden Armory.png"
+			}
+		},
+		{
+			"name": "Hex Mist",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/162_Hex Mist.png"
+			}
+		},
+		{
+			"name": "Physical Restraint",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/212_Physical Restraint.png"
+			}
+		},
+		{
+			"name": "Ei'tal Betrayer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Phyrexian Horror ",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/84_Ei'tal Betrayer.png"
+			}
+		},
+		{
+			"name": "Punishing Flame",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/140_Punishing Flame.png"
+			}
+		},
+		{
+			"name": "Scion of the Lotus",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Druid ",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/177_Scion of the Lotus.png"
+			}
+		},
+		{
+			"name": "Bladechild",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Knight ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/4_Bladechild.png"
+			}
+		},
+		{
+			"name": "Grim Unburial",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/89_Grim Unburial.png"
+			}
+		},
+		{
+			"name": "Atro, Eternities' Guard",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{U}{U}",
+			"type": "Legendary Creature — Human Wizard ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/41_Atro, Eternities' Guard.png"
+			}
+		},
+		{
+			"name": "Myr Servant",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact Creature — Phyrexian Myr ",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/241_Myr Servant.png"
+			}
+		},
+		{
+			"name": "Ei'tal Predator",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Phyrexian Beast ",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/198_Ei'tal Predator.png"
+			}
+		},
+		{
+			"name": "Consuming Curse",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}{B}",
+			"type": "Enchantment — Aura Curse ",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/80_Consuming Curse.png"
+			}
+		},
+		{
+			"name": "Dauntless Rage",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/123_Dauntless Rage.png"
+			}
+		},
+		{
+			"name": "Talon Mantra",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/220_Talon Mantra.png"
+			}
+		},
+		{
+			"name": "Fairglade Elf",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Creature — Elf Druid ",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/160_Fairglade Elf.png"
+			}
+		},
+		{
+			"name": "Amphin Alchemist",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Salamander Wizard ",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/39_Amphin Alchemist.png"
+			}
+		},
+		{
+			"name": "Tesaren Transfiguration",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Instant",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/223_Tesaren Transfiguration.png"
+			}
+		},
+		{
+			"name": "Tranquil Gardens",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/183_Tranquil Gardens.png"
+			}
+		},
+		{
+			"name": "Mana Gauntlet",
+			"rarity": "rare",
+			"mana_cost": "{X}{X}",
+			"type": "Artifact",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/239_Mana Gauntlet.png"
+			}
+		},
+		{
+			"name": "Dreg Mob",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Phyrexian Lizard Horror ",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/83_Dreg Mob.png"
+			}
+		},
+		{
+			"name": "Tesaren Wings",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/35_Tesaren Wings.png"
+			}
+		},
+		{
+			"name": "Scion of Wind",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/65_Scion of Wind.png"
+			}
+		},
+		{
+			"name": "Blunt Diplomacy",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Enchantment",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/189_Blunt Diplomacy.png"
+			}
+		},
+		{
+			"name": "Corruptive Symbiote",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/81_Corruptive Symbiote.png"
+			}
+		},
+		{
+			"name": "Blood Alchemist",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire Wizard ",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/77_Blood Alchemist.png"
+			}
+		},
+		{
+			"name": "Necrogen Outbreak",
+			"rarity": "rare",
+			"mana_cost": "{X}{B}",
+			"type": "Instant",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/94_Necrogen Outbreak.png"
+			}
+		},
+		{
+			"name": "Smite the Monstrous",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Instant",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/32_Smite the Monstrous.png"
+			}
+		},
+		{
+			"name": "Duskbane Angel",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Angel ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/8_Duskbane Angel.png"
+			}
+		},
+		{
+			"name": "Disciple of Madt",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Human Knight ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/7_Disciple of Madt.png"
+			}
+		},
+		{
+			"name": "Servants of Senzu",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Phyrexian Elf Knight ",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/102_Servants of Senzu.png"
+			}
+		},
+		{
+			"name": "Lost Everything",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Instant",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/92_Lost Everything.png"
+			}
+		},
+		{
+			"name": "Proven Worthy",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/28_Proven Worthy.png"
+			}
+		},
+		{
+			"name": "Blisterflame",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/120_Blisterflame.png"
+			}
+		},
+		{
+			"name": "Torment Engine",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/36_Torment Engine.png"
+			}
+		},
+		{
+			"name": "Arcana Hunter",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Creature — Zombie Wizard ",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/186_Arcana Hunter.png"
+			}
+		},
+		{
+			"name": "Ghostfire Hellhound",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Hound ",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/129_Ghostfire Hellhound.png"
+			}
+		},
+		{
+			"name": "Madt Sword",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/18_Madt Sword.png"
+			}
+		},
+		{
+			"name": "Tesaren Transmuter",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Shapeshifter Wizard ",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/71_Tesaren Transmuter.png"
+			}
+		},
+		{
+			"name": "Tezzeret, Bolas's Seeker",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Planeswalker — Tezzeret ",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/72_Tezzeret, Bolas's Seeker.png"
+			}
+		},
+		{
+			"name": "Heroes' Reunion",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Instant",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/203_Heroes' Reunion.png"
+			}
+		},
+		{
+			"name": "Urabrask Fodder",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Phyrexian Goblin ",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/145_Urabrask Fodder.png"
+			}
+		},
+		{
+			"name": "Hornback Goliath",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Beast ",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/164_Hornback Goliath.png"
+			}
+		},
+		{
+			"name": "Infiltrator's Cloak",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/237_Infiltrator's Cloak.png"
+			}
+		},
+		{
+			"name": "Delayed Imports",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/46_Delayed Imports.png"
+			}
+		},
+		{
+			"name": "Unfettered Virtue",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/37_Unfettered Virtue.png"
+			}
+		},
+		{
+			"name": "Fiery Encore",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Instant",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/125_Fiery Encore.png"
+			}
+		},
+		{
+			"name": "Call from Beyond",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}{B}",
+			"type": "Instant",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/193_Call from Beyond.png"
+			}
+		},
+		{
+			"name": "Brass Hydra",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Artifact Creature — Phyrexian Hydra ",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/190_Brass Hydra.png"
+			}
+		},
+		{
+			"name": "Dreadculler Agent",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Creature — Human Assassin ",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/196_Dreadculler Agent.png"
+			}
+		},
+		{
+			"name": "Final Triumph",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Instant",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/201_Final Triumph.png"
+			}
+		},
+		{
+			"name": "Glacial Gloombeast",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Phyrexian Illusion Horror ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/54_Glacial Gloombeast.png"
+			}
+		},
+		{
+			"name": "Glistening Frost",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/55_Glistening Frost.png"
+			}
+		},
+		{
+			"name": "Oilfire Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Artifact Creature — Phyrexian Dragon ",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/137_Oilfire Dragon.png"
+			}
+		},
+		{
+			"name": "Aether Bonds",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/38_Aether Bonds.png"
+			}
+		},
+		{
+			"name": "Ichorslick Blade",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/236_Ichorslick Blade.png"
+			}
+		},
+		{
+			"name": "Blighted Shadow",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Phyrexian Shade ",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/76_Blighted Shadow.png"
+			}
+		},
+		{
+			"name": "Corporeal Injury",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/45_Corporeal Injury.png"
+			}
+		},
+		{
+			"name": "Silent Stab",
+			"rarity": "common",
+			"mana_cost": "{H/B}",
+			"type": "Instant",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/105_Silent Stab.png"
+			}
+		},
+		{
+			"name": "Captivating Duelist",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Knight ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/5_Captivating Duelist.png"
+			}
+		},
+		{
+			"name": "Artifice Shell",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/231_Artifice Shell.png"
+			}
+		},
+		{
+			"name": "Ashen Horror",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Phyrexian Elemental Horror ",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/114_Ashen Horror.png"
+			}
+		},
+		{
+			"name": "Senzu the Madman",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — Phyrexian Elf Rebel ",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/216_Senzu the Madman.png"
+			}
+		},
+		{
+			"name": "Gut Shot",
+			"rarity": "common",
+			"mana_cost": "{H/R}",
+			"type": "Instant",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/131_Gut Shot.png"
+			}
+		},
+		{
+			"name": "Glistener Pawns",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Phyrexian Horror Assassin ",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/88_Glistener Pawns.png"
+			}
+		},
+		{
+			"name": "Senzu's Doomspeaker",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Phyrexian Elf Cleric ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/100_Senzu's Doomspeaker.png"
+			}
+		},
+		{
+			"name": "Skyrune",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}",
+			"type": "Enchantment",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/31_Skyrune.png"
+			}
+		},
+		{
+			"name": "Consumer of Worlds",
+			"rarity": "mythic",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Phyrexian Beast Horror ",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/151_Consumer of Worlds.png"
+			}
+		},
+		{
+			"name": "Urabrask's Emissary",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Phyrexian Elemental Horror ",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/148_Urabrask's Emissary.png"
+			}
+		},
+		{
+			"name": "Lingering Reality",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/58_Lingering Reality.png"
+			}
+		},
+		{
+			"name": "Orthodoxy Activation",
+			"rarity": "rare",
+			"mana_cost": "{X}{W}",
+			"type": "Sorcery",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/24_Orthodoxy Activation.png"
+			}
+		},
+		{
+			"name": "Gitaxian Probe",
+			"rarity": "common",
+			"mana_cost": "{H/U}",
+			"type": "Sorcery",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/53_Gitaxian Probe.png"
+			}
+		},
+		{
+			"name": "Machine's Embrace",
+			"rarity": "common",
+			"mana_cost": "{H/W}",
+			"type": "Instant",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/17_Machine's Embrace.png"
+			}
+		},
+		{
+			"name": "Vault of the Ancients",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/263_Vault of the Ancients.png"
+			}
+		},
+		{
+			"name": "Mutagenic Growth",
+			"rarity": "common",
+			"mana_cost": "{H/G}",
+			"type": "Instant",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/171_Mutagenic Growth.png"
+			}
+		},
+		{
+			"name": "Fleshrage",
+			"rarity": "common",
+			"mana_cost": "{X}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/161_Fleshrage.png"
+			}
+		},
+		{
+			"name": "Darkworld Equinox",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/194_Darkworld Equinox.png"
+			}
+		},
+		{
+			"name": "Brutal Cataclysm",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}{B}",
+			"type": "Instant",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/192_Brutal Cataclysm.png"
+			}
+		},
+		{
+			"name": "Madt Avenged",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}{W}",
+			"type": "Instant",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/208_Madt Avenged.png"
+			}
+		},
+		{
+			"name": "Bloodmist Glider",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Vampire ",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/78_Bloodmist Glider.png"
+			}
+		},
+		{
+			"name": "Wreckage Monger",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Creature — Phyrexian Beast ",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/226_Wreckage Monger.png"
+			}
+		},
+		{
+			"name": "Battlewise Enigma",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Knight ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/3_Battlewise Enigma.png"
+			}
+		},
+		{
+			"name": "Tesaren Protector",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/222_Tesaren Protector.png"
+			}
+		},
+		{
+			"name": "Brightmind Trickster",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/191_Brightmind Trickster.png"
+			}
+		},
+		{
+			"name": "Aftermath Hellkite",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/113_Aftermath Hellkite.png"
+			}
+		},
+		{
+			"name": "Druid Den",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/251_Druid Den.png"
+			}
+		},
+		{
+			"name": "Warpers' Lab",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/264_Warpers' Lab.png"
+			}
+		},
+		{
+			"name": "Radiant Outskirts",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/258_Radiant Outskirts.png"
+			}
+		},
+		{
+			"name": "Madt Barracks",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/254_Madt Barracks.png"
+			}
+		},
+		{
+			"name": "Senzu's Hideout",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/260_Senzu's Hideout.png"
+			}
+		},
+		{
+			"name": "Fatality Guise",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/86_Fatality Guise.png"
+			}
+		},
+		{
+			"name": "Rift Storm",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{H/R}",
+			"type": "Instant",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/141_Rift Storm.png"
+			}
+		},
+		{
+			"name": "Walking Brambles",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Elemental ",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/184_Walking Brambles.png"
+			}
+		},
+		{
+			"name": "Sylvan Prosperity",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/182_Sylvan Prosperity.png"
+			}
+		},
+		{
+			"name": "Power from Practice",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/63_Power from Practice.png"
+			}
+		},
+		{
+			"name": "World Fracture",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "Enchantment",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/225_World Fracture.png"
+			}
+		},
+		{
+			"name": "Arcane Recurve",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/40_Arcane Recurve.png"
+			}
+		},
+		{
+			"name": "Dalwood Titan",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Elemental ",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/154_Dalwood Titan.png"
+			}
+		},
+		{
+			"name": "Whispering Shaman",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Elf Shaman ",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/185_Whispering Shaman.png"
+			}
+		},
+		{
+			"name": "Plane's Captive",
+			"rarity": "mythic",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Avatar ",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/27_Plane's Captive.png"
+			}
+		},
+		{
+			"name": "Fire with Fire",
+			"rarity": "rare",
+			"mana_cost": "{X}{X}{R}",
+			"type": "Sorcery",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/126_Fire with Fire.png"
+			}
+		},
+		{
+			"name": "Chancellor of Riddles",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Sphinx ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/43_Chancellor of Riddles.png"
+			}
+		},
+		{
+			"name": "Holy Might",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/13_Holy Might.png"
+			}
+		},
+		{
+			"name": "Skycoil Wurm",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{H/G}{H/G}",
+			"type": "Artifact Creature — Phyrexian Wurm ",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/179_Skycoil Wurm.png"
+			}
+		},
+		{
+			"name": "Overworld Cloak",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/210_Overworld Cloak.png"
+			}
+		},
+		{
+			"name": "Celestial Vengeance",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/6_Celestial Vengeance.png"
+			}
+		},
+		{
+			"name": "Fall",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/11_Fall.png"
+			}
+		},
+		{
+			"name": "Elusive Reaver",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Phyrexian Horror ",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/48_Elusive Reaver.png"
+			}
+		},
+		{
+			"name": "Submerged Despair",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{H/U}",
+			"type": "Creature — Phyrexian Horror ",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/69_Submerged Despair.png"
+			}
+		},
+		{
+			"name": "Assured Destruction",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}",
+			"type": "Sorcery",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/188_Assured Destruction.png"
+			}
+		},
+		{
+			"name": "Menrylia, Sylvan Heir",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{W}",
+			"type": "Legendary Creature — Elf Wizard ",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/209_Menrylia, Sylvan Heir.png"
+			}
+		},
+		{
+			"name": "Elite Bargains",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Enchantment",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/199_Elite Bargains.png"
+			}
+		},
+		{
+			"name": "Warp Bolt",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}",
+			"type": "Instant",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/224_Warp Bolt.png"
+			}
+		},
+		{
+			"name": "Ride Down",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Instant",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/214_Ride Down.png"
+			}
+		},
+		{
+			"name": "Demigod Chant",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}{U}",
+			"type": "Enchantment",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/195_Demigod Chant.png"
+			}
+		},
+		{
+			"name": "Madness at the Morgue",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{R}{G}",
+			"type": "Sorcery",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/207_Madness at the Morgue.png"
+			}
+		},
+		{
+			"name": "Aspect of Kord",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}{R}",
+			"type": "Instant",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/187_Aspect of Kord.png"
+			}
+		},
+		{
+			"name": "Sentient Sentinel",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}{U}",
+			"type": "Creature — Elf ",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/215_Sentient Sentinel.png"
+			}
+		},
+		{
+			"name": "Hardships Undone",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}{G}",
+			"type": "Instant",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/202_Hardships Undone.png"
+			}
+		},
+		{
+			"name": "Blighted Ambition",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Instant",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/75_Blighted Ambition.png"
+			}
+		},
+		{
+			"name": "Blasphemous Strength",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Instant",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/150_Blasphemous Strength.png"
+			}
+		},
+		{
+			"name": "Phyresis Drone",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Phyrexian Horror ",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/95_Phyresis Drone.png"
+			}
+		},
+		{
+			"name": "Punisher Demon",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Creature — Phyrexian Demon ",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/213_Punisher Demon.png"
+			}
+		},
+		{
+			"name": "Exiled Bloodmage",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Phyrexian Demon Shaman ",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/200_Exiled Bloodmage.png"
+			}
+		},
+		{
+			"name": "Adventurer's Hatchet",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/228_Adventurer's Hatchet.png"
+			}
+		},
+		{
+			"name": "Banisher's Vault",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/2_Banisher's Vault.png"
+			}
+		},
+		{
+			"name": "Ja'Madt, Warleader",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Human Knight ",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/205_Ja'Madt, Warleader.png"
+			}
+		},
+		{
+			"name": "Distracting Chameleon",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Lizard ",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/155_Distracting Chameleon.png"
+			}
+		},
+		{
+			"name": "Lieutenant of Madt",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Human Cleric ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/15_Lieutenant of Madt.png"
+			}
+		},
+		{
+			"name": "Ecol Guard",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Elf ",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/157_Ecol Guard.png"
+			}
+		},
+		{
+			"name": "Banished Forerunner",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Human Knight ",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/116_Banished Forerunner.png"
+			}
+		},
+		{
+			"name": "Soul of Ezanavi",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{U}{B}{R}{G}",
+			"type": "Creature — Avatar ",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/217_Soul of Ezanavi.png"
+			}
+		},
+		{
+			"name": "Ralixan Markets",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/30_Ralixan Markets.png"
+			}
+		},
+		{
+			"name": "Tesaren Abberation",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Bird Spirit ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/34_Tesaren Abberation.png"
+			}
+		},
+		{
+			"name": "Follower of Ja'Madt",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/127_Follower of Ja'Madt.png"
+			}
+		},
+		{
+			"name": "Polyglot Elf",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf ",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/174_Polyglot Elf.png"
+			}
+		},
+		{
+			"name": "Furyborn",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Instant",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/128_Furyborn.png"
+			}
+		},
+		{
+			"name": "Alien Objective",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Instant",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/149_Alien Objective.png"
+			}
+		},
+		{
+			"name": "Invasion Behemoth",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Artifact Creature — Phyrexian Beast Horror ",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/166_Invasion Behemoth.png"
+			}
+		},
+		{
+			"name": "Darksteel Ingot",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/232_Darksteel Ingot.png"
+			}
+		},
+		{
+			"name": "Phyrexian Lacerator",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Artifact Creature — Phyrexian Construct Horror ",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/97_Phyrexian Lacerator.png"
+			}
+		},
+		{
+			"name": "Destiny Stone",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Legendary Artifact",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/234_Destiny Stone.png"
+			}
+		},
+		{
+			"name": "Weaponized Myr",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Phyrexian Myr ",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/246_Weaponized Myr.png"
+			}
+		},
+		{
+			"name": "Brambled Slope",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/247_Brambled Slope.png"
+			}
+		},
+		{
+			"name": "Canopy Enclave",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/248_Canopy Enclave.png"
+			}
+		},
+		{
+			"name": "Crumbling Crucible",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/249_Crumbling Crucible.png"
+			}
+		},
+		{
+			"name": "Frozen Waterfall",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/252_Frozen Waterfall.png"
+			}
+		},
+		{
+			"name": "Phyrexian Citadel",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Land",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/257_Phyrexian Citadel.png"
+			}
+		},
+		{
+			"name": "Sunken Mire",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/261_Sunken Mire.png"
+			}
+		},
+		{
+			"name": "Keled, Witness of the End",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Legendary Planeswalker — Keled ",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/206_Keled, Witness of the End.png"
+			}
+		},
+		{
+			"name": "Party Reinforcement",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Instant",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/173_Party Reinforcement.png"
+			}
+		},
+		{
+			"name": "Oilvein Elemental",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Phyrexian Elemental Horror ",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/172_Oilvein Elemental.png"
+			}
+		},
+		{
+			"name": "Elesh Norn of the Machine",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Phyrexian Praetor ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/9_Elesh Norn of the Machine.png"
+			}
+		},
+		{
+			"name": "Norn Sorceror",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Phyrexian Wizard ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/21_Norn Sorceror.png"
+			}
+		},
+		{
+			"name": "Norn Tinkerer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Phyrexian Artificer ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/22_Norn Tinkerer.png"
+			}
+		},
+		{
+			"name": "Soul Defiler",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Phyrexian Wizard ",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/33_Soul Defiler.png"
+			}
+		},
+		{
+			"name": "Gitaxian Auger",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Phyrexian Elemental ",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/50_Gitaxian Auger.png"
+			}
+		},
+		{
+			"name": "Gitaxian Deceiver",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Phyrexian Wizard ",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/51_Gitaxian Deceiver.png"
+			}
+		},
+		{
+			"name": "Mindflay Amalgam",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Phyrexian Horror ",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/60_Mindflay Amalgam.png"
+			}
+		},
+		{
+			"name": "Praetor's Scheme",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/64_Praetor's Scheme.png"
+			}
+		},
+		{
+			"name": "Sev Gitaxius",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Legendary Creature — Phyrexian Praetor ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/67_Sev Gitaxius.png"
+			}
+		},
+		{
+			"name": "Cavern Thane",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Phyrexian Horror ",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/79_Cavern Thane.png"
+			}
+		},
+		{
+			"name": "Ruinator Thane",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Phyrexian Vampire ",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/99_Ruinator Thane.png"
+			}
+		},
+		{
+			"name": "Septic Yeoman",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Phyrexian Shade ",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/101_Septic Yeoman.png"
+			}
+		},
+		{
+			"name": "Sheoldred, Blighted Thane",
+			"rarity": "mythic",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Legendary Creature — Phyrexian Praetor ",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/103_Sheoldred, Blighted Thane.png"
+			}
+		},
+		{
+			"name": "Siege Ichorknight",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Phyrexian Knight ",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/104_Siege Ichorknight.png"
+			}
+		},
+		{
+			"name": "Chittering Plateling",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Phyrexian Barbarian ",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/122_Chittering Plateling.png"
+			}
+		},
+		{
+			"name": "Urabrask Mage",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Phyrexian Wizard ",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/146_Urabrask Mage.png"
+			}
+		},
+		{
+			"name": "Urabrask, the Devourer",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}{R}",
+			"type": "Legendary Creature — Phyrexian Praetor ",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/147_Urabrask, the Devourer.png"
+			}
+		},
+		{
+			"name": "Korborat Thraxis",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{G}{G}",
+			"type": "Legendary Creature — Phyrexian Praetor ",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/167_Korborat Thraxis.png"
+			}
+		},
+		{
+			"name": "Sentinels of Korborat",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Phyrexian Beast Horror ",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/178_Sentinels of Korborat.png"
+			}
+		},
+		{
+			"name": "Consult the Records",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/44_Consult the Records.png"
+			}
+		},
+		{
+			"name": "Tears of your Enemies",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/70_Tears of your Enemies.png"
+			}
+		},
+		{
+			"name": "Lich Ravager",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Phyrexian Zombie ",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/91_Lich Ravager.png"
+			}
+		},
+		{
+			"name": "Knight of Fallen Ralixa",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Knight ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/14_Knight of Fallen Ralixa.png"
+			}
+		},
+		{
+			"name": "Madt's Summons",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/19_Madt's Summons.png"
+			}
+		},
+		{
+			"name": "Implant Memories",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/57_Implant Memories.png"
+			}
+		},
+		{
+			"name": "Unwinding Paths",
+			"rarity": "rare",
+			"mana_cost": "{7}{U}{U}{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/74_Unwinding Paths.png"
+			}
+		},
+		{
+			"name": "Ichorflesh Mob",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Phyrexian Horror ",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/90_Ichorflesh Mob.png"
+			}
+		},
+		{
+			"name": "Thane's Herald",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Phyrexian Zombie ",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/107_Thane's Herald.png"
+			}
+		},
+		{
+			"name": "Burning Hands",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Instant",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/121_Burning Hands.png"
+			}
+		},
+		{
+			"name": "Jagged Magmoid",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Elemental ",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/134_Jagged Magmoid.png"
+			}
+		},
+		{
+			"name": "Hideout",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/163_Hideout.png"
+			}
+		},
+		{
+			"name": "Sylvan Conviction",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/181_Sylvan Conviction.png"
+			}
+		},
+		{
+			"name": "Tesaren Avenger",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/221_Tesaren Avenger.png"
+			}
+		},
+		{
+			"name": "Priest of Urabrask",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Phyrexian Human Cleric ",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/139_Priest of Urabrask.png"
+			}
+		},
+		{
+			"name": "Magma Spray",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/136_Magma Spray.png"
+			}
+		},
+		{
+			"name": "Koth, Hatred Unbound",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Planeswalker — Koth ",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/135_Koth, Hatred Unbound.png"
+			}
+		},
+		{
+			"name": "Ichordash Horror",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Phyrexian Horror ",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/133_Ichordash Horror.png"
+			}
+		},
+		{
+			"name": "Ichorclaw Dragon",
+			"rarity": "common",
+			"mana_cost": "{4}{H/R}{H/R}",
+			"type": "Artifact Creature — Phyrexian Dragon ",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/132_Ichorclaw Dragon.png"
+			}
+		},
+		{
+			"name": "Biotic Dragon Engine",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact Creature — Phyrexian Dragon ",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/117_Biotic Dragon Engine.png"
+			}
+		},
+		{
+			"name": "Ei'tal Crawler",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Phyrexian Beast Horror ",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/158_Ei'tal Crawler.png"
+			}
+		},
+		{
+			"name": "Doubling Season",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}",
+			"type": "Enchantment",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/156_Doubling Season.png"
+			}
+		},
+		{
+			"name": "Dalwood Meddler",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf ",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/152_Dalwood Meddler.png"
+			}
+		},
+		{
+			"name": "Tesaren Sentry",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/244_Tesaren Sentry.png"
+			}
+		},
+		{
+			"name": "Orthodoxy Cerebrate",
+			"rarity": "common",
+			"mana_cost": "{3}{H/W}{H/W}",
+			"type": "Artifact Creature — Phyrexian Horror ",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/25_Orthodoxy Cerebrate.png"
+			}
+		},
+		{
+			"name": "Fume Spitter",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Phyrexian Horror ",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/87_Fume Spitter.png"
+			}
+		},
+		{
+			"name": "Darksteel Ravager",
+			"rarity": "common",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/233_Darksteel Ravager.png"
+			}
+		},
+		{
+			"name": "Lone Squire",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Knight ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/16_Lone Squire.png"
+			}
+		},
+		{
+			"name": "Armored Front",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/1_Armored Front.png"
+			}
+		},
+		{
+			"name": "Magnus, the Soul Stealer",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Planeswalker — Magnus ",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EZA-files/img/93_Magnus, the Soul Stealer.png"
+			}
+		}
+	]
+[RareSlot(1)]
+2 Ghostblade Spirit
+2 Blazing Abomination
+2 Malfunction Myr
+2 Mystic Polymorph
+2 Smog Reaper
+2 Writhing Nightmare
+2 Warper's Amulet
+2 Path of War
+2 Menrylia's Chosen
+2 Sylvan Gift
+2 Overworld Ghast
+2 Enter the Den
+2 Ezanavi Apocalypse
+2 Dalwood Protector
+2 Blade of the Survivor
+2 Overworld Sage
+2 Dreadculler Headhunter
+2 Lunar Gateway
+2 Adapted Warhorse
+2 Scion of the Lotus
+2 Consuming Curse
+2 Fairglade Elf
+2 Mana Gauntlet
+2 Blunt Diplomacy
+2 Necrogen Outbreak
+2 Disciple of Madt
+2 Blisterflame
+2 Torment Engine
+2 Ghostfire Hellhound
+2 Tesaren Transmuter
+2 Unfettered Virtue
+2 Call from Beyond
+2 Senzu's Doomspeaker
+2 Orthodoxy Activation
+2 Darkworld Equinox
+2 Brutal Cataclysm
+2 Madt Avenged
+2 Aftermath Hellkite
+2 World Fracture
+2 Arcane Recurve
+2 Dalwood Titan
+2 Whispering Shaman
+2 Fire with Fire
+2 Chancellor of Riddles
+2 Fall
+2 Warp Bolt
+2 Demigod Chant
+2 Madness at the Morgue
+2 Aspect of Kord
+2 Sentient Sentinel
+2 Hardships Undone
+2 Punisher Demon
+2 Banisher's Vault
+2 Alien Objective
+2 Weaponized Myr
+2 Brambled Slope
+2 Canopy Enclave
+2 Crumbling Crucible
+2 Frozen Waterfall
+2 Sunken Mire
+2 Mindflay Amalgam
+2 Cavern Thane
+2 Ruinator Thane
+2 Knight of Fallen Ralixa
+2 Unwinding Paths
+2 Doubling Season
+1 Roilsoul
+1 Thenebras
+1 Atro, Eternities' Guard
+1 Tezzeret, Bolas's Seeker
+1 Fiery Encore
+1 Senzu the Madman
+1 Consumer of Worlds
+1 Plane's Captive
+1 Menrylia, Sylvan Heir
+1 Ja'Madt, Warleader
+1 Lieutenant of Madt
+1 Soul of Ezanavi
+1 Destiny Stone
+1 Keled, Witness of the End
+1 Elesh Norn of the Machine
+1 Sev Gitaxius
+1 Sheoldred, Blighted Thane
+1 Urabrask, the Devourer
+1 Korborat Thraxis
+1 Koth, Hatred Unbound
+1 Magnus, the Soul Stealer
+[UncommonSlot(4)]
+9 Aetherbond Titan
+9 Inquisitor's Scorn
+9 Descry
+9 Alloy Knight
+9 Darkworld Nuisance
+9 Modified Thopter
+9 Order of Norn
+9 Skyway Hellkite
+9 Scroll Keeper
+9 Adaptive Blade
+9 Axemad Monger
+9 Imperial Elf
+9 Soulrend
+9 Souleater Machine
+9 Overworld Palace
+9 Ralixan Oasis
+9 Tangled Ruins
+9 Nimul Mucklands
+9 Dreadculler Lair
+9 Thane's Knight
+9 Brink
+9 Thran Probe
+9 Ei'tal Horror
+9 Physical Restraint
+9 Ei'tal Betrayer
+9 Punishing Flame
+9 Grim Unburial
+9 Ei'tal Predator
+9 Talon Mantra
+9 Tesaren Transfiguration
+9 Tesaren Wings
+9 Corruptive Symbiote
+9 Lost Everything
+9 Proven Worthy
+9 Arcana Hunter
+9 Madt Sword
+9 Heroes' Reunion
+9 Hornback Goliath
+9 Infiltrator's Cloak
+9 Delayed Imports
+9 Brass Hydra
+9 Dreadculler Agent
+9 Final Triumph
+9 Glacial Gloombeast
+9 Oilfire Dragon
+9 Skyrune
+9 Vault of the Ancients
+9 Wreckage Monger
+9 Battlewise Enigma
+9 Tesaren Protector
+9 Brightmind Trickster
+9 Druid Den
+9 Warpers' Lab
+9 Radiant Outskirts
+9 Madt Barracks
+9 Senzu's Hideout
+9 Rift Storm
+9 Walking Brambles
+9 Sylvan Prosperity
+9 Power from Practice
+9 Skycoil Wurm
+9 Overworld Cloak
+9 Celestial Vengeance
+9 Submerged Despair
+9 Assured Destruction
+9 Elite Bargains
+9 Ride Down
+9 Blasphemous Strength
+9 Exiled Bloodmage
+9 Adventurer's Hatchet
+9 Distracting Chameleon
+9 Banished Forerunner
+9 Ralixan Markets
+9 Follower of Ja'Madt
+9 Furyborn
+9 Norn Tinkerer
+9 Gitaxian Deceiver
+9 Septic Yeoman
+9 Siege Ichorknight
+9 Tears of your Enemies
+9 Lich Ravager
+9 Madt's Summons
+9 Thane's Herald
+9 Jagged Magmoid
+9 Hideout
+9 Tesaren Avenger
+9 Biotic Dragon Engine
+9 Ei'tal Crawler
+[CommonSlot(10)]
+30 Landsurge
+30 Sunquash Colossus
+30 Gitaxian Engine
+30 Dragonflame Spitter
+30 Phyretic Templar
+30 Gather Allies
+30 Living Probe
+30 Ralixan Cleric
+30 Noble Griffin
+30 Might of the Carnivore
+30 Steel Wall
+30 Goblin Firecaller
+30 Scattered Lightning
+30 Pathway Messengers
+30 Voice of Gix
+30 Recycle Machinery
+30 Silent Entity
+30 Sowrazer Stag
+30 Illusory Phenomenon
+30 Pthisus Contamination
+30 Hidden Armory
+30 Hex Mist
+30 Bladechild
+30 Myr Servant
+30 Dauntless Rage
+30 Amphin Alchemist
+30 Tranquil Gardens
+30 Dreg Mob
+30 Scion of Wind
+30 Blood Alchemist
+30 Smite the Monstrous
+30 Duskbane Angel
+30 Servants of Senzu
+30 Urabrask Fodder
+30 Glistening Frost
+30 Aether Bonds
+30 Ichorslick Blade
+30 Blighted Shadow
+30 Corporeal Injury
+30 Silent Stab
+30 Captivating Duelist
+30 Artifice Shell
+30 Ashen Horror
+30 Gut Shot
+30 Glistener Pawns
+30 Urabrask's Emissary
+30 Lingering Reality
+30 Gitaxian Probe
+30 Machine's Embrace
+30 Mutagenic Growth
+30 Fleshrage
+30 Bloodmist Glider
+30 Fatality Guise
+30 Holy Might
+30 Elusive Reaver
+30 Blighted Ambition
+30 Phyresis Drone
+30 Ecol Guard
+30 Tesaren Abberation
+30 Polyglot Elf
+30 Invasion Behemoth
+30 Darksteel Ingot
+30 Phyrexian Lacerator
+30 Phyrexian Citadel
+30 Party Reinforcement
+30 Oilvein Elemental
+30 Norn Sorceror
+30 Soul Defiler
+30 Gitaxian Auger
+30 Praetor's Scheme
+30 Chittering Plateling
+30 Urabrask Mage
+30 Sentinels of Korborat
+30 Consult the Records
+30 Implant Memories
+30 Ichorflesh Mob
+30 Burning Hands
+30 Sylvan Conviction
+30 Priest of Urabrask
+30 Magma Spray
+30 Ichordash Horror
+30 Ichorclaw Dragon
+30 Dalwood Meddler
+30 Tesaren Sentry
+30 Orthodoxy Cerebrate
+30 Fume Spitter
+30 Darksteel Ravager
+30 Lone Squire
+30 Armored Front
