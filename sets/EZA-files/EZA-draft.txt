@@ -2641,7 +2641,7 @@
 			}
 		}
 	]
-[RareSlot(1)]
+[RareSlot(2)]
 2 Ghostblade Spirit
 2 Blazing Abomination
 2 Malfunction Myr
@@ -2818,7 +2818,7 @@
 9 Tesaren Avenger
 9 Biotic Dragon Engine
 9 Ei'tal Crawler
-[CommonSlot(10)]
+[CommonSlot(9)]
 30 Landsurge
 30 Sunquash Colossus
 30 Gitaxian Engine

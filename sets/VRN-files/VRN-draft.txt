@@ -2949,9 +2949,19 @@
 			"image_uris": {
 				"en": "https://kebelqwa.github.io/sets/VRN-files/img/4_Energy Reserve.png"
 			}
+		},
+		{
+			"name": "Mara, Hand of the Core Emblem",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Emblem",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/VRN-files/img/18_Mara, Hand of the Core Emblem.png"
+			}
 		}
 	]
-[RareSlot(1)]
+[RareSlot(2)]
 2 League Pyromancer
 2 Ampryn Confidant
 2 Gear Matrix
@@ -3107,7 +3117,7 @@
 9 Ardent Recruiter
 9 Do or Die
 9 Springleaf Drum
-[CommonSlot(10)]
+[CommonSlot(9)]
 30 Conniving Voidmage
 30 Ampryn Frontliner
 30 Mage-Ring Engineer

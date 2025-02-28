@@ -2946,7 +2946,7 @@
 			}
 		}
 	]
-[RareSlot(1)]
+[RareSlot(2)]
 2 Bantha Herd
 2 Lando Calrissian
 2 Maintenance Hangar
@@ -3105,7 +3105,7 @@
 9 The Battle of Kashyyyk
 9 Dengar
 9 Jump to Hyperspace
-[CommonSlot(10)]
+[CommonSlot(9)]
 30 Lockdown
 30 Cantina Band
 30 Escape Pod

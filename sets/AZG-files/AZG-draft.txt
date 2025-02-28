@@ -2931,7 +2931,7 @@
 			}
 		}
 	]
-[RareSlot(1)]
+[RareSlot(2)]
 2 Zof Voqu Magistrate
 2 Curse of the Wasteful
 2 Refraction Dragon
@@ -3101,7 +3101,7 @@
 9 Unravel the Aether
 9 IxNaar High Priest
 9 Ethercast Intuition
-[CommonSlot(10)]
+[CommonSlot(9)]
 30 IxNaar Overseers
 30 Due Respect
 30 IxNaar Abomination
