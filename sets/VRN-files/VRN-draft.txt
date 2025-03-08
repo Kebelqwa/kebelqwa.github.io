@@ -75,9 +75,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Legendary Planeswalker — Mara ",
-			"collector_number": "28",
+			"collector_number": "27",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/28_Mara, Hand of the Core.png"
+				"en": "https://kebelqwa.github.io/sets/VRN-files/img/27_Mara, Hand of the Core.png"
 			}
 		},
 		{
@@ -375,9 +375,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "32",
+			"collector_number": "31",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/32_Pylon Protector.png"
+				"en": "https://kebelqwa.github.io/sets/VRN-files/img/31_Pylon Protector.png"
 			}
 		},
 		{
@@ -865,9 +865,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Artifact",
-			"collector_number": "25",
+			"collector_number": "24",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/25_Glorious Mage-Ring.png"
+				"en": "https://kebelqwa.github.io/sets/VRN-files/img/24_Glorious Mage-Ring.png"
 			}
 		},
 		{
@@ -965,9 +965,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W}",
 			"type": "Creature — Phyrexian Soldier ",
-			"collector_number": "30",
+			"collector_number": "29",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/30_Phyrexian Facestealer.png"
+				"en": "https://kebelqwa.github.io/sets/VRN-files/img/29_Phyrexian Facestealer.png"
 			}
 		},
 		{
@@ -1015,9 +1015,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Sorcery",
-			"collector_number": "26",
+			"collector_number": "25",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/26_Jolted Awake.png"
+				"en": "https://kebelqwa.github.io/sets/VRN-files/img/25_Jolted Awake.png"
 			}
 		},
 		{
@@ -1055,9 +1055,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "29",
+			"collector_number": "28",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/29_Peacekeeper Plane.png"
+				"en": "https://kebelqwa.github.io/sets/VRN-files/img/28_Peacekeeper Plane.png"
 			}
 		},
 		{
@@ -1521,13 +1521,13 @@
 			}
 		},
 		{
-			"name": "Ghalian Upriser",
+			"name": "Ranna, the Revitalizer",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}",
-			"type": "Creature — Human Rebel ",
-			"collector_number": "24",
+			"type": "Legendary Creature — Human Rebel ",
+			"collector_number": "32",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/24_Ghalian Upriser.png"
+				"en": "https://kebelqwa.github.io/sets/VRN-files/img/32_Ranna, the Revitalizer.png"
 			}
 		},
 		{
@@ -1535,9 +1535,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "31",
+			"collector_number": "30",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/31_Political Shift.png"
+				"en": "https://kebelqwa.github.io/sets/VRN-files/img/30_Political Shift.png"
 			}
 		},
 		{
@@ -1925,9 +1925,9 @@
 			"rarity": "rare",
 			"mana_cost": "{W}",
 			"type": "Enchantment",
-			"collector_number": "27",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/27_Mandatory Reconstruction.png"
+				"en": "https://kebelqwa.github.io/sets/VRN-files/img/26_Mandatory Reconstruction.png"
 			}
 		},
 		{
@@ -3074,7 +3074,7 @@
 9 Harvester Font
 9 Trovian Veteren
 9 Ward Splicer
-9 Ghalian Upriser
+9 Ranna, the Revitalizer
 9 Political Shift
 9 Civilian Transport
 9 Flux Diviner

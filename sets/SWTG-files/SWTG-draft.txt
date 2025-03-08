@@ -714,7 +714,7 @@
 		{
 			"name": "Force Drain",
 			"rarity": "common",
-			"mana_cost": "{2}{B}",
+			"mana_cost": "{1}{B}",
 			"type": "Instant",
 			"collector_number": "79",
 			"image_uris": {
@@ -1052,7 +1052,7 @@
 			"name": "Imperial Gunner",
 			"rarity": "common",
 			"mana_cost": "{R}",
-			"type": "Creature — Human Trooper ",
+			"type": "Creature — Human Soldier ",
 			"collector_number": "115",
 			"image_uris": {
 				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/115_Imperial Gunner.png"
@@ -2616,7 +2616,7 @@
 			"name": "Royal Guard",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Trooper ",
+			"type": "Token Creature — Soldier ",
 			"collector_number": "10",
 			"image_uris": {
 				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/10_Royal Guard.png"
