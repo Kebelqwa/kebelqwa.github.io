@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="sets/EZA-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>EZA visual spoiler</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 3%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/EZA-files/logo.png" />
+	<img class="preload-hidden" src="/sets/ANX-files/icon.png" />
+		<img class="preload-hidden" src="/sets/AZG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/EZA-files/icon.png" />
+		<img class="preload-hidden" src="/sets/SWTG-files/icon.png" />
+		<img class="preload-hidden" src="/sets/VRN-files/icon.png" />
+		<img class="preload-hidden" id="bg" src="/sets/EZA-files/bg.png" />
+		
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="ANX-spoiler"><img src="sets/ANX-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="AZG-spoiler"><img src="sets/AZG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="EZA-spoiler"><img src="sets/EZA-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="SWTG-spoiler"><img src="sets/SWTG-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="VRN-spoiler"><img src="sets/VRN-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="sets/EZA-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="sets\EZA-files\img\9_Elesh Norn of the Machine.png" id="9_Elesh Norn of the Machine" data-flag="@X" onclick="openSidebar('9_Elesh Norn of the Machine',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\41_Atro, Eternities' Guard.png" id="41_Atro, Eternities Guard" data-flag="@X" onclick="openSidebar('41_Atro, Eternities Guard',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\93_Magnus, the Soul Stealer.png" id="93_Magnus, the Soul Stealer" data-flag="@X" onclick="openSidebar('93_Magnus, the Soul Stealer',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\125_Fiery Encore.png" id="125_Fiery Encore" data-flag="@X" onclick="openSidebar('125_Fiery Encore',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\151_Consumer of Worlds.png" id="151_Consumer of Worlds" data-flag="@X" onclick="openSidebar('151_Consumer of Worlds',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\15_Lieutenant of Madt.png" id="15_Lieutenant of Madt" data-flag="@X" onclick="openSidebar('15_Lieutenant of Madt',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\67_Sev Gitaxius.png" id="67_Sev Gitaxius" data-flag="@X" onclick="openSidebar('67_Sev Gitaxius',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\103_Sheoldred, Blighted Thane.png" id="103_Sheoldred, Blighted Thane" data-flag="@X" onclick="openSidebar('103_Sheoldred, Blighted Thane',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\135_Koth, Hatred Unbound.png" id="135_Koth, Hatred Unbound" data-flag="@X" onclick="openSidebar('135_Koth, Hatred Unbound',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\167_Korborat Thraxis.png" id="167_Korborat Thraxis" data-flag="@X" onclick="openSidebar('167_Korborat Thraxis',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\27_Plane's Captive.png" id="27_Planes Captive" data-flag="@X" onclick="openSidebar('27_Planes Captive',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\72_Tezzeret, Bolas's Seeker.png" id="72_Tezzeret, Bolass Seeker" data-flag="@X" onclick="openSidebar('72_Tezzeret, Bolass Seeker',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\109_Thenebras.png" id="109_Thenebras" data-flag="@X" onclick="openSidebar('109_Thenebras',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\147_Urabrask, the Devourer.png" id="147_Urabrask, the Devourer" data-flag="@X" onclick="openSidebar('147_Urabrask, the Devourer',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\176_Roilsoul.png" id="176_Roilsoul" data-flag="@X" onclick="openSidebar('176_Roilsoul',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\2_Banisher's Vault.png" id="2_Banishers Vault" data-flag="@X" onclick="openSidebar('2_Banishers Vault',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\40_Arcane Recurve.png" id="40_Arcane Recurve" data-flag="@X" onclick="openSidebar('40_Arcane Recurve',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\79_Cavern Thane.png" id="79_Cavern Thane" data-flag="@X" onclick="openSidebar('79_Cavern Thane',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\112_Adapted Warhorse.png" id="112_Adapted Warhorse" data-flag="@X" onclick="openSidebar('112_Adapted Warhorse',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\149_Alien Objective.png" id="149_Alien Objective" data-flag="@X" onclick="openSidebar('149_Alien Objective',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\7_Disciple of Madt.png" id="7_Disciple of Madt" data-flag="@X" onclick="openSidebar('7_Disciple of Madt',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\43_Chancellor of Riddles.png" id="43_Chancellor of Riddles" data-flag="@X" onclick="openSidebar('43_Chancellor of Riddles',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\80_Consuming Curse.png" id="80_Consuming Curse" data-flag="@X" onclick="openSidebar('80_Consuming Curse',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\113_Aftermath Hellkite.png" id="113_Aftermath Hellkite" data-flag="@X" onclick="openSidebar('113_Aftermath Hellkite',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\153_Dalwood Protector.png" id="153_Dalwood Protector" data-flag="@X" onclick="openSidebar('153_Dalwood Protector',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\10_Enter the Den.png" id="10_Enter the Den" data-flag="@X" onclick="openSidebar('10_Enter the Den',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\49_Ghostblade Spirit.png" id="49_Ghostblade Spirit" data-flag="@X" onclick="openSidebar('49_Ghostblade Spirit',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\85_Ezanavi Apocalypse.png" id="85_Ezanavi Apocalypse" data-flag="@X" onclick="openSidebar('85_Ezanavi Apocalypse',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\118_Blade of the Survivor.png" id="118_Blade of the Survivor" data-flag="@X" onclick="openSidebar('118_Blade of the Survivor',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\154_Dalwood Titan.png" id="154_Dalwood Titan" data-flag="@X" onclick="openSidebar('154_Dalwood Titan',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\11_Fall.png" id="11_Fall" data-flag="@X" onclick="openSidebar('11_Fall',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\60_Mindflay Amalgam.png" id="60_Mindflay Amalgam" data-flag="@X" onclick="openSidebar('60_Mindflay Amalgam',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\94_Necrogen Outbreak.png" id="94_Necrogen Outbreak" data-flag="@X" onclick="openSidebar('94_Necrogen Outbreak',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\119_Blazing Abomination.png" id="119_Blazing Abomination" data-flag="@X" onclick="openSidebar('119_Blazing Abomination',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\156_Doubling Season.png" id="156_Doubling Season" data-flag="@X" onclick="openSidebar('156_Doubling Season',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\14_Knight of Fallen Ralixa.png" id="14_Knight of Fallen Ralixa" data-flag="@X" onclick="openSidebar('14_Knight of Fallen Ralixa',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\61_Mystic Polymorph.png" id="61_Mystic Polymorph" data-flag="@X" onclick="openSidebar('61_Mystic Polymorph',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\99_Ruinator Thane.png" id="99_Ruinator Thane" data-flag="@X" onclick="openSidebar('99_Ruinator Thane',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\120_Blisterflame.png" id="120_Blisterflame" data-flag="@X" onclick="openSidebar('120_Blisterflame',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\160_Fairglade Elf.png" id="160_Fairglade Elf" data-flag="@X" onclick="openSidebar('160_Fairglade Elf',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\24_Orthodoxy Activation.png" id="24_Orthodoxy Activation" data-flag="@X" onclick="openSidebar('24_Orthodoxy Activation',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\62_Overworld Sage.png" id="62_Overworld Sage" data-flag="@X" onclick="openSidebar('62_Overworld Sage',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\100_Senzu's Doomspeaker.png" id="100_Senzus Doomspeaker" data-flag="@X" onclick="openSidebar('100_Senzus Doomspeaker',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\126_Fire with Fire.png" id="126_Fire with Fire" data-flag="@X" onclick="openSidebar('126_Fire with Fire',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\169_Menrylia's Chosen.png" id="169_Menrylias Chosen" data-flag="@X" onclick="openSidebar('169_Menrylias Chosen',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\36_Torment Engine.png" id="36_Torment Engine" data-flag="@X" onclick="openSidebar('36_Torment Engine',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\71_Tesaren Transmuter.png" id="71_Tesaren Transmuter" data-flag="@X" onclick="openSidebar('71_Tesaren Transmuter',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\106_Smog Reaper.png" id="106_Smog Reaper" data-flag="@X" onclick="openSidebar('106_Smog Reaper',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\129_Ghostfire Hellhound.png" id="129_Ghostfire Hellhound" data-flag="@X" onclick="openSidebar('129_Ghostfire Hellhound',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\177_Scion of the Lotus.png" id="177_Scion of the Lotus" data-flag="@X" onclick="openSidebar('177_Scion of the Lotus',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\37_Unfettered Virtue.png" id="37_Unfettered Virtue" data-flag="@X" onclick="openSidebar('37_Unfettered Virtue',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\74_Unwinding Paths.png" id="74_Unwinding Paths" data-flag="@X" onclick="openSidebar('74_Unwinding Paths',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\111_Writhing Nightmare.png" id="111_Writhing Nightmare" data-flag="@X" onclick="openSidebar('111_Writhing Nightmare',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\138_Path of War.png" id="138_Path of War" data-flag="@X" onclick="openSidebar('138_Path of War',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\185_Whispering Shaman.png" id="185_Whispering Shaman" data-flag="@X" onclick="openSidebar('185_Whispering Shaman',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\3_Battlewise Enigma.png" id="3_Battlewise Enigma" data-flag="@X" onclick="openSidebar('3_Battlewise Enigma',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\42_Brink.png" id="42_Brink" data-flag="@X" onclick="openSidebar('42_Brink',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\81_Corruptive Symbiote.png" id="81_Corruptive Symbiote" data-flag="@X" onclick="openSidebar('81_Corruptive Symbiote',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\115_Axemad Monger.png" id="115_Axemad Monger" data-flag="@X" onclick="openSidebar('115_Axemad Monger',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\150_Blasphemous Strength.png" id="150_Blasphemous Strength" data-flag="@X" onclick="openSidebar('150_Blasphemous Strength',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\6_Celestial Vengeance.png" id="6_Celestial Vengeance" data-flag="@X" onclick="openSidebar('6_Celestial Vengeance',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\46_Delayed Imports.png" id="46_Delayed Imports" data-flag="@X" onclick="openSidebar('46_Delayed Imports',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\82_Darkworld Nuisance.png" id="82_Darkworld Nuisance" data-flag="@X" onclick="openSidebar('82_Darkworld Nuisance',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\116_Banished Forerunner.png" id="116_Banished Forerunner" data-flag="@X" onclick="openSidebar('116_Banished Forerunner',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\155_Distracting Chameleon.png" id="155_Distracting Chameleon" data-flag="@X" onclick="openSidebar('155_Distracting Chameleon',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\18_Madt Sword.png" id="18_Madt Sword" data-flag="@X" onclick="openSidebar('18_Madt Sword',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\47_Descry.png" id="47_Descry" data-flag="@X" onclick="openSidebar('47_Descry',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\84_Ei'tal Betrayer.png" id="84_Eital Betrayer" data-flag="@X" onclick="openSidebar('84_Eital Betrayer',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\117_Biotic Dragon Engine.png" id="117_Biotic Dragon Engine" data-flag="@X" onclick="openSidebar('117_Biotic Dragon Engine',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\158_Ei'tal Crawler.png" id="158_Eital Crawler" data-flag="@X" onclick="openSidebar('158_Eital Crawler',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\19_Madt's Summons.png" id="19_Madts Summons" data-flag="@X" onclick="openSidebar('19_Madts Summons',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\51_Gitaxian Deceiver.png" id="51_Gitaxian Deceiver" data-flag="@X" onclick="openSidebar('51_Gitaxian Deceiver',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\89_Grim Unburial.png" id="89_Grim Unburial" data-flag="@X" onclick="openSidebar('89_Grim Unburial',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\127_Follower of Ja'Madt.png" id="127_Follower of JaMadt" data-flag="@X" onclick="openSidebar('127_Follower of JaMadt',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\159_Ei'tal Horror.png" id="159_Eital Horror" data-flag="@X" onclick="openSidebar('159_Eital Horror',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\22_Norn Tinkerer.png" id="22_Norn Tinkerer" data-flag="@X" onclick="openSidebar('22_Norn Tinkerer',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\54_Glacial Gloombeast.png" id="54_Glacial Gloombeast" data-flag="@X" onclick="openSidebar('54_Glacial Gloombeast',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\91_Lich Ravager.png" id="91_Lich Ravager" data-flag="@X" onclick="openSidebar('91_Lich Ravager',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\128_Furyborn.png" id="128_Furyborn" data-flag="@X" onclick="openSidebar('128_Furyborn',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\163_Hideout.png" id="163_Hideout" data-flag="@X" onclick="openSidebar('163_Hideout',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\23_Order of Norn.png" id="23_Order of Norn" data-flag="@X" onclick="openSidebar('23_Order of Norn',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\63_Power from Practice.png" id="63_Power from Practice" data-flag="@X" onclick="openSidebar('63_Power from Practice',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\92_Lost Everything.png" id="92_Lost Everything" data-flag="@X" onclick="openSidebar('92_Lost Everything',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\134_Jagged Magmoid.png" id="134_Jagged Magmoid" data-flag="@X" onclick="openSidebar('134_Jagged Magmoid',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\164_Hornback Goliath.png" id="164_Hornback Goliath" data-flag="@X" onclick="openSidebar('164_Hornback Goliath',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\28_Proven Worthy.png" id="28_Proven Worthy" data-flag="@X" onclick="openSidebar('28_Proven Worthy',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\66_Scroll Keeper.png" id="66_Scroll Keeper" data-flag="@X" onclick="openSidebar('66_Scroll Keeper',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\101_Septic Yeoman.png" id="101_Septic Yeoman" data-flag="@X" onclick="openSidebar('101_Septic Yeoman',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\137_Oilfire Dragon.png" id="137_Oilfire Dragon" data-flag="@X" onclick="openSidebar('137_Oilfire Dragon',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\165_Imperial Elf.png" id="165_Imperial Elf" data-flag="@X" onclick="openSidebar('165_Imperial Elf',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\30_Ralixan Markets.png" id="30_Ralixan Markets" data-flag="@X" onclick="openSidebar('30_Ralixan Markets',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\69_Submerged Despair.png" id="69_Submerged Despair" data-flag="@X" onclick="openSidebar('69_Submerged Despair',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\104_Siege Ichorknight.png" id="104_Siege Ichorknight" data-flag="@X" onclick="openSidebar('104_Siege Ichorknight',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\140_Punishing Flame.png" id="140_Punishing Flame" data-flag="@X" onclick="openSidebar('140_Punishing Flame',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\179_Skycoil Wurm.png" id="179_Skycoil Wurm" data-flag="@X" onclick="openSidebar('179_Skycoil Wurm',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\31_Skyrune.png" id="31_Skyrune" data-flag="@X" onclick="openSidebar('31_Skyrune',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\70_Tears of your Enemies.png" id="70_Tears of your Enemies" data-flag="@X" onclick="openSidebar('70_Tears of your Enemies',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\107_Thane's Herald.png" id="107_Thanes Herald" data-flag="@X" onclick="openSidebar('107_Thanes Herald',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\141_Rift Storm.png" id="141_Rift Storm" data-flag="@X" onclick="openSidebar('141_Rift Storm',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\182_Sylvan Prosperity.png" id="182_Sylvan Prosperity" data-flag="@X" onclick="openSidebar('182_Sylvan Prosperity',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\35_Tesaren Wings.png" id="35_Tesaren Wings" data-flag="@X" onclick="openSidebar('35_Tesaren Wings',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\73_Thran Probe.png" id="73_Thran Probe" data-flag="@X" onclick="openSidebar('73_Thran Probe',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\108_Thane's Knight.png" id="108_Thanes Knight" data-flag="@X" onclick="openSidebar('108_Thanes Knight',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\143_Skyway Hellkite.png" id="143_Skyway Hellkite" data-flag="@X" onclick="openSidebar('143_Skyway Hellkite',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\184_Walking Brambles.png" id="184_Walking Brambles" data-flag="@X" onclick="openSidebar('184_Walking Brambles',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\1_Armored Front.png" id="1_Armored Front" data-flag="@X" onclick="openSidebar('1_Armored Front',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\38_Aether Bonds.png" id="38_Aether Bonds" data-flag="@X" onclick="openSidebar('38_Aether Bonds',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\75_Blighted Ambition.png" id="75_Blighted Ambition" data-flag="@X" onclick="openSidebar('75_Blighted Ambition',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\114_Ashen Horror.png" id="114_Ashen Horror" data-flag="@X" onclick="openSidebar('114_Ashen Horror',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\152_Dalwood Meddler.png" id="152_Dalwood Meddler" data-flag="@X" onclick="openSidebar('152_Dalwood Meddler',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\4_Bladechild.png" id="4_Bladechild" data-flag="@X" onclick="openSidebar('4_Bladechild',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\39_Amphin Alchemist.png" id="39_Amphin Alchemist" data-flag="@X" onclick="openSidebar('39_Amphin Alchemist',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\76_Blighted Shadow.png" id="76_Blighted Shadow" data-flag="@X" onclick="openSidebar('76_Blighted Shadow',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\121_Burning Hands.png" id="121_Burning Hands" data-flag="@X" onclick="openSidebar('121_Burning Hands',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\157_Ecol Guard.png" id="157_Ecol Guard" data-flag="@X" onclick="openSidebar('157_Ecol Guard',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\5_Captivating Duelist.png" id="5_Captivating Duelist" data-flag="@X" onclick="openSidebar('5_Captivating Duelist',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\44_Consult the Records.png" id="44_Consult the Records" data-flag="@X" onclick="openSidebar('44_Consult the Records',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\77_Blood Alchemist.png" id="77_Blood Alchemist" data-flag="@X" onclick="openSidebar('77_Blood Alchemist',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\122_Chittering Plateling.png" id="122_Chittering Plateling" data-flag="@X" onclick="openSidebar('122_Chittering Plateling',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\161_Fleshrage.png" id="161_Fleshrage" data-flag="@X" onclick="openSidebar('161_Fleshrage',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\8_Duskbane Angel.png" id="8_Duskbane Angel" data-flag="@X" onclick="openSidebar('8_Duskbane Angel',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\45_Corporeal Injury.png" id="45_Corporeal Injury" data-flag="@X" onclick="openSidebar('45_Corporeal Injury',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\78_Bloodmist Glider.png" id="78_Bloodmist Glider" data-flag="@X" onclick="openSidebar('78_Bloodmist Glider',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\123_Dauntless Rage.png" id="123_Dauntless Rage" data-flag="@X" onclick="openSidebar('123_Dauntless Rage',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\162_Hex Mist.png" id="162_Hex Mist" data-flag="@X" onclick="openSidebar('162_Hex Mist',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\12_Gather Allies.png" id="12_Gather Allies" data-flag="@X" onclick="openSidebar('12_Gather Allies',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\48_Elusive Reaver.png" id="48_Elusive Reaver" data-flag="@X" onclick="openSidebar('48_Elusive Reaver',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\83_Dreg Mob.png" id="83_Dreg Mob" data-flag="@X" onclick="openSidebar('83_Dreg Mob',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\124_Dragonflame Spitter.png" id="124_Dragonflame Spitter" data-flag="@X" onclick="openSidebar('124_Dragonflame Spitter',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\166_Invasion Behemoth.png" id="166_Invasion Behemoth" data-flag="@X" onclick="openSidebar('166_Invasion Behemoth',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\13_Holy Might.png" id="13_Holy Might" data-flag="@X" onclick="openSidebar('13_Holy Might',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\50_Gitaxian Auger.png" id="50_Gitaxian Auger" data-flag="@X" onclick="openSidebar('50_Gitaxian Auger',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\86_Fatality Guise.png" id="86_Fatality Guise" data-flag="@X" onclick="openSidebar('86_Fatality Guise',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\130_Goblin Firecaller.png" id="130_Goblin Firecaller" data-flag="@X" onclick="openSidebar('130_Goblin Firecaller',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\168_Landsurge.png" id="168_Landsurge" data-flag="@X" onclick="openSidebar('168_Landsurge',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\16_Lone Squire.png" id="16_Lone Squire" data-flag="@X" onclick="openSidebar('16_Lone Squire',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\52_Gitaxian Engine.png" id="52_Gitaxian Engine" data-flag="@X" onclick="openSidebar('52_Gitaxian Engine',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\87_Fume Spitter.png" id="87_Fume Spitter" data-flag="@X" onclick="openSidebar('87_Fume Spitter',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\131_Gut Shot.png" id="131_Gut Shot" data-flag="@X" onclick="openSidebar('131_Gut Shot',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\170_Might of the Carnivore.png" id="170_Might of the Carnivore" data-flag="@X" onclick="openSidebar('170_Might of the Carnivore',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\17_Machine's Embrace.png" id="17_Machines Embrace" data-flag="@X" onclick="openSidebar('17_Machines Embrace',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\53_Gitaxian Probe.png" id="53_Gitaxian Probe" data-flag="@X" onclick="openSidebar('53_Gitaxian Probe',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\88_Glistener Pawns.png" id="88_Glistener Pawns" data-flag="@X" onclick="openSidebar('88_Glistener Pawns',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\132_Ichorclaw Dragon.png" id="132_Ichorclaw Dragon" data-flag="@X" onclick="openSidebar('132_Ichorclaw Dragon',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\171_Mutagenic Growth.png" id="171_Mutagenic Growth" data-flag="@X" onclick="openSidebar('171_Mutagenic Growth',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\20_Noble Griffin.png" id="20_Noble Griffin" data-flag="@X" onclick="openSidebar('20_Noble Griffin',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\55_Glistening Frost.png" id="55_Glistening Frost" data-flag="@X" onclick="openSidebar('55_Glistening Frost',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\90_Ichorflesh Mob.png" id="90_Ichorflesh Mob" data-flag="@X" onclick="openSidebar('90_Ichorflesh Mob',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\133_Ichordash Horror.png" id="133_Ichordash Horror" data-flag="@X" onclick="openSidebar('133_Ichordash Horror',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\172_Oilvein Elemental.png" id="172_Oilvein Elemental" data-flag="@X" onclick="openSidebar('172_Oilvein Elemental',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\21_Norn Sorceror.png" id="21_Norn Sorceror" data-flag="@X" onclick="openSidebar('21_Norn Sorceror',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\56_Illusory Phenomenon.png" id="56_Illusory Phenomenon" data-flag="@X" onclick="openSidebar('56_Illusory Phenomenon',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\95_Phyresis Drone.png" id="95_Phyresis Drone" data-flag="@X" onclick="openSidebar('95_Phyresis Drone',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\136_Magma Spray.png" id="136_Magma Spray" data-flag="@X" onclick="openSidebar('136_Magma Spray',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\173_Party Reinforcement.png" id="173_Party Reinforcement" data-flag="@X" onclick="openSidebar('173_Party Reinforcement',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\25_Orthodoxy Cerebrate.png" id="25_Orthodoxy Cerebrate" data-flag="@X" onclick="openSidebar('25_Orthodoxy Cerebrate',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\57_Implant Memories.png" id="57_Implant Memories" data-flag="@X" onclick="openSidebar('57_Implant Memories',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\96_Phyretic Templar.png" id="96_Phyretic Templar" data-flag="@X" onclick="openSidebar('96_Phyretic Templar',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\139_Priest of Urabrask.png" id="139_Priest of Urabrask" data-flag="@X" onclick="openSidebar('139_Priest of Urabrask',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\174_Polyglot Elf.png" id="174_Polyglot Elf" data-flag="@X" onclick="openSidebar('174_Polyglot Elf',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\26_Pathway Messengers.png" id="26_Pathway Messengers" data-flag="@X" onclick="openSidebar('26_Pathway Messengers',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\58_Lingering Reality.png" id="58_Lingering Reality" data-flag="@X" onclick="openSidebar('58_Lingering Reality',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\97_Phyrexian Lacerator.png" id="97_Phyrexian Lacerator" data-flag="@X" onclick="openSidebar('97_Phyrexian Lacerator',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\142_Scattered Lightning.png" id="142_Scattered Lightning" data-flag="@X" onclick="openSidebar('142_Scattered Lightning',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\175_Recycle Machinery.png" id="175_Recycle Machinery" data-flag="@X" onclick="openSidebar('175_Recycle Machinery',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\29_Ralixan Cleric.png" id="29_Ralixan Cleric" data-flag="@X" onclick="openSidebar('29_Ralixan Cleric',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\59_Living Probe.png" id="59_Living Probe" data-flag="@X" onclick="openSidebar('59_Living Probe',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\98_Pthisus Contamination.png" id="98_Pthisus Contamination" data-flag="@X" onclick="openSidebar('98_Pthisus Contamination',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\144_Sunquash Colossus.png" id="144_Sunquash Colossus" data-flag="@X" onclick="openSidebar('144_Sunquash Colossus',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\178_Sentinels of Korborat.png" id="178_Sentinels of Korborat" data-flag="@X" onclick="openSidebar('178_Sentinels of Korborat',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\32_Smite the Monstrous.png" id="32_Smite the Monstrous" data-flag="@X" onclick="openSidebar('32_Smite the Monstrous',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\64_Praetor's Scheme.png" id="64_Praetors Scheme" data-flag="@X" onclick="openSidebar('64_Praetors Scheme',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\102_Servants of Senzu.png" id="102_Servants of Senzu" data-flag="@X" onclick="openSidebar('102_Servants of Senzu',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\145_Urabrask Fodder.png" id="145_Urabrask Fodder" data-flag="@X" onclick="openSidebar('145_Urabrask Fodder',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\180_Sowrazer Stag.png" id="180_Sowrazer Stag" data-flag="@X" onclick="openSidebar('180_Sowrazer Stag',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\33_Soul Defiler.png" id="33_Soul Defiler" data-flag="@X" onclick="openSidebar('33_Soul Defiler',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\65_Scion of Wind.png" id="65_Scion of Wind" data-flag="@X" onclick="openSidebar('65_Scion of Wind',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\105_Silent Stab.png" id="105_Silent Stab" data-flag="@X" onclick="openSidebar('105_Silent Stab',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\146_Urabrask Mage.png" id="146_Urabrask Mage" data-flag="@X" onclick="openSidebar('146_Urabrask Mage',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\181_Sylvan Conviction.png" id="181_Sylvan Conviction" data-flag="@X" onclick="openSidebar('181_Sylvan Conviction',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\34_Tesaren Abberation.png" id="34_Tesaren Abberation" data-flag="@X" onclick="openSidebar('34_Tesaren Abberation',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\68_Silent Entity.png" id="68_Silent Entity" data-flag="@X" onclick="openSidebar('68_Silent Entity',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\110_Voice of Gix.png" id="110_Voice of Gix" data-flag="@X" onclick="openSidebar('110_Voice of Gix',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\148_Urabrask's Emissary.png" id="148_Urabrasks Emissary" data-flag="@X" onclick="openSidebar('148_Urabrasks Emissary',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\183_Tranquil Gardens.png" id="183_Tranquil Gardens" data-flag="@X" onclick="openSidebar('183_Tranquil Gardens',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\211_Overworld Ghast.png" id="211_Overworld Ghast" data-flag="@X" onclick="openSidebar('211_Overworld Ghast',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\197_Dreadculler Headhunter.png" id="197_Dreadculler Headhunter" data-flag="@X" onclick="openSidebar('197_Dreadculler Headhunter',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\213_Punisher Demon.png" id="213_Punisher Demon" data-flag="@X" onclick="openSidebar('213_Punisher Demon',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\189_Blunt Diplomacy.png" id="189_Blunt Diplomacy" data-flag="@X" onclick="openSidebar('189_Blunt Diplomacy',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\209_Menrylia, Sylvan Heir.png" id="209_Menrylia, Sylvan Heir" data-flag="@X" onclick="openSidebar('209_Menrylia, Sylvan Heir',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\221_Tesaren Avenger.png" id="221_Tesaren Avenger" data-flag="@X" onclick="openSidebar('221_Tesaren Avenger',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\186_Arcana Hunter.png" id="186_Arcana Hunter" data-flag="@X" onclick="openSidebar('186_Arcana Hunter',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\200_Exiled Bloodmage.png" id="200_Exiled Bloodmage" data-flag="@X" onclick="openSidebar('200_Exiled Bloodmage',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\188_Assured Destruction.png" id="188_Assured Destruction" data-flag="@X" onclick="openSidebar('188_Assured Destruction',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\203_Heroes' Reunion.png" id="203_Heroes Reunion" data-flag="@X" onclick="openSidebar('203_Heroes Reunion',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\222_Tesaren Protector.png" id="222_Tesaren Protector" data-flag="@X" onclick="openSidebar('222_Tesaren Protector',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\196_Dreadculler Agent.png" id="196_Dreadculler Agent" data-flag="@X" onclick="openSidebar('196_Dreadculler Agent',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\226_Wreckage Monger.png" id="226_Wreckage Monger" data-flag="@X" onclick="openSidebar('226_Wreckage Monger',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\198_Ei'tal Predator.png" id="198_Eital Predator" data-flag="@X" onclick="openSidebar('198_Eital Predator',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\220_Talon Mantra.png" id="220_Talon Mantra" data-flag="@X" onclick="openSidebar('220_Talon Mantra',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\223_Tesaren Transfiguration.png" id="223_Tesaren Transfiguration" data-flag="@X" onclick="openSidebar('223_Tesaren Transfiguration',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\225_World Fracture.png" id="225_World Fracture" data-flag="@X" onclick="openSidebar('225_World Fracture',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\216_Senzu the Madman.png" id="216_Senzu the Madman" data-flag="@X" onclick="openSidebar('216_Senzu the Madman',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\219_Sylvan Gift.png" id="219_Sylvan Gift" data-flag="@X" onclick="openSidebar('219_Sylvan Gift',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\224_Warp Bolt.png" id="224_Warp Bolt" data-flag="@X" onclick="openSidebar('224_Warp Bolt',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\205_Ja'Madt, Warleader.png" id="205_JaMadt, Warleader" data-flag="@X" onclick="openSidebar('205_JaMadt, Warleader',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\199_Elite Bargains.png" id="199_Elite Bargains" data-flag="@X" onclick="openSidebar('199_Elite Bargains',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\190_Brass Hydra.png" id="190_Brass Hydra" data-flag="@X" onclick="openSidebar('190_Brass Hydra',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\210_Overworld Cloak.png" id="210_Overworld Cloak" data-flag="@X" onclick="openSidebar('210_Overworld Cloak',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\191_Brightmind Trickster.png" id="191_Brightmind Trickster" data-flag="@X" onclick="openSidebar('191_Brightmind Trickster',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\206_Keled, Witness of the End.png" id="206_Keled, Witness of the End" data-flag="@X" onclick="openSidebar('206_Keled, Witness of the End',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\218_Soulrend.png" id="218_Soulrend" data-flag="@X" onclick="openSidebar('218_Soulrend',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\212_Physical Restraint.png" id="212_Physical Restraint" data-flag="@X" onclick="openSidebar('212_Physical Restraint',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\204_Inquisitor's Scorn.png" id="204_Inquisitors Scorn" data-flag="@X" onclick="openSidebar('204_Inquisitors Scorn',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\201_Final Triumph.png" id="201_Final Triumph" data-flag="@X" onclick="openSidebar('201_Final Triumph',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\214_Ride Down.png" id="214_Ride Down" data-flag="@X" onclick="openSidebar('214_Ride Down',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\195_Demigod Chant.png" id="195_Demigod Chant" data-flag="@X" onclick="openSidebar('195_Demigod Chant',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\193_Call from Beyond.png" id="193_Call from Beyond" data-flag="@X" onclick="openSidebar('193_Call from Beyond',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\194_Darkworld Equinox.png" id="194_Darkworld Equinox" data-flag="@X" onclick="openSidebar('194_Darkworld Equinox',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\207_Madness at the Morgue.png" id="207_Madness at the Morgue" data-flag="@X" onclick="openSidebar('207_Madness at the Morgue',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\192_Brutal Cataclysm.png" id="192_Brutal Cataclysm" data-flag="@X" onclick="openSidebar('192_Brutal Cataclysm',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\187_Aspect of Kord.png" id="187_Aspect of Kord" data-flag="@X" onclick="openSidebar('187_Aspect of Kord',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\202_Hardships Undone.png" id="202_Hardships Undone" data-flag="@X" onclick="openSidebar('202_Hardships Undone',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\208_Madt Avenged.png" id="208_Madt Avenged" data-flag="@X" onclick="openSidebar('208_Madt Avenged',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\215_Sentient Sentinel.png" id="215_Sentient Sentinel" data-flag="@X" onclick="openSidebar('215_Sentient Sentinel',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\217_Soul of Ezanavi.png" id="217_Soul of Ezanavi" data-flag="@X" onclick="openSidebar('217_Soul of Ezanavi',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\234_Destiny Stone.png" id="234_Destiny Stone" data-flag="@X" onclick="openSidebar('234_Destiny Stone',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\238_Malfunction Myr.png" id="238_Malfunction Myr" data-flag="@X" onclick="openSidebar('238_Malfunction Myr',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\239_Mana Gauntlet.png" id="239_Mana Gauntlet" data-flag="@X" onclick="openSidebar('239_Mana Gauntlet',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\245_Warper's Amulet.png" id="245_Warpers Amulet" data-flag="@X" onclick="openSidebar('245_Warpers Amulet',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\246_Weaponized Myr.png" id="246_Weaponized Myr" data-flag="@X" onclick="openSidebar('246_Weaponized Myr',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\227_Adaptive Blade.png" id="227_Adaptive Blade" data-flag="@X" onclick="openSidebar('227_Adaptive Blade',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\228_Adventurer's Hatchet.png" id="228_Adventurers Hatchet" data-flag="@X" onclick="openSidebar('228_Adventurers Hatchet',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\229_Aetherbond Titan.png" id="229_Aetherbond Titan" data-flag="@X" onclick="openSidebar('229_Aetherbond Titan',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\230_Alloy Knight.png" id="230_Alloy Knight" data-flag="@X" onclick="openSidebar('230_Alloy Knight',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\237_Infiltrator's Cloak.png" id="237_Infiltrators Cloak" data-flag="@X" onclick="openSidebar('237_Infiltrators Cloak',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\240_Modified Thopter.png" id="240_Modified Thopter" data-flag="@X" onclick="openSidebar('240_Modified Thopter',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\242_Souleater Machine.png" id="242_Souleater Machine" data-flag="@X" onclick="openSidebar('242_Souleater Machine',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\231_Artifice Shell.png" id="231_Artifice Shell" data-flag="@X" onclick="openSidebar('231_Artifice Shell',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\232_Darksteel Ingot.png" id="232_Darksteel Ingot" data-flag="@X" onclick="openSidebar('232_Darksteel Ingot',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\233_Darksteel Ravager.png" id="233_Darksteel Ravager" data-flag="@X" onclick="openSidebar('233_Darksteel Ravager',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\235_Hidden Armory.png" id="235_Hidden Armory" data-flag="@X" onclick="openSidebar('235_Hidden Armory',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\236_Ichorslick Blade.png" id="236_Ichorslick Blade" data-flag="@X" onclick="openSidebar('236_Ichorslick Blade',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\241_Myr Servant.png" id="241_Myr Servant" data-flag="@X" onclick="openSidebar('241_Myr Servant',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\243_Steel Wall.png" id="243_Steel Wall" data-flag="@X" onclick="openSidebar('243_Steel Wall',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\244_Tesaren Sentry.png" id="244_Tesaren Sentry" data-flag="@X" onclick="openSidebar('244_Tesaren Sentry',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\252_Frozen Waterfall.png" id="252_Frozen Waterfall" data-flag="@X" onclick="openSidebar('252_Frozen Waterfall',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\261_Sunken Mire.png" id="261_Sunken Mire" data-flag="@X" onclick="openSidebar('261_Sunken Mire',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\249_Crumbling Crucible.png" id="249_Crumbling Crucible" data-flag="@X" onclick="openSidebar('249_Crumbling Crucible',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\247_Brambled Slope.png" id="247_Brambled Slope" data-flag="@X" onclick="openSidebar('247_Brambled Slope',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\248_Canopy Enclave.png" id="248_Canopy Enclave" data-flag="@X" onclick="openSidebar('248_Canopy Enclave',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\256_Overworld Palace.png" id="256_Overworld Palace" data-flag="@X" onclick="openSidebar('256_Overworld Palace',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\250_Dreadculler Lair.png" id="250_Dreadculler Lair" data-flag="@X" onclick="openSidebar('250_Dreadculler Lair',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\255_Nimul Mucklands.png" id="255_Nimul Mucklands" data-flag="@X" onclick="openSidebar('255_Nimul Mucklands',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\262_Tangled Ruins.png" id="262_Tangled Ruins" data-flag="@X" onclick="openSidebar('262_Tangled Ruins',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\259_Ralixan Oasis.png" id="259_Ralixan Oasis" data-flag="@X" onclick="openSidebar('259_Ralixan Oasis',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\258_Radiant Outskirts.png" id="258_Radiant Outskirts" data-flag="@X" onclick="openSidebar('258_Radiant Outskirts',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\260_Senzu's Hideout.png" id="260_Senzus Hideout" data-flag="@X" onclick="openSidebar('260_Senzus Hideout',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\251_Druid Den.png" id="251_Druid Den" data-flag="@X" onclick="openSidebar('251_Druid Den',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\264_Warpers' Lab.png" id="264_Warpers Lab" data-flag="@X" onclick="openSidebar('264_Warpers Lab',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\254_Madt Barracks.png" id="254_Madt Barracks" data-flag="@X" onclick="openSidebar('254_Madt Barracks',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\253_Lunar Gateway.png" id="253_Lunar Gateway" data-flag="@X" onclick="openSidebar('253_Lunar Gateway',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\263_Vault of the Ancients.png" id="263_Vault of the Ancients" data-flag="@X" onclick="openSidebar('263_Vault of the Ancients',false)"></div>
+			<div class="container"><img alt="sets\EZA-files\img\257_Phyrexian Citadel.png" id="257_Phyrexian Citadel" data-flag="@X" onclick="openSidebar('257_Phyrexian Citadel',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		document.body.style.backgroundImage = 'url(' + document.getElementById("bg").src + ')';
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = 'img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		if (horizontal && rotated_img.style.display == 'none')
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+	}
+
+	function openSidebar(id, h=false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+
+		if (horizontal)
+		{
+			rotated_img.src = document.getElementById(id).src;
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+			if (event.key === "Enter") {
+				event.preventDefault();
+				search();
+			}
+		});
+
+		function search() {
+			window.location = ("/search?search=" + document.getElementById("search").value);
+		}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let card_name = card_list_arrayified[i].card_name;
+				for (const char of specialchars)
+				{
+					card_name = card_name.replaceAll(char, "");
+				}
+
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
+			}
+	</script>
+</body>
+</html>
