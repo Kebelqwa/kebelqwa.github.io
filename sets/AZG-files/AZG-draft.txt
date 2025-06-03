@@ -2931,7 +2931,7 @@
 			}
 		}
 	]
-[RareSlot(2)]
+[RareSlot(1)]
 2 Zof Voqu Magistrate
 2 Curse of the Wasteful
 2 Refraction Dragon
@@ -3025,7 +3025,7 @@
 1 Lunar Convergence
 1 Vivien Friend to Monsters
 1 Nezhu Ethercast Ronin
-[UncommonSlot(4)]
+[UncommonSlot(3)]
 9 Fanatic of the Ashen Idol
 9 Savage Awakener
 9 Up and at Em
@@ -3101,7 +3101,7 @@
 9 Unravel the Aether
 9 IxNaar High Priest
 9 Ethercast Intuition
-[CommonSlot(9)]
+[CommonSlot(10)]
 30 IxNaar Overseers
 30 Due Respect
 30 IxNaar Abomination

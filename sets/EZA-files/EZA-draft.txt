@@ -2641,7 +2641,7 @@
 			}
 		}
 	]
-[RareSlot(2)]
+[RareSlot(1)]
 2 Ghostblade Spirit
 2 Blazing Abomination
 2 Malfunction Myr
@@ -2729,7 +2729,7 @@
 1 Korborat Thraxis
 1 Koth, Hatred Unbound
 1 Magnus, the Soul Stealer
-[UncommonSlot(4)]
+[UncommonSlot(3)]
 9 Aetherbond Titan
 9 Inquisitor's Scorn
 9 Descry
@@ -2818,7 +2818,7 @@
 9 Tesaren Avenger
 9 Biotic Dragon Engine
 9 Ei'tal Crawler
-[CommonSlot(9)]
+[CommonSlot(10)]
 30 Landsurge
 30 Sunquash Colossus
 30 Gitaxian Engine

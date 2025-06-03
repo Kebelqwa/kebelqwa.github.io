@@ -2872,7 +2872,7 @@
 			}
 		}
 	]
-[RareSlot(2)]
+[RareSlot(1)]
 2 Kessig Duelist
 2 Cosmic Geist
 2 Eternal Fires
@@ -2945,7 +2945,7 @@
 1 Olgvar Hidden Stitcher
 1 Tibalt the Hellfire
 1 Cursed Awakening
-[UncommonSlot(4)]
+[UncommonSlot(3)]
 9 Fortifications Hold
 9 Virulent Mage
 9 Looting Devil
@@ -3016,7 +3016,7 @@
 9 Werewolf Cannibal
 9 Stensian Bloodlord
 9 Pack Prerogative
-[CommonSlot(9)]
+[CommonSlot(10)]
 30 Vengeant Seraph
 30 Parish Brute
 30 Gryff Sentinal

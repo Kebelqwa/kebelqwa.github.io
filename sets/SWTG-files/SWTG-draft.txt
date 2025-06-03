@@ -181,7 +181,7 @@
 			"name": "Lando Calrissian",
 			"rarity": "rare",
 			"mana_cost": "{3}{W}",
-			"type": "Legendary Creature — Human Rogue ",
+			"type": "Legendary Creature — Human Rebel Rogue ",
 			"collector_number": "20",
 			"image_uris": {
 				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/20_Lando Calrissian.png"
@@ -1022,7 +1022,7 @@
 			"name": "Gamorrean Prison Guard",
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
-			"type": "Creature — Gamorrean Warrior ",
+			"type": "Creature — Gamorrean Mercenary ",
 			"collector_number": "112",
 			"image_uris": {
 				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/112_Gamorrean Prison Guard.png"
@@ -1042,7 +1042,7 @@
 			"name": "Han Solo",
 			"rarity": "rare",
 			"mana_cost": "{3}{R}",
-			"type": "Legendary Creature — Human Rogue ",
+			"type": "Legendary Creature — Human Rogue Rebel ",
 			"collector_number": "114",
 			"image_uris": {
 				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/114_Han Solo.png"
@@ -1656,7 +1656,7 @@
 			"name": "Chewbacca",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{G}{W}",
-			"type": "Legendary Creature — Wookiee Warrior ",
+			"type": "Legendary Creature — Wookiee Rebel Warrior ",
 			"collector_number": "178",
 			"image_uris": {
 				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/178_Chewbacca.png"
@@ -1886,7 +1886,7 @@
 			"name": "Luke Skywalker",
 			"rarity": "mythic",
 			"mana_cost": "{G}{W}{U}",
-			"type": "Legendary Creature — Human Jedi ",
+			"type": "Legendary Creature — Human Jedi Rebel ",
 			"collector_number": "203",
 			"image_uris": {
 				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/203_Luke Skywalker.png"
@@ -2046,7 +2046,7 @@
 			"name": "Tarfful, Wookiee General",
 			"rarity": "uncommon",
 			"mana_cost": "{R}{G}",
-			"type": "Legendary Creature — Wookiee Warrior ",
+			"type": "Legendary Creature — Wookiee Rebel Warrior ",
 			"collector_number": "225",
 			"image_uris": {
 				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/225_Tarfful, Wookiee General.png"
@@ -2226,7 +2226,7 @@
 			"name": "Wookiee Raidleader",
 			"rarity": "common",
 			"mana_cost": "{2}{R/G}{R/G}",
-			"type": "Creature — Wookiee Warrior ",
+			"type": "Creature — Wookiee Rebel Warrior ",
 			"collector_number": "235",
 			"image_uris": {
 				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/235_Wookiee Raidleader.png"
@@ -2865,7 +2865,7 @@
 			"name": "Kit Fisto",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{W}{U}",
-			"type": "Legendary Creature — Human Jedi ",
+			"type": "Legendary Creature — Nautolan Jedi ",
 			"collector_number": "202",
 			"image_uris": {
 				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/202_Kit Fisto.png"
@@ -2946,7 +2946,7 @@
 			}
 		}
 	]
-[RareSlot(2)]
+[RareSlot(1)]
 2 Bantha Herd
 2 Lando Calrissian
 2 Maintenance Hangar
@@ -3023,7 +3023,7 @@
 1 Yoda, Jedi Master
 1 The Death Star
 1 AT-AT
-[UncommonSlot(4)]
+[UncommonSlot(3)]
 9 The Battle of Hoth
 9 Battle Tactics
 9 Condemn
@@ -3105,7 +3105,7 @@
 9 The Battle of Kashyyyk
 9 Dengar
 9 Jump to Hyperspace
-[CommonSlot(9)]
+[CommonSlot(10)]
 30 Lockdown
 30 Cantina Band
 30 Escape Pod
