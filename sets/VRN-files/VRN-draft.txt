@@ -5,9 +5,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Warrior ",
-			"collector_number": "103",
+			"collector_number": "98",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/103_Graveblade Marauder.png"
+				"en": "https:///sets/VRN-files/img/98_Graveblade Marauder.png"
 			}
 		},
 		{
@@ -15,19 +15,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{7}",
 			"type": "Artifact Creature — Golem ",
-			"collector_number": "242",
+			"collector_number": "237",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/242_Mage-Ring Responder.png"
+				"en": "https:///sets/VRN-files/img/237_Mage-Ring Responder.png"
 			}
 		},
 		{
 			"name": "Trovian Wingmare",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{W}",
+			"mana_cost": "{3}{W}",
 			"type": "Creature — Pegasus ",
-			"collector_number": "39",
+			"collector_number": "37",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/39_Trovian Wingmare.png"
+				"en": "https:///sets/VRN-files/img/37_Trovian Wingmare.png"
 			}
 		},
 		{
@@ -35,9 +35,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "55",
+			"collector_number": "53",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/55_Conniving Voidmage.png"
+				"en": "https:///sets/VRN-files/img/53_Conniving Voidmage.png"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 			"type": "Creature — Human Soldier ",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/7_Ampryn Frontliner.png"
+				"en": "https:///sets/VRN-files/img/7_Ampryn Frontliner.png"
 			}
 		},
 		{
@@ -55,9 +55,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Human Artificer ",
-			"collector_number": "140",
+			"collector_number": "132",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/140_Mage-Ring Engineer.png"
+				"en": "https:///sets/VRN-files/img/132_Mage-Ring Engineer.png"
 			}
 		},
 		{
@@ -65,9 +65,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Legendary Planeswalker — Jace ",
-			"collector_number": "66",
+			"collector_number": "63",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/66_Jace, Telepath Homebound.png"
+				"en": "https:///sets/VRN-files/img/63_Jace, Telepath Homebound.png"
 			}
 		},
 		{
@@ -75,29 +75,19 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Legendary Planeswalker — Mara ",
-			"collector_number": "27",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/27_Mara, Hand of the Core.png"
+				"en": "https:///sets/VRN-files/img/26_Mara, Hand of the Core.png"
 			}
 		},
 		{
-			"name": "League Aethermage",
+			"name": "League Administrator",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "67",
+			"collector_number": "64",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/67_League Aethermage.png"
-			}
-		},
-		{
-			"name": "Impulse",
-			"rarity": "common",
-			"mana_cost": "{1}{U}",
-			"type": "Instant",
-			"collector_number": "63",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/63_Impulse.png"
+				"en": "https:///sets/VRN-files/img/64_League Administrator.png"
 			}
 		},
 		{
@@ -105,9 +95,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Warrior Rebel ",
-			"collector_number": "152",
+			"collector_number": "144",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/152_Separatist Dervish.png"
+				"en": "https:///sets/VRN-files/img/144_Separatist Dervish.png"
 			}
 		},
 		{
@@ -115,9 +105,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "138",
+			"collector_number": "130",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/138_League Pyromancer.png"
+				"en": "https:///sets/VRN-files/img/130_League Pyromancer.png"
 			}
 		},
 		{
@@ -125,9 +115,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Creature — Human Rogue ",
-			"collector_number": "57",
+			"collector_number": "55",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/57_Consortium Informant.png"
+				"en": "https:///sets/VRN-files/img/55_Consortium Informant.png"
 			}
 		},
 		{
@@ -135,9 +125,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
-			"collector_number": "80",
+			"collector_number": "76",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/80_Subconscious Warning.png"
+				"en": "https:///sets/VRN-files/img/76_Subconscious Warning.png"
 			}
 		},
 		{
@@ -145,19 +135,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Cleric Rebel ",
-			"collector_number": "155",
+			"collector_number": "147",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/155_Trovian Disciple.png"
-			}
-		},
-		{
-			"name": "Unvaulted Evil",
-			"rarity": "common",
-			"mana_cost": "{5}{B}{B}",
-			"type": "Sorcery",
-			"collector_number": "121",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/121_Unvaulted Evil.png"
+				"en": "https:///sets/VRN-files/img/147_Trovian Disciple.png"
 			}
 		},
 		{
@@ -165,9 +145,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Sorcery",
-			"collector_number": "52",
+			"collector_number": "50",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/52_Chart a Course.png"
+				"en": "https:///sets/VRN-files/img/50_Chart a Course.png"
 			}
 		},
 		{
@@ -175,29 +155,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Angel Rebel ",
-			"collector_number": "12",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/12_Bastion Seraph.png"
-			}
-		},
-		{
-			"name": "Ringer Nightwatch",
-			"rarity": "common",
-			"mana_cost": "{1}{W}",
-			"type": "Creature — Human Rebel ",
-			"collector_number": "34",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/34_Ringer Nightwatch.png"
-			}
-		},
-		{
-			"name": "Destabilize",
-			"rarity": "common",
-			"mana_cost": "{4}{R}{R}",
-			"type": "Sorcery",
-			"collector_number": "130",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/130_Destabilize.png"
+				"en": "https:///sets/VRN-files/img/11_Bastion Seraph.png"
 			}
 		},
 		{
@@ -205,9 +165,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Gear ",
-			"collector_number": "235",
+			"collector_number": "230",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/235_Bespoke Artifact.png"
+				"en": "https:///sets/VRN-files/img/230_Bespoke Artifact.png"
 			}
 		},
 		{
@@ -215,9 +175,9 @@
 			"rarity": "common",
 			"mana_cost": "{X}{R}",
 			"type": "Sorcery",
-			"collector_number": "160",
+			"collector_number": "152",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/160_Unearthed Relics.png"
+				"en": "https:///sets/VRN-files/img/152_Unearthed Relics.png"
 			}
 		},
 		{
@@ -225,9 +185,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{U}{U}",
 			"type": "Instant",
-			"collector_number": "75",
+			"collector_number": "72",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/75_Sinking Opportunities.png"
+				"en": "https:///sets/VRN-files/img/72_Sinking Opportunities.png"
 			}
 		},
 		{
@@ -235,9 +195,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Instant",
-			"collector_number": "94",
+			"collector_number": "90",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/94_Council's Edict.png"
+				"en": "https:///sets/VRN-files/img/90_Council's Edict.png"
 			}
 		},
 		{
@@ -245,19 +205,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Instant",
-			"collector_number": "192",
+			"collector_number": "184",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/192_Read the Trail.png"
-			}
-		},
-		{
-			"name": "Ringer's Resolve",
-			"rarity": "common",
-			"mana_cost": "{2}{G}",
-			"type": "Sorcery",
-			"collector_number": "199",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/199_Ringer's Resolve.png"
+				"en": "https:///sets/VRN-files/img/184_Read the Trail.png"
 			}
 		},
 		{
@@ -265,9 +215,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "79",
+			"collector_number": "75",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/79_Steel Sabotage.png"
+				"en": "https:///sets/VRN-files/img/75_Steel Sabotage.png"
 			}
 		},
 		{
@@ -275,9 +225,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Artifact Creature — Dinosaur Construct ",
-			"collector_number": "170",
+			"collector_number": "162",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/170_Constructed Dreadmaw.png"
+				"en": "https:///sets/VRN-files/img/162_Constructed Dreadmaw.png"
 			}
 		},
 		{
@@ -285,9 +235,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "226",
+			"collector_number": "222",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/226_Tyrannical Mage.png"
+				"en": "https:///sets/VRN-files/img/222_Tyrannical Mage.png"
 			}
 		},
 		{
@@ -297,7 +247,7 @@
 			"type": "Creature — Human Wizard ",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/5_Ampryn Confidant.png"
+				"en": "https:///sets/VRN-files/img/5_Ampryn Confidant.png"
 			}
 		},
 		{
@@ -305,19 +255,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "240",
+			"collector_number": "235",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/240_Gear Matrix.png"
-			}
-		},
-		{
-			"name": "Ampryn Oathbreaker",
-			"rarity": "common",
-			"mana_cost": "{3}{B}",
-			"type": "Creature — Human Knight ",
-			"collector_number": "87",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/87_Ampryn Oathbreaker.png"
+				"en": "https:///sets/VRN-files/img/235_Gear Matrix.png"
 			}
 		},
 		{
@@ -325,9 +265,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "151",
+			"collector_number": "143",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/151_Seasoned Electromancer.png"
+				"en": "https:///sets/VRN-files/img/143_Seasoned Electromancer.png"
 			}
 		},
 		{
@@ -335,9 +275,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Golem ",
-			"collector_number": "239",
+			"collector_number": "234",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/239_Enforcer of Ancients.png"
+				"en": "https:///sets/VRN-files/img/234_Enforcer of Ancients.png"
 			}
 		},
 		{
@@ -345,9 +285,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Rebel ",
-			"collector_number": "33",
+			"collector_number": "32",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/33_Rebel Bladesmith.png"
+				"en": "https:///sets/VRN-files/img/32_Rebel Bladesmith.png"
 			}
 		},
 		{
@@ -355,9 +295,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "252",
+			"collector_number": "247",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/252_Aether Hub.png"
+				"en": "https:///sets/VRN-files/img/247_Aether Hub.png"
 			}
 		},
 		{
@@ -365,9 +305,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "40",
+			"collector_number": "38",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/40_Vexing Ward.png"
+				"en": "https:///sets/VRN-files/img/38_Vexing Ward.png"
 			}
 		},
 		{
@@ -375,9 +315,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Soldier ",
-			"collector_number": "31",
+			"collector_number": "30",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/31_Pylon Protector.png"
+				"en": "https:///sets/VRN-files/img/30_Pylon Protector.png"
 			}
 		},
 		{
@@ -385,9 +325,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Island ",
-			"collector_number": "271",
+			"collector_number": "266",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/271_Island.png"
+				"en": "https:///sets/VRN-files/img/266_Island.png"
 			}
 		},
 		{
@@ -395,9 +335,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp ",
-			"collector_number": "274",
+			"collector_number": "269",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/274_Swamp1.png"
+				"en": "https:///sets/VRN-files/img/269_Swamp1.png"
 			}
 		},
 		{
@@ -405,9 +345,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Mountain ",
-			"collector_number": "276",
+			"collector_number": "271",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/276_Mountain1.png"
+				"en": "https:///sets/VRN-files/img/271_Mountain1.png"
 			}
 		},
 		{
@@ -415,9 +355,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "278",
+			"collector_number": "273",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/278_Forest1.png"
+				"en": "https:///sets/VRN-files/img/273_Forest1.png"
 			}
 		},
 		{
@@ -425,19 +365,19 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "171",
+			"collector_number": "163",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/171_Core Rupture.png"
+				"en": "https:///sets/VRN-files/img/163_Core Rupture.png"
 			}
 		},
 		{
-			"name": "Reliquary Guardian",
+			"name": "Reliquary Overseer",
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Creature — Spirit ",
-			"collector_number": "114",
+			"collector_number": "109",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/114_Reliquary Guardian.png"
+				"en": "https:///sets/VRN-files/img/109_Reliquary Overseer.png"
 			}
 		},
 		{
@@ -445,9 +385,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W}",
 			"type": "Creature — Human Cleric Archer ",
-			"collector_number": "35",
+			"collector_number": "33",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/35_Ringer Templar.png"
+				"en": "https:///sets/VRN-files/img/33_Ringer Templar.png"
 			}
 		},
 		{
@@ -455,9 +395,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Plains ",
-			"collector_number": "269",
+			"collector_number": "264",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/269_Plains.png"
+				"en": "https:///sets/VRN-files/img/264_Plains.png"
 			}
 		},
 		{
@@ -465,9 +405,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Island ",
-			"collector_number": "272",
+			"collector_number": "267",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/272_Island1.png"
+				"en": "https:///sets/VRN-files/img/267_Island1.png"
 			}
 		},
 		{
@@ -475,9 +415,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Power-Plant ",
-			"collector_number": "257",
+			"collector_number": "252",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/257_Frigid Turbines.png"
+				"en": "https:///sets/VRN-files/img/252_Frigid Turbines.png"
 			}
 		},
 		{
@@ -485,9 +425,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Power-Plant ",
-			"collector_number": "258",
+			"collector_number": "253",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/258_Geothermal Conduits.png"
+				"en": "https:///sets/VRN-files/img/253_Geothermal Conduits.png"
 			}
 		},
 		{
@@ -495,9 +435,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Spirit ",
-			"collector_number": "116",
+			"collector_number": "111",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/116_Ring Feeder.png"
+				"en": "https:///sets/VRN-files/img/111_Ring Feeder.png"
 			}
 		},
 		{
@@ -507,7 +447,7 @@
 			"type": "Instant",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/6_Ampryn Consignment.png"
+				"en": "https:///sets/VRN-files/img/6_Ampryn Consignment.png"
 			}
 		},
 		{
@@ -515,9 +455,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Legendary Artifact — Vehicle ",
-			"collector_number": "211",
+			"collector_number": "203",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/211_The Eviscerator.png"
+				"en": "https:///sets/VRN-files/img/203_The Eviscerator.png"
 			}
 		},
 		{
@@ -525,9 +465,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "129",
+			"collector_number": "122",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/129_Chaser Bike.png"
+				"en": "https:///sets/VRN-files/img/122_Chaser Bike.png"
 			}
 		},
 		{
@@ -535,9 +475,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{W}",
 			"type": "Legendary Creature — Human Rebel Pilot ",
-			"collector_number": "206",
+			"collector_number": "196",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/206_Arin, Reconstructor Rebel.png"
+				"en": "https:///sets/VRN-files/img/196_Arin, Reconstructor Rebel.png"
 			}
 		},
 		{
@@ -545,19 +485,19 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact Creature — Golem ",
-			"collector_number": "232",
+			"collector_number": "227",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/232_Ampryn Sentry.png"
+				"en": "https:///sets/VRN-files/img/227_Ampryn Sentry.png"
 			}
 		},
 		{
 			"name": "Prosperous Magocrat",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}",
-			"type": "Creature — Human Wizard ",
-			"collector_number": "70",
+			"type": "Creature — Human Noble Wizard ",
+			"collector_number": "67",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/70_Prosperous Magocrat.png"
+				"en": "https:///sets/VRN-files/img/67_Prosperous Magocrat.png"
 			}
 		},
 		{
@@ -565,9 +505,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "134",
+			"collector_number": "126",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/134_Galvanic Strike.png"
+				"en": "https:///sets/VRN-files/img/126_Galvanic Strike.png"
 			}
 		},
 		{
@@ -575,9 +515,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Creature — Human Rebel ",
-			"collector_number": "157",
+			"collector_number": "149",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/157_Trovian Renegade.png"
+				"en": "https:///sets/VRN-files/img/149_Trovian Renegade.png"
 			}
 		},
 		{
@@ -585,9 +525,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
-			"collector_number": "82",
+			"collector_number": "78",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/82_Temporal Harvest.png"
+				"en": "https:///sets/VRN-files/img/78_Temporal Harvest.png"
 			}
 		},
 		{
@@ -597,7 +537,7 @@
 			"type": "Token Creature — Pilot ",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/5_Pilot.png"
+				"en": "https:///sets/VRN-files/img/5_Pilot.png"
 			}
 		},
 		{
@@ -605,9 +545,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Gear ",
-			"collector_number": "11",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/11_Gear.png"
+				"en": "https:///sets/VRN-files/img/12_Gear.png"
 			}
 		},
 		{
@@ -615,9 +555,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Plains ",
-			"collector_number": "270",
+			"collector_number": "265",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/270_Plains1.png"
+				"en": "https:///sets/VRN-files/img/265_Plains1.png"
 			}
 		},
 		{
@@ -625,9 +565,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp ",
-			"collector_number": "273",
+			"collector_number": "268",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/273_Swamp.png"
+				"en": "https:///sets/VRN-files/img/268_Swamp.png"
 			}
 		},
 		{
@@ -635,9 +575,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Mountain ",
-			"collector_number": "275",
+			"collector_number": "270",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/275_Mountain.png"
+				"en": "https:///sets/VRN-files/img/270_Mountain.png"
 			}
 		},
 		{
@@ -645,9 +585,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest ",
-			"collector_number": "277",
+			"collector_number": "272",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/277_Forest.png"
+				"en": "https:///sets/VRN-files/img/272_Forest.png"
 			}
 		},
 		{
@@ -655,9 +595,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "255",
+			"collector_number": "250",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/255_Cargo Checkpoint.png"
+				"en": "https:///sets/VRN-files/img/250_Cargo Checkpoint.png"
 			}
 		},
 		{
@@ -665,9 +605,9 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{W}",
 			"type": "Creature — Avatar ",
-			"collector_number": "11",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/11_Avatar of Law.png"
+				"en": "https:///sets/VRN-files/img/10_Avatar of Law.png"
 			}
 		},
 		{
@@ -675,9 +615,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "124",
+			"collector_number": "118",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/124_Anarchist's Wrath.png"
+				"en": "https:///sets/VRN-files/img/118_Anarchist's Wrath.png"
 			}
 		},
 		{
@@ -685,9 +625,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "163",
+			"collector_number": "155",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/163_Vortice Merge.png"
+				"en": "https:///sets/VRN-files/img/155_Vortice Merge.png"
 			}
 		},
 		{
@@ -695,9 +635,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Legendary Creature — Human Rebel Soldier ",
-			"collector_number": "214",
+			"collector_number": "204",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/214_Gav Beleren, War Hero.png"
+				"en": "https:///sets/VRN-files/img/204_Gav Beleren, War Hero.png"
 			}
 		},
 		{
@@ -705,9 +645,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "44",
+			"collector_number": "42",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/44_Ampryn Charmbreaker.png"
+				"en": "https:///sets/VRN-files/img/42_Ampryn Charmbreaker.png"
 			}
 		},
 		{
@@ -715,9 +655,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact Creature — Phyrexian Wizard ",
-			"collector_number": "100",
+			"collector_number": "95",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/100_Fallen Battlemage.png"
+				"en": "https:///sets/VRN-files/img/95_Fallen Battlemage.png"
 			}
 		},
 		{
@@ -725,19 +665,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "122",
+			"collector_number": "116",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/122_Vapid Culling.png"
+				"en": "https:///sets/VRN-files/img/116_Vapid Culling.png"
 			}
 		},
 		{
 			"name": "The Energy Blade",
 			"rarity": "uncommon",
-			"mana_cost": "{3}",
+			"mana_cost": "{4}",
 			"type": "Legendary Artifact — Equipment ",
-			"collector_number": "238",
+			"collector_number": "233",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/238_The Energy Blade.png"
+				"en": "https:///sets/VRN-files/img/233_The Energy Blade.png"
 			}
 		},
 		{
@@ -745,19 +685,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "89",
+			"collector_number": "85",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/89_Baleful Arbiter.png"
-			}
-		},
-		{
-			"name": "Burnished Geomancer",
-			"rarity": "common",
-			"mana_cost": "{3}{R}",
-			"type": "Creature — Phyrexian Wizard ",
-			"collector_number": "127",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/127_Burnished Geomancer.png"
+				"en": "https:///sets/VRN-files/img/85_Baleful Arbiter.png"
 			}
 		},
 		{
@@ -765,9 +695,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Golem ",
-			"collector_number": "246",
+			"collector_number": "241",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/246_Solemn Simulacrum.png"
+				"en": "https:///sets/VRN-files/img/241_Solemn Simulacrum.png"
 			}
 		},
 		{
@@ -777,7 +707,7 @@
 			"type": "",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/2_The Core.png"
+				"en": "https:///sets/VRN-files/img/2_The Core.png"
 			}
 		},
 		{
@@ -785,9 +715,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "76",
+			"collector_number": "73",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/76_Skyward Arbiters.png"
+				"en": "https:///sets/VRN-files/img/73_Skyward Arbiters.png"
 			}
 		},
 		{
@@ -795,9 +725,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Legendary Planeswalker — Charim ",
-			"collector_number": "128",
+			"collector_number": "121",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/128_Charim Kosta, Planeswalker.png"
+				"en": "https:///sets/VRN-files/img/121_Charim Kosta, Planeswalker.png"
 			}
 		},
 		{
@@ -805,9 +735,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Dryad Archer ",
-			"collector_number": "184",
+			"collector_number": "176",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/184_Glade Quickshots.png"
+				"en": "https:///sets/VRN-files/img/176_Glade Quickshots.png"
 			}
 		},
 		{
@@ -815,9 +745,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Artifact — Vehicle ",
-			"collector_number": "167",
+			"collector_number": "159",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/167_The Arboreal Skycraft.png"
+				"en": "https:///sets/VRN-files/img/159_The Arboreal Skycraft.png"
 			}
 		},
 		{
@@ -825,9 +755,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Artifact",
-			"collector_number": "51",
+			"collector_number": "49",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/51_Brilliant Mage-Ring.png"
+				"en": "https:///sets/VRN-files/img/49_Brilliant Mage-Ring.png"
 			}
 		},
 		{
@@ -835,9 +765,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Artifact",
-			"collector_number": "97",
+			"collector_number": "92",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/97_Derelict Mage-Ring.png"
+				"en": "https:///sets/VRN-files/img/92_Derelict Mage-Ring.png"
 			}
 		},
 		{
@@ -845,9 +775,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Artifact",
-			"collector_number": "194",
+			"collector_number": "186",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/194_Reclaimed Mage-Ring.png"
+				"en": "https:///sets/VRN-files/img/186_Reclaimed Mage-Ring.png"
 			}
 		},
 		{
@@ -855,9 +785,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Artifact",
-			"collector_number": "148",
+			"collector_number": "140",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/148_Repurposed Mage-Ring.png"
+				"en": "https:///sets/VRN-files/img/140_Repurposed Mage-Ring.png"
 			}
 		},
 		{
@@ -865,9 +795,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Artifact",
-			"collector_number": "24",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/24_Glorious Mage-Ring.png"
+				"en": "https:///sets/VRN-files/img/23_Glorious Mage-Ring.png"
 			}
 		},
 		{
@@ -875,9 +805,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Power-Plant ",
-			"collector_number": "259",
+			"collector_number": "254",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/259_Hydroelectric Plant.png"
+				"en": "https:///sets/VRN-files/img/254_Hydroelectric Plant.png"
 			}
 		},
 		{
@@ -885,9 +815,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Power-Plant ",
-			"collector_number": "265",
+			"collector_number": "260",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/265_Refinery Pit.png"
+				"en": "https:///sets/VRN-files/img/260_Refinery Pit.png"
 			}
 		},
 		{
@@ -895,9 +825,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Power-Plant ",
-			"collector_number": "251",
+			"collector_number": "246",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/251_Aether Farm.png"
+				"en": "https:///sets/VRN-files/img/246_Aether Farm.png"
 			}
 		},
 		{
@@ -905,9 +835,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Power-Plant ",
-			"collector_number": "260",
+			"collector_number": "255",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/260_Kinetic Tracks.png"
+				"en": "https:///sets/VRN-files/img/255_Kinetic Tracks.png"
 			}
 		},
 		{
@@ -915,9 +845,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Power-Plant ",
-			"collector_number": "264",
+			"collector_number": "259",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/264_Recycling Chamber.png"
+				"en": "https:///sets/VRN-files/img/259_Recycling Chamber.png"
 			}
 		},
 		{
@@ -925,9 +855,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Power-Plant ",
-			"collector_number": "263",
+			"collector_number": "258",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/263_Reactor Pool.png"
+				"en": "https:///sets/VRN-files/img/258_Reactor Pool.png"
 			}
 		},
 		{
@@ -935,9 +865,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Power-Plant ",
-			"collector_number": "253",
+			"collector_number": "248",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/253_Automated Lair.png"
+				"en": "https:///sets/VRN-files/img/248_Automated Lair.png"
 			}
 		},
 		{
@@ -945,9 +875,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Power-Plant ",
-			"collector_number": "256",
+			"collector_number": "251",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/256_Convergence Floor.png"
+				"en": "https:///sets/VRN-files/img/251_Convergence Floor.png"
 			}
 		},
 		{
@@ -955,9 +885,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Advisor ",
-			"collector_number": "23",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/23_Ghalian Instructor.png"
+				"en": "https:///sets/VRN-files/img/22_Ghalian Instructor.png"
 			}
 		},
 		{
@@ -965,9 +895,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W}",
 			"type": "Creature — Phyrexian Soldier ",
-			"collector_number": "29",
+			"collector_number": "28",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/29_Phyrexian Facestealer.png"
+				"en": "https:///sets/VRN-files/img/28_Phyrexian Facestealer.png"
 			}
 		},
 		{
@@ -975,9 +905,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Artifact Creature — Phyrexian Soldier ",
-			"collector_number": "22",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/22_Forsaken Legionnaire.png"
+				"en": "https:///sets/VRN-files/img/21_Forsaken Legionnaire.png"
 			}
 		},
 		{
@@ -985,9 +915,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Artifact Creature — Phyrexian Soldier ",
-			"collector_number": "15",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/15_Crimson Anointer.png"
+				"en": "https:///sets/VRN-files/img/14_Crimson Anointer.png"
 			}
 		},
 		{
@@ -995,19 +925,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "13",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/13_Benevolent Photomancer.png"
-			}
-		},
-		{
-			"name": "Ampryn Study",
-			"rarity": "common",
-			"mana_cost": "{X}{W}",
-			"type": "Sorcery",
-			"collector_number": "8",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/8_Ampryn Study.png"
+				"en": "https:///sets/VRN-files/img/12_Benevolent Photomancer.png"
 			}
 		},
 		{
@@ -1015,9 +935,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Sorcery",
-			"collector_number": "25",
+			"collector_number": "24",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/25_Jolted Awake.png"
+				"en": "https:///sets/VRN-files/img/24_Jolted Awake.png"
 			}
 		},
 		{
@@ -1025,9 +945,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Legendary Enchantment",
-			"collector_number": "18",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/18_Enforcer's Procession.png"
+				"en": "https:///sets/VRN-files/img/17_Enforcer's Procession.png"
 			}
 		},
 		{
@@ -1035,9 +955,9 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "37",
+			"collector_number": "35",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/37_Skill Flare.png"
+				"en": "https:///sets/VRN-files/img/35_Skill Flare.png"
 			}
 		},
 		{
@@ -1045,19 +965,19 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "19",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/19_Enforcer's Ringwheeler.png"
+				"en": "https:///sets/VRN-files/img/18_Enforcer's Ringwheeler.png"
 			}
 		},
 		{
 			"name": "Peacekeeper Plane",
 			"rarity": "common",
-			"mana_cost": "{3}{W}",
+			"mana_cost": "{2}{W}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "28",
+			"collector_number": "27",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/28_Peacekeeper Plane.png"
+				"en": "https:///sets/VRN-files/img/27_Peacekeeper Plane.png"
 			}
 		},
 		{
@@ -1065,9 +985,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "50",
+			"collector_number": "48",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/50_Ardent Cryptomancer.png"
+				"en": "https:///sets/VRN-files/img/48_Ardent Cryptomancer.png"
 			}
 		},
 		{
@@ -1075,9 +995,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "60",
+			"collector_number": "58",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/60_Escapade Mage.png"
+				"en": "https:///sets/VRN-files/img/58_Escapade Mage.png"
 			}
 		},
 		{
@@ -1085,9 +1005,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "71",
+			"collector_number": "68",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/71_Protector of the Core.png"
+				"en": "https:///sets/VRN-files/img/68_Protector of the Core.png"
 			}
 		},
 		{
@@ -1095,9 +1015,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Rogue Wizard ",
-			"collector_number": "56",
+			"collector_number": "54",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/56_Consortium Bookthief.png"
+				"en": "https:///sets/VRN-files/img/54_Consortium Bookthief.png"
 			}
 		},
 		{
@@ -1105,9 +1025,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Drake ",
-			"collector_number": "68",
+			"collector_number": "65",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/68_Messenger Drake.png"
+				"en": "https:///sets/VRN-files/img/65_Messenger Drake.png"
 			}
 		},
 		{
@@ -1115,19 +1035,19 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "77",
+			"collector_number": "74",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/77_Somnomancer Adept.png"
+				"en": "https:///sets/VRN-files/img/74_Somnomancer Adept.png"
 			}
 		},
 		{
 			"name": "Rain of Frost",
 			"rarity": "common",
-			"mana_cost": "{2}{U}{U}",
+			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
-			"collector_number": "72",
+			"collector_number": "69",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/72_Rain of Frost.png"
+				"en": "https:///sets/VRN-files/img/69_Rain of Frost.png"
 			}
 		},
 		{
@@ -1135,9 +1055,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "61",
+			"collector_number": "59",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/61_Estrangement Field.png"
+				"en": "https:///sets/VRN-files/img/59_Estrangement Field.png"
 			}
 		},
 		{
@@ -1145,9 +1065,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact — Equipment ",
-			"collector_number": "46",
+			"collector_number": "44",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/46_Ampryn Mantle.png"
+				"en": "https:///sets/VRN-files/img/44_Ampryn Mantle.png"
 			}
 		},
 		{
@@ -1155,9 +1075,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "53",
+			"collector_number": "51",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/53_Cloaked Observer.png"
+				"en": "https:///sets/VRN-files/img/51_Cloaked Observer.png"
 			}
 		},
 		{
@@ -1165,9 +1085,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Human Rogue ",
-			"collector_number": "92",
+			"collector_number": "88",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/92_Consortium Mastermind.png"
+				"en": "https:///sets/VRN-files/img/88_Consortium Mastermind.png"
 			}
 		},
 		{
@@ -1175,9 +1095,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Spirit Knight ",
-			"collector_number": "84",
+			"collector_number": "80",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/84_Aether Revenant.png"
+				"en": "https:///sets/VRN-files/img/80_Aether Revenant.png"
 			}
 		},
 		{
@@ -1185,9 +1105,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Spirit ",
-			"collector_number": "119",
+			"collector_number": "114",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/119_Separatist Revenant.png"
+				"en": "https:///sets/VRN-files/img/114_Separatist Revenant.png"
 			}
 		},
 		{
@@ -1195,9 +1115,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Creature — Phyrexian Spirit ",
-			"collector_number": "108",
+			"collector_number": "103",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/108_Oilborn.png"
+				"en": "https:///sets/VRN-files/img/103_Oilborn.png"
 			}
 		},
 		{
@@ -1205,9 +1125,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Creature — Zombie Wizard ",
-			"collector_number": "86",
+			"collector_number": "82",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/86_Ampryn Lich.png"
+				"en": "https:///sets/VRN-files/img/82_Ampryn Lich.png"
 			}
 		},
 		{
@@ -1215,9 +1135,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{B}",
 			"type": "Creature — Human Artificer Mercenary ",
-			"collector_number": "107",
+			"collector_number": "102",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/107_Mercenary Arbiter.png"
+				"en": "https:///sets/VRN-files/img/102_Mercenary Arbiter.png"
 			}
 		},
 		{
@@ -1225,9 +1145,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "91",
+			"collector_number": "87",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/91_Black Market Beguiler.png"
+				"en": "https:///sets/VRN-files/img/87_Black Market Beguiler.png"
 			}
 		},
 		{
@@ -1235,9 +1155,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}",
 			"type": "Sorcery",
-			"collector_number": "90",
+			"collector_number": "86",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/90_Become Compleat.png"
+				"en": "https:///sets/VRN-files/img/86_Become Compleat.png"
 			}
 		},
 		{
@@ -1245,9 +1165,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Enchantment",
-			"collector_number": "104",
+			"collector_number": "99",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/104_Harvester Font.png"
+				"en": "https:///sets/VRN-files/img/99_Harvester Font.png"
 			}
 		},
 		{
@@ -1255,9 +1175,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "99",
+			"collector_number": "94",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/99_Entropic Chiming.png"
+				"en": "https:///sets/VRN-files/img/94_Entropic Chiming.png"
 			}
 		},
 		{
@@ -1265,9 +1185,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Artifact — Equipment ",
-			"collector_number": "93",
+			"collector_number": "89",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/93_Consortium Switchblade.png"
+				"en": "https:///sets/VRN-files/img/89_Consortium Switchblade.png"
 			}
 		},
 		{
@@ -1275,9 +1195,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "96",
+			"collector_number": "91",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/96_Derelict Dredger.png"
+				"en": "https:///sets/VRN-files/img/91_Derelict Dredger.png"
 			}
 		},
 		{
@@ -1285,9 +1205,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "111",
+			"collector_number": "106",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/111_Paintrain.png"
+				"en": "https:///sets/VRN-files/img/106_Paintrain.png"
 			}
 		},
 		{
@@ -1295,9 +1215,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Creature — Human Rebel Soldier ",
-			"collector_number": "159",
+			"collector_number": "151",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/159_Trovian Veteren.png"
+				"en": "https:///sets/VRN-files/img/151_Trovian Veteren.png"
 			}
 		},
 		{
@@ -1305,9 +1225,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Insect ",
-			"collector_number": "136",
+			"collector_number": "128",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/136_Insectile Junker.png"
+				"en": "https:///sets/VRN-files/img/128_Insectile Junker.png"
 			}
 		},
 		{
@@ -1315,9 +1235,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Pilot ",
-			"collector_number": "161",
+			"collector_number": "153",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/161_Voltaic Racer.png"
+				"en": "https:///sets/VRN-files/img/153_Voltaic Racer.png"
 			}
 		},
 		{
@@ -1325,9 +1245,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "137",
+			"collector_number": "129",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/137_League Electromancer.png"
+				"en": "https:///sets/VRN-files/img/129_League Electromancer.png"
 			}
 		},
 		{
@@ -1335,9 +1255,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "144",
+			"collector_number": "136",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/144_Outsourced Recruitment.png"
+				"en": "https:///sets/VRN-files/img/136_Outsourced Recruitment.png"
 			}
 		},
 		{
@@ -1345,9 +1265,9 @@
 			"rarity": "common",
 			"mana_cost": "{X}{X}{R}",
 			"type": "Sorcery",
-			"collector_number": "133",
+			"collector_number": "125",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/133_Flaring Blades.png"
+				"en": "https:///sets/VRN-files/img/125_Flaring Blades.png"
 			}
 		},
 		{
@@ -1355,9 +1275,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "139",
+			"collector_number": "131",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/139_Liberated Dunestrider.png"
+				"en": "https:///sets/VRN-files/img/131_Liberated Dunestrider.png"
 			}
 		},
 		{
@@ -1365,9 +1285,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Human Artificer Rebel ",
-			"collector_number": "141",
+			"collector_number": "133",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/141_Mage-Ring Exile.png"
+				"en": "https:///sets/VRN-files/img/133_Mage-Ring Exile.png"
 			}
 		},
 		{
@@ -1375,9 +1295,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Creature — Bird Spirit ",
-			"collector_number": "202",
+			"collector_number": "193",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/202_Sylvan Spectator.png"
+				"en": "https:///sets/VRN-files/img/193_Sylvan Spectator.png"
 			}
 		},
 		{
@@ -1385,19 +1305,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Dryad ",
-			"collector_number": "165",
+			"collector_number": "157",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/165_Aether Whisperer.png"
-			}
-		},
-		{
-			"name": "Treesap Spinner",
-			"rarity": "common",
-			"mana_cost": "{2}{G}",
-			"type": "Creature — Spider Spirit ",
-			"collector_number": "203",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/203_Treesap Spinner.png"
+				"en": "https:///sets/VRN-files/img/157_Aether Whisperer.png"
 			}
 		},
 		{
@@ -1405,9 +1315,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Creature — Dryad ",
-			"collector_number": "176",
+			"collector_number": "168",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/176_Enclave Guardian.png"
+				"en": "https:///sets/VRN-files/img/168_Enclave Guardian.png"
 			}
 		},
 		{
@@ -1415,9 +1325,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Human Rebel ",
-			"collector_number": "193",
+			"collector_number": "185",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/193_Rebel Frontiersman.png"
+				"en": "https:///sets/VRN-files/img/185_Rebel Frontiersman.png"
 			}
 		},
 		{
@@ -1425,9 +1335,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Artifact Creature — Golem ",
-			"collector_number": "190",
+			"collector_number": "182",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/190_Part Salvager.png"
+				"en": "https:///sets/VRN-files/img/182_Part Salvager.png"
 			}
 		},
 		{
@@ -1435,9 +1345,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Human Mercenary ",
-			"collector_number": "191",
+			"collector_number": "183",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/191_Quarry Hunter.png"
+				"en": "https:///sets/VRN-files/img/183_Quarry Hunter.png"
 			}
 		},
 		{
@@ -1445,9 +1355,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Dryad ",
-			"collector_number": "196",
+			"collector_number": "188",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/196_Regrowth Dryad.png"
+				"en": "https:///sets/VRN-files/img/188_Regrowth Dryad.png"
 			}
 		},
 		{
@@ -1455,9 +1365,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Human Rebel ",
-			"collector_number": "183",
+			"collector_number": "175",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/183_Eternal Cavalier.png"
+				"en": "https:///sets/VRN-files/img/175_Eternal Cavalier.png"
 			}
 		},
 		{
@@ -1465,9 +1375,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{G}{G}",
 			"type": "Creature — Wurm ",
-			"collector_number": "198",
+			"collector_number": "190",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/198_Ringcrusher Wurm.png"
+				"en": "https:///sets/VRN-files/img/190_Ringcrusher Wurm.png"
 			}
 		},
 		{
@@ -1475,9 +1385,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "188",
+			"collector_number": "180",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/188_Outland Tranquility.png"
+				"en": "https:///sets/VRN-files/img/180_Outland Tranquility.png"
 			}
 		},
 		{
@@ -1485,19 +1395,19 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Instant",
-			"collector_number": "178",
+			"collector_number": "170",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/178_Energy Burst.png"
+				"en": "https:///sets/VRN-files/img/170_Energy Burst.png"
 			}
 		},
 		{
 			"name": "Combat Trial",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
-			"type": "Instant",
-			"collector_number": "169",
+			"type": "Sorcery",
+			"collector_number": "161",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/169_Combat Trial.png"
+				"en": "https:///sets/VRN-files/img/161_Combat Trial.png"
 			}
 		},
 		{
@@ -1505,9 +1415,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "175",
+			"collector_number": "167",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/175_Dune Glider.png"
+				"en": "https:///sets/VRN-files/img/167_Dune Glider.png"
 			}
 		},
 		{
@@ -1515,19 +1425,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Phyrexian Artificer ",
-			"collector_number": "41",
+			"collector_number": "39",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/41_Ward Splicer.png"
+				"en": "https:///sets/VRN-files/img/39_Ward Splicer.png"
 			}
 		},
 		{
-			"name": "Ranna, the Revitalizer",
+			"name": "Ranna Beleren, Revitalizer",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}",
 			"type": "Legendary Creature — Human Rebel ",
-			"collector_number": "32",
+			"collector_number": "31",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/32_Ranna, the Revitalizer.png"
+				"en": "https:///sets/VRN-files/img/31_Ranna Beleren, Revitalizer.png"
 			}
 		},
 		{
@@ -1535,9 +1445,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "30",
+			"collector_number": "29",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/30_Political Shift.png"
+				"en": "https:///sets/VRN-files/img/29_Political Shift.png"
 			}
 		},
 		{
@@ -1545,9 +1455,9 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "36",
+			"collector_number": "34",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/36_Ringshift.png"
+				"en": "https:///sets/VRN-files/img/34_Ringshift.png"
 			}
 		},
 		{
@@ -1557,7 +1467,7 @@
 			"type": "Creature — Human Artificer ",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/1_Adept Mechanic.png"
+				"en": "https:///sets/VRN-files/img/1_Adept Mechanic.png"
 			}
 		},
 		{
@@ -1565,9 +1475,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "14",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/14_Civilian Transport.png"
+				"en": "https:///sets/VRN-files/img/13_Civilian Transport.png"
 			}
 		},
 		{
@@ -1575,9 +1485,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Creature — Human Rogue ",
-			"collector_number": "54",
+			"collector_number": "52",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/54_Conniving Interloper.png"
+				"en": "https:///sets/VRN-files/img/52_Conniving Interloper.png"
 			}
 		},
 		{
@@ -1585,9 +1495,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "62",
+			"collector_number": "60",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/62_Flux Diviner.png"
+				"en": "https:///sets/VRN-files/img/60_Flux Diviner.png"
 			}
 		},
 		{
@@ -1595,9 +1505,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Human Wizard ",
-			"collector_number": "81",
+			"collector_number": "77",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/81_Tandriselle, Flux Protector.png"
+				"en": "https:///sets/VRN-files/img/77_Tandriselle, Flux Protector.png"
 			}
 		},
 		{
@@ -1605,9 +1515,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment",
-			"collector_number": "43",
+			"collector_number": "41",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/43_Aether Trail.png"
+				"en": "https:///sets/VRN-files/img/41_Aether Trail.png"
 			}
 		},
 		{
@@ -1615,9 +1525,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "64",
+			"collector_number": "61",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/64_Industrial Espionage.png"
+				"en": "https:///sets/VRN-files/img/61_Industrial Espionage.png"
 			}
 		},
 		{
@@ -1625,9 +1535,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}",
 			"type": "Instant",
-			"collector_number": "42",
+			"collector_number": "40",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/42_Aether Obscuration.png"
+				"en": "https:///sets/VRN-files/img/40_Aether Obscuration.png"
 			}
 		},
 		{
@@ -1635,9 +1545,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
-			"collector_number": "73",
+			"collector_number": "70",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/73_Recurring Setbacks.png"
+				"en": "https:///sets/VRN-files/img/70_Recurring Setbacks.png"
 			}
 		},
 		{
@@ -1645,9 +1555,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Spirit ",
-			"collector_number": "123",
+			"collector_number": "117",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/123_Warped Scion.png"
+				"en": "https:///sets/VRN-files/img/117_Warped Scion.png"
 			}
 		},
 		{
@@ -1655,9 +1565,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Creature — Phyrexian Beast ",
-			"collector_number": "113",
+			"collector_number": "108",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/113_Processor Beast.png"
+				"en": "https:///sets/VRN-files/img/108_Processor Beast.png"
 			}
 		},
 		{
@@ -1665,9 +1575,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{B}",
 			"type": "Creature — Phyrexian Artificer ",
-			"collector_number": "101",
+			"collector_number": "96",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/101_Fumechoke Splicer.png"
+				"en": "https:///sets/VRN-files/img/96_Fumechoke Splicer.png"
 			}
 		},
 		{
@@ -1675,9 +1585,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Spirit ",
-			"collector_number": "85",
+			"collector_number": "81",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/85_Aethereal Militia.png"
+				"en": "https:///sets/VRN-files/img/81_Aethereal Militia.png"
 			}
 		},
 		{
@@ -1685,9 +1595,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Spirit Cleric ",
-			"collector_number": "115",
+			"collector_number": "110",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/115_Render of Mortality.png"
+				"en": "https:///sets/VRN-files/img/110_Render of Mortality.png"
 			}
 		},
 		{
@@ -1695,9 +1605,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{X}{B}",
 			"type": "Sorcery",
-			"collector_number": "110",
+			"collector_number": "105",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/110_Otherworldly Onslaught.png"
+				"en": "https:///sets/VRN-files/img/105_Otherworldly Onslaught.png"
 			}
 		},
 		{
@@ -1705,9 +1615,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Instant",
-			"collector_number": "88",
+			"collector_number": "83",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/88_Apocryphal Rite.png"
+				"en": "https:///sets/VRN-files/img/83_Apocryphal Rite.png"
 			}
 		},
 		{
@@ -1715,9 +1625,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{B}",
 			"type": "Sorcery",
-			"collector_number": "105",
+			"collector_number": "100",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/105_Illicit Tutelage.png"
+				"en": "https:///sets/VRN-files/img/100_Illicit Tutelage.png"
 			}
 		},
 		{
@@ -1725,9 +1635,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Enchantment — Aura ",
-			"collector_number": "83",
+			"collector_number": "79",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/83_Aether Renewal.png"
+				"en": "https:///sets/VRN-files/img/79_Aether Renewal.png"
 			}
 		},
 		{
@@ -1735,9 +1645,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Legendary Artifact — Vehicle ",
-			"collector_number": "102",
+			"collector_number": "97",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/102_The Gambino.png"
+				"en": "https:///sets/VRN-files/img/97_The Gambino.png"
 			}
 		},
 		{
@@ -1745,9 +1655,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Rebel ",
-			"collector_number": "158",
+			"collector_number": "150",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/158_Trovian Slugshot.png"
+				"en": "https:///sets/VRN-files/img/150_Trovian Slugshot.png"
 			}
 		},
 		{
@@ -1755,9 +1665,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Advisor ",
-			"collector_number": "135",
+			"collector_number": "127",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/135_High Stakes Better.png"
+				"en": "https:///sets/VRN-files/img/127_High Stakes Better.png"
 			}
 		},
 		{
@@ -1765,9 +1675,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Rebel Wizard ",
-			"collector_number": "126",
+			"collector_number": "120",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/126_Brazen Arcanist.png"
+				"en": "https:///sets/VRN-files/img/120_Brazen Arcanist.png"
 			}
 		},
 		{
@@ -1775,9 +1685,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Human Rebel ",
-			"collector_number": "147",
+			"collector_number": "139",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/147_Renegade Rabble.png"
+				"en": "https:///sets/VRN-files/img/139_Renegade Rabble.png"
 			}
 		},
 		{
@@ -1785,9 +1695,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{X}{R}",
 			"type": "Sorcery",
-			"collector_number": "145",
+			"collector_number": "137",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/145_Pincer Maneuver.png"
+				"en": "https:///sets/VRN-files/img/137_Pincer Maneuver.png"
 			}
 		},
 		{
@@ -1795,9 +1705,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Instant",
-			"collector_number": "142",
+			"collector_number": "134",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/142_Mage-Ring Radiation.png"
+				"en": "https:///sets/VRN-files/img/134_Mage-Ring Radiation.png"
 			}
 		},
 		{
@@ -1805,9 +1715,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "143",
+			"collector_number": "135",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/143_Maverick Infiltrator.png"
+				"en": "https:///sets/VRN-files/img/135_Maverick Infiltrator.png"
 			}
 		},
 		{
@@ -1815,9 +1725,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "156",
+			"collector_number": "148",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/156_Trovian Liberator.png"
+				"en": "https:///sets/VRN-files/img/148_Trovian Liberator.png"
 			}
 		},
 		{
@@ -1825,9 +1735,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Spirit ",
-			"collector_number": "166",
+			"collector_number": "158",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/166_Aethereal Husk.png"
+				"en": "https:///sets/VRN-files/img/158_Aethereal Husk.png"
 			}
 		},
 		{
@@ -1835,9 +1745,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "181",
+			"collector_number": "173",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/181_Energy Recycling.png"
+				"en": "https:///sets/VRN-files/img/173_Energy Recycling.png"
 			}
 		},
 		{
@@ -1845,9 +1755,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Dryad Soldier ",
-			"collector_number": "197",
+			"collector_number": "189",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/197_Reservoir Guardian.png"
+				"en": "https:///sets/VRN-files/img/189_Reservoir Guardian.png"
 			}
 		},
 		{
@@ -1855,9 +1765,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Dryad ",
-			"collector_number": "168",
+			"collector_number": "160",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/168_Burstroot Dryad.png"
+				"en": "https:///sets/VRN-files/img/160_Burstroot Dryad.png"
 			}
 		},
 		{
@@ -1865,9 +1775,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Dryad Shaman ",
-			"collector_number": "205",
+			"collector_number": "195",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/205_Verge Shaman.png"
+				"en": "https:///sets/VRN-files/img/195_Verge Shaman.png"
 			}
 		},
 		{
@@ -1875,9 +1785,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "180",
+			"collector_number": "172",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/180_Energy Infusion.png"
+				"en": "https:///sets/VRN-files/img/172_Energy Infusion.png"
 			}
 		},
 		{
@@ -1885,19 +1795,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "200",
+			"collector_number": "191",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/200_Search for Sanctuary.png"
+				"en": "https:///sets/VRN-files/img/191_Search for Sanctuary.png"
 			}
 		},
 		{
 			"name": "Energy Drover",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{G}",
+			"mana_cost": "{3}{G}",
 			"type": "Creature — Dryad ",
-			"collector_number": "179",
+			"collector_number": "171",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/179_Energy Drover.png"
+				"en": "https:///sets/VRN-files/img/171_Energy Drover.png"
 			}
 		},
 		{
@@ -1905,9 +1815,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "189",
+			"collector_number": "181",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/189_Outlands Digger.png"
+				"en": "https:///sets/VRN-files/img/181_Outlands Digger.png"
 			}
 		},
 		{
@@ -1917,7 +1827,7 @@
 			"type": "Creature — Human Wizard ",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/4_Ampryn Advocate.png"
+				"en": "https:///sets/VRN-files/img/4_Ampryn Advocate.png"
 			}
 		},
 		{
@@ -1925,9 +1835,9 @@
 			"rarity": "rare",
 			"mana_cost": "{W}",
 			"type": "Enchantment",
-			"collector_number": "26",
+			"collector_number": "25",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/26_Mandatory Reconstruction.png"
+				"en": "https:///sets/VRN-files/img/25_Mandatory Reconstruction.png"
 			}
 		},
 		{
@@ -1935,19 +1845,19 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "9",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/9_Ampryn Wrath.png"
+				"en": "https:///sets/VRN-files/img/8_Ampryn Wrath.png"
 			}
 		},
 		{
-			"name": "Emerge Unscathed",
+			"name": "Emerge Triumphant",
 			"rarity": "rare",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "17",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/17_Emerge Unscathed.png"
+				"en": "https:///sets/VRN-files/img/16_Emerge Triumphant.png"
 			}
 		},
 		{
@@ -1955,9 +1865,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Legendary Artifact Creature — Phyrexian Cleric ",
-			"collector_number": "16",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/16_Eklan, Porcelain Subduer.png"
+				"en": "https:///sets/VRN-files/img/15_Eklan, Porcelain Subduer.png"
 			}
 		},
 		{
@@ -1965,9 +1875,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Noble Wizard ",
-			"collector_number": "69",
+			"collector_number": "66",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/69_Prestigious Scion.png"
+				"en": "https:///sets/VRN-files/img/66_Prestigious Scion.png"
 			}
 		},
 		{
@@ -1975,9 +1885,9 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{X}{U}{U}",
 			"type": "Creature — Human Wizard ",
-			"collector_number": "45",
+			"collector_number": "43",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/45_Ampryn Enforcer.png"
+				"en": "https:///sets/VRN-files/img/43_Ampryn Enforcer.png"
 			}
 		},
 		{
@@ -1985,9 +1895,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Soldier Wizard ",
-			"collector_number": "58",
+			"collector_number": "56",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/58_Consortium Operative.png"
+				"en": "https:///sets/VRN-files/img/56_Consortium Operative.png"
 			}
 		},
 		{
@@ -1995,19 +1905,19 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{U}",
 			"type": "Instant",
-			"collector_number": "49",
+			"collector_number": "47",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/49_Archmage's Dismissal.png"
+				"en": "https:///sets/VRN-files/img/47_Archmage's Dismissal.png"
 			}
 		},
 		{
 			"name": "Ancient Whispers",
 			"rarity": "rare",
-			"mana_cost": "{3}{U}",
+			"mana_cost": "{2}{U}",
 			"type": "Instant",
-			"collector_number": "48",
+			"collector_number": "46",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/48_Ancient Whispers.png"
+				"en": "https:///sets/VRN-files/img/46_Ancient Whispers.png"
 			}
 		},
 		{
@@ -2015,9 +1925,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}",
 			"type": "Enchantment",
-			"collector_number": "74",
+			"collector_number": "71",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/74_Roiling Arcana.png"
+				"en": "https:///sets/VRN-files/img/71_Roiling Arcana.png"
 			}
 		},
 		{
@@ -2025,9 +1935,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Legendary Artifact Creature — Spirit ",
-			"collector_number": "109",
+			"collector_number": "104",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/109_Okla, Queen of Refuse.png"
+				"en": "https:///sets/VRN-files/img/104_Okla, Queen of Refuse.png"
 			}
 		},
 		{
@@ -2035,9 +1945,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Insect ",
-			"collector_number": "106",
+			"collector_number": "101",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/106_Mage-Ring Mite.png"
+				"en": "https:///sets/VRN-files/img/101_Mage-Ring Mite.png"
 			}
 		},
 		{
@@ -2045,9 +1955,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Enchantment",
-			"collector_number": "112",
+			"collector_number": "107",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/112_Phyrexian Scrutiny.png"
+				"en": "https:///sets/VRN-files/img/107_Phyrexian Scrutiny.png"
 			}
 		},
 		{
@@ -2055,9 +1965,9 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{B}{B}",
 			"type": "Legendary Artifact",
-			"collector_number": "117",
+			"collector_number": "112",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/117_The Ring of Ghosts.png"
+				"en": "https:///sets/VRN-files/img/112_The Ring of Ghosts.png"
 			}
 		},
 		{
@@ -2065,9 +1975,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}",
 			"type": "Artifact Creature — Construct ",
-			"collector_number": "132",
+			"collector_number": "124",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/132_Fabricated Junker.png"
+				"en": "https:///sets/VRN-files/img/124_Fabricated Junker.png"
 			}
 		},
 		{
@@ -2075,9 +1985,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Rebel Soldier ",
-			"collector_number": "154",
+			"collector_number": "146",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/154_Trovian Avenger.png"
+				"en": "https:///sets/VRN-files/img/146_Trovian Avenger.png"
 			}
 		},
 		{
@@ -2085,9 +1995,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Instant",
-			"collector_number": "149",
+			"collector_number": "141",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/149_Runesplitter Bolt.png"
+				"en": "https:///sets/VRN-files/img/141_Runesplitter Bolt.png"
 			}
 		},
 		{
@@ -2095,9 +2005,9 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "164",
+			"collector_number": "156",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/164_Wasteland Ordeal.png"
+				"en": "https:///sets/VRN-files/img/156_Wasteland Ordeal.png"
 			}
 		},
 		{
@@ -2105,9 +2015,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "150",
+			"collector_number": "142",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/150_Scavenger Craft.png"
+				"en": "https:///sets/VRN-files/img/142_Scavenger Craft.png"
 			}
 		},
 		{
@@ -2115,9 +2025,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "146",
+			"collector_number": "138",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/146_Recon Fighter.png"
+				"en": "https:///sets/VRN-files/img/138_Recon Fighter.png"
 			}
 		},
 		{
@@ -2125,9 +2035,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Creature — Human Druid ",
-			"collector_number": "187",
+			"collector_number": "179",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/187_Olim, Ring Seeker.png"
+				"en": "https:///sets/VRN-files/img/179_Olim, Ring Seeker.png"
 			}
 		},
 		{
@@ -2135,9 +2045,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}",
 			"type": "Legendary Creature — Dryad ",
-			"collector_number": "204",
+			"collector_number": "194",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/204_Tressera, Outlands Enigma.png"
+				"en": "https:///sets/VRN-files/img/194_Tressera, Outlands Enigma.png"
 			}
 		},
 		{
@@ -2145,9 +2055,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Dryad Druid ",
-			"collector_number": "172",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/172_Druid of Fruition.png"
+				"en": "https:///sets/VRN-files/img/164_Druid of Fruition.png"
 			}
 		},
 		{
@@ -2155,9 +2065,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Dryad Warrior ",
-			"collector_number": "174",
+			"collector_number": "166",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/174_Dryad Crusher.png"
+				"en": "https:///sets/VRN-files/img/166_Dryad Crusher.png"
 			}
 		},
 		{
@@ -2165,9 +2075,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment",
-			"collector_number": "173",
+			"collector_number": "165",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/173_Druidic Crossroads.png"
+				"en": "https:///sets/VRN-files/img/165_Druidic Crossroads.png"
 			}
 		},
 		{
@@ -2175,9 +2085,9 @@
 			"rarity": "rare",
 			"mana_cost": "{G}",
 			"type": "Legendary Enchantment",
-			"collector_number": "201",
+			"collector_number": "192",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/201_Sigil of Roiling Elements.png"
+				"en": "https:///sets/VRN-files/img/192_Sigil of Roiling Elements.png"
 			}
 		},
 		{
@@ -2187,7 +2097,7 @@
 			"type": "Legendary Creature — Human Soldier Advisor ",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/2_Admiral Thall.png"
+				"en": "https:///sets/VRN-files/img/2_Admiral Thall.png"
 			}
 		},
 		{
@@ -2195,9 +2105,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "47",
+			"collector_number": "45",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/47_Ancient Visions.png"
+				"en": "https:///sets/VRN-files/img/45_Ancient Visions.png"
 			}
 		},
 		{
@@ -2205,9 +2115,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Creature — Phyrexian Wizard ",
-			"collector_number": "118",
+			"collector_number": "113",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/118_Scheming Oilshaper.png"
+				"en": "https:///sets/VRN-files/img/113_Scheming Oilshaper.png"
 			}
 		},
 		{
@@ -2215,9 +2125,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{B}",
 			"type": "Legendary Artifact — Equipment ",
-			"collector_number": "120",
+			"collector_number": "115",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/120_Slayer's Blade.png"
+				"en": "https:///sets/VRN-files/img/115_Slayer's Blade.png"
 			}
 		},
 		{
@@ -2225,9 +2135,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Legendary Artifact — Vehicle ",
-			"collector_number": "153",
+			"collector_number": "145",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/153_Separatist Titancraft.png"
+				"en": "https:///sets/VRN-files/img/145_Separatist Titancraft.png"
 			}
 		},
 		{
@@ -2235,9 +2145,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Legendary Creature — Dryad ",
-			"collector_number": "185",
+			"collector_number": "177",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/185_Kunga, Dryad Warden.png"
+				"en": "https:///sets/VRN-files/img/177_Kunga, Dryad Warden.png"
 			}
 		},
 		{
@@ -2245,9 +2155,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Enchantment — Aura ",
-			"collector_number": "182",
+			"collector_number": "174",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/182_The Energy Reservoir.png"
+				"en": "https:///sets/VRN-files/img/174_The Energy Reservoir.png"
 			}
 		},
 		{
@@ -2255,9 +2165,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Artifact",
-			"collector_number": "221",
+			"collector_number": "213",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/221_Outskirts Mage-Ring.png"
+				"en": "https:///sets/VRN-files/img/213_Outskirts Mage-Ring.png"
 			}
 		},
 		{
@@ -2265,9 +2175,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}{B}",
 			"type": "Creature — Human Rogue Wizard ",
-			"collector_number": "223",
+			"collector_number": "215",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/223_Rogue Shadowmage.png"
+				"en": "https:///sets/VRN-files/img/215_Rogue Shadowmage.png"
 			}
 		},
 		{
@@ -2275,29 +2185,29 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{G}",
 			"type": "Legendary Creature — Human Soldier ",
-			"collector_number": "224",
+			"collector_number": "216",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/224_Rudolph, Ampryn Brutalizer.png"
+				"en": "https:///sets/VRN-files/img/216_Rudolph, Ampryn Brutalizer.png"
 			}
 		},
 		{
-			"name": "Reliquary Guards",
+			"name": "Reliquary Guard",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{W}",
 			"type": "Creature — Human Nomad ",
-			"collector_number": "222",
+			"collector_number": "214",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/222_Reliquary Guards.png"
+				"en": "https:///sets/VRN-files/img/214_Reliquary Guard.png"
 			}
 		},
 		{
 			"name": "Mandate Splicer",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{W}{B}",
+			"mana_cost": "{3}{W}{B}",
 			"type": "Creature — Phyrexian Artificer ",
-			"collector_number": "216",
+			"collector_number": "209",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/216_Mandate Splicer.png"
+				"en": "https:///sets/VRN-files/img/209_Mandate Splicer.png"
 			}
 		},
 		{
@@ -2305,9 +2215,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}{G}",
 			"type": "Legendary Creature — Spirit Warrior ",
-			"collector_number": "210",
+			"collector_number": "201",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/210_The Energy Revenant.png"
+				"en": "https:///sets/VRN-files/img/201_The Energy Revenant.png"
 			}
 		},
 		{
@@ -2315,9 +2225,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{U}",
 			"type": "Legendary Creature — Human Wizard ",
-			"collector_number": "215",
+			"collector_number": "207",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/215_Kavalester, Mage Hermit.png"
+				"en": "https:///sets/VRN-files/img/207_Kavalester, Mage Hermit.png"
 			}
 		},
 		{
@@ -2325,19 +2235,19 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{U}",
 			"type": "Legendary Creature — Human Advisor ",
-			"collector_number": "209",
+			"collector_number": "200",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/209_Drydis Fergan, Ampryn Recruiter.png"
+				"en": "https:///sets/VRN-files/img/200_Drydis Fergan, Ampryn Recruiter.png"
 			}
 		},
 		{
 			"name": "Orith, Consortium Mage",
 			"rarity": "rare",
-			"mana_cost": "{2}{U}{B}",
+			"mana_cost": "{1}{U}{B}",
 			"type": "Legendary Creature — Human Rogue Wizard ",
-			"collector_number": "219",
+			"collector_number": "211",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/219_Orith, Consortium Mage.png"
+				"en": "https:///sets/VRN-files/img/211_Orith, Consortium Mage.png"
 			}
 		},
 		{
@@ -2345,9 +2255,9 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{R}",
 			"type": "Legendary Creature — Human Pilot ",
-			"collector_number": "207",
+			"collector_number": "197",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/207_Charim Kosta, Boy Prodigy.png"
+				"en": "https:///sets/VRN-files/img/197_Charim Kosta, Boy Prodigy.png"
 			}
 		},
 		{
@@ -2355,19 +2265,19 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{G}",
 			"type": "Legendary Creature — Human Berserker ",
-			"collector_number": "208",
+			"collector_number": "199",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/208_Deb O'Raw, the Ruthless.png"
+				"en": "https:///sets/VRN-files/img/199_Deb O'Raw, the Ruthless.png"
 			}
 		},
 		{
-			"name": "Nira Wardcaster",
+			"name": "Nira, Wardcaster",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Legendary Creature — Human Rebel ",
-			"collector_number": "218",
+			"collector_number": "210",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/218_Nira Wardcaster.png"
+				"en": "https:///sets/VRN-files/img/210_Nira, Wardcaster.png"
 			}
 		},
 		{
@@ -2375,9 +2285,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Legendary Creature — Phyrexian Artificer ",
-			"collector_number": "230",
+			"collector_number": "225",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/230_Xyarta, Norn's Ambassador.png"
+				"en": "https:///sets/VRN-files/img/225_Xyarta, Norn's Ambassador.png"
 			}
 		},
 		{
@@ -2385,9 +2295,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Legendary Creature — Human Wizard ",
-			"collector_number": "220",
+			"collector_number": "212",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/220_Orsin, Mentor to Mages.png"
+				"en": "https:///sets/VRN-files/img/212_Orsin, Mentor to Mages.png"
 			}
 		},
 		{
@@ -2395,9 +2305,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{G}",
 			"type": "Legendary Creature — Avatar ",
-			"collector_number": "228",
+			"collector_number": "223",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/228_Vestis, Apocalypse Entity.png"
+				"en": "https:///sets/VRN-files/img/223_Vestis, Apocalypse Entity.png"
 			}
 		},
 		{
@@ -2405,9 +2315,9 @@
 			"rarity": "rare",
 			"mana_cost": "{G}{U}",
 			"type": "Legendary Creature — Elf Druid ",
-			"collector_number": "225",
+			"collector_number": "219",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/225_Tennuk, Omenpath Navigator.png"
+				"en": "https:///sets/VRN-files/img/219_Tennuk, Omenpath Navigator.png"
 			}
 		},
 		{
@@ -2415,9 +2325,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "245",
+			"collector_number": "240",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/245_Rebel Codex.png"
+				"en": "https:///sets/VRN-files/img/240_Rebel Codex.png"
 			}
 		},
 		{
@@ -2425,9 +2335,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "250",
+			"collector_number": "245",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/250_Wizard Codex.png"
+				"en": "https:///sets/VRN-files/img/245_Wizard Codex.png"
 			}
 		},
 		{
@@ -2435,9 +2345,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "231",
+			"collector_number": "226",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/231_Aethereal Codex.png"
+				"en": "https:///sets/VRN-files/img/226_Aethereal Codex.png"
 			}
 		},
 		{
@@ -2445,9 +2355,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "243",
+			"collector_number": "238",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/243_Maverick Codex.png"
+				"en": "https:///sets/VRN-files/img/238_Maverick Codex.png"
 			}
 		},
 		{
@@ -2455,9 +2365,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "249",
+			"collector_number": "244",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/249_Trovian Blade.png"
+				"en": "https:///sets/VRN-files/img/244_Trovian Blade.png"
 			}
 		},
 		{
@@ -2465,9 +2375,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "236",
+			"collector_number": "231",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/236_Codex Archive.png"
+				"en": "https:///sets/VRN-files/img/231_Codex Archive.png"
 			}
 		},
 		{
@@ -2475,9 +2385,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact — Vehicle ",
-			"collector_number": "237",
+			"collector_number": "232",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/237_Consortium Copter.png"
+				"en": "https:///sets/VRN-files/img/232_Consortium Copter.png"
 			}
 		},
 		{
@@ -2485,9 +2395,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "268",
+			"collector_number": "263",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/268_Unveiled Expanse.png"
+				"en": "https:///sets/VRN-files/img/263_Unveiled Expanse.png"
 			}
 		},
 		{
@@ -2495,9 +2405,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Sanctuary ",
-			"collector_number": "261",
+			"collector_number": "256",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/261_Mistcovered Sanctuary.png"
+				"en": "https:///sets/VRN-files/img/256_Mistcovered Sanctuary.png"
 			}
 		},
 		{
@@ -2505,9 +2415,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Sanctuary ",
-			"collector_number": "266",
+			"collector_number": "261",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/266_Skybreaker Sanctuary.png"
+				"en": "https:///sets/VRN-files/img/261_Skybreaker Sanctuary.png"
 			}
 		},
 		{
@@ -2515,9 +2425,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Sanctuary ",
-			"collector_number": "267",
+			"collector_number": "262",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/267_Undercroft Sanctuary.png"
+				"en": "https:///sets/VRN-files/img/262_Undercroft Sanctuary.png"
 			}
 		},
 		{
@@ -2525,9 +2435,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Sanctuary ",
-			"collector_number": "254",
+			"collector_number": "249",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/254_Bridgetower Sanctuary.png"
+				"en": "https:///sets/VRN-files/img/249_Bridgetower Sanctuary.png"
 			}
 		},
 		{
@@ -2535,19 +2445,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Sanctuary ",
-			"collector_number": "262",
+			"collector_number": "257",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/262_Overgrown Sanctuary.png"
-			}
-		},
-		{
-			"name": "Spellstorm Entourage",
-			"rarity": "common",
-			"mana_cost": "{2}{U}",
-			"type": "Instant",
-			"collector_number": "78",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/78_Spellstorm Entourage.png"
+				"en": "https:///sets/VRN-files/img/257_Overgrown Sanctuary.png"
 			}
 		},
 		{
@@ -2555,9 +2455,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Creature — Human Rebel ",
-			"collector_number": "10",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/10_Ardent Recruiter.png"
+				"en": "https:///sets/VRN-files/img/9_Ardent Recruiter.png"
 			}
 		},
 		{
@@ -2565,9 +2465,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact Creature — Phyrexian Golem ",
-			"collector_number": "13",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/13_Phyrexian Golem.png"
+				"en": "https:///sets/VRN-files/img/14_Phyrexian Golem.png"
 			}
 		},
 		{
@@ -2577,7 +2477,7 @@
 			"type": "",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/6_Vryn Draft Archetypes.png"
+				"en": "https:///sets/VRN-files/img/6_Vryn Draft Archetypes.png"
 			}
 		},
 		{
@@ -2587,7 +2487,7 @@
 			"type": "Token Creature — Spirit ",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/9_Spirit.png"
+				"en": "https:///sets/VRN-files/img/9_Spirit.png"
 			}
 		},
 		{
@@ -2595,9 +2495,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "244",
+			"collector_number": "239",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/244_Preserver's Codex.png"
+				"en": "https:///sets/VRN-files/img/239_Preserver's Codex.png"
 			}
 		},
 		{
@@ -2605,9 +2505,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}",
 			"type": "Instant",
-			"collector_number": "125",
+			"collector_number": "119",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/125_Ancient Echo.png"
+				"en": "https:///sets/VRN-files/img/119_Ancient Echo.png"
 			}
 		},
 		{
@@ -2615,19 +2515,19 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment",
-			"collector_number": "162",
+			"collector_number": "154",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/162_Voltaic Stride.png"
+				"en": "https:///sets/VRN-files/img/154_Voltaic Stride.png"
 			}
 		},
 		{
-			"name": "Demonlord Bobert",
+			"name": "Azelizoth, Abyssal Arbiter",
 			"rarity": "mythic",
 			"mana_cost": "{5}{B}{B}",
 			"type": "Legendary Creature — Demon ",
-			"collector_number": "95",
+			"collector_number": "84",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/95_Demonlord Bobert.png"
+				"en": "https:///sets/VRN-files/img/84_Azelizoth, Abyssal Arbiter.png"
 			}
 		},
 		{
@@ -2635,9 +2535,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{B}",
 			"type": "Legendary Artifact — Vehicle ",
-			"collector_number": "98",
+			"collector_number": "93",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/98_The Dreadsled.png"
+				"en": "https:///sets/VRN-files/img/93_The Dreadsled.png"
 			}
 		},
 		{
@@ -2645,9 +2545,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{U}",
 			"type": "Legendary Artifact Creature — Human Artificer ",
-			"collector_number": "65",
+			"collector_number": "62",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/65_Irelia, Etherium Crafter.png"
+				"en": "https:///sets/VRN-files/img/62_Irelia, Etherium Crafter.png"
 			}
 		},
 		{
@@ -2655,9 +2555,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Instant",
-			"collector_number": "59",
+			"collector_number": "57",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/59_Core Convergence.png"
+				"en": "https:///sets/VRN-files/img/57_Core Convergence.png"
 			}
 		},
 		{
@@ -2665,9 +2565,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{W}",
 			"type": "Legendary Creature — Phyrexian Bird ",
-			"collector_number": "20",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/20_Erxandath Blightwing.png"
+				"en": "https:///sets/VRN-files/img/19_Erxandath Blightwing.png"
 			}
 		},
 		{
@@ -2675,59 +2575,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{W}",
 			"type": "Legendary Artifact",
-			"collector_number": "21",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/21_Exemplary Toolcraft.png"
-			}
-		},
-		{
-			"name": "Fieldmist Borderpost",
-			"rarity": "common",
-			"mana_cost": "{1}{W}{U}",
-			"type": "Artifact",
-			"collector_number": "212",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/212_Fieldmist Borderpost.png"
-			}
-		},
-		{
-			"name": "Firewild Borderpost",
-			"rarity": "common",
-			"mana_cost": "{1}{R}{G}",
-			"type": "Artifact",
-			"collector_number": "213",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/213_Firewild Borderpost.png"
-			}
-		},
-		{
-			"name": "Mistvein Borderpost",
-			"rarity": "common",
-			"mana_cost": "{1}{U}{B}",
-			"type": "Artifact",
-			"collector_number": "217",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/217_Mistvein Borderpost.png"
-			}
-		},
-		{
-			"name": "Veinfire Borderpost",
-			"rarity": "common",
-			"mana_cost": "{1}{B}{R}",
-			"type": "Artifact",
-			"collector_number": "227",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/227_Veinfire Borderpost.png"
-			}
-		},
-		{
-			"name": "Wildfield Borderpost",
-			"rarity": "common",
-			"mana_cost": "{1}{G}{W}",
-			"type": "Artifact",
-			"collector_number": "229",
-			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/229_Wildfield Borderpost.png"
+				"en": "https:///sets/VRN-files/img/20_Exemplary Toolcraft.png"
 			}
 		},
 		{
@@ -2735,9 +2585,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "131",
+			"collector_number": "123",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/131_Do or Die.png"
+				"en": "https:///sets/VRN-files/img/123_Do or Die.png"
 			}
 		},
 		{
@@ -2747,7 +2597,7 @@
 			"type": "Enchantment — Aura ",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/3_Aether Suspension.png"
+				"en": "https:///sets/VRN-files/img/3_Aether Suspension.png"
 			}
 		},
 		{
@@ -2755,9 +2605,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{X}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "177",
+			"collector_number": "169",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/177_Energized Emergence.png"
+				"en": "https:///sets/VRN-files/img/169_Energized Emergence.png"
 			}
 		},
 		{
@@ -2765,9 +2615,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{G}",
 			"type": "Enchantment",
-			"collector_number": "186",
+			"collector_number": "178",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/186_Mana Lens.png"
+				"en": "https:///sets/VRN-files/img/178_Mana Lens.png"
 			}
 		},
 		{
@@ -2775,9 +2625,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact Creature — Golem ",
-			"collector_number": "12",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/12_Golem.png"
+				"en": "https:///sets/VRN-files/img/13_Golem.png"
 			}
 		},
 		{
@@ -2785,9 +2635,9 @@
 			"rarity": "rare",
 			"mana_cost": "{6}",
 			"type": "Artifact",
-			"collector_number": "241",
+			"collector_number": "236",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/241_Mage-Ring Omenpath.png"
+				"en": "https:///sets/VRN-files/img/236_Mage-Ring Omenpath.png"
 			}
 		},
 		{
@@ -2797,7 +2647,7 @@
 			"type": "",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/3_The Core1.png"
+				"en": "https:///sets/VRN-files/img/3_The Core1.png"
 			}
 		},
 		{
@@ -2805,9 +2655,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "247",
+			"collector_number": "242",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/247_Springleaf Drum.png"
+				"en": "https:///sets/VRN-files/img/242_Springleaf Drum.png"
 			}
 		},
 		{
@@ -2817,7 +2667,7 @@
 			"type": "Token Creature — Wizard ",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/8_Wizard.png"
+				"en": "https:///sets/VRN-files/img/8_Wizard.png"
 			}
 		},
 		{
@@ -2825,9 +2675,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Equipment ",
-			"collector_number": "14",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/14_Sword.png"
+				"en": "https:///sets/VRN-files/img/15_Sword.png"
 			}
 		},
 		{
@@ -2835,9 +2685,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "38",
+			"collector_number": "36",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/38_Smite the Ethereal.png"
+				"en": "https:///sets/VRN-files/img/36_Smite the Ethereal.png"
 			}
 		},
 		{
@@ -2845,9 +2695,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact Creature — Thopter ",
-			"collector_number": "15",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/15_Thopter.png"
+				"en": "https:///sets/VRN-files/img/16_Thopter.png"
 			}
 		},
 		{
@@ -2855,9 +2705,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}",
 			"type": "Artifact — Equipment ",
-			"collector_number": "248",
+			"collector_number": "243",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/248_Sword of Price and Progress.png"
+				"en": "https:///sets/VRN-files/img/243_Sword of Price and Progress.png"
 			}
 		},
 		{
@@ -2865,9 +2715,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}",
 			"type": "Legendary Artifact — Equipment ",
-			"collector_number": "233",
+			"collector_number": "228",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/233_Artificer's Jitte.png"
+				"en": "https:///sets/VRN-files/img/228_Artificer's Jitte.png"
 			}
 		},
 		{
@@ -2875,9 +2725,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Creature — Elemental ",
-			"collector_number": "10",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/10_Kordoa.png"
+				"en": "https:///sets/VRN-files/img/11_Kordoa.png"
 			}
 		},
 		{
@@ -2885,9 +2735,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Instant",
-			"collector_number": "195",
+			"collector_number": "187",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/195_Regression.png"
+				"en": "https:///sets/VRN-files/img/187_Regression.png"
 			}
 		},
 		{
@@ -2897,7 +2747,7 @@
 			"type": "Token Creature — Rebel Soldier ",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/7_Rebel Soldier.png"
+				"en": "https:///sets/VRN-files/img/7_Rebel Soldier.png"
 			}
 		},
 		{
@@ -2905,9 +2755,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Land Creature — Forest Dryad ",
-			"collector_number": "17",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/17_Forest Dryad.png"
+				"en": "https:///sets/VRN-files/img/18_Forest Dryad.png"
 			}
 		},
 		{
@@ -2915,9 +2765,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Treasure ",
-			"collector_number": "16",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/16_Treasure.png"
+				"en": "https:///sets/VRN-files/img/17_Treasure.png"
 			}
 		},
 		{
@@ -2927,7 +2777,7 @@
 			"type": "Token ",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/1_Copy.png"
+				"en": "https:///sets/VRN-files/img/1_Copy.png"
 			}
 		},
 		{
@@ -2935,9 +2785,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}",
 			"type": "Legendary Artifact",
-			"collector_number": "234",
+			"collector_number": "229",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/234_The Assembly Core.png"
+				"en": "https:///sets/VRN-files/img/229_The Assembly Core.png"
 			}
 		},
 		{
@@ -2947,7 +2797,7 @@
 			"type": "",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/4_Energy Reserve.png"
+				"en": "https:///sets/VRN-files/img/4_Energy Reserve.png"
 			}
 		},
 		{
@@ -2955,280 +2805,119 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Emblem",
-			"collector_number": "18",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/VRN-files/img/18_Mara, Hand of the Core Emblem.png"
+				"en": "https:///sets/VRN-files/img/19_Mara, Hand of the Core Emblem.png"
+			}
+		},
+		{
+			"name": "Core Sentinels",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{U}",
+			"type": "Artifact Creature — Golem Soldier ",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https:///sets/VRN-files/img/198_Core Sentinels.png"
+			}
+		},
+		{
+			"name": "Entity's Grasp",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Enchantment",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https:///sets/VRN-files/img/202_Entity's Grasp.png"
+			}
+		},
+		{
+			"name": "Illicit Markfinder",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Creature — Vedalken Rogue ",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https:///sets/VRN-files/img/205_Illicit Markfinder.png"
+			}
+		},
+		{
+			"name": "Jarlhoff, Princely Pegasus",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{W}",
+			"type": "Legendary Creature — Pegasus ",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https:///sets/VRN-files/img/206_Jarlhoff, Princely Pegasus.png"
+			}
+		},
+		{
+			"name": "Mage Hermit's Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Instant",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https:///sets/VRN-files/img/208_Mage Hermit's Charm.png"
+			}
+		},
+		{
+			"name": "Safety Inspector Ted",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Human Artificer ",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https:///sets/VRN-files/img/217_Safety Inspector Ted.png"
+			}
+		},
+		{
+			"name": "Tandem Bolt",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{R}",
+			"type": "Instant",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https:///sets/VRN-files/img/218_Tandem Bolt.png"
+			}
+		},
+		{
+			"name": "Thrumming Matrix",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Artifact",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https:///sets/VRN-files/img/220_Thrumming Matrix.png"
+			}
+		},
+		{
+			"name": "Travelling Flamecatcher",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Troll Shaman ",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https:///sets/VRN-files/img/221_Travelling Flamecatcher.png"
+			}
+		},
+		{
+			"name": "Voice of Orthodoxy",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Creature — Phyrexian Soldier ",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https:///sets/VRN-files/img/224_Voice of Orthodoxy.png"
+			}
+		},
+		{
+			"name": "Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elemental ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https:///sets/VRN-files/img/10_Elemental.png"
 			}
 		}
 	]
-[RareSlot(2)]
-2 League Pyromancer
-2 Ampryn Confidant
-2 Gear Matrix
-2 Reliquary Guardian
-2 Frigid Turbines
-2 Geothermal Conduits
-2 Avatar of Law
-2 Gav Beleren, War Hero
-2 Baleful Arbiter
-2 Skyward Arbiters
-2 The Arboreal Skycraft
-2 Hydroelectric Plant
-2 Refinery Pit
-2 Aether Farm
-2 Kinetic Tracks
-2 Recycling Chamber
-2 Reactor Pool
-2 Automated Lair
-2 Convergence Floor
-2 Aethereal Militia
-2 Ampryn Advocate
-2 Mandatory Reconstruction
-2 Ampryn Wrath
-2 Emerge Unscathed
-2 Eklan, Porcelain Subduer
-2 Prestigious Scion
-2 Ampryn Enforcer
-2 Consortium Operative
-2 Archmage's Dismissal
-2 Ancient Whispers
-2 Roiling Arcana
-2 Okla, Queen of Refuse
-2 Mage-Ring Mite
-2 Phyrexian Scrutiny
-2 The Ring of Ghosts
-2 Fabricated Junker
-2 Trovian Avenger
-2 Runesplitter Bolt
-2 Wasteland Ordeal
-2 Recon Fighter
-2 Olim, Ring Seeker
-2 Tressera, Outlands Enigma
-2 Druid of Fruition
-2 Dryad Crusher
-2 Druidic Crossroads
-2 Sigil of Roiling Elements
-2 Separatist Titancraft
-2 Drydis Fergan, Ampryn Recruiter
-2 Orith, Consortium Mage
-2 Charim Kosta, Boy Prodigy
-2 Deb O'Raw, the Ruthless
-2 Nira Wardcaster
-2 Xyarta, Norn's Ambassador
-2 Orsin, Mentor to Mages
-2 Vestis, Apocalypse Entity
-2 Tennuk, Omenpath Navigator
-2 Mage-Ring Omenpath
-1 Jace, Telepath Homebound
-1 Mara, Hand of the Core
-1 Charim Kosta, Planeswalker
-1 Scavenger Craft
-1 Admiral Thall
-1 Ancient Visions
-1 Scheming Oilshaper
-1 Slayer's Blade
-1 Kunga, Dryad Warden
-1 The Energy Reservoir
-1 Ancient Echo
-1 Voltaic Stride
-1 Demonlord Bobert
-1 The Dreadsled
-1 Irelia, Etherium Crafter
-1 Core Convergence
-1 Erxandath Blightwing
-1 Exemplary Toolcraft
-1 Energized Emergence
-1 Mana Lens
-1 Sword of Price and Progress
-1 Artificer's Jitte
-1 The Assembly Core
-[UncommonSlot(4)]
-9 Graveblade Marauder
-9 Mage-Ring Responder
-9 Trovian Wingmare
-9 Consortium Informant
-9 Chart a Course
-9 Tyrannical Mage
-9 Seasoned Electromancer
-9 Enforcer of Ancients
-9 Aether Hub
-9 Pylon Protector
-9 Ampryn Consignment
-9 The Eviscerator
-9 Arin, Reconstructor Rebel
-9 Prosperous Magocrat
-9 Cargo Checkpoint
-9 Ampryn Charmbreaker
-9 Vapid Culling
-9 The Energy Blade
-9 Solemn Simulacrum
-9 Glade Quickshots
-9 Brilliant Mage-Ring
-9 Derelict Mage-Ring
-9 Reclaimed Mage-Ring
-9 Repurposed Mage-Ring
-9 Glorious Mage-Ring
-9 Benevolent Photomancer
-9 Jolted Awake
-9 Become Compleat
-9 Harvester Font
-9 Trovian Veteren
-9 Ward Splicer
-9 Ranna, the Revitalizer
-9 Political Shift
-9 Civilian Transport
-9 Flux Diviner
-9 Tandriselle, Flux Protector
-9 Aether Trail
-9 Industrial Espionage
-9 Aether Obscuration
-9 Recurring Setbacks
-9 Warped Scion
-9 Processor Beast
-9 Fumechoke Splicer
-9 Render of Mortality
-9 Otherworldly Onslaught
-9 The Gambino
-9 Trovian Slugshot
-9 High Stakes Better
-9 Renegade Rabble
-9 Pincer Maneuver
-9 Mage-Ring Radiation
-9 Maverick Infiltrator
-9 Trovian Liberator
-9 Aethereal Husk
-9 Energy Recycling
-9 Reservoir Guardian
-9 Burstroot Dryad
-9 Verge Shaman
-9 Energy Infusion
-9 Search for Sanctuary
-9 Energy Drover
-9 Outlands Digger
-9 Outskirts Mage-Ring
-9 Rogue Shadowmage
-9 Rudolph, Ampryn Brutalizer
-9 Reliquary Guards
-9 Mandate Splicer
-9 The Energy Revenant
-9 Kavalester, Mage Hermit
-9 Codex Archive
-9 Consortium Copter
-9 Ardent Recruiter
-9 Do or Die
-9 Springleaf Drum
-[CommonSlot(9)]
-30 Conniving Voidmage
-30 Ampryn Frontliner
-30 Mage-Ring Engineer
-30 League Aethermage
-30 Impulse
-30 Separatist Dervish
-30 Subconscious Warning
-30 Trovian Disciple
-30 Unvaulted Evil
-30 Bastion Seraph
-30 Ringer Nightwatch
-30 Destabilize
-30 Bespoke Artifact
-30 Unearthed Relics
-30 Sinking Opportunities
-30 Council's Edict
-30 Read the Trail
-30 Ringer's Resolve
-30 Steel Sabotage
-30 Constructed Dreadmaw
-30 Ampryn Oathbreaker
-30 Rebel Bladesmith
-30 Vexing Ward
-30 Core Rupture
-30 Ringer Templar
-30 Ring Feeder
-30 Chaser Bike
-30 Ampryn Sentry
-30 Galvanic Strike
-30 Trovian Renegade
-30 Temporal Harvest
-30 Anarchist's Wrath
-30 Vortice Merge
-30 Fallen Battlemage
-30 Burnished Geomancer
-30 Ghalian Instructor
-30 Phyrexian Facestealer
-30 Forsaken Legionnaire
-30 Crimson Anointer
-30 Ampryn Study
-30 Enforcer's Procession
-30 Skill Flare
-30 Enforcer's Ringwheeler
-30 Peacekeeper Plane
-30 Ardent Cryptomancer
-30 Escapade Mage
-30 Protector of the Core
-30 Consortium Bookthief
-30 Messenger Drake
-30 Somnomancer Adept
-30 Rain of Frost
-30 Estrangement Field
-30 Ampryn Mantle
-30 Cloaked Observer
-30 Consortium Mastermind
-30 Aether Revenant
-30 Separatist Revenant
-30 Oilborn
-30 Ampryn Lich
-30 Mercenary Arbiter
-30 Black Market Beguiler
-30 Entropic Chiming
-30 Consortium Switchblade
-30 Derelict Dredger
-30 Paintrain
-30 Insectile Junker
-30 Voltaic Racer
-30 League Electromancer
-30 Outsourced Recruitment
-30 Flaring Blades
-30 Liberated Dunestrider
-30 Mage-Ring Exile
-30 Sylvan Spectator
-30 Aether Whisperer
-30 Treesap Spinner
-30 Enclave Guardian
-30 Rebel Frontiersman
-30 Part Salvager
-30 Quarry Hunter
-30 Regrowth Dryad
-30 Eternal Cavalier
-30 Ringcrusher Wurm
-30 Outland Tranquility
-30 Energy Burst
-30 Combat Trial
-30 Dune Glider
-30 Ringshift
-30 Adept Mechanic
-30 Conniving Interloper
-30 Apocryphal Rite
-30 Illicit Tutelage
-30 Aether Renewal
-30 Brazen Arcanist
-30 Rebel Codex
-30 Wizard Codex
-30 Aethereal Codex
-30 Maverick Codex
-30 Trovian Blade
-30 Unveiled Expanse
-30 Mistcovered Sanctuary
-30 Skybreaker Sanctuary
-30 Undercroft Sanctuary
-30 Bridgetower Sanctuary
-30 Overgrown Sanctuary
-30 Spellstorm Entourage
-30 Preserver's Codex
-30 Fieldmist Borderpost
-30 Firewild Borderpost
-30 Mistvein Borderpost
-30 Veinfire Borderpost
-30 Wildfield Borderpost
-30 Aether Suspension
-30 Smite the Ethereal
-30 Regression
