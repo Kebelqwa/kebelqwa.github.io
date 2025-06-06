@@ -1,6 +1,6 @@
 ﻿<html>
 <head>
-  <title>Island</title>
+  <title>SWTG Island;</title>
   <link rel="icon" type="image/x-icon" href="/sets/SWTG-files/icon.png">
   <link rel="stylesheet" href="/resources/mana.css">
   <link rel="stylesheet" href="/resources/header.css">
@@ -185,8 +185,7 @@
 
 	<div class="grid-container" id="grid">
 	</div>
-	<div class="printings" id="other-printings">Other Printings: <a href="/cards/ANX/249_Island">ANX</a> • <a href="/cards/AZG/276_Island">AZG</a> • <a href="/cards/VRN/266_Island">VRN</a></div>
-		
+	
 	<script>
 		let card_list_arrayified = [];
 		let specialchars = "";
@@ -206,7 +205,7 @@
 
 				card_list_arrayified = card_list.cards;
 
-			await fetch('/cards/SWTG/261_Island.json')
+			await fetch('/cards/SWTG/262_SWTG Island.json')
 				.then(response => response.json())
 				.then(json => {
 					card = json;
