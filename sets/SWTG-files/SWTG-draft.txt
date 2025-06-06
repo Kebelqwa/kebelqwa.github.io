@@ -2453,33 +2453,33 @@
 			}
 		},
 		{
-			"name": "Plains",
+			"name": "SWTG Plains;",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Plains ",
-			"collector_number": "259",
+			"collector_number": "260",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/259_Plains.png"
+				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/260_SWTG Plains;.png"
 			}
 		},
 		{
-			"name": "Island1",
+			"name": "SWTG Island1",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Island ",
-			"collector_number": "262",
+			"collector_number": "261",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/262_Island1.png"
+				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/261_SWTG Island1.png"
 			}
 		},
 		{
-			"name": "Swamp",
+			"name": "SWTG Swamp;",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp ",
-			"collector_number": "263",
+			"collector_number": "264",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/263_Swamp.png"
+				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/264_SWTG Swamp;.png"
 			}
 		},
 		{
@@ -2503,23 +2503,23 @@
 			}
 		},
 		{
-			"name": "Plains1",
+			"name": "SWTG Plains1",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Plains ",
-			"collector_number": "260",
+			"collector_number": "259",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/260_Plains1.png"
+				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/259_SWTG Plains1.png"
 			}
 		},
 		{
-			"name": "Island",
+			"name": "SWTG Island;",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Island ",
-			"collector_number": "261",
+			"collector_number": "262",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/261_Island.png"
+				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/262_SWTG Island;.png"
 			}
 		},
 		{
@@ -2537,9 +2537,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp ",
-			"collector_number": "264",
+			"collector_number": "263",
 			"image_uris": {
-				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/264_SWTG Swamp1.png"
+				"en": "https://kebelqwa.github.io/sets/SWTG-files/img/263_SWTG Swamp1.png"
 			}
 		},
 		{
