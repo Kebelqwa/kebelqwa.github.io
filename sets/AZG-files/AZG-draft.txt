@@ -1,0 +1,3904 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "IxNaar Overseers",
+			"rarity": "common",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/0.png"
+			}
+		},
+		{
+			"name": "Plains.1",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/1.png"
+			}
+		},
+		{
+			"name": "Island.1",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "277",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/2.png"
+			}
+		},
+		{
+			"name": "Swamp.1",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "279",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/3.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "280",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/4.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "282",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/5.png"
+			}
+		},
+		{
+			"name": "Due Respect",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/6.png"
+			}
+		},
+		{
+			"name": "IxNaar Abomination",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie Horror",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/7.png"
+			}
+		},
+		{
+			"name": "Kami Flesh",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/8.png"
+			}
+		},
+		{
+			"name": "Bloodseeker Calyptra",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Insect Vampire",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/9.png"
+			}
+		},
+		{
+			"name": "Siltform Rebirth",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/10.png"
+			}
+		},
+		{
+			"name": "Skullcap Arachnid",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Spider Horror",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/11.png"
+			}
+		},
+		{
+			"name": "Pious Adjudicator",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Tiefling Wizard",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/12.png"
+			}
+		},
+		{
+			"name": "Fanatic of the Ashen Idol",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Tiefling Warrior",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/13.png"
+			}
+		},
+		{
+			"name": "Savage Awakener",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Treefolk Spirit",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/14.png"
+			}
+		},
+		{
+			"name": "Zof Voqu Magistrate",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Creature — Human Advisor",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/15.png"
+			}
+		},
+		{
+			"name": "Assassinate",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/16.png"
+			}
+		},
+		{
+			"name": "Wandering Mage",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/17.png"
+			}
+		},
+		{
+			"name": "Veldt Stalker",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Insect Horror",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/18.png"
+			}
+		},
+		{
+			"name": "Knight of IxNaar",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Giant Knight",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/19.png"
+			}
+		},
+		{
+			"name": "Up and at Em",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/20.png"
+			}
+		},
+		{
+			"name": "The Ashen Idol",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{R}{G}",
+			"type": "Legendary Creature — Demon Horror",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/21.png"
+			}
+		},
+		{
+			"name": "Making a Monster",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/22.png"
+			}
+		},
+		{
+			"name": "Kami of Wandering",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/23.png"
+			}
+		},
+		{
+			"name": "Dewfrost Kami",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/24.png"
+			}
+		},
+		{
+			"name": "Monstrous Pursuit",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/25.png"
+			}
+		},
+		{
+			"name": "Voqu Politician",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Tiefling Advisor",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/26.png"
+			}
+		},
+		{
+			"name": "Voqu Highborn",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Monk",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/27.png"
+			}
+		},
+		{
+			"name": "Warding Witch",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/28.png"
+			}
+		},
+		{
+			"name": "Readied Spear",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/29.png"
+			}
+		},
+		{
+			"name": "Coven Solspeaker",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Tiefling Druid",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/30.png"
+			}
+		},
+		{
+			"name": "Enthari Sentinel",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/31.png"
+			}
+		},
+		{
+			"name": "Mistral Giant",
+			"rarity": "common",
+			"mana_cost": "{5}{W}",
+			"type": "Creature — Giant Spirit",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/32.png"
+			}
+		},
+		{
+			"name": "Siltwalker Kirin",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Kirin",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/33.png"
+			}
+		},
+		{
+			"name": "Voqu Sojourner",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Monk",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/34.png"
+			}
+		},
+		{
+			"name": "Enthari Shaman",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Human Shaman",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/35.png"
+			}
+		},
+		{
+			"name": "Spirit Shield",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/36.png"
+			}
+		},
+		{
+			"name": "Moment of Heroism",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/37.png"
+			}
+		},
+		{
+			"name": "Void Renewal",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/38.png"
+			}
+		},
+		{
+			"name": "Soultrap Ascetic",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Tiefling Druid",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/39.png"
+			}
+		},
+		{
+			"name": "Truesight Kirin",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Kirin",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/40.png"
+			}
+		},
+		{
+			"name": "Citadel Witch",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/41.png"
+			}
+		},
+		{
+			"name": "Cursestalker Strix",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Bird",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/42.png"
+			}
+		},
+		{
+			"name": "Adept Cryomancer",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Tiefling Wizard",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/43.png"
+			}
+		},
+		{
+			"name": "Coven Scheme",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/44.png"
+			}
+		},
+		{
+			"name": "Rift Reversal",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/45.png"
+			}
+		},
+		{
+			"name": "Curse of Fugue",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Aura Curse",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/46.png"
+			}
+		},
+		{
+			"name": "Dire Kami",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/47.png"
+			}
+		},
+		{
+			"name": "Mournful Reject",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire Warlock",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/48.png"
+			}
+		},
+		{
+			"name": "Wretched Kami",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/49.png"
+			}
+		},
+		{
+			"name": "IxNaar Witches",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Tiefling Warlock",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/50.png"
+			}
+		},
+		{
+			"name": "Blightcaster",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/51.png"
+			}
+		},
+		{
+			"name": "Outland Berserker",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Berserker",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/52.png"
+			}
+		},
+		{
+			"name": "Twisted Fate",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/53.png"
+			}
+		},
+		{
+			"name": "Bloodharvest Ritualist",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire Druid",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/54.png"
+			}
+		},
+		{
+			"name": "Apprentice Witch",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/55.png"
+			}
+		},
+		{
+			"name": "Fleshstripper Hex",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Instant",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/56.png"
+			}
+		},
+		{
+			"name": "Ancient Consultation",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/57.png"
+			}
+		},
+		{
+			"name": "Curse of the Wasteful",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Enchantment — Aura Curse",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/58.png"
+			}
+		},
+		{
+			"name": "Mark of the Ashen Idol",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/59.png"
+			}
+		},
+		{
+			"name": "Kami of Boundless Fervor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Spirit",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/60.png"
+			}
+		},
+		{
+			"name": "Moltenspear Warlock",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/61.png"
+			}
+		},
+		{
+			"name": "Manablade Warrior",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Tiefling Warrior",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/62.png"
+			}
+		},
+		{
+			"name": "Electrobane Mage",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Elemental Wizard",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/63.png"
+			}
+		},
+		{
+			"name": "Gnashing Burlau",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Lizard Beast",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/64.png"
+			}
+		},
+		{
+			"name": "Distracting Kami",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Spirit",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/65.png"
+			}
+		},
+		{
+			"name": "Ichorspine Kirin",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Kirin",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/66.png"
+			}
+		},
+		{
+			"name": "Peddling Dissenter",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Tiefling Mercenary",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/67.png"
+			}
+		},
+		{
+			"name": "Solemn Hexblade",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Tiefling Warlock",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/68.png"
+			}
+		},
+		{
+			"name": "Ashen Judgement",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/69.png"
+			}
+		},
+		{
+			"name": "Bloodthirst",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/70.png"
+			}
+		},
+		{
+			"name": "Ashen Insight",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/71.png"
+			}
+		},
+		{
+			"name": "Kami of Seeding",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Spirit",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/72.png"
+			}
+		},
+		{
+			"name": "Kami of Vigor",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Spirit",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/73.png"
+			}
+		},
+		{
+			"name": "Bonecrusher Asp",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Snake",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/74.png"
+			}
+		},
+		{
+			"name": "Outlands Primordial",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Elemental",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/75.png"
+			}
+		},
+		{
+			"name": "Explorer Shaman",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Shaman",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/76.png"
+			}
+		},
+		{
+			"name": "Managlean Enchanter",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Druid",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/77.png"
+			}
+		},
+		{
+			"name": "Burlau Breaker",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/78.png"
+			}
+		},
+		{
+			"name": "Erode into the Past",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/79.png"
+			}
+		},
+		{
+			"name": "Intrepid Kirin",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Kirin",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/80.png"
+			}
+		},
+		{
+			"name": "Quakestep Ents",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Treefolk",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/81.png"
+			}
+		},
+		{
+			"name": "Evolution Ooze",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Ooze",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/82.png"
+			}
+		},
+		{
+			"name": "Second Skin Viper",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Snake",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/83.png"
+			}
+		},
+		{
+			"name": "Survivalists Guile",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/84.png"
+			}
+		},
+		{
+			"name": "Bloodthorn Elemental",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elemental",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/85.png"
+			}
+		},
+		{
+			"name": "Mystic Communion",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/86.png"
+			}
+		},
+		{
+			"name": "Reinforced Sinnew",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/87.png"
+			}
+		},
+		{
+			"name": "Bloodscent Trackers",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/88.png"
+			}
+		},
+		{
+			"name": "Titanic Straining",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/89.png"
+			}
+		},
+		{
+			"name": "Coven Luminarch",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Tiefling Wizard",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/90.png"
+			}
+		},
+		{
+			"name": "Mistglide Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Dragon",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/91.png"
+			}
+		},
+		{
+			"name": "Kami of Stalemates",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/92.png"
+			}
+		},
+		{
+			"name": "Citadel Dissenter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Druid",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/93.png"
+			}
+		},
+		{
+			"name": "Janus Voqu Arbiter",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Legendary Creature — Angel",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/94.png"
+			}
+		},
+		{
+			"name": "Martial Aptitude",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/95.png"
+			}
+		},
+		{
+			"name": "Gift of Estates",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/96.png"
+			}
+		},
+		{
+			"name": "Split Infinities",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Instant",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/97.png"
+			}
+		},
+		{
+			"name": "Voqu Historian",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/98.png"
+			}
+		},
+		{
+			"name": "Father Alcron",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Legendary Creature — Human Shaman",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/99.png"
+			}
+		},
+		{
+			"name": "Pulled into the Pages",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/100.png"
+			}
+		},
+		{
+			"name": "Time Hole",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/101.png"
+			}
+		},
+		{
+			"name": "Crystallize",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/102.png"
+			}
+		},
+		{
+			"name": "Spell Transfusion",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/103.png"
+			}
+		},
+		{
+			"name": "Manaplume Augury",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/104.png"
+			}
+		},
+		{
+			"name": "Curse of Lethargy",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Aura Curse",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/105.png"
+			}
+		},
+		{
+			"name": "Shaad Lone Alchemist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Zombie Wizard",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/106.png"
+			}
+		},
+		{
+			"name": "Witch of Foul Ends",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Tiefling Warlock",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/107.png"
+			}
+		},
+		{
+			"name": "Horror of IxNaar",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Demon Horror",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/108.png"
+			}
+		},
+		{
+			"name": "Kami of Deaths Veil",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Spirit",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/109.png"
+			}
+		},
+		{
+			"name": "Sinister Kirin",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Kirin",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/110.png"
+			}
+		},
+		{
+			"name": "Eldritch Blast",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/111.png"
+			}
+		},
+		{
+			"name": "Coven Psychosis",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura Curse",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/112.png"
+			}
+		},
+		{
+			"name": "Urden OneEye",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Legendary Creature — Giant Warrior",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/113.png"
+			}
+		},
+		{
+			"name": "Ashen Eviscerator",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Elemental Horror",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/114.png"
+			}
+		},
+		{
+			"name": "Another Brother",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Giant",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/115.png"
+			}
+		},
+		{
+			"name": "Wretched Atronach",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/116.png"
+			}
+		},
+		{
+			"name": "Shaman of Might",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Human Shaman",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/117.png"
+			}
+		},
+		{
+			"name": "Curse of Conflagration",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}",
+			"type": "Enchantment — Aura Curse",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/118.png"
+			}
+		},
+		{
+			"name": "Igneous Salvo",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/119.png"
+			}
+		},
+		{
+			"name": "Failed Cauterization",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/120.png"
+			}
+		},
+		{
+			"name": "Sylvan Caryatid",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Plant",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/121.png"
+			}
+		},
+		{
+			"name": "Tiefling Animist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Tiefling Druid",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/122.png"
+			}
+		},
+		{
+			"name": "Soulreader Kirin",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Kirin",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/123.png"
+			}
+		},
+		{
+			"name": "Cultivate",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/124.png"
+			}
+		},
+		{
+			"name": "Charge from Disaster",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/125.png"
+			}
+		},
+		{
+			"name": "Strained Metamorphosis",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Enchantment",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/126.png"
+			}
+		},
+		{
+			"name": "Refraction Dragon",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Dragon",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/127.png"
+			}
+		},
+		{
+			"name": "Warding Enchantress",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Shaman",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/128.png"
+			}
+		},
+		{
+			"name": "Fildarn the Watchful Eye",
+			"rarity": "rare",
+			"mana_cost": "{5}{W}{W}",
+			"type": "Legendary Creature — Human Scout",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/129.png"
+			}
+		},
+		{
+			"name": "Greater Restoration",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/130.png"
+			}
+		},
+		{
+			"name": "Warcaster Rejuvenation",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/131.png"
+			}
+		},
+		{
+			"name": "Precursor Caster",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/132.png"
+			}
+		},
+		{
+			"name": "Madias Gaze",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/133.png"
+			}
+		},
+		{
+			"name": "The Aberrant Order",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Spirit Knight",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/134.png"
+			}
+		},
+		{
+			"name": "Dreamlike Duality",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/135.png"
+			}
+		},
+		{
+			"name": "Reality Inversion",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "World Enchantment",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/136.png"
+			}
+		},
+		{
+			"name": "Undead Patron",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Zombie Horror",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/137.png"
+			}
+		},
+		{
+			"name": "Ophiomancer",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Shaman",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/138.png"
+			}
+		},
+		{
+			"name": "Necrotized Necromancer",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Zombie Wizard",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/139.png"
+			}
+		},
+		{
+			"name": "Bloodline Defiler",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Vampire Warlock",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/140.png"
+			}
+		},
+		{
+			"name": "Baleful Omen",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/141.png"
+			}
+		},
+		{
+			"name": "Heros Remorse",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/142.png"
+			}
+		},
+		{
+			"name": "IxNaar Dragonrider",
+			"rarity": "rare",
+			"mana_cost": "{R}{R}",
+			"type": "Creature — Tiefling Warrior",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/143.png"
+			}
+		},
+		{
+			"name": "Fealty Lich",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Zombie Warlock",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/144.png"
+			}
+		},
+		{
+			"name": "Decapitator Dragon",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/145.png"
+			}
+		},
+		{
+			"name": "Proud Manablade",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Tiefling Warrior",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/146.png"
+			}
+		},
+		{
+			"name": "Hexblaze Hellkite",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/147.png"
+			}
+		},
+		{
+			"name": "Curse of Draconic Doom",
+			"rarity": "mythic",
+			"mana_cost": "{6}{R}{R}",
+			"type": "Enchantment — Aura Curse",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/148.png"
+			}
+		},
+		{
+			"name": "Reality Gape",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "World Enchantment",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/149.png"
+			}
+		},
+		{
+			"name": "Shaman of the Past",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Human Shaman",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/150.png"
+			}
+		},
+		{
+			"name": "Jadelight Arcanist",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/151.png"
+			}
+		},
+		{
+			"name": "Intruders Bane",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Plant Wall",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/152.png"
+			}
+		},
+		{
+			"name": "Bestial Fusion",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/153.png"
+			}
+		},
+		{
+			"name": "Azurefang Hydra Overlord",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}{G}",
+			"type": "Legendary Creature — Hydra",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/154.png"
+			}
+		},
+		{
+			"name": "Kami of Manifestation",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Kirin Spirit",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/155.png"
+			}
+		},
+		{
+			"name": "Umbral Reaver",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elemental",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/156.png"
+			}
+		},
+		{
+			"name": "One of Many and Many of One",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/157.png"
+			}
+		},
+		{
+			"name": "Suvvaris Citadel Stalwart",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Human Soldier",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/158.png"
+			}
+		},
+		{
+			"name": "Xixshang Cursed with Knowledge",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Legendary Creature — Bird Sphinx Spirit",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/159.png"
+			}
+		},
+		{
+			"name": "Abyssal Overseer",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Demon",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/160.png"
+			}
+		},
+		{
+			"name": "Magmatic Apparition",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Spirit",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/161.png"
+			}
+		},
+		{
+			"name": "Tear the Seam",
+			"rarity": "rare",
+			"mana_cost": "{X}{X}{R}",
+			"type": "Sorcery",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/162.png"
+			}
+		},
+		{
+			"name": "Mox Derelict",
+			"rarity": "mythic",
+			"mana_cost": "{0}",
+			"type": "Legendary Artifact",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/163.png"
+			}
+		},
+		{
+			"name": "Leyline Reformation",
+			"rarity": "mythic",
+			"mana_cost": "{6}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/164.png"
+			}
+		},
+		{
+			"name": "Kami of Rippling Clouds",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/165.png"
+			}
+		},
+		{
+			"name": "Woe Sculptor",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{B}",
+			"type": "Creature — Tiefling Warlock",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/166.png"
+			}
+		},
+		{
+			"name": "Zodiac Kirin",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Kirin",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/167.png"
+			}
+		},
+		{
+			"name": "Muse Kami",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/168.png"
+			}
+		},
+		{
+			"name": "Eclipse Witch",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Creature — Human Shaman",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/169.png"
+			}
+		},
+		{
+			"name": "Curse of Fleeting Focus",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Enchantment — Aura Curse",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/170.png"
+			}
+		},
+		{
+			"name": "Kami of Boundless Sacrifice",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Spirit",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/171.png"
+			}
+		},
+		{
+			"name": "Manablade Reckoner",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Creature — Tiefling Warrior",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/172.png"
+			}
+		},
+		{
+			"name": "Thornshift Battlements",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{U}",
+			"type": "Creature — Plant Wall",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/173.png"
+			}
+		},
+		{
+			"name": "Astral Negator",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}",
+			"type": "Creature — Tiefling Wizard",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/174.png"
+			}
+		},
+		{
+			"name": "Mindless Memoir",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Sorcery",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/175.png"
+			}
+		},
+		{
+			"name": "Azgol Duskwitch",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Tiefling Warlock",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/176.png"
+			}
+		},
+		{
+			"name": "Sentinel of the Eternal Flame",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Creature — Spirit",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/177.png"
+			}
+		},
+		{
+			"name": "Druid of the Old Ways",
+			"rarity": "rare",
+			"mana_cost": "{G}{W}",
+			"type": "Creature — Tiefling Druid",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/178.png"
+			}
+		},
+		{
+			"name": "Reward of the Faithful",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{B}",
+			"type": "Sorcery",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/179.png"
+			}
+		},
+		{
+			"name": "Frostflame Witch",
+			"rarity": "rare",
+			"mana_cost": "{U}{R}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/180.png"
+			}
+		},
+		{
+			"name": "Poltergeist Procession",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Creature — Spirit",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/181.png"
+			}
+		},
+		{
+			"name": "Eclipse Hellkite",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{W}",
+			"type": "Creature — Dragon",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/182.png"
+			}
+		},
+		{
+			"name": "Primordial Awakening",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Enchantment",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/183.png"
+			}
+		},
+		{
+			"name": "Witches Chalice",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/184.png"
+			}
+		},
+		{
+			"name": "Coven Phylactery",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/185.png"
+			}
+		},
+		{
+			"name": "Witches Broom",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/186.png"
+			}
+		},
+		{
+			"name": "Witches Tome",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/187.png"
+			}
+		},
+		{
+			"name": "Worn Spellcasting Focus",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/188.png"
+			}
+		},
+		{
+			"name": "Terramorphic Expanse",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "271",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/189.png"
+			}
+		},
+		{
+			"name": "Sacrificial Stupa",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "269",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/190.png"
+			}
+		},
+		{
+			"name": "Aurora Frontier",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/191.png"
+			}
+		},
+		{
+			"name": "Crumbling Ruins",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/192.png"
+			}
+		},
+		{
+			"name": "Reliquary Tower",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/193.png"
+			}
+		},
+		{
+			"name": "Coven Hideout",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/194.png"
+			}
+		},
+		{
+			"name": "Hinterland Harbor",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/195.png"
+			}
+		},
+		{
+			"name": "Clifftop Retreat",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/196.png"
+			}
+		},
+		{
+			"name": "Woodland Cemetery",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/197.png"
+			}
+		},
+		{
+			"name": "Sulfur Falls",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "270",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/198.png"
+			}
+		},
+		{
+			"name": "Isolated Chapel",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/199.png"
+			}
+		},
+		{
+			"name": "Zeyn Frenetic Sorceress",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Human Warlock",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/200.png"
+			}
+		},
+		{
+			"name": "Ashioks Metamorphosis",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/201.png"
+			}
+		},
+		{
+			"name": "Dirden Draconis",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/202.png"
+			}
+		},
+		{
+			"name": "Lymma Benevolent Pacifist",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Tiefling Druid",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/203.png"
+			}
+		},
+		{
+			"name": "Calzara the Face Stealer",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Creature — Shapeshifter Shaman",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/204.png"
+			}
+		},
+		{
+			"name": "Singularity Cube",
+			"rarity": "rare",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/205.png"
+			}
+		},
+		{
+			"name": "Hall of Mirrors",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Artifact",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/206.png"
+			}
+		},
+		{
+			"name": "Sword of the Ashen Idol",
+			"rarity": "mythic",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/207.png"
+			}
+		},
+		{
+			"name": "Desolate Pilgrimage",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/208.png"
+			}
+		},
+		{
+			"name": "Psychic Sphinx",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Sphinx",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/209.png"
+			}
+		},
+		{
+			"name": "Battlefield Seer",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/210.png"
+			}
+		},
+		{
+			"name": "Coven Amalgam",
+			"rarity": "common",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/211.png"
+			}
+		},
+		{
+			"name": "Tomeskimmer Mage",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/212.png"
+			}
+		},
+		{
+			"name": "Targan Speaker",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Druid",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/213.png"
+			}
+		},
+		{
+			"name": "Kami of Truesight",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/214.png"
+			}
+		},
+		{
+			"name": "Gravitate",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/215.png"
+			}
+		},
+		{
+			"name": "Bibliomancer Savant",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/216.png"
+			}
+		},
+		{
+			"name": "Innervator Kami",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Spirit",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/217.png"
+			}
+		},
+		{
+			"name": "Emberize",
+			"rarity": "common",
+			"mana_cost": "{X}{R}{R}",
+			"type": "Instant",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/218.png"
+			}
+		},
+		{
+			"name": "Nomads Bauble",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/219.png"
+			}
+		},
+		{
+			"name": "Icy Manipulator",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/220.png"
+			}
+		},
+		{
+			"name": "Torpor Orb",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/221.png"
+			}
+		},
+		{
+			"name": "IxNaar Arbiter",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/222.png"
+			}
+		},
+		{
+			"name": "Zealot of the Ashen Idol",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Tiefling Warrior",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/223.png"
+			}
+		},
+		{
+			"name": "Solemn Simulacrum",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/224.png"
+			}
+		},
+		{
+			"name": "Accursed Fathomer",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/225.png"
+			}
+		},
+		{
+			"name": "Bitterblade Warlock",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Tiefling Warlock",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/226.png"
+			}
+		},
+		{
+			"name": "Curse of Misfortunes",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}",
+			"type": "Enchantment — Aura Curse",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/227.png"
+			}
+		},
+		{
+			"name": "Bitterheart Witch",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Human Shaman",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/228.png"
+			}
+		},
+		{
+			"name": "Curse of the Pierced Heart",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Aura Curse",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/229.png"
+			}
+		},
+		{
+			"name": "Disrupt Leyline",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/230.png"
+			}
+		},
+		{
+			"name": "Cursed Broker",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/231.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "274",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/232.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "276",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/233.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "278",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/234.png"
+			}
+		},
+		{
+			"name": "Mountain.1",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "281",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/235.png"
+			}
+		},
+		{
+			"name": "Forest.1",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "283",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/236.png"
+			}
+		},
+		{
+			"name": "IxNaar High Priest",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Cleric Warlock",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/237.png"
+			}
+		},
+		{
+			"name": "Ethercast Intuition",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/238.png"
+			}
+		},
+		{
+			"name": "Tormentors Miasma",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/239.png"
+			}
+		},
+		{
+			"name": "Ashen Ascetic",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Monk",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/240.png"
+			}
+		},
+		{
+			"name": "Damnable Dreams",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Sorcery",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/241.png"
+			}
+		},
+		{
+			"name": "Wildclaw Kami",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Creature — Spirit",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/242.png"
+			}
+		},
+		{
+			"name": "Voqu Judgement",
+			"rarity": "rare",
+			"mana_cost": "{R}{W}",
+			"type": "Instant",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/243.png"
+			}
+		},
+		{
+			"name": "Defenders Gambit",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/244.png"
+			}
+		},
+		{
+			"name": "Agent of the Idol",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Tiefling Warlock",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/245.png"
+			}
+		},
+		{
+			"name": "Laishul Balance Keeper",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{W}",
+			"type": "Legendary Creature — Angel Cleric",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/246.png"
+			}
+		},
+		{
+			"name": "Bloodlight Ritual",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Sorcery",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/247.png"
+			}
+		},
+		{
+			"name": "Duskwalker Witch",
+			"rarity": "rare",
+			"mana_cost": "{5}{W}{B}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/248.png"
+			}
+		},
+		{
+			"name": "Crack the Code",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{R}",
+			"type": "Instant",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/249.png"
+			}
+		},
+		{
+			"name": "Reprimand",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}",
+			"type": "Instant",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/250.png"
+			}
+		},
+		{
+			"name": "Trials of Suvvaris",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Enchantment",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/251.png"
+			}
+		},
+		{
+			"name": "Emaciated Roc",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Bird",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/252.png"
+			}
+		},
+		{
+			"name": "Primordial Crusader",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Spirit",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/253.png"
+			}
+		},
+		{
+			"name": "Vile Summoner",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Creature — Human Druid",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/254.png"
+			}
+		},
+		{
+			"name": "Blind Rage",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/255.png"
+			}
+		},
+		{
+			"name": "Infernal Dominion",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/256.png"
+			}
+		},
+		{
+			"name": "Calzaras Apprentice",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Demon Warlock",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/257.png"
+			}
+		},
+		{
+			"name": "Curse of Secrets",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment — Aura Curse",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/258.png"
+			}
+		},
+		{
+			"name": "Ulgleyth Corrupted King",
+			"rarity": "rare",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Legendary Creature — Unicorn Horror",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/259.png"
+			}
+		},
+		{
+			"name": "Ashen Animation",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/260.png"
+			}
+		},
+		{
+			"name": "Manablade's Bastion",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Tower",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/261.png"
+			}
+		},
+		{
+			"name": "Cursed Labyrinth",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Tower",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/262.png"
+			}
+		},
+		{
+			"name": "Monstrous Outpost",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Tower",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/263.png"
+			}
+		},
+		{
+			"name": "Coven Archives",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Tower",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/264.png"
+			}
+		},
+		{
+			"name": "Voqu Citadel",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land — Tower",
+			"collector_number": "272",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/265.png"
+			}
+		},
+		{
+			"name": "Pious Indoctrination",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Saga",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/266.png"
+			}
+		},
+		{
+			"name": "Voqu Resolution",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Saga",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/267.png"
+			}
+		},
+		{
+			"name": "Dreadculler Codex",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Saga",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/268.png"
+			}
+		},
+		{
+			"name": "Consult the Microverse",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Enchantment — Saga",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/269.png"
+			}
+		},
+		{
+			"name": "Bitterheart Revival",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Saga",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/270.png"
+			}
+		},
+		{
+			"name": "Gaze of the Ashen Idol",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Enchantment — Saga",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/271.png"
+			}
+		},
+		{
+			"name": "Cataclysmic Eruption",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment — Saga",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/272.png"
+			}
+		},
+		{
+			"name": "Shamanic Chide",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Saga",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/273.png"
+			}
+		},
+		{
+			"name": "Wild Weirding",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment — Saga",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/274.png"
+			}
+		},
+		{
+			"name": "Ancient Judgement",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}{W}",
+			"type": "Enchantment — Saga",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/275.png"
+			}
+		},
+		{
+			"name": "Sorrow of Azgol",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment — Saga",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/276.png"
+			}
+		},
+		{
+			"name": "Madia Spellslinger Savant",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Legendary Planeswalker — Madia",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/277.png"
+			}
+		},
+		{
+			"name": "Ashiok Defiler of Azgol",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Planeswalker — Ashiok",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/278.png"
+			}
+		},
+		{
+			"name": "Lunar Convergence",
+			"rarity": "mythic",
+			"mana_cost": "{W}{U}{B}{R}{G}",
+			"type": "Legendary Enchantment — Saga",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/279.png"
+			}
+		},
+		{
+			"name": "Vivien Friend to Monsters",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Planeswalker — Vivien",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/280.png"
+			}
+		},
+		{
+			"name": "Nezhu Ethercast Ronin",
+			"rarity": "mythic",
+			"mana_cost": "{5}{W}{U}",
+			"type": "Legendary Planeswalker — Nezhu",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/281.png"
+			}
+		},
+		{
+			"name": "Unravel the Aether",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Saga",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/282.png"
+			}
+		},
+		{
+			"name": "Spirit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment Creature — Spirit",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/283.png"
+			}
+		},
+		{
+			"name": "Zombie",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Zombie",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/284.png"
+			}
+		},
+		{
+			"name": "Dragon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Dragon",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/285.png"
+			}
+		},
+		{
+			"name": "Snake",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Snake",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/286.png"
+			}
+		},
+		{
+			"name": "Spirit.1",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment Creature — Spirit",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/287.png"
+			}
+		},
+		{
+			"name": "Wolf Spirit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment Creature — Wolf Spirit",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/288.png"
+			}
+		},
+		{
+			"name": "Monk",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Monk",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/289.png"
+			}
+		},
+		{
+			"name": "Copy",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/290.png"
+			}
+		},
+		{
+			"name": "Mirror",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Mirror",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/291.png"
+			}
+		},
+		{
+			"name": "Azgol Draft Archetypes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/292.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/293.png"
+			}
+		},
+		{
+			"name": "Wastes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Basic Land",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/294.png"
+			}
+		},
+		{
+			"name": "Goblin",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Goblin",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/295.png"
+			}
+		},
+		{
+			"name": "Vivien, Friend to Monsters",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Emblem",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/AZG-files/img/296.png"
+			}
+		}
+	]
+
+[rare(1)]
+	2 Zof Voqu Magistrate
+	1 The Ashen Idol
+	2 Curse of the Wasteful
+	2 Refraction Dragon
+	2 Warding Enchantress
+	2 Fildarn the Watchful Eye
+	2 Greater Restoration
+	2 Warcaster Rejuvenation
+	2 Precursor Caster
+	2 Madias Gaze
+	2 The Aberrant Order
+	2 Dreamlike Duality
+	2 Reality Inversion
+	2 Undead Patron
+	2 Ophiomancer
+	2 Necrotized Necromancer
+	2 Bloodline Defiler
+	2 Baleful Omen
+	2 IxNaar Dragonrider
+	2 Fealty Lich
+	2 Decapitator Dragon
+	2 Proud Manablade
+	2 Hexblaze Hellkite
+	1 Curse of Draconic Doom
+	2 Reality Gape
+	2 Shaman of the Past
+	2 Jadelight Arcanist
+	2 Intruders Bane
+	2 Bestial Fusion
+	2 Azurefang Hydra Overlord
+	2 Kami of Manifestation
+	2 Umbral Reaver
+	1 One of Many and Many of One
+	1 Suvvaris Citadel Stalwart
+	1 Xixshang Cursed with Knowledge
+	1 Abyssal Overseer
+	1 Magmatic Apparition
+	2 Tear the Seam
+	1 Mox Derelict
+	1 Leyline Reformation
+	2 Astral Negator
+	2 Mindless Memoir
+	2 Azgol Duskwitch
+	2 Sentinel of the Eternal Flame
+	2 Druid of the Old Ways
+	2 Reward of the Faithful
+	2 Frostflame Witch
+	2 Poltergeist Procession
+	2 Eclipse Hellkite
+	2 Primordial Awakening
+	2 Hinterland Harbor
+	2 Clifftop Retreat
+	2 Woodland Cemetery
+	2 Sulfur Falls
+	2 Isolated Chapel
+	2 Zeyn Frenetic Sorceress
+	2 Ashioks Metamorphosis
+	2 Dirden Draconis
+	2 Lymma Benevolent Pacifist
+	2 Calzara the Face Stealer
+	2 Singularity Cube
+	2 Hall of Mirrors
+	1 Sword of the Ashen Idol
+	2 Solemn Simulacrum
+	2 Curse of Misfortunes
+	2 Cursed Broker
+	2 Damnable Dreams
+	2 Wildclaw Kami
+	2 Voqu Judgement
+	2 Defenders Gambit
+	2 Agent of the Idol
+	2 Laishul Balance Keeper
+	2 Bloodlight Ritual
+	2 Duskwalker Witch
+	2 Crack the Code
+	2 Reprimand
+	2 Trials of Suvvaris
+	2 Emaciated Roc
+	2 Primordial Crusader
+	2 Vile Summoner
+	2 Blind Rage
+	2 Infernal Dominion
+	2 Calzaras Apprentice
+	2 Curse of Secrets
+	2 Ulgleyth Corrupted King
+	2 Ashen Animation
+	2 Ancient Judgement
+	2 Sorrow of Azgol
+	1 Madia Spellslinger Savant
+	1 Ashiok Defiler of Azgol
+	1 Lunar Convergence
+	1 Vivien Friend to Monsters
+	1 Nezhu Ethercast Ronin
+[uncommon(3)]
+	4 Fanatic of the Ashen Idol
+	4 Savage Awakener
+	4 Up and at Em
+	4 Making a Monster
+	4 Spirit Shield
+	4 Mark of the Ashen Idol
+	4 Kami of Boundless Fervor
+	4 Manablade Warrior
+	4 Ashen Judgement
+	4 Ashen Insight
+	4 Coven Luminarch
+	4 Mistglide Dragon
+	4 Kami of Stalemates
+	4 Citadel Dissenter
+	4 Janus Voqu Arbiter
+	4 Gift of Estates
+	4 Split Infinities
+	4 Voqu Historian
+	4 Father Alcron
+	4 Time Hole
+	4 Spell Transfusion
+	4 Manaplume Augury
+	4 Curse of Lethargy
+	4 Shaad Lone Alchemist
+	4 Horror of IxNaar
+	4 Kami of Deaths Veil
+	4 Sinister Kirin
+	4 Urden OneEye
+	4 Ashen Eviscerator
+	4 Another Brother
+	4 Curse of Conflagration
+	4 Sylvan Caryatid
+	4 Tiefling Animist
+	4 Soulreader Kirin
+	4 Cultivate
+	4 Charge from Disaster
+	4 Strained Metamorphosis
+	4 Heros Remorse
+	4 Kami of Rippling Clouds
+	4 Woe Sculptor
+	4 Zodiac Kirin
+	4 Muse Kami
+	4 Eclipse Witch
+	4 Curse of Fleeting Focus
+	4 Kami of Boundless Sacrifice
+	4 Manablade Reckoner
+	4 Thornshift Battlements
+	4 Witches Chalice
+	4 Witches Broom
+	4 Witches Tome
+	4 Sacrificial Stupa
+	4 Aurora Frontier
+	4 Crumbling Ruins
+	4 Reliquary Tower
+	4 Coven Hideout
+	4 Desolate Pilgrimage
+	4 Psychic Sphinx
+	4 Bibliomancer Savant
+	4 Icy Manipulator
+	4 Torpor Orb
+	4 Zealot of the Ashen Idol
+	4 Bitterblade Warlock
+	4 Bitterheart Witch
+	4 IxNaar High Priest
+	4 Ethercast Intuition
+	4 Pious Indoctrination
+	4 Voqu Resolution
+	4 Dreadculler Codex
+	4 Consult the Microverse
+	4 Bitterheart Revival
+	4 Gaze of the Ashen Idol
+	4 Cataclysmic Eruption
+	4 Shamanic Chide
+	4 Wild Weirding
+	4 Unravel the Aether
+[common(6)]
+	8 IxNaar Overseers
+	8 Due Respect
+	8 IxNaar Abomination
+	8 Kami Flesh
+	8 Bloodseeker Calyptra
+	8 Siltform Rebirth
+	8 Skullcap Arachnid
+	8 Pious Adjudicator
+	8 Assassinate
+	8 Wandering Mage
+	8 Veldt Stalker
+	8 Knight of IxNaar
+	8 Kami of Wandering
+	8 Dewfrost Kami
+	8 Monstrous Pursuit
+	8 Voqu Politician
+	8 Voqu Highborn
+	8 Warding Witch
+	8 Readied Spear
+	8 Coven Solspeaker
+	8 Enthari Sentinel
+	8 Mistral Giant
+	8 Siltwalker Kirin
+	8 Voqu Sojourner
+	8 Enthari Shaman
+	8 Moment of Heroism
+	8 Void Renewal
+	8 Soultrap Ascetic
+	8 Truesight Kirin
+	8 Citadel Witch
+	8 Cursestalker Strix
+	8 Adept Cryomancer
+	8 Coven Scheme
+	8 Rift Reversal
+	8 Curse of Fugue
+	8 Dire Kami
+	8 Mournful Reject
+	8 Wretched Kami
+	8 IxNaar Witches
+	8 Blightcaster
+	8 Outland Berserker
+	8 Twisted Fate
+	8 Bloodharvest Ritualist
+	8 Apprentice Witch
+	8 Fleshstripper Hex
+	8 Ancient Consultation
+	8 Moltenspear Warlock
+	8 Electrobane Mage
+	8 Gnashing Burlau
+	8 Distracting Kami
+	8 Ichorspine Kirin
+	8 Peddling Dissenter
+	8 Solemn Hexblade
+	8 Bloodthirst
+	8 Kami of Seeding
+	8 Kami of Vigor
+	8 Bonecrusher Asp
+	8 Outlands Primordial
+	8 Explorer Shaman
+	8 Managlean Enchanter
+	8 Burlau Breaker
+	8 Erode into the Past
+	8 Intrepid Kirin
+	8 Quakestep Ents
+	8 Evolution Ooze
+	8 Second Skin Viper
+	8 Survivalists Guile
+	8 Bloodthorn Elemental
+	8 Mystic Communion
+	8 Reinforced Sinnew
+	8 Bloodscent Trackers
+	8 Titanic Straining
+	8 Martial Aptitude
+	8 Pulled into the Pages
+	8 Crystallize
+	8 Witch of Foul Ends
+	8 Eldritch Blast
+	8 Coven Psychosis
+	8 Wretched Atronach
+	8 Shaman of Might
+	8 Igneous Salvo
+	8 Failed Cauterization
+	8 Coven Phylactery
+	8 Worn Spellcasting Focus
+	8 Terramorphic Expanse
+	8 Battlefield Seer
+	8 Coven Amalgam
+	8 Tomeskimmer Mage
+	8 Targan Speaker
+	8 Kami of Truesight
+	8 Gravitate
+	8 Innervator Kami
+	8 Emberize
+	8 Nomads Bauble
+	8 IxNaar Arbiter
+	8 Accursed Fathomer
+	8 Curse of the Pierced Heart
+	8 Disrupt Leyline
+	8 Tormentors Miasma
+	8 Ashen Ascetic
+	8 Manablade's Bastion
+	8 Cursed Labyrinth
+	8 Monstrous Outpost
+	8 Coven Archives
+	8 Voqu Citadel
+[common | masterpiece(1)]
+	8 IxNaar Overseers
+	8 Due Respect
+	8 IxNaar Abomination
+	8 Kami Flesh
+	8 Bloodseeker Calyptra
+	8 Siltform Rebirth
+	8 Skullcap Arachnid
+	8 Pious Adjudicator
+	8 Assassinate
+	8 Wandering Mage
+	8 Veldt Stalker
+	8 Knight of IxNaar
+	8 Kami of Wandering
+	8 Dewfrost Kami
+	8 Monstrous Pursuit
+	8 Voqu Politician
+	8 Voqu Highborn
+	8 Warding Witch
+	8 Readied Spear
+	8 Coven Solspeaker
+	8 Enthari Sentinel
+	8 Mistral Giant
+	8 Siltwalker Kirin
+	8 Voqu Sojourner
+	8 Enthari Shaman
+	8 Moment of Heroism
+	8 Void Renewal
+	8 Soultrap Ascetic
+	8 Truesight Kirin
+	8 Citadel Witch
+	8 Cursestalker Strix
+	8 Adept Cryomancer
+	8 Coven Scheme
+	8 Rift Reversal
+	8 Curse of Fugue
+	8 Dire Kami
+	8 Mournful Reject
+	8 Wretched Kami
+	8 IxNaar Witches
+	8 Blightcaster
+	8 Outland Berserker
+	8 Twisted Fate
+	8 Bloodharvest Ritualist
+	8 Apprentice Witch
+	8 Fleshstripper Hex
+	8 Ancient Consultation
+	8 Moltenspear Warlock
+	8 Electrobane Mage
+	8 Gnashing Burlau
+	8 Distracting Kami
+	8 Ichorspine Kirin
+	8 Peddling Dissenter
+	8 Solemn Hexblade
+	8 Bloodthirst
+	8 Kami of Seeding
+	8 Kami of Vigor
+	8 Bonecrusher Asp
+	8 Outlands Primordial
+	8 Explorer Shaman
+	8 Managlean Enchanter
+	8 Burlau Breaker
+	8 Erode into the Past
+	8 Intrepid Kirin
+	8 Quakestep Ents
+	8 Evolution Ooze
+	8 Second Skin Viper
+	8 Survivalists Guile
+	8 Bloodthorn Elemental
+	8 Mystic Communion
+	8 Reinforced Sinnew
+	8 Bloodscent Trackers
+	8 Titanic Straining
+	8 Martial Aptitude
+	8 Pulled into the Pages
+	8 Crystallize
+	8 Witch of Foul Ends
+	8 Eldritch Blast
+	8 Coven Psychosis
+	8 Wretched Atronach
+	8 Shaman of Might
+	8 Igneous Salvo
+	8 Failed Cauterization
+	8 Coven Phylactery
+	8 Worn Spellcasting Focus
+	8 Terramorphic Expanse
+	8 Battlefield Seer
+	8 Coven Amalgam
+	8 Tomeskimmer Mage
+	8 Targan Speaker
+	8 Kami of Truesight
+	8 Gravitate
+	8 Innervator Kami
+	8 Emberize
+	8 Nomads Bauble
+	8 IxNaar Arbiter
+	8 Accursed Fathomer
+	8 Curse of the Pierced Heart
+	8 Disrupt Leyline
+	8 Tormentors Miasma
+	8 Ashen Ascetic
+	8 Manablade's Bastion
+	8 Cursed Labyrinth
+	8 Monstrous Outpost
+	8 Coven Archives
+	8 Voqu Citadel
+[foil(1)]
+	12 IxNaar Overseers
+	12 Due Respect
+	12 IxNaar Abomination
+	12 Kami Flesh
+	12 Bloodseeker Calyptra
+	12 Siltform Rebirth
+	12 Skullcap Arachnid
+	12 Pious Adjudicator
+	6 Fanatic of the Ashen Idol
+	6 Savage Awakener
+	2 Zof Voqu Magistrate
+	12 Assassinate
+	12 Wandering Mage
+	12 Veldt Stalker
+	12 Knight of IxNaar
+	6 Up and at Em
+	1 The Ashen Idol
+	6 Making a Monster
+	12 Kami of Wandering
+	12 Dewfrost Kami
+	12 Monstrous Pursuit
+	12 Voqu Politician
+	12 Voqu Highborn
+	12 Warding Witch
+	12 Readied Spear
+	12 Coven Solspeaker
+	12 Enthari Sentinel
+	12 Mistral Giant
+	12 Siltwalker Kirin
+	12 Voqu Sojourner
+	12 Enthari Shaman
+	6 Spirit Shield
+	12 Moment of Heroism
+	12 Void Renewal
+	12 Soultrap Ascetic
+	12 Truesight Kirin
+	12 Citadel Witch
+	12 Cursestalker Strix
+	12 Adept Cryomancer
+	12 Coven Scheme
+	12 Rift Reversal
+	12 Curse of Fugue
+	12 Dire Kami
+	12 Mournful Reject
+	12 Wretched Kami
+	12 IxNaar Witches
+	12 Blightcaster
+	12 Outland Berserker
+	12 Twisted Fate
+	12 Bloodharvest Ritualist
+	12 Apprentice Witch
+	12 Fleshstripper Hex
+	12 Ancient Consultation
+	2 Curse of the Wasteful
+	6 Mark of the Ashen Idol
+	6 Kami of Boundless Fervor
+	12 Moltenspear Warlock
+	6 Manablade Warrior
+	12 Electrobane Mage
+	12 Gnashing Burlau
+	12 Distracting Kami
+	12 Ichorspine Kirin
+	12 Peddling Dissenter
+	12 Solemn Hexblade
+	6 Ashen Judgement
+	12 Bloodthirst
+	6 Ashen Insight
+	12 Kami of Seeding
+	12 Kami of Vigor
+	12 Bonecrusher Asp
+	12 Outlands Primordial
+	12 Explorer Shaman
+	12 Managlean Enchanter
+	12 Burlau Breaker
+	12 Erode into the Past
+	12 Intrepid Kirin
+	12 Quakestep Ents
+	12 Evolution Ooze
+	12 Second Skin Viper
+	12 Survivalists Guile
+	12 Bloodthorn Elemental
+	12 Mystic Communion
+	12 Reinforced Sinnew
+	12 Bloodscent Trackers
+	12 Titanic Straining
+	6 Coven Luminarch
+	6 Mistglide Dragon
+	6 Kami of Stalemates
+	6 Citadel Dissenter
+	6 Janus Voqu Arbiter
+	12 Martial Aptitude
+	6 Gift of Estates
+	6 Split Infinities
+	6 Voqu Historian
+	6 Father Alcron
+	12 Pulled into the Pages
+	6 Time Hole
+	12 Crystallize
+	6 Spell Transfusion
+	6 Manaplume Augury
+	6 Curse of Lethargy
+	6 Shaad Lone Alchemist
+	12 Witch of Foul Ends
+	6 Horror of IxNaar
+	6 Kami of Deaths Veil
+	6 Sinister Kirin
+	12 Eldritch Blast
+	12 Coven Psychosis
+	6 Urden OneEye
+	6 Ashen Eviscerator
+	6 Another Brother
+	12 Wretched Atronach
+	12 Shaman of Might
+	6 Curse of Conflagration
+	12 Igneous Salvo
+	12 Failed Cauterization
+	6 Sylvan Caryatid
+	6 Tiefling Animist
+	6 Soulreader Kirin
+	6 Cultivate
+	6 Charge from Disaster
+	6 Strained Metamorphosis
+	2 Refraction Dragon
+	2 Warding Enchantress
+	2 Fildarn the Watchful Eye
+	2 Greater Restoration
+	2 Warcaster Rejuvenation
+	2 Precursor Caster
+	2 Madias Gaze
+	2 The Aberrant Order
+	2 Dreamlike Duality
+	2 Reality Inversion
+	2 Undead Patron
+	2 Ophiomancer
+	2 Necrotized Necromancer
+	2 Bloodline Defiler
+	2 Baleful Omen
+	6 Heros Remorse
+	2 IxNaar Dragonrider
+	2 Fealty Lich
+	2 Decapitator Dragon
+	2 Proud Manablade
+	2 Hexblaze Hellkite
+	1 Curse of Draconic Doom
+	2 Reality Gape
+	2 Shaman of the Past
+	2 Jadelight Arcanist
+	2 Intruders Bane
+	2 Bestial Fusion
+	2 Azurefang Hydra Overlord
+	2 Kami of Manifestation
+	2 Umbral Reaver
+	1 One of Many and Many of One
+	1 Suvvaris Citadel Stalwart
+	1 Xixshang Cursed with Knowledge
+	1 Abyssal Overseer
+	1 Magmatic Apparition
+	2 Tear the Seam
+	1 Mox Derelict
+	1 Leyline Reformation
+	6 Kami of Rippling Clouds
+	6 Woe Sculptor
+	6 Zodiac Kirin
+	6 Muse Kami
+	6 Eclipse Witch
+	6 Curse of Fleeting Focus
+	6 Kami of Boundless Sacrifice
+	6 Manablade Reckoner
+	6 Thornshift Battlements
+	2 Astral Negator
+	2 Mindless Memoir
+	2 Azgol Duskwitch
+	2 Sentinel of the Eternal Flame
+	2 Druid of the Old Ways
+	2 Reward of the Faithful
+	2 Frostflame Witch
+	2 Poltergeist Procession
+	2 Eclipse Hellkite
+	2 Primordial Awakening
+	6 Witches Chalice
+	12 Coven Phylactery
+	6 Witches Broom
+	6 Witches Tome
+	12 Worn Spellcasting Focus
+	12 Terramorphic Expanse
+	6 Sacrificial Stupa
+	6 Aurora Frontier
+	6 Crumbling Ruins
+	6 Reliquary Tower
+	6 Coven Hideout
+	2 Hinterland Harbor
+	2 Clifftop Retreat
+	2 Woodland Cemetery
+	2 Sulfur Falls
+	2 Isolated Chapel
+	2 Zeyn Frenetic Sorceress
+	2 Ashioks Metamorphosis
+	2 Dirden Draconis
+	2 Lymma Benevolent Pacifist
+	2 Calzara the Face Stealer
+	2 Singularity Cube
+	2 Hall of Mirrors
+	1 Sword of the Ashen Idol
+	6 Desolate Pilgrimage
+	6 Psychic Sphinx
+	12 Battlefield Seer
+	12 Coven Amalgam
+	12 Tomeskimmer Mage
+	12 Targan Speaker
+	12 Kami of Truesight
+	12 Gravitate
+	6 Bibliomancer Savant
+	12 Innervator Kami
+	12 Emberize
+	12 Nomads Bauble
+	6 Icy Manipulator
+	6 Torpor Orb
+	12 IxNaar Arbiter
+	6 Zealot of the Ashen Idol
+	2 Solemn Simulacrum
+	12 Accursed Fathomer
+	6 Bitterblade Warlock
+	2 Curse of Misfortunes
+	6 Bitterheart Witch
+	12 Curse of the Pierced Heart
+	12 Disrupt Leyline
+	2 Cursed Broker
+	6 IxNaar High Priest
+	6 Ethercast Intuition
+	12 Tormentors Miasma
+	12 Ashen Ascetic
+	2 Damnable Dreams
+	2 Wildclaw Kami
+	2 Voqu Judgement
+	2 Defenders Gambit
+	2 Agent of the Idol
+	2 Laishul Balance Keeper
+	2 Bloodlight Ritual
+	2 Duskwalker Witch
+	2 Crack the Code
+	2 Reprimand
+	2 Trials of Suvvaris
+	2 Emaciated Roc
+	2 Primordial Crusader
+	2 Vile Summoner
+	2 Blind Rage
+	2 Infernal Dominion
+	2 Calzaras Apprentice
+	2 Curse of Secrets
+	2 Ulgleyth Corrupted King
+	2 Ashen Animation
+	12 Manablade's Bastion
+	12 Cursed Labyrinth
+	12 Monstrous Outpost
+	12 Coven Archives
+	12 Voqu Citadel
+	6 Pious Indoctrination
+	6 Voqu Resolution
+	6 Dreadculler Codex
+	6 Consult the Microverse
+	6 Bitterheart Revival
+	6 Gaze of the Ashen Idol
+	6 Cataclysmic Eruption
+	6 Shamanic Chide
+	6 Wild Weirding
+	2 Ancient Judgement
+	2 Sorrow of Azgol
+	1 Madia Spellslinger Savant
+	1 Ashiok Defiler of Azgol
+	1 Lunar Convergence
+	1 Vivien Friend to Monsters
+	1 Nezhu Ethercast Ronin
+	6 Unravel the Aether
+[wildcard(1)]
+	6 IxNaar Overseers
+	6 Due Respect
+	6 IxNaar Abomination
+	6 Kami Flesh
+	6 Bloodseeker Calyptra
+	6 Siltform Rebirth
+	6 Skullcap Arachnid
+	6 Pious Adjudicator
+	15 Fanatic of the Ashen Idol
+	15 Savage Awakener
+	7 Zof Voqu Magistrate
+	6 Assassinate
+	6 Wandering Mage
+	6 Veldt Stalker
+	6 Knight of IxNaar
+	15 Up and at Em
+	4 The Ashen Idol
+	15 Making a Monster
+	6 Kami of Wandering
+	6 Dewfrost Kami
+	6 Monstrous Pursuit
+	6 Voqu Politician
+	6 Voqu Highborn
+	6 Warding Witch
+	6 Readied Spear
+	6 Coven Solspeaker
+	6 Enthari Sentinel
+	6 Mistral Giant
+	6 Siltwalker Kirin
+	6 Voqu Sojourner
+	6 Enthari Shaman
+	15 Spirit Shield
+	6 Moment of Heroism
+	6 Void Renewal
+	6 Soultrap Ascetic
+	6 Truesight Kirin
+	6 Citadel Witch
+	6 Cursestalker Strix
+	6 Adept Cryomancer
+	6 Coven Scheme
+	6 Rift Reversal
+	6 Curse of Fugue
+	6 Dire Kami
+	6 Mournful Reject
+	6 Wretched Kami
+	6 IxNaar Witches
+	6 Blightcaster
+	6 Outland Berserker
+	6 Twisted Fate
+	6 Bloodharvest Ritualist
+	6 Apprentice Witch
+	6 Fleshstripper Hex
+	6 Ancient Consultation
+	7 Curse of the Wasteful
+	15 Mark of the Ashen Idol
+	15 Kami of Boundless Fervor
+	6 Moltenspear Warlock
+	15 Manablade Warrior
+	6 Electrobane Mage
+	6 Gnashing Burlau
+	6 Distracting Kami
+	6 Ichorspine Kirin
+	6 Peddling Dissenter
+	6 Solemn Hexblade
+	15 Ashen Judgement
+	6 Bloodthirst
+	15 Ashen Insight
+	6 Kami of Seeding
+	6 Kami of Vigor
+	6 Bonecrusher Asp
+	6 Outlands Primordial
+	6 Explorer Shaman
+	6 Managlean Enchanter
+	6 Burlau Breaker
+	6 Erode into the Past
+	6 Intrepid Kirin
+	6 Quakestep Ents
+	6 Evolution Ooze
+	6 Second Skin Viper
+	6 Survivalists Guile
+	6 Bloodthorn Elemental
+	6 Mystic Communion
+	6 Reinforced Sinnew
+	6 Bloodscent Trackers
+	6 Titanic Straining
+	15 Coven Luminarch
+	15 Mistglide Dragon
+	15 Kami of Stalemates
+	15 Citadel Dissenter
+	15 Janus Voqu Arbiter
+	6 Martial Aptitude
+	15 Gift of Estates
+	15 Split Infinities
+	15 Voqu Historian
+	15 Father Alcron
+	6 Pulled into the Pages
+	15 Time Hole
+	6 Crystallize
+	15 Spell Transfusion
+	15 Manaplume Augury
+	15 Curse of Lethargy
+	15 Shaad Lone Alchemist
+	6 Witch of Foul Ends
+	15 Horror of IxNaar
+	15 Kami of Deaths Veil
+	15 Sinister Kirin
+	6 Eldritch Blast
+	6 Coven Psychosis
+	15 Urden OneEye
+	15 Ashen Eviscerator
+	15 Another Brother
+	6 Wretched Atronach
+	6 Shaman of Might
+	15 Curse of Conflagration
+	6 Igneous Salvo
+	6 Failed Cauterization
+	15 Sylvan Caryatid
+	15 Tiefling Animist
+	15 Soulreader Kirin
+	15 Cultivate
+	15 Charge from Disaster
+	15 Strained Metamorphosis
+	7 Refraction Dragon
+	7 Warding Enchantress
+	7 Fildarn the Watchful Eye
+	7 Greater Restoration
+	7 Warcaster Rejuvenation
+	7 Precursor Caster
+	7 Madias Gaze
+	7 The Aberrant Order
+	7 Dreamlike Duality
+	7 Reality Inversion
+	7 Undead Patron
+	7 Ophiomancer
+	7 Necrotized Necromancer
+	7 Bloodline Defiler
+	7 Baleful Omen
+	15 Heros Remorse
+	7 IxNaar Dragonrider
+	7 Fealty Lich
+	7 Decapitator Dragon
+	7 Proud Manablade
+	7 Hexblaze Hellkite
+	4 Curse of Draconic Doom
+	7 Reality Gape
+	7 Shaman of the Past
+	7 Jadelight Arcanist
+	7 Intruders Bane
+	7 Bestial Fusion
+	7 Azurefang Hydra Overlord
+	7 Kami of Manifestation
+	7 Umbral Reaver
+	4 One of Many and Many of One
+	4 Suvvaris Citadel Stalwart
+	4 Xixshang Cursed with Knowledge
+	4 Abyssal Overseer
+	4 Magmatic Apparition
+	7 Tear the Seam
+	4 Mox Derelict
+	4 Leyline Reformation
+	15 Kami of Rippling Clouds
+	15 Woe Sculptor
+	15 Zodiac Kirin
+	15 Muse Kami
+	15 Eclipse Witch
+	15 Curse of Fleeting Focus
+	15 Kami of Boundless Sacrifice
+	15 Manablade Reckoner
+	15 Thornshift Battlements
+	7 Astral Negator
+	7 Mindless Memoir
+	7 Azgol Duskwitch
+	7 Sentinel of the Eternal Flame
+	7 Druid of the Old Ways
+	7 Reward of the Faithful
+	7 Frostflame Witch
+	7 Poltergeist Procession
+	7 Eclipse Hellkite
+	7 Primordial Awakening
+	15 Witches Chalice
+	6 Coven Phylactery
+	15 Witches Broom
+	15 Witches Tome
+	6 Worn Spellcasting Focus
+	6 Terramorphic Expanse
+	15 Sacrificial Stupa
+	15 Aurora Frontier
+	15 Crumbling Ruins
+	15 Reliquary Tower
+	15 Coven Hideout
+	7 Hinterland Harbor
+	7 Clifftop Retreat
+	7 Woodland Cemetery
+	7 Sulfur Falls
+	7 Isolated Chapel
+	7 Zeyn Frenetic Sorceress
+	7 Ashioks Metamorphosis
+	7 Dirden Draconis
+	7 Lymma Benevolent Pacifist
+	7 Calzara the Face Stealer
+	7 Singularity Cube
+	7 Hall of Mirrors
+	4 Sword of the Ashen Idol
+	15 Desolate Pilgrimage
+	15 Psychic Sphinx
+	6 Battlefield Seer
+	6 Coven Amalgam
+	6 Tomeskimmer Mage
+	6 Targan Speaker
+	6 Kami of Truesight
+	6 Gravitate
+	15 Bibliomancer Savant
+	6 Innervator Kami
+	6 Emberize
+	6 Nomads Bauble
+	15 Icy Manipulator
+	15 Torpor Orb
+	6 IxNaar Arbiter
+	15 Zealot of the Ashen Idol
+	7 Solemn Simulacrum
+	6 Accursed Fathomer
+	15 Bitterblade Warlock
+	7 Curse of Misfortunes
+	15 Bitterheart Witch
+	6 Curse of the Pierced Heart
+	6 Disrupt Leyline
+	7 Cursed Broker
+	15 IxNaar High Priest
+	15 Ethercast Intuition
+	6 Tormentors Miasma
+	6 Ashen Ascetic
+	7 Damnable Dreams
+	7 Wildclaw Kami
+	7 Voqu Judgement
+	7 Defenders Gambit
+	7 Agent of the Idol
+	7 Laishul Balance Keeper
+	7 Bloodlight Ritual
+	7 Duskwalker Witch
+	7 Crack the Code
+	7 Reprimand
+	7 Trials of Suvvaris
+	7 Emaciated Roc
+	7 Primordial Crusader
+	7 Vile Summoner
+	7 Blind Rage
+	7 Infernal Dominion
+	7 Calzaras Apprentice
+	7 Curse of Secrets
+	7 Ulgleyth Corrupted King
+	7 Ashen Animation
+	6 Manablade's Bastion
+	6 Cursed Labyrinth
+	6 Monstrous Outpost
+	6 Coven Archives
+	6 Voqu Citadel
+	15 Pious Indoctrination
+	15 Voqu Resolution
+	15 Dreadculler Codex
+	15 Consult the Microverse
+	15 Bitterheart Revival
+	15 Gaze of the Ashen Idol
+	15 Cataclysmic Eruption
+	15 Shamanic Chide
+	15 Wild Weirding
+	7 Ancient Judgement
+	7 Sorrow of Azgol
+	4 Madia Spellslinger Savant
+	4 Ashiok Defiler of Azgol
+	4 Lunar Convergence
+	4 Vivien Friend to Monsters
+	4 Nezhu Ethercast Ronin
+	15 Unravel the Aether
