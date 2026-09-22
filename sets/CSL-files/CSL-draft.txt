@@ -1,0 +1,3428 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Seya Hexblade",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Faerie Wizard",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/0.png"
+			}
+		},
+		{
+			"name": "Olphris Hexblade",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/1.png"
+			}
+		},
+		{
+			"name": "Kroll Hexblade",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/2.png"
+			}
+		},
+		{
+			"name": "Arvitch Hexblade",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/3.png"
+			}
+		},
+		{
+			"name": "Haldor Hexblade",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/4.png"
+			}
+		},
+		{
+			"name": "Seya Forethinker",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Faerie Wizard",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/5.png"
+			}
+		},
+		{
+			"name": "Kroll Requisitioner",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/6.png"
+			}
+		},
+		{
+			"name": "Madia Rasilga, Kroll Sorceress",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Human Wizard",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/7.png"
+			}
+		},
+		{
+			"name": "Fluxform Tutelage",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Instant",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/8.png"
+			}
+		},
+		{
+			"name": "Marauding Mage",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/9.png"
+			}
+		},
+		{
+			"name": "Arcane Strength",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/10.png"
+			}
+		},
+		{
+			"name": "Timely Heroics",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/11.png"
+			}
+		},
+		{
+			"name": "Winterwalk Elk",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Elk",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/12.png"
+			}
+		},
+		{
+			"name": "Monster Quake",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/13.png"
+			}
+		},
+		{
+			"name": "Farscape",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/14.png"
+			}
+		},
+		{
+			"name": "Magus of Skies",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Bird Wizard",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/15.png"
+			}
+		},
+		{
+			"name": "Haldor Punisher",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/16.png"
+			}
+		},
+		{
+			"name": "Deathcast Lich",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Zombie Shaman",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/17.png"
+			}
+		},
+		{
+			"name": "Hallowed Host",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/18.png"
+			}
+		},
+		{
+			"name": "Courageous Deed",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/19.png"
+			}
+		},
+		{
+			"name": "Unlife Emissary",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/20.png"
+			}
+		},
+		{
+			"name": "Outskirt Strangelings",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Weird",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/21.png"
+			}
+		},
+		{
+			"name": "Tome Inspector",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/22.png"
+			}
+		},
+		{
+			"name": "Kroll Trickster",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/23.png"
+			}
+		},
+		{
+			"name": "Rasilga's Denial",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/24.png"
+			}
+		},
+		{
+			"name": "Aek Guardian",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Treefolk",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/25.png"
+			}
+		},
+		{
+			"name": "Moonlight Hunter",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment Creature — Cat",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/26.png"
+			}
+		},
+		{
+			"name": "Etis Summoner",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/27.png"
+			}
+		},
+		{
+			"name": "Dark Premonitions",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/28.png"
+			}
+		},
+		{
+			"name": "Horde Hellkite",
+			"rarity": "mythic",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/29.png"
+			}
+		},
+		{
+			"name": "Boonkeeper Wolves",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Creature — Wolf",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/30.png"
+			}
+		},
+		{
+			"name": "Arcanum Spirit",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/31.png"
+			}
+		},
+		{
+			"name": "Tlanoc Scalelord",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Lizard Warrior",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/32.png"
+			}
+		},
+		{
+			"name": "Tlanoc Abomination",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{G}",
+			"type": "Creature — Lizard",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/33.png"
+			}
+		},
+		{
+			"name": "Cruel Lich",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/34.png"
+			}
+		},
+		{
+			"name": "Expanse Sniper",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment Creature — Human Soldier",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/35.png"
+			}
+		},
+		{
+			"name": "Sweep Away",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/36.png"
+			}
+		},
+		{
+			"name": "Pit Rats",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Rat",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/37.png"
+			}
+		},
+		{
+			"name": "Rumbleform Elemental",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/38.png"
+			}
+		},
+		{
+			"name": "Boon Raider",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Elf Warrior",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/39.png"
+			}
+		},
+		{
+			"name": "Seal of Antimagic",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/40.png"
+			}
+		},
+		{
+			"name": "Clan Veteran",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/41.png"
+			}
+		},
+		{
+			"name": "Seyan Banisher",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment Creature — Human Cleric",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/42.png"
+			}
+		},
+		{
+			"name": "Etis Paragon",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Elf Soldier",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/43.png"
+			}
+		},
+		{
+			"name": "Foresword Commander",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment Creature — Elf Soldier",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/44.png"
+			}
+		},
+		{
+			"name": "Fortifier Knight",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment Creature — Elf Knight",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/45.png"
+			}
+		},
+		{
+			"name": "Ghostly Shield",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Instant",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/46.png"
+			}
+		},
+		{
+			"name": "Knight of Ancient Tresh",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/47.png"
+			}
+		},
+		{
+			"name": "Lynxpact Knight",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Knight",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/48.png"
+			}
+		},
+		{
+			"name": "Merciful Spirit",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Spirit",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/49.png"
+			}
+		},
+		{
+			"name": "Sentimental Seyan",
+			"rarity": "common",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Elf",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/50.png"
+			}
+		},
+		{
+			"name": "Knight of Tribulations",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Knight",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/51.png"
+			}
+		},
+		{
+			"name": "Seize the Soul",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Instant",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/52.png"
+			}
+		},
+		{
+			"name": "Meadow Ambusher",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Elf Warrior",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/53.png"
+			}
+		},
+		{
+			"name": "Seyan Forcemage",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Elf Advisor",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/54.png"
+			}
+		},
+		{
+			"name": "Solmist Warrior",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Elf Warrior",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/55.png"
+			}
+		},
+		{
+			"name": "Wasteland Practicioner",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Elf Cleric",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/56.png"
+			}
+		},
+		{
+			"name": "Tomorrow's Intrigue",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/57.png"
+			}
+		},
+		{
+			"name": "Aether Pulse",
+			"rarity": "rare",
+			"mana_cost": "{X}{1}{U}",
+			"type": "Instant",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/58.png"
+			}
+		},
+		{
+			"name": "Aether Twirl",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/59.png"
+			}
+		},
+		{
+			"name": "Goliath Drake",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Drake",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/60.png"
+			}
+		},
+		{
+			"name": "Drake Darkling",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Drake",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/61.png"
+			}
+		},
+		{
+			"name": "Truthtwister Sprite",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Enchantment Creature — Faerie Rogue",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/62.png"
+			}
+		},
+		{
+			"name": "Illuminate",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/63.png"
+			}
+		},
+		{
+			"name": "Riftborn Mindsealer",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{U}{U}",
+			"type": "Creature — Shapeshifter",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/64.png"
+			}
+		},
+		{
+			"name": "Spell Parasite",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Instant",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/65.png"
+			}
+		},
+		{
+			"name": "Unprecedented Results",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/66.png"
+			}
+		},
+		{
+			"name": "Boneyard Dragon",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Dragon Zombie",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/67.png"
+			}
+		},
+		{
+			"name": "Roofjumper",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/68.png"
+			}
+		},
+		{
+			"name": "Olphris Forcemage",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Faerie Wizard",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/69.png"
+			}
+		},
+		{
+			"name": "Strike with Fear",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/70.png"
+			}
+		},
+		{
+			"name": "Arvitch Butcher",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/71.png"
+			}
+		},
+		{
+			"name": "Arvitch Forcemage",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Elemental Wizard",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/72.png"
+			}
+		},
+		{
+			"name": "Orcish Gutwrencher",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Orc Warrior",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/73.png"
+			}
+		},
+		{
+			"name": "Dragonlord Blast",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Instant",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/74.png"
+			}
+		},
+		{
+			"name": "Feral Earth",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/75.png"
+			}
+		},
+		{
+			"name": "Exiled Firebrand",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/76.png"
+			}
+		},
+		{
+			"name": "Homeland Obliteratation",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/77.png"
+			}
+		},
+		{
+			"name": "Impflesh",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/78.png"
+			}
+		},
+		{
+			"name": "Infusion Shardshank",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/79.png"
+			}
+		},
+		{
+			"name": "Plumes of Destruction",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Enchantment",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/80.png"
+			}
+		},
+		{
+			"name": "Primordial Atronach",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}{G}",
+			"type": "Creature — Elemental",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/81.png"
+			}
+		},
+		{
+			"name": "Elusive Arachnid",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Spider",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/82.png"
+			}
+		},
+		{
+			"name": "Fogwalker Behemoth",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/83.png"
+			}
+		},
+		{
+			"name": "Haldor Forcemage",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/84.png"
+			}
+		},
+		{
+			"name": "Ghost Spider",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment Creature — Spider",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/85.png"
+			}
+		},
+		{
+			"name": "Oaken Groundshouker",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{W}",
+			"type": "Creature — Treefolk Warrior",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/86.png"
+			}
+		},
+		{
+			"name": "Crop Rotation",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/87.png"
+			}
+		},
+		{
+			"name": "Worldrender Hydra",
+			"rarity": "mythic",
+			"mana_cost": "{X}{G}",
+			"type": "Creature — Hydra",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/88.png"
+			}
+		},
+		{
+			"name": "Kroll Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{B}{R}",
+			"type": "Instant",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/89.png"
+			}
+		},
+		{
+			"name": "Haldor Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}{W}",
+			"type": "Instant",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/90.png"
+			}
+		},
+		{
+			"name": "Aether Forcemage",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/91.png"
+			}
+		},
+		{
+			"name": "Arvitch Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}{G}",
+			"type": "Instant",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/92.png"
+			}
+		},
+		{
+			"name": "Seyan Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{W}{U}",
+			"type": "Instant",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/93.png"
+			}
+		},
+		{
+			"name": "Olphris Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}{B}",
+			"type": "Instant",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/94.png"
+			}
+		},
+		{
+			"name": "Shimmering Dawn",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}{W}",
+			"type": "Enchantment",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/95.png"
+			}
+		},
+		{
+			"name": "Shot in the Dark",
+			"rarity": "common",
+			"mana_cost": "{B}{G}",
+			"type": "Instant",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/96.png"
+			}
+		},
+		{
+			"name": "Hexsnatch Golem",
+			"rarity": "uncommon",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Golem",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/97.png"
+			}
+		},
+		{
+			"name": "Primordial Ritualist",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Elf Shaman",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/98.png"
+			}
+		},
+		{
+			"name": "Cling to Survival",
+			"rarity": "common",
+			"mana_cost": "{R}{W}",
+			"type": "Instant",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/99.png"
+			}
+		},
+		{
+			"name": "Skyraid Darter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/100.png"
+			}
+		},
+		{
+			"name": "Fragmented Persona",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/101.png"
+			}
+		},
+		{
+			"name": "Kroll Inquisitor",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/102.png"
+			}
+		},
+		{
+			"name": "Sigiled Tiger",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Cat",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/103.png"
+			}
+		},
+		{
+			"name": "Brainstorm",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/104.png"
+			}
+		},
+		{
+			"name": "Mournful Comrade",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/105.png"
+			}
+		},
+		{
+			"name": "Mantle Healing",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/106.png"
+			}
+		},
+		{
+			"name": "Aek Predator",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Enchantment Creature — Treefolk",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/107.png"
+			}
+		},
+		{
+			"name": "Knight of Despair",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Knight",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/108.png"
+			}
+		},
+		{
+			"name": "Surveil the Grounds",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/109.png"
+			}
+		},
+		{
+			"name": "No Hesitation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Sorcery",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/110.png"
+			}
+		},
+		{
+			"name": "Mana Architect",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/111.png"
+			}
+		},
+		{
+			"name": "Mage of the Elder Realm",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}{B}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/112.png"
+			}
+		},
+		{
+			"name": "Truth's Deliverance",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/113.png"
+			}
+		},
+		{
+			"name": "Kroll Witch",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Hag Wizard",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/114.png"
+			}
+		},
+		{
+			"name": "Snapshifter",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/115.png"
+			}
+		},
+		{
+			"name": "Life Unrequited",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Instant",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/116.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/117.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/118.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/119.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/120.png"
+			}
+		},
+		{
+			"name": "Cunning Jailer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Human",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/121.png"
+			}
+		},
+		{
+			"name": "Revenge Fulfilled",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/122.png"
+			}
+		},
+		{
+			"name": "Greenfist Provoker",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Troll",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/123.png"
+			}
+		},
+		{
+			"name": "Arcane Parasitism",
+			"rarity": "common",
+			"mana_cost": "{U}{B}",
+			"type": "Enchantment",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/124.png"
+			}
+		},
+		{
+			"name": "Slave of Death",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Elemental",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/125.png"
+			}
+		},
+		{
+			"name": "Hunt the Lost",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/126.png"
+			}
+		},
+		{
+			"name": "Primeval Genesis",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}",
+			"type": "Sorcery",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/127.png"
+			}
+		},
+		{
+			"name": "Emberflesh Salamander",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Salamander",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/128.png"
+			}
+		},
+		{
+			"name": "Consuming Flames",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/129.png"
+			}
+		},
+		{
+			"name": "Gilded Seraph",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/130.png"
+			}
+		},
+		{
+			"name": "Bragvir's Gambit",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/131.png"
+			}
+		},
+		{
+			"name": "Chronomancer's Trickery",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/132.png"
+			}
+		},
+		{
+			"name": "Stormcast Drake",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Drake",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/133.png"
+			}
+		},
+		{
+			"name": "Unsightly Insight",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/134.png"
+			}
+		},
+		{
+			"name": "Witness the Nightmare",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/135.png"
+			}
+		},
+		{
+			"name": "Gorecrash Null",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Beast Zombie",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/136.png"
+			}
+		},
+		{
+			"name": "Brotherhood Medic",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/137.png"
+			}
+		},
+		{
+			"name": "Fortuitous Djinn",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Enchantment Creature — Djinn",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/138.png"
+			}
+		},
+		{
+			"name": "Dreadlands Impaler",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Zombie Warrior",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/139.png"
+			}
+		},
+		{
+			"name": "Riftborn Seeker",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Shade",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/140.png"
+			}
+		},
+		{
+			"name": "Brotherhood Revanant",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/141.png"
+			}
+		},
+		{
+			"name": "Flowering Atronach",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Enchantment Creature — Elemental",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/142.png"
+			}
+		},
+		{
+			"name": "Stalking Leopard",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Cat",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/143.png"
+			}
+		},
+		{
+			"name": "Wayward Nexus",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/144.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/145.png"
+			}
+		},
+		{
+			"name": "Cultivator Druid",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Druid",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/146.png"
+			}
+		},
+		{
+			"name": "Chivalrous Keeper",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Elf Soldier",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/147.png"
+			}
+		},
+		{
+			"name": "Betrayed Watcher",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Elf Soldier",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/148.png"
+			}
+		},
+		{
+			"name": "Hydrokin",
+			"rarity": "common",
+			"mana_cost": "{G}{U}",
+			"type": "Enchantment Creature — Elemental",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/149.png"
+			}
+		},
+		{
+			"name": "Mentor of the Meek",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/150.png"
+			}
+		},
+		{
+			"name": "Disarming Ray",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/151.png"
+			}
+		},
+		{
+			"name": "Fieldtreader Paladin",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Creature — Human Knight",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/152.png"
+			}
+		},
+		{
+			"name": "Riftborn Necromancer",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Hag Wizard",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/153.png"
+			}
+		},
+		{
+			"name": "Eternal Ghoul",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/154.png"
+			}
+		},
+		{
+			"name": "Unexpected Diversion",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/155.png"
+			}
+		},
+		{
+			"name": "Shadow Mage",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Shade Wizard",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/156.png"
+			}
+		},
+		{
+			"name": "Demigod's Fervor",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/157.png"
+			}
+		},
+		{
+			"name": "Arcanum Benefactor",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/158.png"
+			}
+		},
+		{
+			"name": "Grafted Wings",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/159.png"
+			}
+		},
+		{
+			"name": "Madia's Stratagem",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}{R}",
+			"type": "Enchantment",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/160.png"
+			}
+		},
+		{
+			"name": "Blaze Baron",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Orc",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/161.png"
+			}
+		},
+		{
+			"name": "Magus of the Lantern",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/162.png"
+			}
+		},
+		{
+			"name": "Napalm Elemental",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/163.png"
+			}
+		},
+		{
+			"name": "Loc, Arcunum Prefect",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Vampire",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/164.png"
+			}
+		},
+		{
+			"name": "Looming Presence",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/165.png"
+			}
+		},
+		{
+			"name": "Krikam, the Wanderer",
+			"rarity": "mythic",
+			"mana_cost": "{G}{W}{U}",
+			"type": "Legendary Enchantment Creature — Spirit",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/166.png"
+			}
+		},
+		{
+			"name": "Reliquary Tower",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/167.png"
+			}
+		},
+		{
+			"name": "Mage Gear",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/168.png"
+			}
+		},
+		{
+			"name": "Fate Scribbler",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Hag Wizard",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/169.png"
+			}
+		},
+		{
+			"name": "Twisted Tutelage",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/170.png"
+			}
+		},
+		{
+			"name": "Taritha the Liberator",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/171.png"
+			}
+		},
+		{
+			"name": "Curious Arcanist",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment Creature — Human Wizard",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/172.png"
+			}
+		},
+		{
+			"name": "Dragonlord's Staff",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/173.png"
+			}
+		},
+		{
+			"name": "Fraying Elemental",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/174.png"
+			}
+		},
+		{
+			"name": "Leyline Keeper",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Elemental",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/175.png"
+			}
+		},
+		{
+			"name": "Battle Broken",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/176.png"
+			}
+		},
+		{
+			"name": "Baelfire Mage",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/177.png"
+			}
+		},
+		{
+			"name": "Stormwield Gauntlet",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/178.png"
+			}
+		},
+		{
+			"name": "Emberflame Atronach",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/179.png"
+			}
+		},
+		{
+			"name": "Rubble Renegade",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/180.png"
+			}
+		},
+		{
+			"name": "Revert Perspective",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/181.png"
+			}
+		},
+		{
+			"name": "Seeker of Dark Truths",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Hag Wizard",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/182.png"
+			}
+		},
+		{
+			"name": "Mayhem Feaster",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Vampire",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/183.png"
+			}
+		},
+		{
+			"name": "Void Augur",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Hag Wizard",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/184.png"
+			}
+		},
+		{
+			"name": "Goreling",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/185.png"
+			}
+		},
+		{
+			"name": "Dissipate",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/186.png"
+			}
+		},
+		{
+			"name": "Rewrite Existence",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/187.png"
+			}
+		},
+		{
+			"name": "Strange Calm",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/188.png"
+			}
+		},
+		{
+			"name": "Unusual Taming",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/189.png"
+			}
+		},
+		{
+			"name": "Brandishing Elf",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Elf",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/190.png"
+			}
+		},
+		{
+			"name": "Wingless Guardian",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Creature — Faerie Warrior",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/191.png"
+			}
+		},
+		{
+			"name": "Flourish",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/192.png"
+			}
+		},
+		{
+			"name": "Dauntless Overgrowth",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/193.png"
+			}
+		},
+		{
+			"name": "Cleansing Arbiter",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Angel",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/194.png"
+			}
+		},
+		{
+			"name": "Ancient Favor",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/195.png"
+			}
+		},
+		{
+			"name": "Arcanum Vanguard",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/196.png"
+			}
+		},
+		{
+			"name": "Expedite",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/197.png"
+			}
+		},
+		{
+			"name": "Nurturing Peatland",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/198.png"
+			}
+		},
+		{
+			"name": "Sunbaked Canyon",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/199.png"
+			}
+		},
+		{
+			"name": "Fiery Islet",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/200.png"
+			}
+		},
+		{
+			"name": "Waterlogged Grove",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/201.png"
+			}
+		},
+		{
+			"name": "Silent Clearing",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/202.png"
+			}
+		},
+		{
+			"name": "Void Bauble",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/203.png"
+			}
+		},
+		{
+			"name": "Perplexing Codex",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/204.png"
+			}
+		},
+		{
+			"name": "Photomancer's Lens",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/205.png"
+			}
+		},
+		{
+			"name": "Arcanum Reject",
+			"rarity": "common",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/206.png"
+			}
+		},
+		{
+			"name": "Helmorak, Scepter of the Castes",
+			"rarity": "mythic",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/207.png"
+			}
+		},
+		{
+			"name": "Arcanum Reverie",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Instant",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/208.png"
+			}
+		},
+		{
+			"name": "Rusted Automaton",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/209.png"
+			}
+		},
+		{
+			"name": "Survivalist Domain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/210.png"
+			}
+		},
+		{
+			"name": "Caste Stronghold",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/211.png"
+			}
+		},
+		{
+			"name": "Urchin's Cradle",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/212.png"
+			}
+		},
+		{
+			"name": "Rugged Vantage",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/213.png"
+			}
+		},
+		{
+			"name": "Unphasing",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}{U}",
+			"type": "Instant",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/214.png"
+			}
+		},
+		{
+			"name": "Darkened Dawn",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}{B}",
+			"type": "Instant",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/215.png"
+			}
+		},
+		{
+			"name": "Haldor Antimagic",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{G}{W}",
+			"type": "Instant",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/216.png"
+			}
+		},
+		{
+			"name": "Brutal Warmage",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}{W}",
+			"type": "Creature — Human Warrior Wizard",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/217.png"
+			}
+		},
+		{
+			"name": "Darkveil Borderpost",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Artifact",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/218.png"
+			}
+		},
+		{
+			"name": "Cinderstorm Borderpost",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Artifact",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/219.png"
+			}
+		},
+		{
+			"name": "Direwood Borderpost",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Artifact",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/220.png"
+			}
+		},
+		{
+			"name": "Midland Borderpost",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Artifact",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/221.png"
+			}
+		},
+		{
+			"name": "Mossfall Borderpost",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Artifact",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/222.png"
+			}
+		},
+		{
+			"name": "Cry of the Worldsoul",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/223.png"
+			}
+		},
+		{
+			"name": "Will of the Seven",
+			"rarity": "mythic",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/224.png"
+			}
+		},
+		{
+			"name": "Sparkeater Hellkite",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/225.png"
+			}
+		},
+		{
+			"name": "Vaato, Banished Necromancer",
+			"rarity": "mythic",
+			"mana_cost": "{B}{B}",
+			"type": "Legendary Creature — Human Wizard",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/226.png"
+			}
+		},
+		{
+			"name": "Split Eternities",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}{W}",
+			"type": "Instant",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/227.png"
+			}
+		},
+		{
+			"name": "Direflame",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/228.png"
+			}
+		},
+		{
+			"name": "Blossoming Defense",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/229.png"
+			}
+		},
+		{
+			"name": "Blighted Blades",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/230.png"
+			}
+		},
+		{
+			"name": "Sword of the Written Word",
+			"rarity": "mythic",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/231.png"
+			}
+		},
+		{
+			"name": "Alchemist's Clock",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/232.png"
+			}
+		},
+		{
+			"name": "Keeper's Resolve",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/233.png"
+			}
+		},
+		{
+			"name": "Sorceror's Familiar",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Bird",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/234.png"
+			}
+		},
+		{
+			"name": "Shadowstrike",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/235.png"
+			}
+		},
+		{
+			"name": "Rally the Clans",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Instant",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/236.png"
+			}
+		},
+		{
+			"name": "Invigorator Tyrant",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Dinosaur",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/237.png"
+			}
+		},
+		{
+			"name": "Slayer of Clans",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}{G}",
+			"type": "Creature — Elemental Warrior",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/238.png"
+			}
+		},
+		{
+			"name": "Kelaphel, Arvitch Deity",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{R}{G}",
+			"type": "Legendary Creature — God",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/239.png"
+			}
+		},
+		{
+			"name": "Fleshfire Atronach",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/240.png"
+			}
+		},
+		{
+			"name": "Impossibility Lash",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/241.png"
+			}
+		},
+		{
+			"name": "Air Pocket",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Instant",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/242.png"
+			}
+		},
+		{
+			"name": "Arcane Acquiescence",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Enchantment",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/243.png"
+			}
+		},
+		{
+			"name": "Frillmane Ambusher",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/244.png"
+			}
+		},
+		{
+			"name": "Spellforce to Lifeforce",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Instant",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/245.png"
+			}
+		},
+		{
+			"name": "Expended Reserves",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Enchantment",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/246.png"
+			}
+		},
+		{
+			"name": "Grand Appearance",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/247.png"
+			}
+		},
+		{
+			"name": "Rumbleform Liege",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/248.png"
+			}
+		},
+		{
+			"name": "Skilled Diplomat",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Elf Advisor",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/249.png"
+			}
+		},
+		{
+			"name": "Ruos, the Crusader",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Legendary Planeswalker — Ruos",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/250.png"
+			}
+		},
+		{
+			"name": "Razorglaive Slayer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Knight",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/251.png"
+			}
+		},
+		{
+			"name": "Ezzerdrex, Dark Scion",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Planeswalker — Ezzerdrex",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/252.png"
+			}
+		},
+		{
+			"name": "Kroll Forcemage",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/253.png"
+			}
+		},
+		{
+			"name": "Harron, Interplanar Zoologist",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Planeswalker — Harron",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/254.png"
+			}
+		},
+		{
+			"name": "Castes of Siral Draft Archetypes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/CSL-files/img/255.png"
+			}
+		}
+	]
+
+[rare(1)]
+	1 Madia Rasilga, Kroll Sorceress
+	2 Fluxform Tutelage
+	2 Rasilga's Denial
+	1 Horde Hellkite
+	2 Clan Veteran
+	2 Knight of Ancient Tresh
+	2 Seize the Soul
+	1 Solmist Warrior
+	2 Aether Pulse
+	1 Riftborn Mindsealer
+	2 Spell Parasite
+	1 Primordial Atronach
+	2 Fogwalker Behemoth
+	1 Worldrender Hydra
+	2 Aether Forcemage
+	2 Shimmering Dawn
+	2 Aek Predator
+	2 Mage of the Elder Realm
+	2 Greenfist Provoker
+	1 Slave of Death
+	2 Consuming Flames
+	1 Gilded Seraph
+	2 Fortuitous Djinn
+	2 Mentor of the Meek
+	2 Riftborn Necromancer
+	2 Eternal Ghoul
+	2 Madia's Stratagem
+	2 Magus of the Lantern
+	1 Loc, Arcunum Prefect
+	1 Krikam, the Wanderer
+	2 Taritha the Liberator
+	2 Leyline Keeper
+	1 Baelfire Mage
+	2 Stormwield Gauntlet
+	2 Emberflame Atronach
+	2 Rubble Renegade
+	2 Seeker of Dark Truths
+	2 Mayhem Feaster
+	2 Void Augur
+	2 Rewrite Existence
+	2 Strange Calm
+	2 Unusual Taming
+	2 Wingless Guardian
+	2 Flourish
+	2 Dauntless Overgrowth
+	2 Cleansing Arbiter
+	2 Ancient Favor
+	2 Nurturing Peatland
+	2 Sunbaked Canyon
+	2 Fiery Islet
+	2 Waterlogged Grove
+	2 Silent Clearing
+	2 Void Bauble
+	1 Helmorak, Scepter of the Castes
+	2 Arcanum Reverie
+	2 Brutal Warmage
+	1 Cry of the Worldsoul
+	1 Will of the Seven
+	1 Sparkeater Hellkite
+	1 Vaato, Banished Necromancer
+	1 Sword of the Written Word
+	2 Kelaphel, Arvitch Deity
+	2 Impossibility Lash
+	2 Expended Reserves
+	1 Ruos, the Crusader
+	1 Ezzerdrex, Dark Scion
+	1 Harron, Interplanar Zoologist
+[uncommon(3)]
+	4 Seya Hexblade
+	4 Olphris Hexblade
+	4 Kroll Hexblade
+	4 Arvitch Hexblade
+	4 Haldor Hexblade
+	4 Deathcast Lich
+	4 Kroll Trickster
+	4 Etis Summoner
+	4 Dark Premonitions
+	4 Boonkeeper Wolves
+	4 Tlanoc Abomination
+	4 Cruel Lich
+	4 Sweep Away
+	4 Rumbleform Elemental
+	4 Seyan Banisher
+	4 Foresword Commander
+	4 Ghostly Shield
+	4 Knight of Tribulations
+	4 Goliath Drake
+	4 Drake Darkling
+	4 Truthtwister Sprite
+	4 Boneyard Dragon
+	4 Olphris Forcemage
+	4 Arvitch Forcemage
+	4 Dragonlord Blast
+	4 Homeland Obliteratation
+	4 Elusive Arachnid
+	4 Haldor Forcemage
+	4 Kroll Charm
+	4 Haldor Charm
+	4 Arvitch Charm
+	4 Seyan Charm
+	4 Olphris Charm
+	4 Hexsnatch Golem
+	4 Primordial Ritualist
+	4 Skyraid Darter
+	4 Kroll Inquisitor
+	4 Sigiled Tiger
+	4 Brainstorm
+	4 Knight of Despair
+	4 Surveil the Grounds
+	4 No Hesitation
+	4 Mana Architect
+	4 Snapshifter
+	4 Life Unrequited
+	4 Cunning Jailer
+	4 Primeval Genesis
+	4 Chronomancer's Trickery
+	4 Unsightly Insight
+	4 Witness the Nightmare
+	4 Brotherhood Revanant
+	4 Betrayed Watcher
+	4 Disarming Ray
+	4 Demigod's Fervor
+	4 Blaze Baron
+	4 Reliquary Tower
+	4 Fraying Elemental
+	4 Revert Perspective
+	4 Dissipate
+	4 Brandishing Elf
+	4 Arcanum Vanguard
+	4 Perplexing Codex
+	4 Unphasing
+	4 Darkened Dawn
+	4 Haldor Antimagic
+	4 Split Eternities
+	4 Blossoming Defense
+	4 Keeper's Resolve
+	4 Shadowstrike
+	4 Slayer of Clans
+	4 Grand Appearance
+	4 Rumbleform Liege
+	4 Skilled Diplomat
+	4 Razorglaive Slayer
+	4 Kroll Forcemage
+[common(6)]
+	8 Seya Forethinker
+	8 Kroll Requisitioner
+	8 Marauding Mage
+	8 Arcane Strength
+	8 Timely Heroics
+	8 Winterwalk Elk
+	8 Monster Quake
+	8 Farscape
+	8 Magus of Skies
+	8 Haldor Punisher
+	8 Hallowed Host
+	8 Courageous Deed
+	8 Unlife Emissary
+	8 Outskirt Strangelings
+	8 Tome Inspector
+	8 Aek Guardian
+	8 Moonlight Hunter
+	8 Arcanum Spirit
+	8 Tlanoc Scalelord
+	8 Expanse Sniper
+	8 Pit Rats
+	8 Boon Raider
+	8 Seal of Antimagic
+	8 Etis Paragon
+	8 Fortifier Knight
+	8 Lynxpact Knight
+	8 Merciful Spirit
+	8 Sentimental Seyan
+	8 Meadow Ambusher
+	8 Seyan Forcemage
+	8 Wasteland Practicioner
+	8 Tomorrow's Intrigue
+	8 Aether Twirl
+	8 Illuminate
+	8 Unprecedented Results
+	8 Roofjumper
+	8 Strike with Fear
+	8 Arvitch Butcher
+	8 Orcish Gutwrencher
+	8 Feral Earth
+	8 Exiled Firebrand
+	8 Impflesh
+	8 Infusion Shardshank
+	8 Plumes of Destruction
+	8 Ghost Spider
+	8 Oaken Groundshouker
+	8 Crop Rotation
+	8 Shot in the Dark
+	8 Cling to Survival
+	8 Fragmented Persona
+	8 Mournful Comrade
+	8 Mantle Healing
+	8 Truth's Deliverance
+	8 Kroll Witch
+	8 Revenge Fulfilled
+	8 Arcane Parasitism
+	8 Hunt the Lost
+	8 Emberflesh Salamander
+	8 Bragvir's Gambit
+	8 Stormcast Drake
+	8 Gorecrash Null
+	8 Brotherhood Medic
+	8 Dreadlands Impaler
+	8 Riftborn Seeker
+	8 Flowering Atronach
+	8 Stalking Leopard
+	8 Wayward Nexus
+	8 Cultivator Druid
+	8 Chivalrous Keeper
+	8 Hydrokin
+	8 Fieldtreader Paladin
+	8 Unexpected Diversion
+	8 Shadow Mage
+	8 Arcanum Benefactor
+	8 Grafted Wings
+	8 Napalm Elemental
+	8 Looming Presence
+	8 Mage Gear
+	8 Fate Scribbler
+	8 Twisted Tutelage
+	8 Curious Arcanist
+	8 Dragonlord's Staff
+	8 Battle Broken
+	8 Goreling
+	8 Expedite
+	8 Photomancer's Lens
+	8 Arcanum Reject
+	8 Rusted Automaton
+	8 Survivalist Domain
+	8 Caste Stronghold
+	8 Urchin's Cradle
+	8 Rugged Vantage
+	8 Darkveil Borderpost
+	8 Cinderstorm Borderpost
+	8 Direwood Borderpost
+	8 Midland Borderpost
+	8 Mossfall Borderpost
+	8 Direflame
+	8 Blighted Blades
+	8 Alchemist's Clock
+	8 Sorceror's Familiar
+	8 Rally the Clans
+	8 Invigorator Tyrant
+	8 Fleshfire Atronach
+	8 Air Pocket
+	8 Arcane Acquiescence
+	8 Frillmane Ambusher
+	8 Spellforce to Lifeforce
+[common | masterpiece(1)]
+	8 Seya Forethinker
+	8 Kroll Requisitioner
+	8 Marauding Mage
+	8 Arcane Strength
+	8 Timely Heroics
+	8 Winterwalk Elk
+	8 Monster Quake
+	8 Farscape
+	8 Magus of Skies
+	8 Haldor Punisher
+	8 Hallowed Host
+	8 Courageous Deed
+	8 Unlife Emissary
+	8 Outskirt Strangelings
+	8 Tome Inspector
+	8 Aek Guardian
+	8 Moonlight Hunter
+	8 Arcanum Spirit
+	8 Tlanoc Scalelord
+	8 Expanse Sniper
+	8 Pit Rats
+	8 Boon Raider
+	8 Seal of Antimagic
+	8 Etis Paragon
+	8 Fortifier Knight
+	8 Lynxpact Knight
+	8 Merciful Spirit
+	8 Sentimental Seyan
+	8 Meadow Ambusher
+	8 Seyan Forcemage
+	8 Wasteland Practicioner
+	8 Tomorrow's Intrigue
+	8 Aether Twirl
+	8 Illuminate
+	8 Unprecedented Results
+	8 Roofjumper
+	8 Strike with Fear
+	8 Arvitch Butcher
+	8 Orcish Gutwrencher
+	8 Feral Earth
+	8 Exiled Firebrand
+	8 Impflesh
+	8 Infusion Shardshank
+	8 Plumes of Destruction
+	8 Ghost Spider
+	8 Oaken Groundshouker
+	8 Crop Rotation
+	8 Shot in the Dark
+	8 Cling to Survival
+	8 Fragmented Persona
+	8 Mournful Comrade
+	8 Mantle Healing
+	8 Truth's Deliverance
+	8 Kroll Witch
+	8 Revenge Fulfilled
+	8 Arcane Parasitism
+	8 Hunt the Lost
+	8 Emberflesh Salamander
+	8 Bragvir's Gambit
+	8 Stormcast Drake
+	8 Gorecrash Null
+	8 Brotherhood Medic
+	8 Dreadlands Impaler
+	8 Riftborn Seeker
+	8 Flowering Atronach
+	8 Stalking Leopard
+	8 Wayward Nexus
+	8 Cultivator Druid
+	8 Chivalrous Keeper
+	8 Hydrokin
+	8 Fieldtreader Paladin
+	8 Unexpected Diversion
+	8 Shadow Mage
+	8 Arcanum Benefactor
+	8 Grafted Wings
+	8 Napalm Elemental
+	8 Looming Presence
+	8 Mage Gear
+	8 Fate Scribbler
+	8 Twisted Tutelage
+	8 Curious Arcanist
+	8 Dragonlord's Staff
+	8 Battle Broken
+	8 Goreling
+	8 Expedite
+	8 Photomancer's Lens
+	8 Arcanum Reject
+	8 Rusted Automaton
+	8 Survivalist Domain
+	8 Caste Stronghold
+	8 Urchin's Cradle
+	8 Rugged Vantage
+	8 Darkveil Borderpost
+	8 Cinderstorm Borderpost
+	8 Direwood Borderpost
+	8 Midland Borderpost
+	8 Mossfall Borderpost
+	8 Direflame
+	8 Blighted Blades
+	8 Alchemist's Clock
+	8 Sorceror's Familiar
+	8 Rally the Clans
+	8 Invigorator Tyrant
+	8 Fleshfire Atronach
+	8 Air Pocket
+	8 Arcane Acquiescence
+	8 Frillmane Ambusher
+	8 Spellforce to Lifeforce
+[foil(1)]
+	6 Seya Hexblade
+	6 Olphris Hexblade
+	6 Kroll Hexblade
+	6 Arvitch Hexblade
+	6 Haldor Hexblade
+	12 Seya Forethinker
+	12 Kroll Requisitioner
+	1 Madia Rasilga, Kroll Sorceress
+	2 Fluxform Tutelage
+	12 Marauding Mage
+	12 Arcane Strength
+	12 Timely Heroics
+	12 Winterwalk Elk
+	12 Monster Quake
+	12 Farscape
+	12 Magus of Skies
+	12 Haldor Punisher
+	6 Deathcast Lich
+	12 Hallowed Host
+	12 Courageous Deed
+	12 Unlife Emissary
+	12 Outskirt Strangelings
+	12 Tome Inspector
+	6 Kroll Trickster
+	2 Rasilga's Denial
+	12 Aek Guardian
+	12 Moonlight Hunter
+	6 Etis Summoner
+	6 Dark Premonitions
+	1 Horde Hellkite
+	6 Boonkeeper Wolves
+	12 Arcanum Spirit
+	12 Tlanoc Scalelord
+	6 Tlanoc Abomination
+	6 Cruel Lich
+	12 Expanse Sniper
+	6 Sweep Away
+	12 Pit Rats
+	6 Rumbleform Elemental
+	12 Boon Raider
+	12 Seal of Antimagic
+	2 Clan Veteran
+	6 Seyan Banisher
+	12 Etis Paragon
+	6 Foresword Commander
+	12 Fortifier Knight
+	6 Ghostly Shield
+	2 Knight of Ancient Tresh
+	12 Lynxpact Knight
+	12 Merciful Spirit
+	12 Sentimental Seyan
+	6 Knight of Tribulations
+	2 Seize the Soul
+	12 Meadow Ambusher
+	12 Seyan Forcemage
+	1 Solmist Warrior
+	12 Wasteland Practicioner
+	12 Tomorrow's Intrigue
+	2 Aether Pulse
+	12 Aether Twirl
+	6 Goliath Drake
+	6 Drake Darkling
+	6 Truthtwister Sprite
+	12 Illuminate
+	1 Riftborn Mindsealer
+	2 Spell Parasite
+	12 Unprecedented Results
+	6 Boneyard Dragon
+	12 Roofjumper
+	6 Olphris Forcemage
+	12 Strike with Fear
+	12 Arvitch Butcher
+	6 Arvitch Forcemage
+	12 Orcish Gutwrencher
+	6 Dragonlord Blast
+	12 Feral Earth
+	12 Exiled Firebrand
+	6 Homeland Obliteratation
+	12 Impflesh
+	12 Infusion Shardshank
+	12 Plumes of Destruction
+	1 Primordial Atronach
+	6 Elusive Arachnid
+	2 Fogwalker Behemoth
+	6 Haldor Forcemage
+	12 Ghost Spider
+	12 Oaken Groundshouker
+	12 Crop Rotation
+	1 Worldrender Hydra
+	6 Kroll Charm
+	6 Haldor Charm
+	2 Aether Forcemage
+	6 Arvitch Charm
+	6 Seyan Charm
+	6 Olphris Charm
+	2 Shimmering Dawn
+	12 Shot in the Dark
+	6 Hexsnatch Golem
+	6 Primordial Ritualist
+	12 Cling to Survival
+	6 Skyraid Darter
+	12 Fragmented Persona
+	6 Kroll Inquisitor
+	6 Sigiled Tiger
+	6 Brainstorm
+	12 Mournful Comrade
+	12 Mantle Healing
+	2 Aek Predator
+	6 Knight of Despair
+	6 Surveil the Grounds
+	6 No Hesitation
+	6 Mana Architect
+	2 Mage of the Elder Realm
+	12 Truth's Deliverance
+	12 Kroll Witch
+	6 Snapshifter
+	6 Life Unrequited
+	6 Cunning Jailer
+	12 Revenge Fulfilled
+	2 Greenfist Provoker
+	12 Arcane Parasitism
+	1 Slave of Death
+	12 Hunt the Lost
+	6 Primeval Genesis
+	12 Emberflesh Salamander
+	2 Consuming Flames
+	1 Gilded Seraph
+	12 Bragvir's Gambit
+	6 Chronomancer's Trickery
+	12 Stormcast Drake
+	6 Unsightly Insight
+	6 Witness the Nightmare
+	12 Gorecrash Null
+	12 Brotherhood Medic
+	2 Fortuitous Djinn
+	12 Dreadlands Impaler
+	12 Riftborn Seeker
+	6 Brotherhood Revanant
+	12 Flowering Atronach
+	12 Stalking Leopard
+	12 Wayward Nexus
+	12 Cultivator Druid
+	12 Chivalrous Keeper
+	6 Betrayed Watcher
+	12 Hydrokin
+	2 Mentor of the Meek
+	6 Disarming Ray
+	12 Fieldtreader Paladin
+	2 Riftborn Necromancer
+	2 Eternal Ghoul
+	12 Unexpected Diversion
+	12 Shadow Mage
+	6 Demigod's Fervor
+	12 Arcanum Benefactor
+	12 Grafted Wings
+	2 Madia's Stratagem
+	6 Blaze Baron
+	2 Magus of the Lantern
+	12 Napalm Elemental
+	1 Loc, Arcunum Prefect
+	12 Looming Presence
+	1 Krikam, the Wanderer
+	6 Reliquary Tower
+	12 Mage Gear
+	12 Fate Scribbler
+	12 Twisted Tutelage
+	2 Taritha the Liberator
+	12 Curious Arcanist
+	12 Dragonlord's Staff
+	6 Fraying Elemental
+	2 Leyline Keeper
+	12 Battle Broken
+	1 Baelfire Mage
+	2 Stormwield Gauntlet
+	2 Emberflame Atronach
+	2 Rubble Renegade
+	6 Revert Perspective
+	2 Seeker of Dark Truths
+	2 Mayhem Feaster
+	2 Void Augur
+	12 Goreling
+	6 Dissipate
+	2 Rewrite Existence
+	2 Strange Calm
+	2 Unusual Taming
+	6 Brandishing Elf
+	2 Wingless Guardian
+	2 Flourish
+	2 Dauntless Overgrowth
+	2 Cleansing Arbiter
+	2 Ancient Favor
+	6 Arcanum Vanguard
+	12 Expedite
+	2 Nurturing Peatland
+	2 Sunbaked Canyon
+	2 Fiery Islet
+	2 Waterlogged Grove
+	2 Silent Clearing
+	2 Void Bauble
+	6 Perplexing Codex
+	12 Photomancer's Lens
+	12 Arcanum Reject
+	1 Helmorak, Scepter of the Castes
+	2 Arcanum Reverie
+	12 Rusted Automaton
+	12 Survivalist Domain
+	12 Caste Stronghold
+	12 Urchin's Cradle
+	12 Rugged Vantage
+	6 Unphasing
+	6 Darkened Dawn
+	6 Haldor Antimagic
+	2 Brutal Warmage
+	12 Darkveil Borderpost
+	12 Cinderstorm Borderpost
+	12 Direwood Borderpost
+	12 Midland Borderpost
+	12 Mossfall Borderpost
+	1 Cry of the Worldsoul
+	1 Will of the Seven
+	1 Sparkeater Hellkite
+	1 Vaato, Banished Necromancer
+	6 Split Eternities
+	12 Direflame
+	6 Blossoming Defense
+	12 Blighted Blades
+	1 Sword of the Written Word
+	12 Alchemist's Clock
+	6 Keeper's Resolve
+	12 Sorceror's Familiar
+	6 Shadowstrike
+	12 Rally the Clans
+	12 Invigorator Tyrant
+	6 Slayer of Clans
+	2 Kelaphel, Arvitch Deity
+	12 Fleshfire Atronach
+	2 Impossibility Lash
+	12 Air Pocket
+	12 Arcane Acquiescence
+	12 Frillmane Ambusher
+	12 Spellforce to Lifeforce
+	2 Expended Reserves
+	6 Grand Appearance
+	6 Rumbleform Liege
+	6 Skilled Diplomat
+	1 Ruos, the Crusader
+	6 Razorglaive Slayer
+	1 Ezzerdrex, Dark Scion
+	6 Kroll Forcemage
+	1 Harron, Interplanar Zoologist
+[wildcard(1)]
+	15 Seya Hexblade
+	15 Olphris Hexblade
+	15 Kroll Hexblade
+	15 Arvitch Hexblade
+	15 Haldor Hexblade
+	6 Seya Forethinker
+	6 Kroll Requisitioner
+	4 Madia Rasilga, Kroll Sorceress
+	7 Fluxform Tutelage
+	6 Marauding Mage
+	6 Arcane Strength
+	6 Timely Heroics
+	6 Winterwalk Elk
+	6 Monster Quake
+	6 Farscape
+	6 Magus of Skies
+	6 Haldor Punisher
+	15 Deathcast Lich
+	6 Hallowed Host
+	6 Courageous Deed
+	6 Unlife Emissary
+	6 Outskirt Strangelings
+	6 Tome Inspector
+	15 Kroll Trickster
+	7 Rasilga's Denial
+	6 Aek Guardian
+	6 Moonlight Hunter
+	15 Etis Summoner
+	15 Dark Premonitions
+	4 Horde Hellkite
+	15 Boonkeeper Wolves
+	6 Arcanum Spirit
+	6 Tlanoc Scalelord
+	15 Tlanoc Abomination
+	15 Cruel Lich
+	6 Expanse Sniper
+	15 Sweep Away
+	6 Pit Rats
+	15 Rumbleform Elemental
+	6 Boon Raider
+	6 Seal of Antimagic
+	7 Clan Veteran
+	15 Seyan Banisher
+	6 Etis Paragon
+	15 Foresword Commander
+	6 Fortifier Knight
+	15 Ghostly Shield
+	7 Knight of Ancient Tresh
+	6 Lynxpact Knight
+	6 Merciful Spirit
+	6 Sentimental Seyan
+	15 Knight of Tribulations
+	7 Seize the Soul
+	6 Meadow Ambusher
+	6 Seyan Forcemage
+	4 Solmist Warrior
+	6 Wasteland Practicioner
+	6 Tomorrow's Intrigue
+	7 Aether Pulse
+	6 Aether Twirl
+	15 Goliath Drake
+	15 Drake Darkling
+	15 Truthtwister Sprite
+	6 Illuminate
+	4 Riftborn Mindsealer
+	7 Spell Parasite
+	6 Unprecedented Results
+	15 Boneyard Dragon
+	6 Roofjumper
+	15 Olphris Forcemage
+	6 Strike with Fear
+	6 Arvitch Butcher
+	15 Arvitch Forcemage
+	6 Orcish Gutwrencher
+	15 Dragonlord Blast
+	6 Feral Earth
+	6 Exiled Firebrand
+	15 Homeland Obliteratation
+	6 Impflesh
+	6 Infusion Shardshank
+	6 Plumes of Destruction
+	4 Primordial Atronach
+	15 Elusive Arachnid
+	7 Fogwalker Behemoth
+	15 Haldor Forcemage
+	6 Ghost Spider
+	6 Oaken Groundshouker
+	6 Crop Rotation
+	4 Worldrender Hydra
+	15 Kroll Charm
+	15 Haldor Charm
+	7 Aether Forcemage
+	15 Arvitch Charm
+	15 Seyan Charm
+	15 Olphris Charm
+	7 Shimmering Dawn
+	6 Shot in the Dark
+	15 Hexsnatch Golem
+	15 Primordial Ritualist
+	6 Cling to Survival
+	15 Skyraid Darter
+	6 Fragmented Persona
+	15 Kroll Inquisitor
+	15 Sigiled Tiger
+	15 Brainstorm
+	6 Mournful Comrade
+	6 Mantle Healing
+	7 Aek Predator
+	15 Knight of Despair
+	15 Surveil the Grounds
+	15 No Hesitation
+	15 Mana Architect
+	7 Mage of the Elder Realm
+	6 Truth's Deliverance
+	6 Kroll Witch
+	15 Snapshifter
+	15 Life Unrequited
+	15 Cunning Jailer
+	6 Revenge Fulfilled
+	7 Greenfist Provoker
+	6 Arcane Parasitism
+	4 Slave of Death
+	6 Hunt the Lost
+	15 Primeval Genesis
+	6 Emberflesh Salamander
+	7 Consuming Flames
+	4 Gilded Seraph
+	6 Bragvir's Gambit
+	15 Chronomancer's Trickery
+	6 Stormcast Drake
+	15 Unsightly Insight
+	15 Witness the Nightmare
+	6 Gorecrash Null
+	6 Brotherhood Medic
+	7 Fortuitous Djinn
+	6 Dreadlands Impaler
+	6 Riftborn Seeker
+	15 Brotherhood Revanant
+	6 Flowering Atronach
+	6 Stalking Leopard
+	6 Wayward Nexus
+	6 Cultivator Druid
+	6 Chivalrous Keeper
+	15 Betrayed Watcher
+	6 Hydrokin
+	7 Mentor of the Meek
+	15 Disarming Ray
+	6 Fieldtreader Paladin
+	7 Riftborn Necromancer
+	7 Eternal Ghoul
+	6 Unexpected Diversion
+	6 Shadow Mage
+	15 Demigod's Fervor
+	6 Arcanum Benefactor
+	6 Grafted Wings
+	7 Madia's Stratagem
+	15 Blaze Baron
+	7 Magus of the Lantern
+	6 Napalm Elemental
+	4 Loc, Arcunum Prefect
+	6 Looming Presence
+	4 Krikam, the Wanderer
+	15 Reliquary Tower
+	6 Mage Gear
+	6 Fate Scribbler
+	6 Twisted Tutelage
+	7 Taritha the Liberator
+	6 Curious Arcanist
+	6 Dragonlord's Staff
+	15 Fraying Elemental
+	7 Leyline Keeper
+	6 Battle Broken
+	4 Baelfire Mage
+	7 Stormwield Gauntlet
+	7 Emberflame Atronach
+	7 Rubble Renegade
+	15 Revert Perspective
+	7 Seeker of Dark Truths
+	7 Mayhem Feaster
+	7 Void Augur
+	6 Goreling
+	15 Dissipate
+	7 Rewrite Existence
+	7 Strange Calm
+	7 Unusual Taming
+	15 Brandishing Elf
+	7 Wingless Guardian
+	7 Flourish
+	7 Dauntless Overgrowth
+	7 Cleansing Arbiter
+	7 Ancient Favor
+	15 Arcanum Vanguard
+	6 Expedite
+	7 Nurturing Peatland
+	7 Sunbaked Canyon
+	7 Fiery Islet
+	7 Waterlogged Grove
+	7 Silent Clearing
+	7 Void Bauble
+	15 Perplexing Codex
+	6 Photomancer's Lens
+	6 Arcanum Reject
+	4 Helmorak, Scepter of the Castes
+	7 Arcanum Reverie
+	6 Rusted Automaton
+	6 Survivalist Domain
+	6 Caste Stronghold
+	6 Urchin's Cradle
+	6 Rugged Vantage
+	15 Unphasing
+	15 Darkened Dawn
+	15 Haldor Antimagic
+	7 Brutal Warmage
+	6 Darkveil Borderpost
+	6 Cinderstorm Borderpost
+	6 Direwood Borderpost
+	6 Midland Borderpost
+	6 Mossfall Borderpost
+	4 Cry of the Worldsoul
+	4 Will of the Seven
+	4 Sparkeater Hellkite
+	4 Vaato, Banished Necromancer
+	15 Split Eternities
+	6 Direflame
+	15 Blossoming Defense
+	6 Blighted Blades
+	4 Sword of the Written Word
+	6 Alchemist's Clock
+	15 Keeper's Resolve
+	6 Sorceror's Familiar
+	15 Shadowstrike
+	6 Rally the Clans
+	6 Invigorator Tyrant
+	15 Slayer of Clans
+	7 Kelaphel, Arvitch Deity
+	6 Fleshfire Atronach
+	7 Impossibility Lash
+	6 Air Pocket
+	6 Arcane Acquiescence
+	6 Frillmane Ambusher
+	6 Spellforce to Lifeforce
+	7 Expended Reserves
+	15 Grand Appearance
+	15 Rumbleform Liege
+	15 Skilled Diplomat
+	4 Ruos, the Crusader
+	15 Razorglaive Slayer
+	4 Ezzerdrex, Dark Scion
+	15 Kroll Forcemage
+	4 Harron, Interplanar Zoologist

@@ -1,6 +1,11 @@
 ﻿{
     "sets": [
         {
+            "set_code": "ANG",
+            "set_name": "Aranog",
+            "formats": ""
+        },
+        {
             "set_code": "ANX",
             "set_name": "Innistrad: Annexed",
             "formats": ""
@@ -8,6 +13,11 @@
         {
             "set_code": "AZG",
             "set_name": "Azgol: Lair of the Ashen Idol",
+            "formats": ""
+        },
+        {
+            "set_code": "CSL",
+            "set_name": "Castes of Siral",
             "formats": ""
         },
         {

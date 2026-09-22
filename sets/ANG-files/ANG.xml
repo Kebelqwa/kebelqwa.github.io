@@ -1,0 +1,4925 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>ANG</name>
+			<longname>Aranog</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-09-22</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Cealin Monk</name>
+			<text>Kicker {1}{W} (You may pay an additional {1}{W} as you cast this spell.)
+When this creature enters, if it was kicked, put a +1/+1 counter on it then draw a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/0.png" num="17">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arken Spite</name>
+			<text>Destroy target attacking creature unless its controller pays {2} X times, where X is that creature&apos;s mana value.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/1.png" num="4">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Arken Tactician</name>
+			<text>When this creature enters, shuffle each card in your graveyard named Arken Tactician into your library.
+{T}: Another target creature you control gets +1/+0 until end of turn.
+{T}: Another target creature you control gets +0/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/2.png" num="5">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Auric Barrier</name>
+			<text>Prevent all damage that would be dealt to you and target creature you control this turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/3.png" num="8">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cealin Aeromancer</name>
+			<text>Empire — As long as there are three or more basic land types among lands you control, this creature has flying</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/4.png" num="16">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Moon Summons</name>
+			<text>Create a flying 4/4 white Angel creature token. If you control an attacking creature, that token enters tapped and attacking.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/5.png" num="24">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1WWW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Nullify Pain</name>
+			<text>Prevent all combat damage that would be dealt to and dealt by target creature you control. When Nullify Pain prevents the damage a creature an opponent controls would deal this way, Nullify Pain deals X damage to that creature.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/6.png" num="25">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XW</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Preparations</name>
+			<text>Flash
+When this enchantment enters, you gain 4 life.
+Whenever a creature you control is dealt damage, you gain 2 life.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/7.png" num="28">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Reap Wheat</name>
+			<text>Kicker {1}{W} (You may pay an additional {1}{W} as you cast this spell.)
+You gain 1 life for each land you control. If this spell was kicked you gain 1 life for each land on the battlefield instead.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/8.png" num="31">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Replenish Stamina</name>
+			<text>Kicker {W}{W} (You may pay an additional {W}{W} as you cast this spell.)
+Target creature gets +2/+2 until end of turn. If this spell was kicked, that creature gains hexproof and indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/9.png" num="32">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Siege Griffin</name>
+			<text>Flying
+Mount {1}{W} ({1}{W}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+Whenever this creature&apos;s rider attacks, it gets +1/+1 each other attacking creature you control.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/10.png" num="35">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Griffin Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unlikely Alliance</name>
+			<text>Creatures you control get +2/+2 until end of turn. Monkey and Human creatures you control gain vigilance until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/11.png" num="40">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tear from Memory</name>
+			<text>Counter target spell.
+Draw a card</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/12.png" num="80">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Willed to Exist</name>
+			<text>Whenever you cast an Aura spell, create a 1/1 blue Elemental creature token. When that Aura enters, if it could enchant that token, you may attach that Aura to that token.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/13.png" num="84">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dredge Edge</name>
+			<text>This creature enters tapped.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/14.png" num="99">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Apocalypse Rider</name>
+			<text>Deathtouch
+When this creature enters, you may return a creature with mount from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/15.png" num="86">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bog Fiend</name>
+			<text>Flying
+Whenever this creature deals combat damage to a player, discard a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/16.png" num="88">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hallowed Guard</name>
+			<text>This creature enters tapped.
+Empire — When Hallowed Guard dies, if there are three or more basic land types among lands you control, create a 2/2 black Zombie creature token.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/17.png" num="105">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unholy Behemoth</name>
+			<text>Mount {2}{B} ({2}{B}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+When Unholy Behemoth&apos;s rider dies, each opponent loses life equal to that creatures mana value.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/18.png" num="127">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Immense Anger</name>
+			<text>Enchant creature
+Enchanted creature has double strike and menace. (Creature with menace can&apos;t be blocked except by two or more creatures.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/19.png" num="153">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Battle Strategy</name>
+			<text>Kicker {2}{R}{R} (You may pay an additional {2}{R}{R} as you cast this spell.)
+Discard a card then draw two cards. If Battle Strategy was kicked, discard your hand then draw three cards instead.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/20.png" num="132">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blue Eyed Dragon</name>
+			<text>Flying
+{2}{R}: Blue Eyed Dragon gets +2/+0 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/21.png" num="134">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arken Sorceror</name>
+			<text>{R}{R}{R}: Arken Sorceror gets +2/+0 until end of turn.
+{5}{R}{R}{R}: Create three 1/1 red Elemental creature tokens with haste.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/22.png" num="131">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Driven Mad</name>
+			<text>Gain control of target creature until end of turn. That creature gains haste and menace until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/23.png" num="139">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Firetrail</name>
+			<text>Firetrail deals 2 damage to target creature and 2 damage to it&apos;s rider. It&apos;s rider is no longer riding that creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/24.png" num="145">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Goblin Maniac</name>
+			<text>Haste
+When this creature dies, it deals 1 damage to each player.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/25.png" num="150">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hoarding Sprite</name>
+			<text>Haste
+{T}: This creature deals 1 damage to any target and 1 damage to you.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/26.png" num="151">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>0/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kird Avenger</name>
+			<text>Haste
+Whenever this creature attacks, it deals 2 damage to each player.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/27.png" num="155">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Goblin Ambush</name>
+			<text>Create two 1/1 red Goblin creature tokens. If Goblin Ambush isn&apos;t the first spell you&apos;ve cast this turn, create three of those tokens instead.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/28.png" num="149">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fireblast Witch</name>
+			<text>Haste
+Empire — {3}{R}: This creature deals 2 damage to any noncreature target. Activate only if there are three or more basic land types among lands you control</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/29.png" num="143">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Warfront Hound</name>
+			<text>Haste
+Mount {1}{R} ({1}{R}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+This creature&apos;s rider has haste.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/30.png" num="172">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hound Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Adaptive Predator</name>
+			<text>Trample
+Whenever one or more +1/+1 counters are placed on another creature you control, put that many +1/+1 counters on Adaptive Predator.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/31.png" num="173">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>GG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ambush Elf</name>
+			<text>Reach
+Whenever Ambush Elf is dealt damage while it is blocking, put a +1/+1 counter on target creature you control.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/32.png" num="174">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frontier Guide</name>
+			<text>When Frontier Guide enters, you may put a land card from your graveyard onto the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/33.png" num="185">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Throng Simian</name>
+			<text>Other Monkey creatures you control get +1/+1.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/34.png" num="209">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wandering Beast</name>
+			<text>Trample
+Mount {1}{G} ({1}{G}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+This creature&apos;s rider gets +1/+1 and has trample.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/35.png" num="212">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reap Sorrow</name>
+			<text>Target player reveals their hand. You gain life equal to the number of nongeneric mana symbols among the mana costs of cards revealed this way and that player loses that much life.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/36.png" num="232">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hypercognition</name>
+			<text>Flash
+Enchant creature
+Enchanted creature gets +2/+0.
+When this Aura enters, you may have enchanted creature deals damage equal to its power to target opponent or planeswalker an opponent controls.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/37.png" num="227">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Helix Field</name>
+			<text>A deck can have any number of cards named Helix Field.
+This land enters tapped.
+{T}: Add {C}.
+At the beginning of your upkeep, if you control ten or more lands named Helix Field, you win the game.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/38.png" num="252">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Patrol Ridge</name>
+			<text>As this land enters, reveal up to two cards from your hand. This land enters tapped unless red and white were among the colors of cards revealed this way.
+{T}: Add {R} or {W}.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/39.png" num="253">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rooted Tropics</name>
+			<text>As this land enters, reveal up to two cards from your hand. This land enters tapped unless green and blue were among the colors of cards revealed this way.
+{T}: Add {G} or {U}.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/40.png" num="254">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Unstable Terrain</name>
+			<text>As this land enters, reveal up to two cards from your hand. This land enters tapped unless blue and red were among the colors of cards revealed this way.
+{T}: Add {U} or {R}.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/41.png" num="259">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/42.png" num="263">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp.3</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/43.png" num="268">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Arken Healer</name>
+			<text>{T}: You gain 1 life
+Empire — {T}: You gain 2 life. Activate only if there are three or more basic land types among lands you control.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/44.png" num="1">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arken Phalanx</name>
+			<text>Vigilance
+Empire — Whenever this creature attacks, if there are three or more basic land types among lands you control, this creature gains indestructible until of turn</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/45.png" num="2">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arken Skyscout</name>
+			<text>Flying, lifelink</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/46.png" num="3">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ascendant Knight</name>
+			<text>Whenever this creature attacks or blocks, each player gains 1 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/47.png" num="6">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Assess Forces</name>
+			<text>Untap any number of target creatures. Then tap any number of target creatures.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/48.png" num="7">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Barracks</name>
+			<text>Enchant land
+Enchanted land has &quot;{T}: Create a 1/1 white Soldier creature token.&quot;</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/49.png" num="9">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Breath of the Ancients</name>
+			<text>You gain 4 life.
+Empire — If there are three or more basic land types among lands you control, you gain 10 life instead.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/50.png" num="11">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Battlefront Sorceress</name>
+			<text>Empire — Whenever this creature attacks, choose one. If there are three or more basic land types among lands you control, choose two instead—
+• Tap target creature defending player controls.
+• Create a tapped and attacking 2/2 white Knight creature token.
+• Damage that would be dealt to other creatures you control this turn is dealt to this creature instead.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/ANG-files/img/51.png" num="10">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Illuminated Blades</name>
+			<text>Enchanted creature gets +2/+2 and has vigilance and lifelink.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/52.png" num="21">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Light in the Dark</name>
+			<text>Tap or untap target creature. Remove that creature from combat.
+Draw a card</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/53.png" num="23">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Persisting Justice</name>
+			<text>Enchant creature
+Sacrifice this Aura: Enchanted creature gains indestructible until end of turn.
+Empire — When this Aura is put into your graveyard from the battlefield, if there are three or more basic land types among lands you control, draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/54.png" num="26">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Plated Griffin</name>
+			<text>Flying, vigilance
+Mount {2}{W} ({2}{W}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+This creature&apos;s rider has flying and vigilance.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/55.png" num="27">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Griffin Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Resilient Infantry</name>
+			<text>Lifelink</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/56.png" num="33">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soulflame Angel</name>
+			<text>Flying
+Enchanted creatures you control get +1/+1 and have flying.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/57.png" num="36">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stand Tall</name>
+			<text>Target creature gets +2/+3 and gains vigilance until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/58.png" num="37">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Towering Presence</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+2.
+At the beginning of your upkeep you gain 2 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/59.png" num="38">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>True Valor</name>
+			<text>Enchant creature
+Enchanted creature gets +1/+1 for each creature that entered the battlefield this turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/60.png" num="39">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Progressive Knowledge</name>
+			<text>Suspend 2—{3}{U}{U} (Rather than cast this card from your hand, you may pay {3}{U}{U} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
+Whenever a time counter is removed from this card in exile, draw a card.
+Draw two cards.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/61.png" num="71">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Royal Toast</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Tap target creature. If this spell was kicked, that creature doesn&apos;t untap during its controller&apos;s next untap step.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/62.png" num="75">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Birdcloak</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+2 and has flying.
+Empire — As long as there are three or more basic land types among lands you control, enchanted creature has hexproof.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/63.png" num="47">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Whispering Blade</name>
+			<text>Mount {4}{U} ({4}{U}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+This creature&apos;s rider deals combat damage to a player, draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/64.png" num="83">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Huhn Witch</name>
+			<text>{5}{U}, {T}: Draw a card. This ability costs {1} less to activate for each card you own in exile.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/65.png" num="62">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Retraction Helix</name>
+			<text>Until end of turn, target creature gains &quot;{T}: Return target nonland permanent to its owner&apos;s hand.&quot;</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/66.png" num="74">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Æthersphere Mage</name>
+			<text>Flying
+When this creature enters, look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/67.png" num="43">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blunt Lessons</name>
+			<text>Each player can&apos;t draw cards during their draw step.
+Whenever a player casts a spell, each player draws a card.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/68.png" num="49">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Eldritch Vision</name>
+			<text>Look at the top three cards of your library. You may put a card from among them into your hand. If you do, put a card from your hand on the top of your library. Put the remaining cards on the bottom of your library in any order.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/69.png" num="54">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Huhn Prophet</name>
+			<text>When this creature enters, you may search your library for a card. If you do, shuffle your library then put that card beneath the top two cards of your library.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/70.png" num="60">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Huhn Spellblade</name>
+			<text>Flash
+Noncreature spells you cast cost {1} less to cast during an opponents turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/71.png" num="61">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Leroldt&apos;s Grasp</name>
+			<text>Enchant creature
+You may choose to not have enchanted creature untap during its controller&apos;s untap step.
+Empire — As long as there are three or more basic land types among lands you control, you control that creature.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/72.png" num="64">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lone Conjurer</name>
+			<text>When this creature enters, draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/73.png" num="65">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Loyal Drake</name>
+			<text>Flying
+Mount {4}{U} ({4}{U}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+Loyal Drake&apos;s rider gets +2/+2 and has flying</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/74.png" num="66">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Magecraft</name>
+			<text>Counter target spell unless its controller pays {X}, where X is the number of basic land types among lands you control</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/75.png" num="67">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mistform</name>
+			<text>Up to two target creatures can&apos;t be blocked this turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/76.png" num="68">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Northern Elf</name>
+			<text>Flash
+As long as this creature is riding another creature, it has flying.
+Whenever this creature deals combat damage to a player, draw a card.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/ANG-files/img/77.png" num="70">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tome Thief</name>
+			<text>Whenever this creature deals combat damage to a player, draw a card</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/78.png" num="81">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Conjured Horror</name>
+			<text>Suspend 7—{B}{B} (Rather than cast this card from your hand, you may pay {B}{B} and exile it with seven time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
+Target player reveals their hand. You choose an instant or sorcery card from among them. That player discards that card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/79.png" num="91">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Smogveil Demon</name>
+			<text>Flying
+Mount {2}{B}{B} ({2}{B}{B}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+Smogveil Demon&apos;s rider dies, each player loses life equal to that creature&apos;s mana value.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/80.png" num="123">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jhetesh Steed</name>
+			<text>Mount {2}{B}{B} ({2}{B}{B}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+This creature can&apos;t block.
+This creature&apos;s rider gets +2/+3 and can&apos;t block</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/81.png" num="111">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horse Zombie Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Horrific Fate</name>
+			<text>Whenever a creature dies, scry 1. Then each opponent loses 1 life. You gain life equal to the amount lost this way.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/82.png" num="106">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Darklight Witch</name>
+			<text>Lifelink
+Pay 3 life: Target Warlock or Wizard creature gains lifelink until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/83.png" num="94">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Contagion Nightmare</name>
+			<text>Wither (This deals damage to creatures in the form of -1/-1 counters.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/84.png" num="92">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Centaur Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Undead Dissent</name>
+			<text>Enchant creature
+Enchanted creature gets -1/-1 for each Swamp you control and loses all abilities.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/85.png" num="126">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Jhetesh Archdemon</name>
+			<text>Flying
+Pay 4 life: Draw two cards.
+Whenever you draw a card, sacrifice a creature.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/86.png" num="109">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Behead</name>
+			<text>Enchant creature
+When this Aura enters, put two -1/-1 counters on enchanted creature.
+Enchanted creature can&apos;t block.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/87.png" num="87">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dementia Guard</name>
+			<text>Kicker {X}{B} (You may pay an additional {X}{B} as you cast this spell.)
+Intimidate (This creature can&apos;t be blocked except by artifact creatures and/or creatures that share a color with it.)
+When this creature enters, if it was kicked, each player loses X life.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/88.png" num="97">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shade</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fleshrend</name>
+			<text>Kicker {1}{B} (You may pay an additional {1}{B} as you cast this spell.)
+Target creature gets -2/-2 until end of turn. If this spell was kicked that creature gets -4/-4 instead.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/89.png" num="101">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Great 10 Plagues</name>
+			<text>Each player loses life equal to the number of cards in their graveyard. If a player lost 10 or more life this way, that player loses the game.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/90.png" num="104">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4BBBB</manacost>
+				<cmc>8</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Insulated Dead</name>
+			<text>Deathtouch
+Whenever a creature dies, put a -1/-1 counter on another target creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/91.png" num="108">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gorgonsight</name>
+			<text>Destroy target blocking creature.
+Empire — If there are three or more basic land types among lands you control, all creatures blocked by that creature gain trample until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/92.png" num="103">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Frightful Discovery</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Target player reveals his or her hand. If this spell was kicked, you choose a nonland card from it. That player discards that card. Otherwise that player discards a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/93.png" num="102">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Point of No Return</name>
+			<text>Whenever a player casts a spell, that player loses 1 life.
+Whenever a creature dies, its controller gains 1 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/94.png" num="118">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Witches&apos; Dance</name>
+			<text>Whenever a player discards one or more cards card or pays life, create a 2/1 black Warlock creature token.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/95.png" num="128">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>BB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Al&apos;Cjas Fury</name>
+			<text>Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)
+Target creature gets +1/+0 and gains haste until end of turn. If Al&apos;Cjas Fury was kicked, that creature gains double strike until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/96.png" num="129">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dragon Overlord</name>
+			<text>Haste
+When Dragon Overlord enters, you may discard your hand. If you do, draw that many cards and one additional card.
+Whenever Dragon Overlord attacks, it gets +1/+0 for each other attacking creature.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/ANG-files/img/97.png" num="137">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Al&apos;Cjas Orcs</name>
+			<text>Empire — As long as there are three or more basic land types among lands you control, creatures you control have haste.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/98.png" num="130">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Broodfire Sprite</name>
+			<text>Kicker {R} (You may pay an additional {R} as you cast this spell.)
+When Broodfire Sprite enters, if it was kicked, it gets +2/+2 and gains haste until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/99.png" num="135">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crackling Wall</name>
+			<text>Defender
+Whenever Crackling Wall blocks, it deals deals X damage to all creatures blocked by it, where X is the number of attacking creatures.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/100.png" num="136">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Wall</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>0/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dragon Steed</name>
+			<text>Flying
+Mount {3}{R} ({3}{R}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+{2}{R}{R}: This creature or it&apos;s rider gets +2/+0 until end of turn. Activate only once each turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/101.png" num="138">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Emberflame Witch</name>
+			<text>When Emberflame Witch enters, discard your hand. Then draw a card for each Warlock creature you control.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/102.png" num="140">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Explosive Fall</name>
+			<text>Explosive Fall deals 2 damage to target creature. When that creature dies this turn, draw a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/103.png" num="141">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fiery Dawn</name>
+			<text>Whenever a creature enters, Fiery Dawn deals 1 damage to each player.
+Sacrifice Fiery Dawn: Target creature gains haste until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/104.png" num="142">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Firebrand Strike</name>
+			<text>Empire — Firebrand Strike deals 4 damage to target opponent. If there are three or more basic land types among lands you control, Firebrand Strike deals 4 damage to up to one target creature that player controls.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/105.png" num="144">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ignition Mage</name>
+			<text>{T}: This creature deals 1 damage to each player.
+Empire — {R}{R}, {T}: This creature deals 3 damage to target player. Activate this a ability only if there are three or more basic land types among lands you control.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/106.png" num="152">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kinetic Ignition</name>
+			<text>Kinetic Ignition deals 1 damage to target creature and 1 damage to that creatures controller.
+Empire — If there are three or more basic land types among lands you control, Kinetic Ignition deals 3 damage that creature and 3 damage to that creatures controller instead.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/107.png" num="154">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Kird Hunter</name>
+			<text>First strike
+{5}{G}: Regenerate this creature. (The next time this creature would be destroyed this turn, it isn&apos;t. Instead tap it, remove all damage from it, and remove it from combat.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/108.png" num="156">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kird Wanderer</name>
+			<text>Whenever this creature attacks, flip a coin. If you win the flip, another target creature gains intimidate until end of turn. (This creature can&apos;t be blocked except by artifact creatures and/or creatures that share a color with it.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/109.png" num="157">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Nomad</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Meteor Plunge</name>
+			<text>Kicker {R}{R} (You may pay an additional {R}{R} as you cast this spell.)
+Meteor Plunge deals X damage to target creature. If it was kicked, it deals twice that much damage to that creature instead.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/110.png" num="160">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XR</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shall not Pass</name>
+			<text>Choose up to three target creatures. Shall not Pass deals 2 damage to the first creature. When that first creature dies this turn, Shall not Pass deals 2 damage to the second creature. When that second creature dies this turn, Shall not Pass deals 2 damage to the third creature.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/111.png" num="166">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shattering Slash</name>
+			<text>Kicker {2}{R} (You may pay an additional {2}{R} as you cast this spell.)
+Target creature you control gets +X/+0 until end of turn, where X is its power. Sacrifice that creature at the beginning of the next end step unless Shattering Slash was kicked.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/112.png" num="167">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Skyfall Hellkite</name>
+			<text>Flying
+Mount {4}{R} ({4}{R}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+This creature&apos;s rider has flying.
+{R}: This creature or its rider gets +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/113.png" num="168">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soulfire Dragon</name>
+			<text>Flying
+Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)
+When Soulfire Dragon enters, if it was kicked, it deals damage equal to its power to target creature. If that creature is destroyed this way, Soulfire Dragon gains haste until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/114.png" num="169">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Storm Witch</name>
+			<text>When Storm Witch enters, it deals X damage to any target, where X is the number of Warlock creatures you control.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/115.png" num="170">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sudden Flame</name>
+			<text>Sudden Flame deals X damage to any target, where X is the number of instant and sorcery spells that have been cast this turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/116.png" num="171">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Writhing Roots</name>
+			<text>Defender, reach</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/117.png" num="214">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodscent Rhino</name>
+			<text>Trample
+Suspend 2—{1}{G}{G}{G} (Rather than cast this card from your hand, you may pay {1}{G}{G}{G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/118.png" num="180">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Rhino</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Barkspitter Elemental</name>
+			<text>Hexproof
+Whenever you cast a multicolored spell targeting Barkspitter Elemental, draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/119.png" num="178">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arbor Guard</name>
+			<text>Enchant land
+Enchanted land has &quot;{T}: Add one mana of any color.
+Whenever you cast a spell, until end of turn, enchanted land becomes a 2/2 green Elemental creature. Its still a land.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/120.png" num="176">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ascended Elf</name>
+			<text>{1}, {T}: Add one mana of any color.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/121.png" num="177">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blasphemous Strength</name>
+			<text>Target creature gets +5/+5 and gains trample until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/122.png" num="179">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Carnage Baloth</name>
+			<text>Trample
+Mount—Sacrifice a creature (Sacrifice a creature, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+This creature&apos;s rider gets +3/+2 and has trample</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/123.png" num="181">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Consuming Leyline</name>
+			<text>Lands tap for colorless mana rather than the mana they would regularly produce.
+{2}: Add one mana of any color. Any player may activate this ability.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/124.png" num="182">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Frayrunner Wolf</name>
+			<text>Mount {3}{G}{G} ({3}{G}{G}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+This creature&apos;s rider gets +2/+2.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/125.png" num="184">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wolf Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heroes Plan</name>
+			<text>Kicker {1}{G} (You may pay an additional {1}{G} as you cast this spell.)
+Put a +1/+1 counter on target creature and its rider. If Heroes Plan was kicked put two +1/+1 counters on those creatures instead.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/126.png" num="188">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Huhn Beastmaster</name>
+			<text>Kicker {3}{G} (You may pay an additional {3}{G} as you cast this spell.)
+When Huhn Beastmaster enters, if it was kicked, create a 3/3 green Beast creature token.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/127.png" num="189">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Huhn Outrider</name>
+			<text>Trample
+When Huhn Outrider deals combat damage to a player, if its power is greater than 4, draw that many cards.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/128.png" num="190">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lead the Rampage</name>
+			<text>Enchant creature
+Enchanted creature can&apos;t be blocked by creatures with power less than that creatures power.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/129.png" num="194">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nighthunt</name>
+			<text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
+Target creature you control fights target creature you don&apos;t control. If Nighthunt was kicked, the creature you control gets +3/+3 until end of turn before it fights</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/130.png" num="195">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Paradise Wanderer</name>
+			<text>Empire — {T}: Add one mana of any color. If there are three or more basic land types among lands you control, add two mana of any color instead.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/131.png" num="196">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plantify</name>
+			<text>Enchant creature
+Enchanted creature loses all abilities and is a 0/2 green Plant creature with &quot;{T}: Add two mana of any color.&quot;</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/132.png" num="197">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Primeval Prowess</name>
+			<text>Target creature gets +X/+X until end of turn. If X is greater than or equal to 5, untap X target lands you control.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/133.png" num="198">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XG</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Raised by Wolves</name>
+			<text>Enchant creature
+When this Aura enters, create two 2/2 green Wolf creature tokens.
+Enchanted creature gets +1/+1 for each Wolf you control.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/134.png" num="199">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Regenerate</name>
+			<text>Regenerate target creature. (The next time this instant would be destroyed this turn, it isn&apos;t. Instead tap it.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/135.png" num="200">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rendered Ramparts</name>
+			<text>When this creature enters, target creature gets +2/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/136.png" num="201">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scouring Baloth</name>
+			<text>Empire — When this creature enters, if there are three or more basic land types among lands you control, put a +1/+1 counter on this creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/137.png" num="202">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shock Python</name>
+			<text>Flash
+{G}: This creature gains deathtouch until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/138.png" num="204">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Simian Ascendant</name>
+			<text>Trample
+Whenever this creature attacks, untap target land.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/139.png" num="205">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>GG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Simian Groundshaker</name>
+			<text>Trample</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/140.png" num="207">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3GGG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Simian Guard</name>
+			<text>Defender
+Empire — As long as there are three or more basic land types among lands you control, this creature loses defender and must attack each turn if able.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/141.png" num="208">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Treejumper Simian</name>
+			<text>Reach
+This creature can&apos;t be blocked by creatures with flying.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/142.png" num="210">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wayfare</name>
+			<text>Search your library for a basic land card. Put that card into your hand then shuffle your library.
+Empire — If there are three or more basic land types among lands you control, you may search your library for two Forest cards instead. Put those cards into your hand then shuffle your library.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/143.png" num="213">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Huhn Tactician</name>
+			<text>Flash, lifelink
+You may cast sorcery spells as though they had flash.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/144.png" num="225">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wizened Huhn</name>
+			<text>Flash
+{2}{W}{U}, Exile this card from your graveyard: Put target attacking creature on top of its owners library.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/145.png" num="240">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tommorow Agents</name>
+			<text>Whenever you draw a card, each player loses 1 life.
+{T}: Draw a card then discard a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/146.png" num="236">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unbury</name>
+			<text>Target player sacrifices a creature. Each player draws a number of cards equal to the sacrificed creatures toughness.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/147.png" num="238">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cell Lurker</name>
+			<text>Whenever this creature deals combat damage to a player, you mill two cards. (Put the top two cards of your library into your graveyard.)
+When this creature dies, return target creature card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/148.png" num="218">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shade</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Beheld Elf</name>
+			<text>Hexproof, lifelink</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/149.png" num="216">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf</type>
+				<maintype>Creature</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Huhn Protector</name>
+			<text>When this creature enters, put a +1/+1 counter on each other multicolored creature you control.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/150.png" num="224">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2GW</manacost>
+				<cmc>4</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Living Husk</name>
+			<text>Trample
+Whenever this creature attacks, you lose 1 life.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/151.png" num="230">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rockfall</name>
+			<text>You gain X life. Rockfall deals X damage to target creature.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/152.png" num="233">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XRW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Physical Awakening</name>
+			<text>Choose one—
+• Put two +1/+1 counters on target creature you control.
+• Return target creature you don&apos;t control to its owners hand.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/153.png" num="231">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Archbound Architects</name>
+			<text>{T}: Each player loses 1 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/154.png" num="241">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Battlemage Armor</name>
+			<text>Equip {4}
+Equipped creature gets +0/+2.
+No more than one creature may deal combat damage to equipped creature each turn. (Players choose how to assign damage creatures they control deal.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/155.png" num="242">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shambled Monument</name>
+			<text>When this artifact enters, draw a card.
+{T}: Flip a coin. If you win the flip, add {C}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/156.png" num="248">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sword of Guidance</name>
+			<text>Equipped creature gets +2/+2.
+Equip {4}</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/157.png" num="250">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Trading Grounds</name>
+			<text>{T}: Add {C}.
+Empire — {T}: Add one mana of any color. Activate only if there are three or more basic land types among lands you control.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/158.png" num="258">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rotten Wilds</name>
+			<text>As this land enters, reveal up to two cards from your hand. This land enters tapped unless black and green were among the colors of cards revealed this way.
+{T}: Add {B} or {G}.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/159.png" num="255">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sundered Cathedral</name>
+			<text>As this land enters, reveal up to two cards from your hand. This land enters tapped unless white and black were among the colors of cards revealed this way.
+{T}: Add {W} or {B}.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/160.png" num="256">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/161.png" num="260">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Plains.3</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/162.png" num="262">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island.2</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/163.png" num="264">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/164.png" num="266">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain.3</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/165.png" num="271">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain.2</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/166.png" num="270">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/167.png" num="272">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest.2</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/168.png" num="273">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Arcane Phantom</name>
+			<text>Flying
+Whenever you cast a spell during an opponents turn, put a +1/+1 counter on this creature.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/169.png" num="45">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cealin Spellblade</name>
+			<text>{2}{U}, {T}: Each player draws a card. Then each player discards a card unless they pay {1}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/170.png" num="51">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Quicken Witch</name>
+			<text>Hexproof
+{T}: Remove a time counter from a suspended card you own in exile.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/171.png" num="72">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Æthersteed Mage</name>
+			<text>{2}{U}: Exile this creature and each creature it&apos;s riding. Then return those creatures to the battlefield. You may have this creature enter riding the other creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/172.png" num="44">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Huhn Fae</name>
+			<text>Flying
+Empire — Whenever this creature deals combat damage to a player, if there are three or more basic land types among lands you control, you may draw a card. If you do, discard a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/173.png" num="58">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>In Time</name>
+			<text>Suspend 30—{U} (Rather than cast this card from your hand, you may pay {U} and exile it with thirty time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
+Whenever you cast a spell, remove a time counter from this card in exile.
+You win the game if you cast this spell from exile. Otherwise, exile this spell with fifteen time counters.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/174.png" num="63">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>15UUUUU</manacost>
+				<cmc>20</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Caelin Mage</name>
+			<text>When this creature enters, exile the top two cards of your library. You may play cards exiled this way until end of turn.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/175.png" num="50">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shimmering Distraction</name>
+			<text>Kicker—Pay 2 life (You may pay 2 life in addition to any other costs as you cast this spell.)
+Look at target players hand.
+If this spell was kicked, draw a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/176.png" num="76">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shoregreet Leviathan</name>
+			<text>This creature can&apos;t be blocked.
+Mount {8}{U}{U} ({8}{U}{U}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+This creature&apos;s rider gets +3/+2 and can&apos;t be blocked.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/177.png" num="77">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Leviathan Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Huhn Interrogator</name>
+			<text>Flash
+When this creature enters, tap target creature. That creatures controller reveals their hand.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/178.png" num="59">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Witch&apos;s Apprentice</name>
+			<text>Whenever you cast a spell with more than one target, you may have this creature become an additional target of that spell.
+Whenever an opponent casts a spell targeting this creature, sacrifice it at the beginning of the next end step.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/179.png" num="85">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Twist Space</name>
+			<text>Exile target attacking creature, return that creature to the battlefield tapped attacking target player that doesn&apos;t control it. If you are targeted this way, remove that creature from combat.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/180.png" num="82">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Caelin Equilizer</name>
+			<text>Sacrifice this creature: Target creature you control assigns combat damage equal to its toughness rather than its power until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/181.png" num="12">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Centaur Avenger</name>
+			<text>Haste
+Whenever this creature attacks, put a +1/+1 counter on up to one other target creature you control.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/182.png" num="219">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Centaur Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Capital Guard</name>
+			<text>Defender, vigilance
+As long as this creature is riding another creature, this creature can attack as though it didn&apos;t have defender and it assigns combat damage equal to its toughness rather than its power.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/183.png" num="15">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Caelin Galvanizer</name>
+			<text>Suspend 3—{W}{W} (Rather than cast this card from your hand, you may pay {W}{W} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)
+When this creature enters, creatures you control get +2/+2 until end of turn. Those creatures have haste if this creature entered from exile this turn.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/184.png" num="13">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prove Wrong</name>
+			<text>Kicker {1}{W} (You may pay an additional {1}{W} as you cast this spell.)
+Put target creature card with mana value 2 or less from your graveyard onto the battlefield.
+If Prove Wrong was kicked, return it to your hand as it resolves.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/185.png" num="30">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Kareed Missionary</name>
+			<text>Whenever this creature attacks, tap up to one target creature defending player controls.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/186.png" num="22">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wandering Hero</name>
+			<text>Lifelink</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/187.png" num="41">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gallows Chant</name>
+			<text>You gain 1 life for each creature that entered the battlefield this turn and for each creature that died this turn. Each opponent loses life equal to the amount you gained this way.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/188.png" num="223">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dying&apos;s Vengeance</name>
+			<text>Kicker—Sacrifice a creature (You may sacrifice a creature in addition to any other costs as you cast this spell.)
+Destroy target creature or planeswalker. If this spell was kicked, destroy an additional target creature or planeswalker.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/189.png" num="100">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Progressive Decay</name>
+			<text>Suspend 3—{3}{B}{B} (Rather than cast this card from your hand, you may pay {3}{B}{B} and exile it with three time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
+Whenever a time counter is removed from this card in exile, put a -1/-1 counter on target creature.
+Destroy target creature.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/190.png" num="119">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Jhetesh Witch</name>
+			<text>Empire — When this creature enters, if there are three or more basic land types among lands you control, target creature gets -3/-3 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/191.png" num="112">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Master of Witchcraft</name>
+			<text>{B}, {T}: Create a 2/1 Warlock creature token.
+Whenever a creature you control enters, each opponent loses 1 life. If that creature is a Warlock, you gain 1 life.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/ANG-files/img/192.png" num="114">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Last Kiss</name>
+			<text>Last Kiss deals 2 damage to target creature and you gain 2 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/193.png" num="113">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crashing Boar</name>
+			<text>Trample
+Empire — When Crashing Boar dies, if there are three or more basic land types among lands you control, you gain 4 life.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/194.png" num="183">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Boar</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Caelin Valiant</name>
+			<text>Suspend 6—{1}{W}
+Whenever one or more creatures attack you, remove a time counter from this card in exile.
+Lifelink</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/195.png" num="14">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hunger for Flesh</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Create a 2/2 green Wolf creature token. If this spell was kicked, create two 2/2 black Zombie creature tokens instead.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/196.png" num="226">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Radiant Powerstone</name>
+			<text>{T}: Untap another target permanent.
+{5}, {Q}: Tap target permanent.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/197.png" num="246">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Animated Roots</name>
+			<text>Enchant land
+Whenever enchanted land is tapped for mana, that land produces an additional mana of that color.
+Empire — As long as there are three or more basic land types among lands you control, enchanted land is a 3/3 green elemental creature in addition to its other types. It is still a land.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/198.png" num="175">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Riejor, Arken Progenitor</name>
+			<text>Haste
+Whenever Riejor attacks, put a number of +1/+1 counters on it equal to the power of the creature it is riding.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/199.png" num="164">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Swamp.2</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/200.png" num="267">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/201.png" num="269">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island.3</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/202.png" num="265">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest.3</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/203.png" num="274">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Journey&apos;s End</name>
+			<text>Whenever a land you control enters, choose one —
+• Put a +1/+1 counter on target creature.
+• Each player draws a card.
+• Untap target land.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/204.png" num="192">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lightrunner Bolt</name>
+			<text>Lightrunner Bolt deals 4 damage to target creature. Add four mana of any color, then draw a card.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/205.png" num="159">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1RRR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Burnt Fate</name>
+			<text>Choose one—
+• Counter target spell
+• Copy target instant or sorcery spell. You may choose new targets for the copy.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/206.png" num="217">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Eldritch Steed</name>
+			<text>This creature can&apos;t be blocked.
+Mount {3}{U}{U} ({3}{U}{U}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+This creature&apos;s rider can&apos;t be blocked.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/207.png" num="53">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Huhn Synchrocaster</name>
+			<text>Suspend 1—{3}{G}{G} (Rather than cast this card from your hand, you may pay {3}{G}{G} and exile it with a time counter on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)
+When this creature enters, if you cast it from exile, add {G}{G}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/208.png" num="191">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Swept through Time</name>
+			<text>Return target creature to its owner&apos;s hand.
+Empire — If there are three or more basic land types among lands you control, put that creature on top of its owner&apos;s library instead.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/209.png" num="79">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rugged Brawl</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Target creature you control deals damage equal to its power to any other target. If Rugged Brawl was kicked and targeted two or more creatures, both creatures deal damage equal to their power to themselves instead.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/210.png" num="235">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Darkbolt Witch</name>
+			<text>Haste
+{T}: This creature deals 1 damage to each player.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/211.png" num="220">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fury Bursts</name>
+			<text>Suspend 2—{3}{R} (Rather than cast this card from your hand, you may pay {3}{R} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
+Whenever a time counter is removed from this card in exile, target creature gains menace until end of turn.
+Gain control of target creature until end of turn. Untap it. That creature gains haste and menace until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/212.png" num="148">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Realign</name>
+			<text>Kicker {2}{U} (You may pay an additional {2}{U} as you cast this spell.)
+Tap target creature. If this spell was kicked, tap another target creature and creatures tapped by this spell don&apos;t untap during their controllers next untap step.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/213.png" num="73">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Soulseeper</name>
+			<text>Lifelink
+Whenever you gain life, each opponent loses that much life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/214.png" num="124">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gather Strength</name>
+			<text>Suspend 2—{G} (Rather than cast this card from your hand, you may pay {G} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
+Target creature gets +3/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/215.png" num="187">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Jhetesh Ritual</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Destroy target creature. Its controller loses life equal to that creatures power.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/216.png" num="110">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mysterious Disapearance</name>
+			<text>Exile target nonland permanent. That permanent gains suspend, put two time counters on it.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/217.png" num="69">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Landwill</name>
+			<text>Target land becomes a copy of target permanent you control.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/218.png" num="229">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GU</manacost>
+				<cmc>5</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fabled Swordsman</name>
+			<text>Kicker {W} (You may pay an additional {W} as you cast this spell.)
+When this creature enters, if it was kicked, target creature gets +1/+1 and gains vigilance until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/219.png" num="18">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wartime Archangel</name>
+			<text>Flying, vigilance
+This creature must attack and block if able.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/220.png" num="239">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cloudcover Aven</name>
+			<text>Flying
+Suspend 2—{2}{U}{U} (Rather than cast this card from your hand, you may pay {2}{U}{U} and exile it with two time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost. It has haste.)
+Whenever a time counter is removed from this card in exile, look at the top two cards of your library. Put them back on top of your library in any order.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/221.png" num="52">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Steel Sarcophagus</name>
+			<text>Empire — As long as there are three or more basic land types among lands you control, Steel Sarcophagus is a 3/3 colorless Golem artifact creature.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/222.png" num="249">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Kareed&apos;s Chosen</name>
+			<text>Empire — This creature has lifelink and vigilance as long as there are three or more basic land types among lands you control.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/223.png" num="228">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pact Witch</name>
+			<text>Whenever this creature attacks, defending player draws a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/224.png" num="117">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rotsoul Witch</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+When this creature enters, choose one. If it was kicked, choose both —
+• Put two +1/+1 counters on target creature.
+• Put two -1/-1 counters on target creature.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/225.png" num="234">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tundra Elemental</name>
+			<text>Trample, haste</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/226.png" num="237">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mawblade Bug</name>
+			<text>Flying, first strike
+When this creature dies, if it dealt combat damage to another creature this turn, return this card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/227.png" num="115">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Land of Riches</name>
+			<text>Whenever a land enters tapped under your control, untap it.
+Empire — As long as there are three or more basic land types among lands you control, lands you control have &quot;{T}: Add one mana of any color.&quot;</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/228.png" num="193">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Plains.2</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/229.png" num="261">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sweeping Waves</name>
+			<text>Kicker {2}{U} (You may pay an additional {2}{U} as you cast this spell.)
+Return target creature to its owner&apos;s hand.
+If this spell was kicked, create a 2/2 blue Merfolk creature token.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/230.png" num="78">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Outland Roughrider</name>
+			<text>As long as this creature is riding another creature, Outland Roughrider has haste and first strike</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/231.png" num="161">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Caelin Exosuit</name>
+			<text>Whenever a creature enters under your control, you may attach this Equipment to it.
+Equipped creature gets +1/+1.
+Equip {1}</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/232.png" num="243">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tusked Simian</name>
+			<text>Menace (This creature can&apos;t be blocked except by two or more creatures.)
+Other Monkey creatures you control have menace. (Creatures with menace can&apos;t be blocked except by two or more creatures.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/233.png" num="211">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Amplify Grief</name>
+			<text>Choose target player. For each creature that died this turn, that player mills three cards. (They put the top three cards of their library into their graveyard.)
+Draw a card</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/234.png" num="215">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Worshipped Angel</name>
+			<text>Whenever this creature attacks, it gets +1/+1 for each untapped creature you control.
+Tap an untapped creature you control: This creature gains vigilance until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/235.png" num="42">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>2WWW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Progressive Destiny</name>
+			<text>Suspend 6—{2}{W} (Rather than cast this card from your hand, you may pay {2}{W} and exile it with six time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
+Whenever a time counter is removed from this card in exile, you gain 1 life.
+You gain 6 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/236.png" num="29">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gong Keeper</name>
+			<text>Whenever another creature enters under your control, creatures you control get +0/+1 until the end of your next turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/237.png" num="19">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Progressive Bolt</name>
+			<text>Suspend X—{X}{R} (Rather than cast this card from your hand, you may pay {X}{R} and exile it with X time counters on it. At the beginning of your upkeep, remove a time counter. When the last is removed, you may cast it without paying its mana cost.)
+Whenever a time counter is removed from this card in exile, it deals 1 damage to target player or planeswalker.
+Progressive Bolt deals 3 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/238.png" num="162">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Chained Monstrosity</name>
+			<text>Trample
+This creature can&apos;t attack or block unless you&apos;ve lost life this turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/239.png" num="90">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Darkstar Elemental</name>
+			<text>Whenever a creature you control dies, target player loses 1 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/240.png" num="95">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Darkstar Mage</name>
+			<text>When this creature dies, at the beginning of the next end step, you gain life equal to the amount of life your opponents have lost this turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/241.png" num="96">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Muckstrider Witch</name>
+			<text>Haste, intimidate (This creature can&apos;t be blocked except by artifact creatures and/or creatures that share a color with it.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/242.png" num="116">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodspear Shaman</name>
+			<text>Whenever Bloodspear Shaman deals combat damage to a player, put a +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/243.png" num="133">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Forge Patron</name>
+			<text>Whenever you cast a noncreature spell, Forge Patron gets +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/244.png" num="147">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Simian Elder</name>
+			<text>Trample
+Whenever another nontoken creature with power 4 or greater enters under your control, create a 4/4 green Monkey creature token with trample.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/ANG-files/img/245.png" num="206">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flurry Simian</name>
+			<text>Haste
+Other Monkey creatures you control have haste.
+{1}{R}: This creature gets +1/-1 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/246.png" num="146">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tear to Pieces</name>
+			<text>Kicker {B}{B} (You may pay an additional {B}{B} as you cast this spell.)
+Destroy target creature. If Tear to Pieces was kicked, put a creature from your graveyard in to your hand.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/247.png" num="125">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Boneyard Dragon</name>
+			<text>Flying, deathtouch
+Whenever a creature you control attacks, the defending player loses 1 life.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/248.png" num="89">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Infected Warrior</name>
+			<text>{B}{B}, {T}: Target creature gains deathtouch until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/249.png" num="107">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Roofjumper</name>
+			<text>Intimidate (This creature can&apos;t be blocked except by artifact creatures and/or creatures that share a color with it.)
+{2}{B}{B}: Regenerate this creature. (The next time this creature would be destroyed this turn, it isn&apos;t. Instead tap it, remove all damage from it, and remove it from combat.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/250.png" num="121">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scorched Grounds</name>
+			<text>Whenever you lose unspent mana by ending a phase during your turn, at the beginning of the next phase, this enchantment deals X damage to each opponent. Where X is the amount of mana lost this way.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/ANG-files/img/251.png" num="165">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4RRRR</manacost>
+				<cmc>8</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Guide of Ruos</name>
+			<text>Mount {2}{W} ({2}{W}, {T}: Another non-riding creature you control rides this creature for as long as it&apos;s tapped. You may choose not to untap this creature during your untap while a creature rides it.)
+As long as this creature is riding another creature, both of those creatures have indestructible.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/252.png" num="20">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Clockworker</name>
+			<text>Whenever this creature enters or attacks, you may remove a time counter from a suspended card you own in exile.
+{T}: Each player exiles the top card of their library. If a card with suspend is exiled this way, put a number of time counters on it equal to its suspend number.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/253.png" num="244">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Last Battle</name>
+			<text>Target creature you control gains haste, double strike, and menace until end of turn. Sacrifice that creature at the beginning of the next end step.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/254.png" num="158">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Druidic Masterpiece</name>
+			<text>Empire — This creature has indestructible and it assigns combat damage equal to its toughness rather than its power as long as there are three or more basic land types among lands you control.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/ANG-files/img/255.png" num="221">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>0/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Void Guardian</name>
+			<text>This spell costs {1} less to cast for each card you own in exile.
+Trample</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/256.png" num="251">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>8</manacost>
+				<cmc>8</cmc>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Punisher Bolt</name>
+			<text>Punisher Bolt deals 2 damage to target creature.
+Empire — If there are three or more basic land types among lands you control, Punisher Bolt deals 4 damage to that creature instead.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/257.png" num="163">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shaman Trio</name>
+			<text>When Shaman Trio enters, create two 1/1 green Shaman creature tokens.
+At the beginning of your upkeep, if you control more creatures than an opponent, put a +1/+1 counter on each creature you control.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/258.png" num="203">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Demon&apos;s Pawn</name>
+			<text>When this creature enters, you lose 2 life.
+When this creature dies, draw a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/259.png" num="98">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Temple of the Fallen Gods</name>
+			<text>{T}: Add {C}.
+Empire — {T}: Add {C}{C}. Activate only if there are three or more basic land types among lands you control.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/ANG-files/img/260.png" num="257">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Resonance Orb</name>
+			<text>{T}, Tap two untapped creatures you control: Add one mana of any color.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/261.png" num="247">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Rotspawn</name>
+			<text>Whenever another creature you control dies, put an undeath counter on this creature.
+When this creature dies, create a number of 2/2 black Zombie creature tokens equal to the number of undeath counters on this creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/262.png" num="122">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>3BBB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mage Relic</name>
+			<text>{1}, {T}, Sacrifice this artifact: Search your library for a basic land card, reveal it, and put it into your hand. Then shuffle your library.
+{1}, {T}, Sacrifice this artifact: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/263.png" num="245">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fanatic Warmage</name>
+			<text>Prowess
+Whenever you cast a noncreature spell, this creature gains menace until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/264.png" num="222">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Corrupted Simian</name>
+			<text>This creature can&apos;t block.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/265.png" num="93">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Monkey Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Astral Goddess</name>
+			<text>{T}: Move a time counter from a card you own in exile onto this creature.
+{1}{U}, Remove a time counter from this creature: Scry 1.
+{T}, Remove five time counters from this creature: Take an extra turn after this one.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/ANG-files/img/266.png" num="46">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blind Sustenance</name>
+			<text>Whenever you would draw a card, you may scry 2 instead. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
+Sacrifice this enchantment: Scry 2 then draw a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/267.png" num="48">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Feathercloak Battlemage</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever this creature deals combat damage to a player, draw a card. Then discard a card unless you&apos;ve cast a noncreature spell this turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/ANG-files/img/268.png" num="55">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Feathercloak Witch</name>
+			<text>Hexproof
+Tap an untapped creature you control: This creature gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/269.png" num="56">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gifts from Oblivion</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Choose one. If this spell is kicked, choose both—
+• Scry 4 then draw two cards.
+• Remove two time counters any number of suspended cards you own.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/ANG-files/img/270.png" num="57">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ruos Kareed</name>
+			<text>When Ruos Kareed enters, you gain 10 life.
+[+3]: Until your next turn, Ruos Kareed becomes an 8/8 white Monkey creature with vigilance in addition to his other types. Prevent all damage that would be dealt to him by creatures not attacking him.
+[-X]: Your life total becomes equal to the number of loyalty counters removed from Ruos Kareed.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/ANG-files/img/271.png" num="34">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Ruos</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>4WWW</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Garruk, Wild Again</name>
+			<text>[+1]: Target tapped creature you control fights target untapped creature you don&apos;t control.
+[-3]: Create a 3/3 green Beast creature token.
+[-6]: You get an emblem with &quot;Creatures you control get +2/+2 and have trample and can&apos;t be blocked by more than one creature.&quot;</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/ANG-files/img/272.png" num="186">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Garruk</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Elemental ANG</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/273.png" num="4">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Merfolk ANG</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/274.png" num="5">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Merfolk</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Warlock ANG</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/275.png" num="6">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Zombie ANG</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/276.png" num="7">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Soldier ANG</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/277.png" num="3">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Wolf ANG</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/278.png" num="11">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Wolf</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Angel ANG</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/279.png" num="1">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Elemental.2 ANG</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/280.png" num="8">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Monkey ANG</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/281.png" num="10">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Monkey</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>The Raven Man</name>
+			<text>[+2]: Each player sacrifices a nontoken creature.
+[-6]: You get an emblem with &quot;Whenever a nontoken creature you control dies, create a 2/2 black Zombie creature token.&quot;
+[-10]: You get an emblem with &quot;Whenever a creature dies, draw a card.&quot;</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/ANG-files/img/282.png" num="120">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Eolto</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Beast ANG</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/283.png" num="9">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bird ANG</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/ANG-files/img/284.png" num="2">ANG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

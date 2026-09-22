@@ -1,0 +1,2264 @@
+﻿[
+    {
+        "card_name": "Cry of the Worldsoul",
+        "number": 10,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "223"
+    },
+    {
+        "card_name": "Madia Rasilga, Kroll Sorceress",
+        "number": 53,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "7"
+    },
+    {
+        "card_name": "Loc, Arcunum Prefect",
+        "number": 86,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "164"
+    },
+    {
+        "card_name": "Baelfire Mage",
+        "number": 109,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "177"
+    },
+    {
+        "card_name": "Harron, Interplanar Zoologist",
+        "number": 159,
+        "shape": "planeswalker",
+        "set": "CSL",
+        "rotated": false,
+        "position": "254"
+    },
+    {
+        "card_name": "Gilded Seraph",
+        "number": 19,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "130"
+    },
+    {
+        "card_name": "Riftborn Mindsealer",
+        "number": 58,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "64"
+    },
+    {
+        "card_name": "Slave of Death",
+        "number": 99,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "125"
+    },
+    {
+        "card_name": "Horde Hellkite",
+        "number": 124,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "29"
+    },
+    {
+        "card_name": "Primordial Atronach",
+        "number": 167,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "81"
+    },
+    {
+        "card_name": "Solmist Warrior",
+        "number": 31,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "55"
+    },
+    {
+        "card_name": "Will of the Seven",
+        "number": 70,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "224"
+    },
+    {
+        "card_name": "Vaato, Banished Necromancer",
+        "number": 103,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "226"
+    },
+    {
+        "card_name": "Sparkeater Hellkite",
+        "number": 137,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "225"
+    },
+    {
+        "card_name": "Worldrender Hydra",
+        "number": 175,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "88"
+    },
+    {
+        "card_name": "Ancient Favor",
+        "number": 1,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "195"
+    },
+    {
+        "card_name": "Aether Forcemage",
+        "number": 36,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "91"
+    },
+    {
+        "card_name": "Eternal Ghoul",
+        "number": 77,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "154"
+    },
+    {
+        "card_name": "Consuming Flames",
+        "number": 111,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "129"
+    },
+    {
+        "card_name": "Aek Predator",
+        "number": 142,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "107"
+    },
+    {
+        "card_name": "Clan Veteran",
+        "number": 7,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "41"
+    },
+    {
+        "card_name": "Aether Pulse",
+        "number": 37,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "58"
+    },
+    {
+        "card_name": "Leyline Keeper",
+        "number": 84,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "175"
+    },
+    {
+        "card_name": "Emberflame Atronach",
+        "number": 115,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "179"
+    },
+    {
+        "card_name": "Dauntless Overgrowth",
+        "number": 150,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "193"
+    },
+    {
+        "card_name": "Cleansing Arbiter",
+        "number": 8,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "194"
+    },
+    {
+        "card_name": "Fortuitous Djinn",
+        "number": 47,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "138"
+    },
+    {
+        "card_name": "Mayhem Feaster",
+        "number": 88,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "183"
+    },
+    {
+        "card_name": "Impossibility Lash",
+        "number": 126,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "241"
+    },
+    {
+        "card_name": "Flourish",
+        "number": 152,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "192"
+    },
+    {
+        "card_name": "Expended Reserves",
+        "number": 16,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "246"
+    },
+    {
+        "card_name": "Rasilga's Denial",
+        "number": 56,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "24"
+    },
+    {
+        "card_name": "Riftborn Necromancer",
+        "number": 93,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "153"
+    },
+    {
+        "card_name": "Rubble Renegade",
+        "number": 133,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "180"
+    },
+    {
+        "card_name": "Fogwalker Behemoth",
+        "number": 154,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "83"
+    },
+    {
+        "card_name": "Mentor of the Meek",
+        "number": 24,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "150"
+    },
+    {
+        "card_name": "Rewrite Existence",
+        "number": 57,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "187"
+    },
+    {
+        "card_name": "Seeker of Dark Truths",
+        "number": 96,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "182"
+    },
+    {
+        "card_name": "Taritha the Liberator",
+        "number": 138,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "171"
+    },
+    {
+        "card_name": "Greenfist Provoker",
+        "number": 157,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "123"
+    },
+    {
+        "card_name": "Seize the Soul",
+        "number": 26,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "52"
+    },
+    {
+        "card_name": "Strange Calm",
+        "number": 63,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "188"
+    },
+    {
+        "card_name": "Void Augur",
+        "number": 104,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "184"
+    },
+    {
+        "card_name": "Unusual Taming",
+        "number": 140,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "189"
+    },
+    {
+        "card_name": "Wingless Guardian",
+        "number": 173,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "191"
+    },
+    {
+        "card_name": "Arcanum Vanguard",
+        "number": 2,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "196"
+    },
+    {
+        "card_name": "Brainstorm",
+        "number": 42,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "104"
+    },
+    {
+        "card_name": "Boneyard Dragon",
+        "number": 72,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "67"
+    },
+    {
+        "card_name": "Arvitch Forcemage",
+        "number": 108,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "72"
+    },
+    {
+        "card_name": "Blossoming Defense",
+        "number": 144,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "229"
+    },
+    {
+        "card_name": "Betrayed Watcher",
+        "number": 4,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "148"
+    },
+    {
+        "card_name": "Chronomancer's Trickery",
+        "number": 43,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "132"
+    },
+    {
+        "card_name": "Cruel Lich",
+        "number": 73,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "34"
+    },
+    {
+        "card_name": "Blaze Baron",
+        "number": 110,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "161"
+    },
+    {
+        "card_name": "Brandishing Elf",
+        "number": 146,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "190"
+    },
+    {
+        "card_name": "Cunning Jailer",
+        "number": 11,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "121"
+    },
+    {
+        "card_name": "Dissipate",
+        "number": 45,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "186"
+    },
+    {
+        "card_name": "Dark Premonitions",
+        "number": 74,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "28"
+    },
+    {
+        "card_name": "Demigod's Fervor",
+        "number": 112,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "157"
+    },
+    {
+        "card_name": "Brotherhood Revanant",
+        "number": 147,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "141"
+    },
+    {
+        "card_name": "Disarming Ray",
+        "number": 12,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "151"
+    },
+    {
+        "card_name": "Drake Darkling",
+        "number": 46,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "61"
+    },
+    {
+        "card_name": "Deathcast Lich",
+        "number": 75,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "17"
+    },
+    {
+        "card_name": "Dragonlord Blast",
+        "number": 114,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "74"
+    },
+    {
+        "card_name": "Elusive Arachnid",
+        "number": 151,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "82"
+    },
+    {
+        "card_name": "Etis Summoner",
+        "number": 14,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "27"
+    },
+    {
+        "card_name": "Goliath Drake",
+        "number": 48,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "60"
+    },
+    {
+        "card_name": "Knight of Despair",
+        "number": 83,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "108"
+    },
+    {
+        "card_name": "Fraying Elemental",
+        "number": 121,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "174"
+    },
+    {
+        "card_name": "Grand Appearance",
+        "number": 156,
+        "shape": "adventure",
+        "set": "CSL",
+        "rotated": false,
+        "position": "247"
+    },
+    {
+        "card_name": "Foresword Commander",
+        "number": 17,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "44"
+    },
+    {
+        "card_name": "Kroll Forcemage",
+        "number": 50,
+        "shape": "adventure",
+        "set": "CSL",
+        "rotated": false,
+        "position": "253"
+    },
+    {
+        "card_name": "Life Unrequited",
+        "number": 85,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "116"
+    },
+    {
+        "card_name": "Homeland Obliteratation",
+        "number": 123,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "77"
+    },
+    {
+        "card_name": "Haldor Forcemage",
+        "number": 158,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "84"
+    },
+    {
+        "card_name": "Knight of Tribulations",
+        "number": 20,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "51"
+    },
+    {
+        "card_name": "Snapshifter",
+        "number": 60,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "115"
+    },
+    {
+        "card_name": "Olphris Forcemage",
+        "number": 89,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "69"
+    },
+    {
+        "card_name": "Revert Perspective",
+        "number": 132,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "181"
+    },
+    {
+        "card_name": "Mana Architect",
+        "number": 162,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "111"
+    },
+    {
+        "card_name": "Seyan Banisher",
+        "number": 28,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "42"
+    },
+    {
+        "card_name": "Sweep Away",
+        "number": 64,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "36"
+    },
+    {
+        "card_name": "Razorglaive Slayer",
+        "number": 91,
+        "shape": "adventure",
+        "set": "CSL",
+        "rotated": false,
+        "position": "251"
+    },
+    {
+        "card_name": "Rumbleform Elemental",
+        "number": 134,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "38"
+    },
+    {
+        "card_name": "Primeval Genesis",
+        "number": 166,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "127"
+    },
+    {
+        "card_name": "Skilled Diplomat",
+        "number": 30,
+        "shape": "adventure",
+        "set": "CSL",
+        "rotated": false,
+        "position": "249"
+    },
+    {
+        "card_name": "Truthtwister Sprite",
+        "number": 67,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "62"
+    },
+    {
+        "card_name": "Shadowstrike",
+        "number": 98,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "235"
+    },
+    {
+        "card_name": "Rumbleform Liege",
+        "number": 135,
+        "shape": "adventure",
+        "set": "CSL",
+        "rotated": false,
+        "position": "248"
+    },
+    {
+        "card_name": "Sigiled Tiger",
+        "number": 169,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "103"
+    },
+    {
+        "card_name": "Split Eternities",
+        "number": 32,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "227"
+    },
+    {
+        "card_name": "Unsightly Insight",
+        "number": 69,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "134"
+    },
+    {
+        "card_name": "Witness the Nightmare",
+        "number": 105,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "135"
+    },
+    {
+        "card_name": "Skyraid Darter",
+        "number": 136,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "100"
+    },
+    {
+        "card_name": "Surveil the Grounds",
+        "number": 171,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "109"
+    },
+    {
+        "card_name": "Battle Broken",
+        "number": 3,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "176"
+    },
+    {
+        "card_name": "Aether Twirl",
+        "number": 38,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "59"
+    },
+    {
+        "card_name": "Blighted Blades",
+        "number": 71,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "230"
+    },
+    {
+        "card_name": "Arcane Strength",
+        "number": 106,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "10"
+    },
+    {
+        "card_name": "Aek Guardian",
+        "number": 141,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "25"
+    },
+    {
+        "card_name": "Brotherhood Medic",
+        "number": 5,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "137"
+    },
+    {
+        "card_name": "Arcanum Benefactor",
+        "number": 39,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "158"
+    },
+    {
+        "card_name": "Dreadlands Impaler",
+        "number": 76,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "139"
+    },
+    {
+        "card_name": "Arvitch Butcher",
+        "number": 107,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "71"
+    },
+    {
+        "card_name": "Air Pocket",
+        "number": 143,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "242"
+    },
+    {
+        "card_name": "Chivalrous Keeper",
+        "number": 6,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "147"
+    },
+    {
+        "card_name": "Arcanum Spirit",
+        "number": 40,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "31"
+    },
+    {
+        "card_name": "Fate Scribbler",
+        "number": 78,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "169"
+    },
+    {
+        "card_name": "Direflame",
+        "number": 113,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "228"
+    },
+    {
+        "card_name": "Boon Raider",
+        "number": 145,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "39"
+    },
+    {
+        "card_name": "Courageous Deed",
+        "number": 9,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "19"
+    },
+    {
+        "card_name": "Bragvir's Gambit",
+        "number": 41,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "131"
+    },
+    {
+        "card_name": "Fragmented Persona",
+        "number": 79,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "101"
+    },
+    {
+        "card_name": "Emberflesh Salamander",
+        "number": 116,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "128"
+    },
+    {
+        "card_name": "Crop Rotation",
+        "number": 148,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "87"
+    },
+    {
+        "card_name": "Etis Paragon",
+        "number": 13,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "43"
+    },
+    {
+        "card_name": "Curious Arcanist",
+        "number": 44,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "172"
+    },
+    {
+        "card_name": "Gorecrash Null",
+        "number": 80,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "136"
+    },
+    {
+        "card_name": "Exiled Firebrand",
+        "number": 117,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "76"
+    },
+    {
+        "card_name": "Cultivator Druid",
+        "number": 149,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "146"
+    },
+    {
+        "card_name": "Expanse Sniper",
+        "number": 15,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "35"
+    },
+    {
+        "card_name": "Illuminate",
+        "number": 49,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "63"
+    },
+    {
+        "card_name": "Goreling",
+        "number": 81,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "185"
+    },
+    {
+        "card_name": "Expedite",
+        "number": 118,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "197"
+    },
+    {
+        "card_name": "Flowering Atronach",
+        "number": 153,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "142"
+    },
+    {
+        "card_name": "Fortifier Knight",
+        "number": 18,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "45"
+    },
+    {
+        "card_name": "Kroll Requisitioner",
+        "number": 51,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "6"
+    },
+    {
+        "card_name": "Hallowed Host",
+        "number": 82,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "18"
+    },
+    {
+        "card_name": "Feral Earth",
+        "number": 119,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "75"
+    },
+    {
+        "card_name": "Ghost Spider",
+        "number": 155,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "85"
+    },
+    {
+        "card_name": "Lynxpact Knight",
+        "number": 21,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "48"
+    },
+    {
+        "card_name": "Kroll Witch",
+        "number": 52,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "114"
+    },
+    {
+        "card_name": "Looming Presence",
+        "number": 87,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "165"
+    },
+    {
+        "card_name": "Fleshfire Atronach",
+        "number": 120,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "240"
+    },
+    {
+        "card_name": "Hunt the Lost",
+        "number": 160,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "126"
+    },
+    {
+        "card_name": "Mantle Healing",
+        "number": 22,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "106"
+    },
+    {
+        "card_name": "Magus of Skies",
+        "number": 54,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "15"
+    },
+    {
+        "card_name": "Pit Rats",
+        "number": 90,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "37"
+    },
+    {
+        "card_name": "Haldor Punisher",
+        "number": 122,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "16"
+    },
+    {
+        "card_name": "Invigorator Tyrant",
+        "number": 161,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "237"
+    },
+    {
+        "card_name": "Meadow Ambusher",
+        "number": 23,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "53"
+    },
+    {
+        "card_name": "Marauding Mage",
+        "number": 55,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "9"
+    },
+    {
+        "card_name": "Revenge Fulfilled",
+        "number": 92,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "122"
+    },
+    {
+        "card_name": "Impflesh",
+        "number": 125,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "78"
+    },
+    {
+        "card_name": "Monster Quake",
+        "number": 163,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "13"
+    },
+    {
+        "card_name": "Merciful Spirit",
+        "number": 25,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "49"
+    },
+    {
+        "card_name": "Seya Forethinker",
+        "number": 59,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "5"
+    },
+    {
+        "card_name": "Riftborn Seeker",
+        "number": 94,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "140"
+    },
+    {
+        "card_name": "Infusion Shardshank",
+        "number": 127,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "79"
+    },
+    {
+        "card_name": "Moonlight Hunter",
+        "number": 164,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "26"
+    },
+    {
+        "card_name": "Sentimental Seyan",
+        "number": 27,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "50"
+    },
+    {
+        "card_name": "Sorceror's Familiar",
+        "number": 61,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "234"
+    },
+    {
+        "card_name": "Roofjumper",
+        "number": 95,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "68"
+    },
+    {
+        "card_name": "Mournful Comrade",
+        "number": 128,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "105"
+    },
+    {
+        "card_name": "Outskirt Strangelings",
+        "number": 165,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "21"
+    },
+    {
+        "card_name": "Seyan Forcemage",
+        "number": 29,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "54"
+    },
+    {
+        "card_name": "Stormcast Drake",
+        "number": 62,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "133"
+    },
+    {
+        "card_name": "Shadow Mage",
+        "number": 97,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "156"
+    },
+    {
+        "card_name": "Orcish Gutwrencher",
+        "number": 129,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "73"
+    },
+    {
+        "card_name": "Seal of Antimagic",
+        "number": 168,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "40"
+    },
+    {
+        "card_name": "Timely Heroics",
+        "number": 33,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "11"
+    },
+    {
+        "card_name": "Tome Inspector",
+        "number": 65,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "22"
+    },
+    {
+        "card_name": "Strike with Fear",
+        "number": 100,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "70"
+    },
+    {
+        "card_name": "Plumes of Destruction",
+        "number": 130,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "80"
+    },
+    {
+        "card_name": "Stalking Leopard",
+        "number": 170,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "143"
+    },
+    {
+        "card_name": "Truth's Deliverance",
+        "number": 34,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "113"
+    },
+    {
+        "card_name": "Tomorrow's Intrigue",
+        "number": 66,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "57"
+    },
+    {
+        "card_name": "Twisted Tutelage",
+        "number": 101,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "170"
+    },
+    {
+        "card_name": "Rally the Clans",
+        "number": 131,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "236"
+    },
+    {
+        "card_name": "Tlanoc Scalelord",
+        "number": 172,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "32"
+    },
+    {
+        "card_name": "Wasteland Practicioner",
+        "number": 35,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "56"
+    },
+    {
+        "card_name": "Unprecedented Results",
+        "number": 68,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "66"
+    },
+    {
+        "card_name": "Unlife Emissary",
+        "number": 102,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "20"
+    },
+    {
+        "card_name": "Unexpected Diversion",
+        "number": 139,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "155"
+    },
+    {
+        "card_name": "Winterwalk Elk",
+        "number": 174,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "12"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "Arcanum Reverie",
+        "number": 176,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "208"
+    },
+    {
+        "card_name": "Spell Parasite",
+        "number": 179,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "65"
+    },
+    {
+        "card_name": "Napalm Elemental",
+        "number": 180,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "163"
+    },
+    {
+        "card_name": "Frillmane Ambusher",
+        "number": 181,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "244"
+    },
+    {
+        "card_name": "Shimmering Dawn",
+        "number": 184,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "95"
+    },
+    {
+        "card_name": "Spellforce to Lifeforce",
+        "number": 177,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "245"
+    },
+    {
+        "card_name": "Arcane Parasitism",
+        "number": 178,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "124"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Keeper's Resolve",
+        "number": 182,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "233"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Oaken Groundshouker",
+        "number": 183,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "86"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Olphris Hexblade",
+        "number": 187,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "1"
+    },
+    {
+        "card_name": "Ezzerdrex, Dark Scion",
+        "number": 190,
+        "shape": "planeswalker",
+        "set": "CSL",
+        "rotated": false,
+        "position": "252"
+    },
+    {
+        "card_name": "Arvitch Hexblade",
+        "number": 194,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "3"
+    },
+    {
+        "card_name": "Ruos, the Crusader",
+        "number": 205,
+        "shape": "planeswalker",
+        "set": "CSL",
+        "rotated": false,
+        "position": "250"
+    },
+    {
+        "card_name": "Magus of the Lantern",
+        "number": 208,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "162"
+    },
+    {
+        "card_name": "Darkveil Borderpost",
+        "number": 185,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "218"
+    },
+    {
+        "card_name": "Fluxform Tutelage",
+        "number": 191,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "8"
+    },
+    {
+        "card_name": "Primordial Ritualist",
+        "number": 196,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "98"
+    },
+    {
+        "card_name": "Knight of Ancient Tresh",
+        "number": 202,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "47"
+    },
+    {
+        "card_name": "Boonkeeper Wolves",
+        "number": 206,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "30"
+    },
+    {
+        "card_name": "Fieldtreader Paladin",
+        "number": 186,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "152"
+    },
+    {
+        "card_name": "Kroll Hexblade",
+        "number": 192,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "2"
+    },
+    {
+        "card_name": "Tlanoc Abomination",
+        "number": 198,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "33"
+    },
+    {
+        "card_name": "Ghostly Shield",
+        "number": 200,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "46"
+    },
+    {
+        "card_name": "Seya Hexblade",
+        "number": 210,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "0"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Kroll Trickster",
+        "number": 193,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "23"
+    },
+    {
+        "card_name": "Direwood Borderpost",
+        "number": 195,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "220"
+    },
+    {
+        "card_name": "Haldor Hexblade",
+        "number": 201,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "4"
+    },
+    {
+        "card_name": "Hydrokin",
+        "number": 207,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "149"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Arcane Acquiescence",
+        "number": 188,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "243"
+    },
+    {
+        "card_name": "Shot in the Dark",
+        "number": 197,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "96"
+    },
+    {
+        "card_name": "No Hesitation",
+        "number": 204,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "110"
+    },
+    {
+        "card_name": "Mossfall Borderpost",
+        "number": 209,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "222"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Cinderstorm Borderpost",
+        "number": 189,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "219"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Cling to Survival",
+        "number": 199,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "99"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Midland Borderpost",
+        "number": 203,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "221"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Mage of the Elder Realm",
+        "number": 221,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "112"
+    },
+    {
+        "card_name": "Madia's Stratagem",
+        "number": 220,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "160"
+    },
+    {
+        "card_name": "Kelaphel, Arvitch Deity",
+        "number": 216,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "239"
+    },
+    {
+        "card_name": "Brutal Warmage",
+        "number": 212,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "217"
+    },
+    {
+        "card_name": "Krikam, the Wanderer",
+        "number": 217,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "166"
+    },
+    {
+        "card_name": "Darkened Dawn",
+        "number": 213,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "215"
+    },
+    {
+        "card_name": "Kroll Charm",
+        "number": 218,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "89"
+    },
+    {
+        "card_name": "Arvitch Charm",
+        "number": 211,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "92"
+    },
+    {
+        "card_name": "Haldor Antimagic",
+        "number": 214,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "216"
+    },
+    {
+        "card_name": "Seyan Charm",
+        "number": 223,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "93"
+    },
+    {
+        "card_name": "Olphris Charm",
+        "number": 222,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "94"
+    },
+    {
+        "card_name": "Kroll Inquisitor",
+        "number": 219,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "102"
+    },
+    {
+        "card_name": "Slayer of Clans",
+        "number": 224,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "238"
+    },
+    {
+        "card_name": "Haldor Charm",
+        "number": 215,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "90"
+    },
+    {
+        "card_name": "Unphasing",
+        "number": 225,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "214"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Helmorak, Scepter of the Castes",
+        "number": 230,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "207"
+    },
+    {
+        "card_name": "Sword of the Written Word",
+        "number": 237,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "231"
+    },
+    {
+        "card_name": "Stormwield Gauntlet",
+        "number": 236,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "178"
+    },
+    {
+        "card_name": "Void Bauble",
+        "number": 238,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "203"
+    },
+    {
+        "card_name": "Hexsnatch Golem",
+        "number": 231,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "97"
+    },
+    {
+        "card_name": "Perplexing Codex",
+        "number": 233,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "204"
+    },
+    {
+        "card_name": "Alchemist's Clock",
+        "number": 226,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "232"
+    },
+    {
+        "card_name": "Arcanum Reject",
+        "number": 227,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "206"
+    },
+    {
+        "card_name": "Dragonlord's Staff",
+        "number": 228,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "173"
+    },
+    {
+        "card_name": "Grafted Wings",
+        "number": 229,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "159"
+    },
+    {
+        "card_name": "Mage Gear",
+        "number": 232,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "168"
+    },
+    {
+        "card_name": "Photomancer's Lens",
+        "number": 234,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "205"
+    },
+    {
+        "card_name": "Rusted Automaton",
+        "number": 235,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "209"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->land",
+    {
+        "card_name": "Caste Stronghold",
+        "number": 239,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "211"
+    },
+    {
+        "card_name": "Wayward Nexus",
+        "number": 250,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "144"
+    },
+    {
+        "card_name": "Urchin's Cradle",
+        "number": 248,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "212"
+    },
+    {
+        "card_name": "Rugged Vantage",
+        "number": 244,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "213"
+    },
+    {
+        "card_name": "Survivalist Domain",
+        "number": 247,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "210"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Silent Clearing",
+        "number": 245,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "202"
+    },
+    {
+        "card_name": "Fiery Islet",
+        "number": 241,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "200"
+    },
+    {
+        "card_name": "Nurturing Peatland",
+        "number": 242,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "198"
+    },
+    {
+        "card_name": "Sunbaked Canyon",
+        "number": 246,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "199"
+    },
+    {
+        "card_name": "Waterlogged Grove",
+        "number": 249,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "201"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Reliquary Tower",
+        "number": 243,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "167"
+    },
+    {
+        "card_name": "Farscape",
+        "number": 240,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "14"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Plains",
+        "number": 251,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "117"
+    },
+    {
+        "card_name": "Swamp",
+        "number": 253,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "118"
+    },
+    {
+        "card_name": "Mountain",
+        "number": 254,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "119"
+    },
+    {
+        "card_name": "Forest",
+        "number": 255,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "120"
+    },
+    {
+        "card_name": "Island",
+        "number": 252,
+        "shape": "normal",
+        "set": "CSL",
+        "rotated": false,
+        "position": "145"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->token",
+    {
+        "card_name": "Castes of Siral Draft Archetypes",
+        "number": 1,
+        "shape": "token",
+        "set": "CSL",
+        "rotated": false,
+        "position": "255"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]

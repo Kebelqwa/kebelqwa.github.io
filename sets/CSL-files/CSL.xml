@@ -1,0 +1,4471 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>CSL</name>
+			<longname>Castes of Siral</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-09-22</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Seya Hexblade</name>
+			<text>Flash
+Sacrifice Seya Hexblade: Target creature you control gains flying and hexproof until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/0.png" num="210">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Olphris Hexblade</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+Lifelink
+When this creature enters, if it was empowered, you gain X life and target opponent loses X life, where X is the mana value of the card exiled to empower this spell. (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/1.png" num="187">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kroll Hexblade</name>
+			<text>When Kroll Hexblade enters, you may discard a card. If you do, Scry 2 then draw a card.
+{1}{R}, Exile an instant or sorcery card from your graveyard: Kroll Hexblade deals 2 damage to target player or planeswalker.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/2.png" num="192">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arvitch Hexblade</name>
+			<text>Trample
+Whenever one or more creature cards leave your graveyard, put a +1/+1 counter on up to one target creature you control.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/3.png" num="194">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Haldor Hexblade</name>
+			<text>{4}{G}: Pitfall (Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)
+First strike</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/4.png" num="201">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WRG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seya Forethinker</name>
+			<text>When Seya Forethinker enters, reveal the top four cards of your library. You may put an instant or sorcery card revealed this way into your hand. Put all other cards revealed this way into your graveyard</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/5.png" num="59">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kroll Requisitioner</name>
+			<text>Flash
+When Kroll Requisitioner enters, tap up to one target creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/6.png" num="51">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>0/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Madia Rasilga, Kroll Sorceress</name>
+			<text>Whenever you cast a spell from your hand that targets Madia Rasilga, counter up to one target spell.
+{X}{BR}{BR}: Madia Rasilga deals X damage to target creature. If that creature would die this way, put it on top of its owner&apos;s library instead of its owner&apos;s graveyard.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/7.png" num="53">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fluxform Tutelage</name>
+			<text>Scry 4. Then reveal the top card of your library. If an instant or sorcery card is revealed this way, Fluxform Tutelage deals damage equal to that spell&apos;s mana value to each player.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/8.png" num="191">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Marauding Mage</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+When this creature enters, return target creature to its owner&apos;s hand. If this spell was empowered, that creature&apos;s owner instead puts that creature on the top or bottom of their library.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/9.png" num="55">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arcane Strength</name>
+			<text>Target creature gets +2/+0 and gains first strike until end of turn.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/10.png" num="106">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Timely Heroics</name>
+			<text>Target creature gets +2/+2 until end of turn. If that creature entered the battlefield this turn, it gets +4/+4 until end of turn instead.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/11.png" num="33">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Winterwalk Elk</name>
+			<text>{2}{G}: Pitfall (Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)
+When Winterwalk Elk enters, prevent all combat damage that would be dealt to target creature you control this turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/12.png" num="174">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Monster Quake</name>
+			<text>Target creature gets +2/+2 and gains trample until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/13.png" num="163">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Farscape</name>
+			<text>{T}: Add {C}.
+{1}, {T}, Sacrifice Farscape: Search your library for a basic land. Put that card onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/14.png" num="240">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Magus of Skies</name>
+			<text>Flying
+Whenever you a spell, if you&apos;ve cast another spell this turn, up to one other target creature gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/15.png" num="54">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Haldor Punisher</name>
+			<text>{5}{R}{R}: Pitfall (Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)
+First strike</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/16.png" num="122">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Deathcast Lich</name>
+			<text>When Deathcast Lich enters, put the top four cards of your library into your graveyard.
+Mould—Sacrifice a creature without mould. (Sacrifice a creature without mould, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/17.png" num="75">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hallowed Host</name>
+			<text>Menace (This creature can&apos;t be blocked except by two or more creatures.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/18.png" num="82">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Courageous Deed</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+Target creature gets +2/+2 until end of turn. If this spell is empowered, that creature also gains indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/19.png" num="9">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unlife Emissary</name>
+			<text>Mould {B} ({B}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/20.png" num="102">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Outskirt Strangelings</name>
+			<text>Sacrifice a creature: Pitfall (Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)
+Trample</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/21.png" num="165">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Weird</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tome Inspector</name>
+			<text>When Tome Inspector enters, scry 2.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/22.png" num="65">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kroll Trickster</name>
+			<text>Flying
+{3}, Sacrifice Kroll Trickster: Return target instant or sorcery card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/23.png" num="193">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rasilga&apos;s Denial</name>
+			<text>Return target spell to its owner&apos;s hand. Draw two cards.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/24.png" num="56">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Aek Guardian</name>
+			<text>When Aek Guardian is exiled from your graveyard, draw a card.
+Mould {4}{G} ({4}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/25.png" num="141">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Treefolk</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Moonlight Hunter</name>
+			<text>Bestow {5}{G} (If you cast this card for its bestow cost, it&apos;s an Aura spell with enchant creature. It becomes a creature again if it&apos;s not attached.)
+Hexproof from abilities (This creature can&apos;t be the target of abilities your opponents control.)
+Enchanted creature gets +3/+2 and has hexproof from abilities.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/26.png" num="164">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Etis Summoner</name>
+			<text>Whenever an Aura you control becomes attached to a creature you control, create a 1/1 white Bird creature token with flying.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/27.png" num="14">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dark Premonitions</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+You lose 3 life and draw three cards. If this spell is empowered, each opponent loses 3 life.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/28.png" num="74">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Horde Hellkite</name>
+			<text>Flying
+{1}{R}: Creatures you control get +1/+0 until end of turn. Horde Hellkite deals 1 damage to each player.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/29.png" num="124">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Boonkeeper Wolves</name>
+			<text>Whenever an enchanted creature you control becomes blocked by exactly one creature, you may return the defending creature to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/30.png" num="206">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wolf</type>
+				<maintype>Creature</maintype>
+				<manacost>3GU</manacost>
+				<cmc>5</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arcanum Spirit</name>
+			<text>Flying
+When Arcanum Spirit enters, mill four cards. (Put the top four cards of your library into your graveyard.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/31.png" num="40">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tlanoc Scalelord</name>
+			<text>Deathtouch
+Mould {5}{G} ({5}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/32.png" num="172">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tlanoc Abomination</name>
+			<text>When Tlanoc Abomination is exiled from your graveyard, target creature gets -3/-3 until end of turn.
+Mould {5}{B}{G} ({5}{B}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/33.png" num="198">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3BG</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cruel Lich</name>
+			<text>When Cruel Lich enters, target opponent discards a card.
+Mould {2}{B}{B} ({2}{B}{B}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/34.png" num="73">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Expanse Sniper</name>
+			<text>Bestow {2}{W} (If you cast this card for its bestow cost, it&apos;s an Aura spell with enchant creature. It becomes a creature again if it&apos;s not attached.)
+Sacrifice this permanent: Destroy target attacking creature. Activate only if Expanse Sniper is an Aura.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/35.png" num="15">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sweep Away</name>
+			<text>Return target creature to its owner&apos;s hand. If that creature is attacking, you may put it on top of its owner&apos;s library instead.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/36.png" num="64">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pit Rats</name>
+			<text>{1}{B}, Sacrifice a creature: Put a +1/+1 counter on target creature.
+Mould {3}{B} ({3}{B}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/37.png" num="90">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Rat</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rumbleform Elemental</name>
+			<text>Rumbleform Elemental enters tapped.
+When Rumbleform Elemental enters, it doesn&apos;t untap during your next untap step.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/38.png" num="134">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Boon Raider</name>
+			<text>Whenever Boon Raider becomes tapped, add two mana in any combination of colors at the beginning of your next main phase.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/39.png" num="145">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seal of Antimagic</name>
+			<text>Sacrifice Seal of Antimagic: Target creature you control gains hexproof until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/40.png" num="168">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Clan Veteran</name>
+			<text>{4}{W}: Pitfall (Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)
+Clan Veteran has first strike as long as its your turn.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/41.png" num="7">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seyan Banisher</name>
+			<text>Bestow {3}{W} (If you cast this card for its bestow cost, it&apos;s an Aura spell with enchant creature. It becomes a creature again if it&apos;s not attached.)
+When Seyan Banisher enters as an Aura, exile target creature with power 4 or greater until Seyan Banisher isn&apos;t an Aura.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/42.png" num="28">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Etis Paragon</name>
+			<text>Vigilance
+Whenever Etis Paragon and at least two other creatures you control attack or block, you gain 3 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/43.png" num="13">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Foresword Commander</name>
+			<text>Bestow {3}{W} (If you cast this card for its bestow cost, it&apos;s an Aura spell with enchant creature. It becomes a creature again if it&apos;s not attached.)
+Whenever Foresword Commander or enchanted creature attacks, other creatures you control get +1/+1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/44.png" num="17">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fortifier Knight</name>
+			<text>Bestow {3}{W} (If you cast this card for its bestow cost, it&apos;s an Aura spell with enchant creature. It becomes a creature again if it&apos;s not attached.)
+Enchanted creature gets +2/+1.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/45.png" num="18">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Elf Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghostly Shield</name>
+			<text>Choose target creature. If that creature would deal damage this turn, it deals double that damage instead. Prevent all combat damage that would be dealt this turn by other creatures.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/46.png" num="200">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Knight of Ancient Tresh</name>
+			<text>Menace, vigilance
+{2}{R}{W}, Sacrifice another attacking creature: Knight of Ancient Tresh gains indestructible until end of combat.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/47.png" num="202">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lynxpact Knight</name>
+			<text>{4}{W}: Pitfall (Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)
+When Lynxpact Knight enters, put a +1/+1 counter on target creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/48.png" num="21">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Merciful Spirit</name>
+			<text>Flying
+When Merciful Spirit enters, you gain 3 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/49.png" num="25">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sentimental Seyan</name>
+			<text>Vigilance</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/50.png" num="27">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf</type>
+				<maintype>Creature</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Knight of Tribulations</name>
+			<text>First strike
+Hexproof from red
+Knight of Tribulations gets +1/+0 as long as a player controls a red permanent.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/51.png" num="20">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seize the Soul</name>
+			<text>Exile target creature. That creature&apos;s controller creates a 1/1 white Spirit creature token with flying.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/52.png" num="26">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Meadow Ambusher</name>
+			<text>{1}{W}: Pitfall (Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)
+Whenever Meadow Ambusher dies, you gain 3 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/53.png" num="23">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seyan Forcemage</name>
+			<text>Lifelink
+{3}{W}, Sacrifice Seyan Forcemage: Exile target creature you control. Then return it to the battlefield.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/54.png" num="29">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Solmist Warrior</name>
+			<text>{2}{W}{W}: Pitfall (Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)
+Lifelink
+Other blocked creatures you control get +2/+2.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/55.png" num="31">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wasteland Practicioner</name>
+			<text>Lifelink
+Enchantment creatures and Enchanted creatures you control have lifelink.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/56.png" num="35">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tomorrow&apos;s Intrigue</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+Counter target spell unless its controller pays {1} for each card you own in exile.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/57.png" num="66">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Aether Pulse</name>
+			<text>Tap up to X target nonland permanents. They don&apos;t untap during their controllers&apos; next untap steps.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/58.png" num="37">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>X1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Aether Twirl</name>
+			<text>Return target creature to its owner&apos;s hand.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/59.png" num="38">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Goliath Drake</name>
+			<text>Flying
+Whenever Goliath Drake attacks, up to one target creature gains flying until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/60.png" num="48">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Drake Darkling</name>
+			<text>Flying
+As long as Drake Darkling is modified, it can&apos;t be blocked. (Equipment, Auras you control, and counters are modifications.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/61.png" num="46">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Truthtwister Sprite</name>
+			<text>Bestow {4}{U}{U} (If you cast this card for its bestow cost, it&apos;s an Aura spell with enchant creature. It becomes a creature again if it&apos;s not attached.)
+Truthtwister Sprite and enchanted creature can&apos;t be blocked.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/62.png" num="67">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Faerie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Illuminate</name>
+			<text>Untap up to one target creature. Scry 1.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/63.png" num="49">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Riftborn Mindsealer</name>
+			<text>When Riftborn Mindsealer enters, gain control of target creature until Riftborn Mindsealer leaves the battlefield.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/64.png" num="58">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shapeshifter</type>
+				<maintype>Creature</maintype>
+				<manacost>1UUU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spell Parasite</name>
+			<text>Gain control of target spell an opponent controls unless its controller sacrifices target nonland permanent. If you gain control of a spell this way, you may choose new targets for it.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/65.png" num="179">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unprecedented Results</name>
+			<text>Look at the top four cards of your library. Put one of those cards into your hand. Exile the rest.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/66.png" num="68">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Boneyard Dragon</name>
+			<text>Flying, deathtouch
+Whenever a creature you control attacks, the defending player loses 1 life.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/67.png" num="72">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Roofjumper</name>
+			<text>Menace
+{2}{B}{B}: Regenerate Roofjumper. (The next time this creature would be destroyed this turn, it isn&apos;t. Instead tap it, remove all damage from it, and remove it from combat.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/68.png" num="95">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Olphris Forcemage</name>
+			<text>{B}, Sacrifice Olphris Forcemage: Target creature gets -X/-X until end of turn, where X is the number of cards in your graveyard that have a mana value equal to or greater than that creature&apos;s mana value.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/69.png" num="89">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Strike with Fear</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+Target player discards two cards. If this spell is empowered, that player also loses 2 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/70.png" num="100">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Arvitch Butcher</name>
+			<text>Haste
+Whenever one or more cards you own are put into exile from your graveyard, target creature gains haste until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/71.png" num="107">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arvitch Forcemage</name>
+			<text>Haste
+{2}{R}{R}, Sacrifice Arvitch Forcemage: Arvitch Forcemage deals 4 damage to target creature or planeswalker.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/72.png" num="108">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Orcish Gutwrencher</name>
+			<text>{3}{R}: Pitfall (Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)
+Double strike
+{4}{R}{R}: Orcish Gutwrencher gets +2/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/73.png" num="129">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dragonlord Blast</name>
+			<text>Dragonlord Blast deals 4 damage divided as you choose among any number of targets.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/74.png" num="114">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Feral Earth</name>
+			<text>Mould {1}{R} ({1}{R}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/75.png" num="119">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Exiled Firebrand</name>
+			<text>{T}, Sacrifice Exiled Firebrand: The next time a red source you control would deal noncombat damage this turn, it deals that much damage plus 2 instead.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/76.png" num="117">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Homeland Obliteratation</name>
+			<text>Destroy target land. Then if that land was nonbasic, return Homeland Obliteratation to its owner&apos;s hand.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/77.png" num="123">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Impflesh</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+2 and has menace.
+When Impflesh is put into a graveyard from the battlefield, you may have it deal 2 damage to target creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/78.png" num="125">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Infusion Shardshank</name>
+			<text>{R}: Infusion Shardshank gets +1/+0 until end of turn. Sacrifice Infusion Shardshank at beginning of the next end step.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/79.png" num="127">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plumes of Destruction</name>
+			<text>Whenever you cast a spell, you may pay {1}{R} and sacrifice Plumes of Destruction. If you do, it deals 3 damage to any target.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/80.png" num="130">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Primordial Atronach</name>
+			<text>Trample, hexproof
+Spells and abilities your opponents control can&apos;t cause you to sacrifice permanents.
+When Primordial Atronach dies, you may return target creature card from your graveyard to your hand.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/81.png" num="167">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2GGG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elusive Arachnid</name>
+			<text>Reach
+Elusive Arachnid can&apos;t block more than one creature and can&apos;t be blocked by more than one creature.
+Whenever a creature enters under an opponents control during combat, remove that creature from combat.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/82.png" num="151">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spider</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fogwalker Behemoth</name>
+			<text>When Fogwalker Behemoth enters or is exiled from your graveyard, untap up to three target lands you control.
+Mould {2}{G} ({2}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/83.png" num="154">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Haldor Forcemage</name>
+			<text>{4}{G}{G}, Sacrifice Haldor Forcemage: Put three +1/+1 counters on target creature you control. That creature fights target creature an opponent controls.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/84.png" num="158">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghost Spider</name>
+			<text>Reach
+Bestow {3}{G} (If you cast this card for its bestow cost, it&apos;s an Aura spell with enchant creature. It becomes a creature again if it&apos;s not attached.)
+Enchanted creature gets +2/+2 and has reach.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/85.png" num="155">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Spider</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oaken Groundshouker</name>
+			<text>Trample
+Enchanted creatures you control have trample.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/86.png" num="183">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Treefolk Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>5GW</manacost>
+				<cmc>7</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crop Rotation</name>
+			<text>As an additional cost to cast this spell, sacrifice a land.
+Search your library for a land card and put that card onto the battlefield. Then shuffle.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/87.png" num="148">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Worldrender Hydra</name>
+			<text>When this spell is countered, return Worldrender Hydra from exile or your graveyard to its owner&apos;s hand
+Trample, hexproof
+Worldrender Hydra enters with X +1/+1 counters.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/88.png" num="175">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hydra</type>
+				<maintype>Creature</maintype>
+				<manacost>XG</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kroll Charm</name>
+			<text>Choose one —
+• Kroll Charm deals 5 damage to any target.
+• You may discard any number of cards from your hand. Draw that many cards plus two.
+• Counter target spell. Draw a card</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/89.png" num="218">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UBR</manacost>
+				<cmc>5</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Haldor Charm</name>
+			<text>Choose one —
+• Creatures you control get +1/+1 and gain indestructible until end of turn.
+• Creatures you control gain double strike until end of turn.
+• Untap each creature you control.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/90.png" num="215">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2RGW</manacost>
+				<cmc>5</cmc>
+				<colors>WRG</colors>
+				<coloridentity>WRG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Aether Forcemage</name>
+			<text>{1}{U}, Sacrifice Aether Forcemage: Counter target spell unless that spell&apos;s controller has you draw two cards.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/91.png" num="36">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arvitch Charm</name>
+			<text>Choose one —
+• Destroy target noncreature permanent.
+• Put a +1/+1 counter on each creature you control.
+• Return target creature card from your graveyard to the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/92.png" num="211">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2BRG</manacost>
+				<cmc>5</cmc>
+				<colors>BRG</colors>
+				<coloridentity>BRG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Seyan Charm</name>
+			<text>Choose one —
+• For each of up to two target attacking creatures, that creature&apos;s owner puts them on the top or bottom of their library.
+• Attach any number of auras you control to target creature. Draw a card.
+• Draw three cards.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/93.png" num="223">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2GWU</manacost>
+				<cmc>5</cmc>
+				<colors>WUG</colors>
+				<coloridentity>WUG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Olphris Charm</name>
+			<text>Choose one —
+• Look at the top five cards of target player&apos;s library, then put any number of them on the bottom of that player&apos;s library and the rest on top in any order.
+• Target player discards three cards.
+• Draw four cards, then discard two cards.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/94.png" num="222">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2WUB</manacost>
+				<cmc>5</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shimmering Dawn</name>
+			<text>Whenever a creature you control attacks, put a +1/+1 counter on it.
+Whenever a creature you control with one or more counters dies, move all its counters to another target creature you control that already has one or more counters.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/95.png" num="184">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>5GW</manacost>
+				<cmc>7</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shot in the Dark</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Destroy target creature. Draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/96.png" num="197">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hexsnatch Golem</name>
+			<text>When Hexsnatch Golem enters, if it was cast, return up to one target instant or sorcery card with mana value 3 or less from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/97.png" num="231">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Primordial Ritualist</name>
+			<text>Menace
+When Primordial Ritualist is exiled from your graveyard, target creature gains menace until end of turn.
+Mould {3}{B}{G} ({3}{B}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/98.png" num="196">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cling to Survival</name>
+			<text>Prevent all damage that would be dealt to target creature this turn. If damage is prevented this way, Cling to Survival deals that much damage to each opponent.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/99.png" num="199">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Skyraid Darter</name>
+			<text>Flying, haste
+{R}: Skyraid Darter gets +1/+0 and gains trample until end of turn. Sacrifice it at the beginning of your next end step.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/100.png" num="136">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fragmented Persona</name>
+			<text>Enchant creature
+Enchanted creature gets +3/-3 and has menace.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/101.png" num="79">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Kroll Inquisitor</name>
+			<text>Kroll Inquisitor can&apos;t be the target of spells or abilities with only one target.
+Whenever you cast an instant or sorcery spell, Kroll Inquisitor gains menace until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/102.png" num="219">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>UBR</manacost>
+				<cmc>3</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sigiled Tiger</name>
+			<text>When Sigiled Tiger enters, target creature you control gains trample until Sigiled Tiger leaves the battlefield.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/103.png" num="169">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brainstorm</name>
+			<text>Draw three cards, then put two cards from your hand on top of your library in any order.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/104.png" num="42">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mournful Comrade</name>
+			<text>{2}, {T}, Discard up to two cards: Draw a card for each card discarded this way.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/105.png" num="128">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mantle Healing</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+Target player gains 3 life. If this spell is empowered, draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/106.png" num="22">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Aek Predator</name>
+			<text>Bestow {4}{G}{G} (If you cast this card for its bestow cost, it&apos;s an Aura spell with enchant creature. It becomes a creature again if it&apos;s not attached.)
+When Aek Predator becomes attached to a creature, that creature fights target creature an opponent controls.
+Enchanted creature gets +3/+3.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/107.png" num="142">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Treefolk</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Knight of Despair</name>
+			<text>First strike
+Hexproof from green
+Knight of Despair gets +1/+0 as long as a player controls a green permanent.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/108.png" num="83">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Surveil the Grounds</name>
+			<text>Search your library for up to three basic land cards with different names. Put one of them onto the battlefield tapped and the rest into your hand. Then shuffle.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/109.png" num="171">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>No Hesitation</name>
+			<text>Target creature gains haste until end of turn and you may have it assign its combat damage as though it weren&apos;t blocked this turn.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/110.png" num="204">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mana Architect</name>
+			<text>{2}, {T}: Add two mana in any combination of colors.
+{4}, {T}: Add {W}{U}{B}{R}{G}.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/111.png" num="162">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mage of the Elder Realm</name>
+			<text>Lifelink
+Mage of the Elder Realm can&apos;t be blocked if a card you own was put into exile this turn.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/112.png" num="221">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>WUB</manacost>
+				<cmc>3</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Truth&apos;s Deliverance</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+Remove target attacking or blocking creature from combat. If this spell is empowered, Truth&apos;s Deliverance deals 4 damage to that creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/113.png" num="34">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Kroll Witch</name>
+			<text>Kroll Witch can&apos;t be blocked if you&apos;ve cast two or more spells this turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/114.png" num="52">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hag Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Snapshifter</name>
+			<text>Flash
+Snapshifter can&apos;t be blocked.
+When Snapshifter enters, if you cast it, put up to one target nonland permanent on top of its owner&apos;s library.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/115.png" num="60">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Life Unrequited</name>
+			<text>Return target creature card from your graveyard to the battlefield tapped.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/116.png" num="85">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/117.png" num="251">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/118.png" num="253">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/119.png" num="254">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/120.png" num="255">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Cunning Jailer</name>
+			<text>Vigilance
+Whenever an Aura becomes attached to Cunning Jailer, exile up to one target creature until Cunning Jailer leaves the battlefield.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/121.png" num="11">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Revenge Fulfilled</name>
+			<text>Destroy target creature that dealt combat damage to you this turn. That creature&apos;s controller loses life equal to the amount of damage that creature dealt to you this turn.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/122.png" num="92">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Greenfist Provoker</name>
+			<text>{3}{G}: Pitfall (Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)
+Creature cards in your hand have &quot;{X}: Pitfall&quot;, where X is that creature&apos;s mana cost.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/123.png" num="157">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arcane Parasitism</name>
+			<text>When Arcane Parasitism enters, target opponent reveals their hand, then exiles a nonland card from their hand.
+Sacrifice Arcane Parasitism: You may cast cards exiled with Arcane Parasitism until the beginning of your next turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/124.png" num="178">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Slave of Death</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+When this creature enters, if it was empowered, return target creature card from your graveyard to the battlefield until this creature leaves the battlefield.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/125.png" num="99">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hunt the Lost</name>
+			<text>Put a +1/+1 counter on target creature you control and a +1/+1 counter on target creature you don&apos;t control. Those creatures fight. (Each deals damage equal to its power to the other.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/126.png" num="160">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Primeval Genesis</name>
+			<text>As an additional cost to cast this spell, exile any number of creature cards from your graveyard.
+Create a 0/0 green Elemental creature token with X +1/+1 counters, where X is the total power of creature cards exiled to cast Primeval Genesis.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/127.png" num="166">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Emberflesh Salamander</name>
+			<text>{R}: Emberflesh Salamander gets +1/+0 until end of turn.
+{2}{R}: Target creature gains haste until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/128.png" num="116">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Salamander</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Consuming Flames</name>
+			<text>Choose up to three different targets. Consuming Flames deals 3 damage to the first, 2 damage to the second, and 1 damage to the third. This damage can&apos;t be prevented. (Each must be a different target.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/129.png" num="111">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gilded Seraph</name>
+			<text>Flying
+Whenever you cast an enchantment spell, draw a card.
+Gilded Seraph gets +1/+0 for each Aura attached to it.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/130.png" num="19">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bragvir&apos;s Gambit</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+Tap target creature. If this spell is empowered, return this spell to its owner&apos;s hand.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/131.png" num="41">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Chronomancer&apos;s Trickery</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+Choose one. If this spell is empowered, choose both.
+• Return target instant card from your graveyard to your hand.
+• Return target sorcery card from your graveyard to your hand.
+Exile Chronomancer&apos;s Trickery.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/132.png" num="43">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stormcast Drake</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+Flying
+This creature enters with a +1/+1 counter if it was empowered.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/133.png" num="62">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unsightly Insight</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+Draw two cards. Draw another card if this spell was empowered.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/134.png" num="69">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Witness the Nightmare</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+Target player reveals his or her hand. If this spell is empowered, choose a nonland card with mana value less than or equal to the mana value of the card exiled to empower this spell, that player discards the chosen card. Otherwise that player discards a card at random.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/135.png" num="105">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gorecrash Null</name>
+			<text>When Gorecrash Null dies, put a +1/+1 counter on target creature you control.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/136.png" num="80">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brotherhood Medic</name>
+			<text>Whenever another creature or enchantment enters under your control, you gain 1 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/137.png" num="5">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fortuitous Djinn</name>
+			<text>Bestow {5}{U} (If you cast this card for its bestow cost, it&apos;s an Aura spell with enchant creature. It becomes a creature again if it&apos;s not attached.)
+You control enchanted creature.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/138.png" num="47">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Djinn</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dreadlands Impaler</name>
+			<text>Menace</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/139.png" num="76">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Riftborn Seeker</name>
+			<text>Flying
+Mould {B} ({B}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)
+When Riftborn Seeker is exiled from your graveyard, each opponent loses 2 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/140.png" num="94">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shade</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brotherhood Revanant</name>
+			<text>Whenever another creature enters under your control, put a +1/+1 counter on Brotherhood Revanant. If that creature entered attacking, put a +1/+1 counter on that creature.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/141.png" num="147">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flowering Atronach</name>
+			<text>Bestow {G} (If you cast this card for its bestow cost, it&apos;s an Aura spell with enchant creature. It becomes a creature again if it&apos;s not attached.)
+Flowering Atronach and enchanted creature have &quot;{T}: Add {G} for each aura attached to this creature.&quot;</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/142.png" num="153">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stalking Leopard</name>
+			<text>{3}{G}: Pitfall (Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)
+When Stalking Leopard enters, draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/143.png" num="170">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wayward Nexus</name>
+			<text>Wayward Nexus enters tapped with two charge counters.
+{T}: Add {U}.
+{U}, {T}, Remove a charge counter from Wayward Nexus: Scry 1</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/144.png" num="250">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/145.png" num="252">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Cultivator Druid</name>
+			<text>Sacrifice Cultivator Druid: You may put a land card from your hand onto the battlefield.
+When Cultivator Druid dies, you may pay {1}{G}. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/146.png" num="149">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chivalrous Keeper</name>
+			<text>Vigilance
+Whenever an Aura or Equipment becomes attached to Chivalrous Keeper, tap target creature an opponent controls.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/147.png" num="6">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Betrayed Watcher</name>
+			<text>Whenever an Aura you control becomes attached to Betrayed Watcher, draw a card. This ability triggers only once each turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/148.png" num="4">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hydrokin</name>
+			<text>Bestow {1}{G}{U} (If you cast this card for its bestow cost, it&apos;s an Aura spell with enchant creature. It becomes a creature again if it&apos;s not attached.)
+Hydrokin and enchanted creature get +1/+1 for each of their colors.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/149.png" num="207">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mentor of the Meek</name>
+			<text>Whenever another creature with power 2 or less enters under your control, you may pay {1}. If you do, draw a card.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/150.png" num="24">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Disarming Ray</name>
+			<text>Prevent all combat damage target creature would deal this turn. Destroy up to one target Aura or Equipment attached to that creature.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/151.png" num="12">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fieldtreader Paladin</name>
+			<text>First strike
+Whenever a creature dealt damage by Fieldtreader Paladin this turn dies, you gain 3 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/152.png" num="186">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Riftborn Necromancer</name>
+			<text>Menace
+Whenever you cast a spell, if you&apos;ve cast another spell this turn, create a 2/2 black Zombie creature token.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/153.png" num="93">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hag Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eternal Ghoul</name>
+			<text>Whenever a nontoken creature you control dies, create a 2/2 black Zombie creature token.
+{6}{B}: Target player loses life equal to the number of Zombies you control.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/154.png" num="77">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unexpected Diversion</name>
+			<text>Up to two target creatures can&apos;t block this turn.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/155.png" num="139">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shadow Mage</name>
+			<text>Menace
+When Shadow Mage enters, each opponent loses 2 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/156.png" num="97">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shade Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Demigod&apos;s Fervor</name>
+			<text>Enchant creature
+Enchanted creature gets +1/+0 and has haste.
+Whenever enchanted creature deals combat damage to a player, you may return Demigod&apos;s Fervor to its owners hand.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/157.png" num="112">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Arcanum Benefactor</name>
+			<text>Whenever you cast your second spell each turn, scry 1.
+{2}{U}, Sacrifice Arcanum Benefactor: Draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/158.png" num="39">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grafted Wings</name>
+			<text>Equipped creature has flying.
+Equip {3}</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/159.png" num="229">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Madia&apos;s Stratagem</name>
+			<text>Your opponents play with their hands revealed.
+Whenever your opponent draws a card, that player reveals it. You may discard a card that shares a type with the revealed card. If you do, draw two cards.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/160.png" num="220">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UBR</manacost>
+				<cmc>5</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blaze Baron</name>
+			<text>When Blaze Baron enters, target creature you control gains double strike until Blaze Baron leaves the battlefield.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/161.png" num="110">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Magus of the Lantern</name>
+			<text>{T}: Add one mana of any color.
+Lands you control have &quot;{T}: Add one mana of any color.&quot;</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/162.png" num="208">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Napalm Elemental</name>
+			<text>Haste
+When Napalm Elemental enters or dies, it deals 3 damage to any non-player target.
+Mould {2}{B}{R} ({2}{B}{R}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/163.png" num="180">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>4BR</manacost>
+				<cmc>6</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Loc, Arcunum Prefect</name>
+			<text>Flying, lifelink
+{2}{WU}{WU}: Exile Loc, Arcunum Prefect and up to one other target nonland permanent until end of turn.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/164.png" num="86">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Looming Presence</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+2
+When enchanted creature dies, create a 2/2 black Zombie creature token.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/165.png" num="87">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Krikam, the Wanderer</name>
+			<text>Bestow {1}{G}{W}{U} (If you cast this card for its bestow cost, it&apos;s an Aura spell with enchant creature. It becomes a creature again if it&apos;s not attached.)
+Krikam, the Wanderer and enchanted creature have protection from nonenchanted creatures. (This creature can&apos;t be blocked, targeted or dealt damage by nonenchanted creatures.)</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/166.png" num="217">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>GWU</manacost>
+				<cmc>3</cmc>
+				<colors>WUG</colors>
+				<coloridentity>WUG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reliquary Tower</name>
+			<text>You have no maximum hand size.
+{T}: Add {C}.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/167.png" num="243">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mage Gear</name>
+			<text>Equipped creature has &quot;{T}: This creature deals 1 damage to target player or planeswalker.&quot;
+{4}: Untap Equipped creature.
+Equip {2}</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/168.png" num="232">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fate Scribbler</name>
+			<text>Flash
+When Fate Scribbler enters, draw two cards and lose 2 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/169.png" num="78">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hag Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Twisted Tutelage</name>
+			<text>Each opponent discards a card.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/170.png" num="101">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Taritha the Liberator</name>
+			<text>{1}{R}{G}{W}: Pitfall (Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)
+When Taritha the Liberator enters or dies, you may have her deal 2 damage to target creature or planeswalker.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/171.png" num="138">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>WRG</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Curious Arcanist</name>
+			<text>Bestow {2}{U} (If you cast this card for its bestow cost, it&apos;s an Aura spell with enchant creature. It becomes a creature again if it&apos;s not attached.)
+Whenever Curious Arcanist or enchanted creature deal combat damage to a player, draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/172.png" num="44">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dragonlord&apos;s Staff</name>
+			<text>Equipped creature has haste.
+{2}: Equipped creature gets +1/+0 until end of turn.
+Equip {2}</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/173.png" num="228">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fraying Elemental</name>
+			<text>Haste
+When Fraying Elemental is exiled from your graveyard, target creature gains haste until end of turn.
+Mould {2}{R} ({2}{R}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/174.png" num="121">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Leyline Keeper</name>
+			<text>Flying
+{1}{B}, {T}, Exile two cards from your graveyard that share a type: Return target card of that type from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/175.png" num="84">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Battle Broken</name>
+			<text>Exile target attacking or blocking creature with mana value 3 or less.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/176.png" num="3">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Baelfire Mage</name>
+			<text>Flash
+When Baelfire Mage enters, the next time target spell, ability, or permanent you control would deal damage this turn, it deals twice that much damage instead.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/177.png" num="109">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stormwield Gauntlet</name>
+			<text>Whenever equipped creature attacks, it deals damage equal to its power to target creature or planeswalker defending player controls.
+Equipped creature gets +2/+0.
+Equip {6}</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/178.png" num="236">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Emberflame Atronach</name>
+			<text>{3}{R}{R}: Pitfall (Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)
+Trample, haste
+When Emberflame Atronach deals combat damage to a player, sacrifice it.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/179.png" num="115">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rubble Renegade</name>
+			<text>Double strike
+When Rubble Renegade is exiled from your graveyard, target creature gains double strike until end of turn.
+Mould {3}{R}{R} ({3}{R}{R}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/180.png" num="133">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Revert Perspective</name>
+			<text>Discard up to two cards, then draw a card for each card discarded this way.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/181.png" num="132">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Seeker of Dark Truths</name>
+			<text>Lifelink
+Whenever one or more cards you own leave your graveyard, you lose 1 life and draw a card.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/182.png" num="96">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hag Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mayhem Feaster</name>
+			<text>Menace
+When Mayhem Feaster dies, you may pay 6 life. If you do, draw six cards.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/183.png" num="88">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Void Augur</name>
+			<text>Void Augur enters tapped.
+Whenever one or more cards you own leave your graveyard, you may return Void Augur from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/184.png" num="104">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hag Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Goreling</name>
+			<text>When Goreling enters, target player sacrifices a creature. Put a number of +1/+1 counters on Goreling equal to the power of the creature sacrificed this way.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/185.png" num="81">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dissipate</name>
+			<text>Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner&apos;s graveyard.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/186.png" num="45">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rewrite Existence</name>
+			<text>The controller of target spell or nonland permanent shuffles it into his or her library. Then reveals the top card of their library. That player may cast a nonland card revealed this way without paying its mana cost.
+Draw a card.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/187.png" num="57">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Strange Calm</name>
+			<text>Tap each creature you don&apos;t control.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/188.png" num="63">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unusual Taming</name>
+			<text>Gain control of target creature until end of turn. Untap that creature, it gains haste until end of turn. If you&apos;ve cast another spell this turn, sacrifice that creature at the beginning of the next end step.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/189.png" num="140">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Brandishing Elf</name>
+			<text>{1}{G}, {T}: Reveal cards from the top of your library until a land card is revealed this way. Target creature gets +1/+1 until end of turn for each card revealed this way. Shuffle the revealed cards into your library.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/190.png" num="146">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wingless Guardian</name>
+			<text>Whenever a land enters tapped under your control, add one mana of any color.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/191.png" num="173">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flourish</name>
+			<text>You may put a land card from your hand onto the battlefield.
+Search your library for a land card, reveal it, and put it into your hand. Then shuffle.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/192.png" num="152">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dauntless Overgrowth</name>
+			<text>Enchant permanent
+Enchanted permanent is a colorless Forest land. (It loses all other types and abilities.)
+At the beginning of your upkeep, you may return Dauntless Overgrowth to its owner&apos;s hand.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/193.png" num="150">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cleansing Arbiter</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+Flying, vigilance
+When this creature enters, if it was empowered, distribute X +1/+1 counter among any number of target creatures you control, where X is the mana value of the card exiled to empower this creature. (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/194.png" num="8">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ancient Favor</name>
+			<text>At the beginning of each upkeep, tap target creature.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/195.png" num="1">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Arcanum Vanguard</name>
+			<text>Whenever one or more cards are put into exile from your graveyard, put a +1/+1 counter on Arcanum Vanguard.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/196.png" num="2">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Expedite</name>
+			<text>Target creature gains haste until end of turn.
+Draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/197.png" num="118">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Nurturing Peatland</name>
+			<text>{T}, Pay 1 life: Add {B} or {G}.
+{1}, {T}, Sacrifice Nurturing Peatland: Draw a card.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/198.png" num="242">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sunbaked Canyon</name>
+			<text>{T}, Pay 1 life: Add {R} or {W}.
+{1}, {T}, Sacrifice Sunbaked Canyon: Draw a card.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/199.png" num="246">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Fiery Islet</name>
+			<text>{T}, Pay 1 life: Add {U} or {R}.
+{1}, {T}, Sacrifice Fiery Islet: Draw a card.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/200.png" num="241">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Waterlogged Grove</name>
+			<text>{T}, Pay 1 life: Add {G} or {U}.
+{1}, {T}, Sacrifice Waterlogged Grove: Draw a card.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/201.png" num="249">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Silent Clearing</name>
+			<text>{T}, Pay 1 life: Add {W} or {B}.
+{1}, {T}, Sacrifice Silent Clearing: Draw a card.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/202.png" num="245">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Void Bauble</name>
+			<text>{5}: Put Void Bauble and another target permanent you don&apos;t control each on the bottom of their owners libraries.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/203.png" num="238">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Perplexing Codex</name>
+			<text>{T}: Draw a card then discard a card.
+{T}, Sacrifice Perplexing Codex: Choose a card type. You gain life equal to the number of cards of the chosen type in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/204.png" num="233">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Photomancer&apos;s Lens</name>
+			<text>{1}, {T}: Add one mana of any color.
+{2}, {T}, Sacrifice Photomancer&apos;s Lens: Draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/205.png" num="234">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Arcanum Reject</name>
+			<text>At the beginning of your upkeep, you may sacrifice an artifact and discard a card. If you do, return Arcanum Reject from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/206.png" num="227">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Helmorak, Scepter of the Castes</name>
+			<text>Other creatures you control that share a creature type with equipped creature get +1/+1 and have hexproof.
+Equip {3}</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/207.png" num="230">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Arcanum Reverie</name>
+			<text>Target nonland permanents owner puts it on top of their library.
+When Arcanum Reverie is exiled from your graveyard, you may draw a card.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/208.png" num="176">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rusted Automaton</name>
+			<text>When Rusted Automaton enters, you may discard a card. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/209.png" num="235">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Survivalist Domain</name>
+			<text>Survivalist Domain enters tapped with two charge counters.
+{T}: Add {G}.
+{G}, {T}, Remove a charge counter from Survivalist Domain: Target creature gets +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/210.png" num="247">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Caste Stronghold</name>
+			<text>Caste Stronghold enters tapped with two charge counters.
+{T}: Add {W}.
+{W}, {T}, Remove a charge counter from Caste Stronghold: Create a 1/1 white Soldier creature token.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/211.png" num="239">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Urchin&apos;s Cradle</name>
+			<text>Urchin&apos;s Cradle enters tapped with two charge counters.
+{T}: Add {B}.
+{B}, {T}, Remove a charge counter from Urchin&apos;s Cradle: Each opponent loses 1 life and you gain 1 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/212.png" num="248">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rugged Vantage</name>
+			<text>Rugged Vantage enters tapped with two charge counters.
+{T}: Add {R}.
+{R}, {T}, Remove a charge counter from Rugged Vantage: Discard a card then draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/213.png" num="244">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Unphasing</name>
+			<text>Exile target permanent you control until end of turn. If that permanent was an aura or an enchanted creature, draw two cards.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/214.png" num="225">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>GWU</manacost>
+				<cmc>3</cmc>
+				<colors>WUG</colors>
+				<coloridentity>WUG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Darkened Dawn</name>
+			<text>Put the top three cards of your library into your graveyard. Scry 3, then draw a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/215.png" num="213">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>WUB</manacost>
+				<cmc>3</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Haldor Antimagic</name>
+			<text>Destroy target noncreature permanent and counter all abilities you don&apos;t control.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/216.png" num="214">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>RGW</manacost>
+				<cmc>3</cmc>
+				<colors>WRG</colors>
+				<coloridentity>WRG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Brutal Warmage</name>
+			<text>Creatures you control must be blocked if able.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/217.png" num="212">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>RGW</manacost>
+				<cmc>3</cmc>
+				<colors>WRG</colors>
+				<coloridentity>WRG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Darkveil Borderpost</name>
+			<text>You may pay {1} and return a basic land you control to its owner&apos;s hand rather than pay this spell&apos;s mana cost.
+Darkveil Borderpost enters tapped.
+{T}: Add {W} or {B}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/218.png" num="185">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cinderstorm Borderpost</name>
+			<text>You may pay {1} and return a basic land you control to its owner&apos;s hand rather than pay this spell&apos;s mana cost.
+Cinderstorm Borderpost enters tapped.
+{T}: Add {U} or {R}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/219.png" num="189">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Direwood Borderpost</name>
+			<text>You may pay {1} and return a basic land you control to its owner&apos;s hand rather than pay this spell&apos;s mana cost.
+Direwood Borderpost enters tapped.
+{T}: Add {B} or {G}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/220.png" num="195">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Midland Borderpost</name>
+			<text>You may pay {1} and return a basic land you control to its owner&apos;s hand rather than pay this spell&apos;s mana cost.
+Midland Borderpost enters tapped.
+{T}: Add {R} or {W}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/221.png" num="203">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mossfall Borderpost</name>
+			<text>You may pay {1} and return a basic land you control to its owner&apos;s hand rather than pay this spell&apos;s mana cost.
+Mossfall Borderpost enters tapped.
+{T}: Add {G} or {U}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/222.png" num="209">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Cry of the Worldsoul</name>
+			<text>Destroy all creatures and planeswalkers.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/223.png" num="10">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Will of the Seven</name>
+			<text>Reveal the top seven cards of your library. You may cast an instant or sorcery card revealed this way without paying its mana cost. Put all other cards revealed this way into your hand.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/224.png" num="70">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sparkeater Hellkite</name>
+			<text>Flying, haste
+Protection from planeswalkers
+Whenever Sparkeater Hellkite attacks, defending player sacrifices a planeswalker. If that player doesn&apos;t, they sacrifice an artifact.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/225.png" num="137">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vaato, Banished Necromancer</name>
+			<text>Deathtouch
+When Vaato, Banished Necromancer dies, choose target creature card in your graveyard. You may pay {X}, where X is twice that creature&apos;s mana value. If you do, return Vaato, Banished Necromancer and that creature from your graveyard to the battlefield.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/226.png" num="103">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>BB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Split Eternities</name>
+			<text>This spell costs {1} less for each card you own in exile.
+Exile target attacking creature or activating planeswalker. (A planeswalker is considered activating while it is the source of an activated ability on the stack.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/227.png" num="32">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>5WW</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Direflame</name>
+			<text>Draw two cards then discard a card. Direflame deals damage equal to the discarded card&apos;s mana value to target creature or planeswalker.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/228.png" num="113">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blossoming Defense</name>
+			<text>Target creature you control gets +2/+2 and gains hexproof until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/229.png" num="144">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blighted Blades</name>
+			<text>Up to one target creature you control gains deathtouch until end of turn.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/230.png" num="71">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sword of the Written Word</name>
+			<text>Equipped creature gets +2/+2 and has protection from instants and sorceries.
+Whenever equipped creature deals combat damage to a player, exile up to one target card from that player&apos;s graveyard and return up to one target instant or sorcery card from your graveyard to your hand.
+Equip {2}</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/231.png" num="237">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Alchemist&apos;s Clock</name>
+			<text>At the beginning of your upkeep, you may return another permanent you control to its owner&apos;s hand. If you do, you gain life equal to that card&apos;s mana value.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/232.png" num="226">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Keeper&apos;s Resolve</name>
+			<text>Enchant creature or planeswalker
+If enchanted permanent would die, instead remove all damage from it and sacrifice Keeper&apos;s Resolve. Put two +1/+1 counters on that permanent if it&apos;s a creature then put two loyalty counters on that permanent if it&apos;s a planeswalker.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/233.png" num="182">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sorceror&apos;s Familiar</name>
+			<text>Flying
+Whenever you cast a spell, if you&apos;ve cast another spell this turn, Sorceror&apos;s Familiar gets +1/+1 until end until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/234.png" num="61">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shadowstrike</name>
+			<text>Target opponent loses 2 life. You gain 2 life.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/235.png" num="98">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rally the Clans</name>
+			<text>Rally the Clans deals damage equal to the number of attacking creatures you control to each opponent and each planeswalker they control.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/236.png" num="131">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Invigorator Tyrant</name>
+			<text>Sacrifice a creature: Invigorator Tyrant gains trample until end of turn.
+Mould {1}{G} ({1}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/237.png" num="161">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dinosaur</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Slayer of Clans</name>
+			<text>When Slayer of Clans leaves your graveyard, return another target card in your graveyard to your hand.
+Mould {B}{R}{G} ({B}{R}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/238.png" num="224">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2BRG</manacost>
+				<cmc>5</cmc>
+				<colors>BRG</colors>
+				<coloridentity>BRG</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kelaphel, Arvitch Deity</name>
+			<text>At the beginning of your upkeep, you may sacrifice another creature. If you do, search your library for a creature card and put it onto the battlefield, then shuffle.
+When Kelaphel, Arvitch Deity dies, return it to its owner&apos;s hand at the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/239.png" num="216">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — God</type>
+				<maintype>Creature</maintype>
+				<manacost>4BRG</manacost>
+				<cmc>7</cmc>
+				<colors>BRG</colors>
+				<coloridentity>BRG</coloridentity>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fleshfire Atronach</name>
+			<text>When Fleshfire Atronach enters, it gains first strike until the beginning of your next turn.
+Mould {1}{R} ({1}{R}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/240.png" num="120">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Impossibility Lash</name>
+			<text>This spell costs {1} less for each other spell you&apos;ve cast this turn.
+Impossibility Lash deals 3 damage to target creature or planeswalker.
+Reverb (Then draw a card if you&apos;ve cast another spell this turn.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/241.png" num="126">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Air Pocket</name>
+			<text>Destroy up to one target creature with flying. Draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/242.png" num="143">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Arcane Acquiescence</name>
+			<text>When Arcane Acquiescence enters, draw a card.
+Whenever you cast your second spell each turn, Arcane Acquiescence deals 1 damage to each opponent.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/243.png" num="188">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Frillmane Ambusher</name>
+			<text>{4}{R}{G}: Pitfall (Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/244.png" num="181">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spellforce to Lifeforce</name>
+			<text>Empower (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)
+Counter target spell. You gain life equal to the mana value of the card exiled to empower this spell. (You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/245.png" num="177">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Expended Reserves</name>
+			<text>Whenever a card put into your graveyard this turn is exiled from your graveyard, create a 1/1 white Soldier creature token.
+{W}, Exile target card from a graveyard.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/CSL-files/img/246.png" num="16">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Grand Appearance // Read the Pools</name>
+			<text>At the beginning of combat on your turn, put a +1/+1 counter on up to one target creature you control.
+
+---
+
+Scry 3. (Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/247.png" num="156">CSL</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Elf Wizard // Sorcery — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>3G // U</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rumbleform Liege // Blind</name>
+			<text>When Rumbleform Liege enters, destroy target land.
+
+---
+
+Blind deals 2 damage to target attacking creature.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/248.png" num="135">CSL</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Elemental // Instant</type>
+				<maintype>Creature</maintype>
+				<manacost>3R // 1W</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skilled Diplomat // Noble Geas</name>
+			<text>When Skilled Diplomat enters, up to one target creature can&apos;t attack or block until Skilled Diplomat leaves the battlefield.
+
+---
+
+Each opponent discards a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/249.png" num="30">CSL</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Elf Advisor // Sorcery</type>
+				<maintype>Creature</maintype>
+				<manacost>2W // B</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ruos, the Crusader</name>
+			<text>[+1]: Target creature gains haste, lifelink, and vigilance until end of turn.
+[0]: Whenever you gain life this turn, Ruos deals that much damage to target creature or planeswalker.
+[-8]: You get an emblem with &quot;Spells and permanents you control have lifelink.&quot;</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/250.png" num="205">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Ruos</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>3RW</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Razorglaive Slayer // Might Triumphs</name>
+			<text>When Razorglaive Slayer enters, target creature you control gains deathtouch until Razorglaive Slayer leaves the battlefield.
+
+---
+
+Target creature gets +2/+2 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/251.png" num="91">CSL</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Knight // Instant — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>2B // G</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ezzerdrex, Dark Scion</name>
+			<text>[+1]: Draw two cards then discard two cards.
+[0]: You may cast target instant or sorcery card from your graveyard this turn. If that card would be put into your graveyard this turn, exile it instead.
+[-6]: You get an emblem with &quot;Whenever you cast an instant or sorcery spell, you may draw two cards.&quot;</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/252.png" num="190">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Ezzerdrex</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Kroll Forcemage // Faithless Audit</name>
+			<text>The second spell you cast each turn costs {1} less to cast.
+
+---
+
+Draw two cards, then discard two cards.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/CSL-files/img/253.png" num="50">CSL</set>
+			<prop>
+				<layout>adventure</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard // Instant — Adventure</type>
+				<maintype>Creature</maintype>
+				<manacost>1U // R</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Harron, Interplanar Zoologist</name>
+			<text>[+1]: Put a +1/+1 counter on target creature you control.
+[-2]: Reveal the top three cards of your library. You may put a creature card revealed this way into your hand. Put the rest on the bottom of your library in a random order.
+[-6]: Draw a card for each creature you control.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/CSL-files/img/254.png" num="159">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Harron</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Castes of Siral Draft Archetypes CSL</name>
+			<text>{W}{G} BESTOW PITFALL 
+{W}{U} BESTOW EXPEND 
+{G}{U} BESTOW Modified
+{G}{R} MOULD PITFALL 
+{R}{B} MOULD REVERB 
+{B}{U} EXPEND REVERB 
+{U}{R} REVERB Card-Draw Tempo
+{R}{W} PITFALL 
+{W}{B} EXPEND 
+{G}{B} MOULD</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/CSL-files/img/255.png" num="1">CSL</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

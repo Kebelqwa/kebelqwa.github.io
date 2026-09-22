@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/CSL-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>CSL visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/CSL-files/logo.png" />
+	<img class="preload-hidden" src="../sets/ANG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ANX-files/icon.png" />
+		<img class="preload-hidden" src="../sets/AZG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/CSL-files/icon.png" />
+		<img class="preload-hidden" src="../sets/EZA-files/icon.png" />
+		<img class="preload-hidden" src="../sets/SWTG-files/icon.png" />
+		<img class="preload-hidden" src="../sets/VRN-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a id="header-articles-link" onclick="window.location.href = rootPath + '/all-articles'" style="display: none;"><img id="header-articles" class="sg-icon">Articles</a>
+			<a id="header-decks-link" onclick="window.location.href = rootPath + '/decks'" style="display: none;"><img id="header-decks" class="sg-icon">Decks</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deckbuilder" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-articles").src = rootPath + "/img/articles.png";
+			document.getElementById("header-decks").src = rootPath + "/img/deck.png";
+			document.getElementById("header-deckbuilder").src = rootPath + "/img/deckbuilder.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+
+			// Hide Articles if none exist
+			fetch(rootPath + '/all-articles.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-articles-link').style.display = 'flex';
+				}).catch(() => {});
+
+			// Hide Decks if none exist
+			fetch(rootPath + '/decks.html', { method: 'HEAD' })
+				.then(response => {
+					if (response.ok) document.getElementById('header-decks-link').style.display = 'flex';
+				}).catch(() => {});
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/CSL"><img src="../sets/CSL-files/icon.png">Castes of Siral</a>
+	
+		<a class="set-bar inactive" href="../previews/ANG"><img src="../sets/ANG-files/icon.png">Aranog</a>
+	
+		<a class="set-bar inactive" href="../previews/ANX"><img src="../sets/ANX-files/icon.png">Innistrad: Annexed</a>
+	
+		<a class="set-bar inactive" href="../previews/AZG"><img src="../sets/AZG-files/icon.png">Azgol: Lair of the Ashen Idol</a>
+	
+		<a class="set-bar inactive" href="../previews/EZA"><img src="../sets/EZA-files/icon.png">Ezanavi Remastered</a>
+	
+		<a class="set-bar inactive" href="../previews/SWTG"><img src="../sets/SWTG-files/icon.png">Star Wars: The Gathering</a>
+	
+		<a class="set-bar inactive" href="../previews/VRN"><img src="../sets/VRN-files/icon.png">Vryn</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/CSL-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\CSL-files\img\223.png" id="CSL_223" data-flag="@X" onclick="openSidebar('CSL_223',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\7.png" id="CSL_7" data-flag="@X" onclick="openSidebar('CSL_7',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\164.png" id="CSL_164" data-flag="@X" onclick="openSidebar('CSL_164',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\177.png" id="CSL_177" data-flag="@X" onclick="openSidebar('CSL_177',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\254.png" id="CSL_254" data-flag="@X" onclick="openSidebar('CSL_254',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\130.png" id="CSL_130" data-flag="@X" onclick="openSidebar('CSL_130',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\64.png" id="CSL_64" data-flag="@X" onclick="openSidebar('CSL_64',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\125.png" id="CSL_125" data-flag="@X" onclick="openSidebar('CSL_125',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\29.png" id="CSL_29" data-flag="@X" onclick="openSidebar('CSL_29',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\81.png" id="CSL_81" data-flag="@X" onclick="openSidebar('CSL_81',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\55.png" id="CSL_55" data-flag="@X" onclick="openSidebar('CSL_55',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\224.png" id="CSL_224" data-flag="@X" onclick="openSidebar('CSL_224',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\226.png" id="CSL_226" data-flag="@X" onclick="openSidebar('CSL_226',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\225.png" id="CSL_225" data-flag="@X" onclick="openSidebar('CSL_225',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\88.png" id="CSL_88" data-flag="@X" onclick="openSidebar('CSL_88',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\195.png" id="CSL_195" data-flag="@X" onclick="openSidebar('CSL_195',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\91.png" id="CSL_91" data-flag="@X" onclick="openSidebar('CSL_91',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\154.png" id="CSL_154" data-flag="@X" onclick="openSidebar('CSL_154',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\129.png" id="CSL_129" data-flag="@X" onclick="openSidebar('CSL_129',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\107.png" id="CSL_107" data-flag="@X" onclick="openSidebar('CSL_107',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\41.png" id="CSL_41" data-flag="@X" onclick="openSidebar('CSL_41',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\58.png" id="CSL_58" data-flag="@X" onclick="openSidebar('CSL_58',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\175.png" id="CSL_175" data-flag="@X" onclick="openSidebar('CSL_175',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\179.png" id="CSL_179" data-flag="@X" onclick="openSidebar('CSL_179',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\193.png" id="CSL_193" data-flag="@X" onclick="openSidebar('CSL_193',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\194.png" id="CSL_194" data-flag="@X" onclick="openSidebar('CSL_194',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\138.png" id="CSL_138" data-flag="@X" onclick="openSidebar('CSL_138',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\183.png" id="CSL_183" data-flag="@X" onclick="openSidebar('CSL_183',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\241.png" id="CSL_241" data-flag="@X" onclick="openSidebar('CSL_241',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\192.png" id="CSL_192" data-flag="@X" onclick="openSidebar('CSL_192',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\246.png" id="CSL_246" data-flag="@X" onclick="openSidebar('CSL_246',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\24.png" id="CSL_24" data-flag="@X" onclick="openSidebar('CSL_24',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\153.png" id="CSL_153" data-flag="@X" onclick="openSidebar('CSL_153',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\180.png" id="CSL_180" data-flag="@X" onclick="openSidebar('CSL_180',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\83.png" id="CSL_83" data-flag="@X" onclick="openSidebar('CSL_83',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\150.png" id="CSL_150" data-flag="@X" onclick="openSidebar('CSL_150',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\187.png" id="CSL_187" data-flag="@X" onclick="openSidebar('CSL_187',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\182.png" id="CSL_182" data-flag="@X" onclick="openSidebar('CSL_182',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\171.png" id="CSL_171" data-flag="@X" onclick="openSidebar('CSL_171',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\123.png" id="CSL_123" data-flag="@X" onclick="openSidebar('CSL_123',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\52.png" id="CSL_52" data-flag="@X" onclick="openSidebar('CSL_52',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\188.png" id="CSL_188" data-flag="@X" onclick="openSidebar('CSL_188',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\184.png" id="CSL_184" data-flag="@X" onclick="openSidebar('CSL_184',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\189.png" id="CSL_189" data-flag="@X" onclick="openSidebar('CSL_189',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\191.png" id="CSL_191" data-flag="@X" onclick="openSidebar('CSL_191',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\196.png" id="CSL_196" data-flag="@X" onclick="openSidebar('CSL_196',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\104.png" id="CSL_104" data-flag="@X" onclick="openSidebar('CSL_104',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\67.png" id="CSL_67" data-flag="@X" onclick="openSidebar('CSL_67',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\72.png" id="CSL_72" data-flag="@X" onclick="openSidebar('CSL_72',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\229.png" id="CSL_229" data-flag="@X" onclick="openSidebar('CSL_229',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\148.png" id="CSL_148" data-flag="@X" onclick="openSidebar('CSL_148',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\132.png" id="CSL_132" data-flag="@X" onclick="openSidebar('CSL_132',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\34.png" id="CSL_34" data-flag="@X" onclick="openSidebar('CSL_34',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\161.png" id="CSL_161" data-flag="@X" onclick="openSidebar('CSL_161',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\190.png" id="CSL_190" data-flag="@X" onclick="openSidebar('CSL_190',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\121.png" id="CSL_121" data-flag="@X" onclick="openSidebar('CSL_121',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\186.png" id="CSL_186" data-flag="@X" onclick="openSidebar('CSL_186',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\28.png" id="CSL_28" data-flag="@X" onclick="openSidebar('CSL_28',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\157.png" id="CSL_157" data-flag="@X" onclick="openSidebar('CSL_157',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\141.png" id="CSL_141" data-flag="@X" onclick="openSidebar('CSL_141',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\151.png" id="CSL_151" data-flag="@X" onclick="openSidebar('CSL_151',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\61.png" id="CSL_61" data-flag="@X" onclick="openSidebar('CSL_61',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\17.png" id="CSL_17" data-flag="@X" onclick="openSidebar('CSL_17',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\74.png" id="CSL_74" data-flag="@X" onclick="openSidebar('CSL_74',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\82.png" id="CSL_82" data-flag="@X" onclick="openSidebar('CSL_82',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\27.png" id="CSL_27" data-flag="@X" onclick="openSidebar('CSL_27',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\60.png" id="CSL_60" data-flag="@X" onclick="openSidebar('CSL_60',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\108.png" id="CSL_108" data-flag="@X" onclick="openSidebar('CSL_108',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\174.png" id="CSL_174" data-flag="@X" onclick="openSidebar('CSL_174',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\247.png" id="CSL_247" data-flag="@X" onclick="openSidebar('CSL_247',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\44.png" id="CSL_44" data-flag="@X" onclick="openSidebar('CSL_44',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\253.png" id="CSL_253" data-flag="@X" onclick="openSidebar('CSL_253',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\116.png" id="CSL_116" data-flag="@X" onclick="openSidebar('CSL_116',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\77.png" id="CSL_77" data-flag="@X" onclick="openSidebar('CSL_77',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\84.png" id="CSL_84" data-flag="@X" onclick="openSidebar('CSL_84',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\51.png" id="CSL_51" data-flag="@X" onclick="openSidebar('CSL_51',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\115.png" id="CSL_115" data-flag="@X" onclick="openSidebar('CSL_115',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\69.png" id="CSL_69" data-flag="@X" onclick="openSidebar('CSL_69',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\181.png" id="CSL_181" data-flag="@X" onclick="openSidebar('CSL_181',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\111.png" id="CSL_111" data-flag="@X" onclick="openSidebar('CSL_111',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\42.png" id="CSL_42" data-flag="@X" onclick="openSidebar('CSL_42',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\36.png" id="CSL_36" data-flag="@X" onclick="openSidebar('CSL_36',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\251.png" id="CSL_251" data-flag="@X" onclick="openSidebar('CSL_251',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\38.png" id="CSL_38" data-flag="@X" onclick="openSidebar('CSL_38',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\127.png" id="CSL_127" data-flag="@X" onclick="openSidebar('CSL_127',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\249.png" id="CSL_249" data-flag="@X" onclick="openSidebar('CSL_249',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\62.png" id="CSL_62" data-flag="@X" onclick="openSidebar('CSL_62',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\235.png" id="CSL_235" data-flag="@X" onclick="openSidebar('CSL_235',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\248.png" id="CSL_248" data-flag="@X" onclick="openSidebar('CSL_248',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\103.png" id="CSL_103" data-flag="@X" onclick="openSidebar('CSL_103',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\227.png" id="CSL_227" data-flag="@X" onclick="openSidebar('CSL_227',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\134.png" id="CSL_134" data-flag="@X" onclick="openSidebar('CSL_134',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\135.png" id="CSL_135" data-flag="@X" onclick="openSidebar('CSL_135',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\100.png" id="CSL_100" data-flag="@X" onclick="openSidebar('CSL_100',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\109.png" id="CSL_109" data-flag="@X" onclick="openSidebar('CSL_109',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\176.png" id="CSL_176" data-flag="@X" onclick="openSidebar('CSL_176',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\59.png" id="CSL_59" data-flag="@X" onclick="openSidebar('CSL_59',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\230.png" id="CSL_230" data-flag="@X" onclick="openSidebar('CSL_230',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\10.png" id="CSL_10" data-flag="@X" onclick="openSidebar('CSL_10',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\25.png" id="CSL_25" data-flag="@X" onclick="openSidebar('CSL_25',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\137.png" id="CSL_137" data-flag="@X" onclick="openSidebar('CSL_137',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\158.png" id="CSL_158" data-flag="@X" onclick="openSidebar('CSL_158',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\139.png" id="CSL_139" data-flag="@X" onclick="openSidebar('CSL_139',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\71.png" id="CSL_71" data-flag="@X" onclick="openSidebar('CSL_71',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\242.png" id="CSL_242" data-flag="@X" onclick="openSidebar('CSL_242',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\147.png" id="CSL_147" data-flag="@X" onclick="openSidebar('CSL_147',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\31.png" id="CSL_31" data-flag="@X" onclick="openSidebar('CSL_31',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\169.png" id="CSL_169" data-flag="@X" onclick="openSidebar('CSL_169',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\228.png" id="CSL_228" data-flag="@X" onclick="openSidebar('CSL_228',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\39.png" id="CSL_39" data-flag="@X" onclick="openSidebar('CSL_39',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\19.png" id="CSL_19" data-flag="@X" onclick="openSidebar('CSL_19',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\131.png" id="CSL_131" data-flag="@X" onclick="openSidebar('CSL_131',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\101.png" id="CSL_101" data-flag="@X" onclick="openSidebar('CSL_101',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\128.png" id="CSL_128" data-flag="@X" onclick="openSidebar('CSL_128',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\87.png" id="CSL_87" data-flag="@X" onclick="openSidebar('CSL_87',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\43.png" id="CSL_43" data-flag="@X" onclick="openSidebar('CSL_43',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\172.png" id="CSL_172" data-flag="@X" onclick="openSidebar('CSL_172',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\136.png" id="CSL_136" data-flag="@X" onclick="openSidebar('CSL_136',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\76.png" id="CSL_76" data-flag="@X" onclick="openSidebar('CSL_76',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\146.png" id="CSL_146" data-flag="@X" onclick="openSidebar('CSL_146',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\35.png" id="CSL_35" data-flag="@X" onclick="openSidebar('CSL_35',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\63.png" id="CSL_63" data-flag="@X" onclick="openSidebar('CSL_63',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\185.png" id="CSL_185" data-flag="@X" onclick="openSidebar('CSL_185',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\197.png" id="CSL_197" data-flag="@X" onclick="openSidebar('CSL_197',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\142.png" id="CSL_142" data-flag="@X" onclick="openSidebar('CSL_142',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\45.png" id="CSL_45" data-flag="@X" onclick="openSidebar('CSL_45',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\6.png" id="CSL_6" data-flag="@X" onclick="openSidebar('CSL_6',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\18.png" id="CSL_18" data-flag="@X" onclick="openSidebar('CSL_18',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\75.png" id="CSL_75" data-flag="@X" onclick="openSidebar('CSL_75',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\85.png" id="CSL_85" data-flag="@X" onclick="openSidebar('CSL_85',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\48.png" id="CSL_48" data-flag="@X" onclick="openSidebar('CSL_48',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\114.png" id="CSL_114" data-flag="@X" onclick="openSidebar('CSL_114',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\165.png" id="CSL_165" data-flag="@X" onclick="openSidebar('CSL_165',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\240.png" id="CSL_240" data-flag="@X" onclick="openSidebar('CSL_240',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\126.png" id="CSL_126" data-flag="@X" onclick="openSidebar('CSL_126',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\106.png" id="CSL_106" data-flag="@X" onclick="openSidebar('CSL_106',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\15.png" id="CSL_15" data-flag="@X" onclick="openSidebar('CSL_15',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\37.png" id="CSL_37" data-flag="@X" onclick="openSidebar('CSL_37',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\16.png" id="CSL_16" data-flag="@X" onclick="openSidebar('CSL_16',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\237.png" id="CSL_237" data-flag="@X" onclick="openSidebar('CSL_237',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\53.png" id="CSL_53" data-flag="@X" onclick="openSidebar('CSL_53',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\9.png" id="CSL_9" data-flag="@X" onclick="openSidebar('CSL_9',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\122.png" id="CSL_122" data-flag="@X" onclick="openSidebar('CSL_122',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\78.png" id="CSL_78" data-flag="@X" onclick="openSidebar('CSL_78',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\13.png" id="CSL_13" data-flag="@X" onclick="openSidebar('CSL_13',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\49.png" id="CSL_49" data-flag="@X" onclick="openSidebar('CSL_49',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\5.png" id="CSL_5" data-flag="@X" onclick="openSidebar('CSL_5',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\140.png" id="CSL_140" data-flag="@X" onclick="openSidebar('CSL_140',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\79.png" id="CSL_79" data-flag="@X" onclick="openSidebar('CSL_79',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\26.png" id="CSL_26" data-flag="@X" onclick="openSidebar('CSL_26',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\50.png" id="CSL_50" data-flag="@X" onclick="openSidebar('CSL_50',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\234.png" id="CSL_234" data-flag="@X" onclick="openSidebar('CSL_234',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\68.png" id="CSL_68" data-flag="@X" onclick="openSidebar('CSL_68',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\105.png" id="CSL_105" data-flag="@X" onclick="openSidebar('CSL_105',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\21.png" id="CSL_21" data-flag="@X" onclick="openSidebar('CSL_21',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\54.png" id="CSL_54" data-flag="@X" onclick="openSidebar('CSL_54',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\133.png" id="CSL_133" data-flag="@X" onclick="openSidebar('CSL_133',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\156.png" id="CSL_156" data-flag="@X" onclick="openSidebar('CSL_156',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\73.png" id="CSL_73" data-flag="@X" onclick="openSidebar('CSL_73',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\40.png" id="CSL_40" data-flag="@X" onclick="openSidebar('CSL_40',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\11.png" id="CSL_11" data-flag="@X" onclick="openSidebar('CSL_11',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\22.png" id="CSL_22" data-flag="@X" onclick="openSidebar('CSL_22',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\70.png" id="CSL_70" data-flag="@X" onclick="openSidebar('CSL_70',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\80.png" id="CSL_80" data-flag="@X" onclick="openSidebar('CSL_80',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\143.png" id="CSL_143" data-flag="@X" onclick="openSidebar('CSL_143',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\113.png" id="CSL_113" data-flag="@X" onclick="openSidebar('CSL_113',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\57.png" id="CSL_57" data-flag="@X" onclick="openSidebar('CSL_57',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\170.png" id="CSL_170" data-flag="@X" onclick="openSidebar('CSL_170',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\236.png" id="CSL_236" data-flag="@X" onclick="openSidebar('CSL_236',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\32.png" id="CSL_32" data-flag="@X" onclick="openSidebar('CSL_32',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\56.png" id="CSL_56" data-flag="@X" onclick="openSidebar('CSL_56',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\66.png" id="CSL_66" data-flag="@X" onclick="openSidebar('CSL_66',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\20.png" id="CSL_20" data-flag="@X" onclick="openSidebar('CSL_20',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\155.png" id="CSL_155" data-flag="@X" onclick="openSidebar('CSL_155',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\12.png" id="CSL_12" data-flag="@X" onclick="openSidebar('CSL_12',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\208.png" id="CSL_208" data-flag="@X" onclick="openSidebar('CSL_208',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\65.png" id="CSL_65" data-flag="@X" onclick="openSidebar('CSL_65',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\163.png" id="CSL_163" data-flag="@X" onclick="openSidebar('CSL_163',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\244.png" id="CSL_244" data-flag="@X" onclick="openSidebar('CSL_244',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\95.png" id="CSL_95" data-flag="@X" onclick="openSidebar('CSL_95',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\245.png" id="CSL_245" data-flag="@X" onclick="openSidebar('CSL_245',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\124.png" id="CSL_124" data-flag="@X" onclick="openSidebar('CSL_124',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\233.png" id="CSL_233" data-flag="@X" onclick="openSidebar('CSL_233',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\86.png" id="CSL_86" data-flag="@X" onclick="openSidebar('CSL_86',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\1.png" id="CSL_1" data-flag="@X" onclick="openSidebar('CSL_1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\252.png" id="CSL_252" data-flag="@X" onclick="openSidebar('CSL_252',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\3.png" id="CSL_3" data-flag="@X" onclick="openSidebar('CSL_3',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\250.png" id="CSL_250" data-flag="@X" onclick="openSidebar('CSL_250',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\162.png" id="CSL_162" data-flag="@X" onclick="openSidebar('CSL_162',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\218.png" id="CSL_218" data-flag="@X" onclick="openSidebar('CSL_218',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\8.png" id="CSL_8" data-flag="@X" onclick="openSidebar('CSL_8',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\98.png" id="CSL_98" data-flag="@X" onclick="openSidebar('CSL_98',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\47.png" id="CSL_47" data-flag="@X" onclick="openSidebar('CSL_47',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\30.png" id="CSL_30" data-flag="@X" onclick="openSidebar('CSL_30',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\152.png" id="CSL_152" data-flag="@X" onclick="openSidebar('CSL_152',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\2.png" id="CSL_2" data-flag="@X" onclick="openSidebar('CSL_2',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\33.png" id="CSL_33" data-flag="@X" onclick="openSidebar('CSL_33',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\46.png" id="CSL_46" data-flag="@X" onclick="openSidebar('CSL_46',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\0.png" id="CSL_0" data-flag="@X" onclick="openSidebar('CSL_0',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\23.png" id="CSL_23" data-flag="@X" onclick="openSidebar('CSL_23',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\220.png" id="CSL_220" data-flag="@X" onclick="openSidebar('CSL_220',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\4.png" id="CSL_4" data-flag="@X" onclick="openSidebar('CSL_4',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\149.png" id="CSL_149" data-flag="@X" onclick="openSidebar('CSL_149',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\243.png" id="CSL_243" data-flag="@X" onclick="openSidebar('CSL_243',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\96.png" id="CSL_96" data-flag="@X" onclick="openSidebar('CSL_96',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\110.png" id="CSL_110" data-flag="@X" onclick="openSidebar('CSL_110',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\222.png" id="CSL_222" data-flag="@X" onclick="openSidebar('CSL_222',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\219.png" id="CSL_219" data-flag="@X" onclick="openSidebar('CSL_219',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\99.png" id="CSL_99" data-flag="@X" onclick="openSidebar('CSL_99',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\221.png" id="CSL_221" data-flag="@X" onclick="openSidebar('CSL_221',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\112.png" id="CSL_112" data-flag="@X" onclick="openSidebar('CSL_112',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\160.png" id="CSL_160" data-flag="@X" onclick="openSidebar('CSL_160',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\239.png" id="CSL_239" data-flag="@X" onclick="openSidebar('CSL_239',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\217.png" id="CSL_217" data-flag="@X" onclick="openSidebar('CSL_217',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\166.png" id="CSL_166" data-flag="@X" onclick="openSidebar('CSL_166',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\215.png" id="CSL_215" data-flag="@X" onclick="openSidebar('CSL_215',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\89.png" id="CSL_89" data-flag="@X" onclick="openSidebar('CSL_89',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\92.png" id="CSL_92" data-flag="@X" onclick="openSidebar('CSL_92',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\216.png" id="CSL_216" data-flag="@X" onclick="openSidebar('CSL_216',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\93.png" id="CSL_93" data-flag="@X" onclick="openSidebar('CSL_93',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\94.png" id="CSL_94" data-flag="@X" onclick="openSidebar('CSL_94',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\102.png" id="CSL_102" data-flag="@X" onclick="openSidebar('CSL_102',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\238.png" id="CSL_238" data-flag="@X" onclick="openSidebar('CSL_238',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\90.png" id="CSL_90" data-flag="@X" onclick="openSidebar('CSL_90',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\214.png" id="CSL_214" data-flag="@X" onclick="openSidebar('CSL_214',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\207.png" id="CSL_207" data-flag="@X" onclick="openSidebar('CSL_207',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\231.png" id="CSL_231" data-flag="@X" onclick="openSidebar('CSL_231',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\178.png" id="CSL_178" data-flag="@X" onclick="openSidebar('CSL_178',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\203.png" id="CSL_203" data-flag="@X" onclick="openSidebar('CSL_203',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\97.png" id="CSL_97" data-flag="@X" onclick="openSidebar('CSL_97',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\204.png" id="CSL_204" data-flag="@X" onclick="openSidebar('CSL_204',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\232.png" id="CSL_232" data-flag="@X" onclick="openSidebar('CSL_232',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\206.png" id="CSL_206" data-flag="@X" onclick="openSidebar('CSL_206',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\173.png" id="CSL_173" data-flag="@X" onclick="openSidebar('CSL_173',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\159.png" id="CSL_159" data-flag="@X" onclick="openSidebar('CSL_159',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\168.png" id="CSL_168" data-flag="@X" onclick="openSidebar('CSL_168',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\205.png" id="CSL_205" data-flag="@X" onclick="openSidebar('CSL_205',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\209.png" id="CSL_209" data-flag="@X" onclick="openSidebar('CSL_209',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\211.png" id="CSL_211" data-flag="@X" onclick="openSidebar('CSL_211',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\144.png" id="CSL_144" data-flag="@X" onclick="openSidebar('CSL_144',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\212.png" id="CSL_212" data-flag="@X" onclick="openSidebar('CSL_212',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\213.png" id="CSL_213" data-flag="@X" onclick="openSidebar('CSL_213',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\210.png" id="CSL_210" data-flag="@X" onclick="openSidebar('CSL_210',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\202.png" id="CSL_202" data-flag="@X" onclick="openSidebar('CSL_202',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\200.png" id="CSL_200" data-flag="@X" onclick="openSidebar('CSL_200',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\198.png" id="CSL_198" data-flag="@X" onclick="openSidebar('CSL_198',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\199.png" id="CSL_199" data-flag="@X" onclick="openSidebar('CSL_199',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\201.png" id="CSL_201" data-flag="@X" onclick="openSidebar('CSL_201',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\167.png" id="CSL_167" data-flag="@X" onclick="openSidebar('CSL_167',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\14.png" id="CSL_14" data-flag="@X" onclick="openSidebar('CSL_14',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\117.png" id="CSL_117" data-flag="@X" onclick="openSidebar('CSL_117',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\118.png" id="CSL_118" data-flag="@X" onclick="openSidebar('CSL_118',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\119.png" id="CSL_119" data-flag="@X" onclick="openSidebar('CSL_119',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\120.png" id="CSL_120" data-flag="@X" onclick="openSidebar('CSL_120',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\145.png" id="CSL_145" data-flag="@X" onclick="openSidebar('CSL_145',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\CSL-files\img\255.png" id="CSL_255" data-flag="@X" onclick="openSidebar('CSL_255',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="CSL_e" data-flag="@E" onclick="openSidebar('CSL_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="CSL_er" data-flag="@E" onclick="openSidebar('CSL_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1].toLowerCase());
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>
