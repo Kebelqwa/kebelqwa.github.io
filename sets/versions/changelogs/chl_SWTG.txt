@@ -1,4 +1,331 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Search Your Feelings added.
+There Is No Escape added.
+Anakin and Obi-Wan added.
+Tusken Raider added.
+TIE Fighter added.
+Droid added.
+Trooper added.
+Royal Guard added.
+Rebel added.
+B-Wing added.
+Ewok Rebel added.
+Bounty Hunter added.
+Trooper added.
+Munitions added.
+
+Rumination removed.
+Doom Blade removed.
+General Skywalker removed.
+Tusken Raider Token SWTG; removed.
+TIE Fighter Token; removed.
+Droid Token SWTG; removed.
+Clone Trooper Token SWTG; removed.
+Royal Guard Token SWTG; removed.
+Rebel Token SWTG; removed.
+B-Wing Token SWTG; removed.
+Ewok Rebel Token SWTG; removed.
+Bounty Hunter Token SWTG; removed.
+Stormtrooper Token SWTG; removed.
+Obi-Wan Kenobi Emblem; removed.
+Yoda, Jedi Master Emblem; removed.
+Aurra Sing, Bane of Jedi Emblem; removed.
+Darth Sidious, Sith Lord Emblem; removed.
+
+Gonk Droid
+rules_text: When this creature leaves the battlefield, draw a card.
+Repair 4 [i](When this creature dies, you may exile it with four time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)[/i] => When this creature dies, draw a card.
+Repair 4 [i](When this creature dies, you may exile it with four time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)[/i]
+
+Jedi Starfighter
+type: Kindred Artifact — Jedi Spacecraft => Kindred Artifact — Jedi Vehicle
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+When this Spacecraft enters, you may return another permanent you control to its owner's hand.
+Meditate {1}{W} [i]({1}{W}: Return this permanent to its owner's hand. Meditate only as a sorcery.)[/i]
+
+[level 4+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i] [3/2] => Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+When this Vehicle enters, you may return another permanent you control to its owner's hand.
+Meditate {1}{W} [i]({1}{W}: Return this creature to its owner's hand. Meditate only as a sorcery.)[/i]
+pt:  => 3/2
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+When this Spacecraft enters, you may return another permanent you control to its owner's hand.
+Meditate {1}{W} [i]({1}{W}: Return this permanent to its owner's hand. Meditate only as a sorcery.)[/i]
+
+[level 4+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i] [3/2] => 
+
+X-Wing
+type: Kindred Artifact — Rebel Spacecraft => Kindred Artifact — Rebel Vehicle
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+
+[level 2+] Vigilance
+Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i] [2/2] => Vigilance
+Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Crew 1 [i](Tap any number of creatures you control with total power 1 or more: This Rebel Vehicle becomes an artifact creature until end of turn.)[/i]
+pt:  => 2/2
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+
+[level 2+] Vigilance
+Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i] [2/2] => 
+
+The Battle of Naboo
+cost: {X}{X}{U}{U} => {X}{U}{U}
+rules_text: [i](As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)[/i]
+When this Siege enters, return up to X target creatures to their owners' hands. Draw twice X cards. => [i](As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)[/i]
+When this Siege enters, return any number of target creatures with different controllers each to their owners' hands. Then draw X cards.
+
+Force Push
+rules_text: Target artifact or creature's owner shuffles it into their library. Scry 2. => Target artifact or creature's owner puts it on the top or bottom of their library. Scry 2.
+
+Republic Frigate
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+
+[level 5+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this creature attacks, untap up to one target permanent you control. [3/3] => Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+
+[level 5+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this creature attacks, untap up to one target permanent you control. [3/4]
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+
+[level 5+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this creature attacks, untap up to one target permanent you control. [3/3] => Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+
+[level 5+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this creature attacks, untap up to one target permanent you control. [3/4]
+
+The Battle of Yavin
+rules_text: [i](As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)[/i]
+When this Siege enters, for each nonland permanent you don't control, its controller sacrifices it unless they pay X life. => [i](As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)[/i]
+When this Siege enters, for each creature, Spacecraft, and Vehicle you don't control, its controller sacrifices it unless they pay X life.
+
+Force Drain
+rules_text: Force Drain deals 2 damage to any nonplayer target. Scry 1. [i](Look at the top card of your library. You may put that card on the bottom of your library.)[/i]
+[i]Hate[/i] — Then if an opponent lost life from a source other than combat damage this turn, you gain 2 life. => Force Drain deals 2 damage to any nonplayer target. Scry 1.
+[i]Hate[/i] — Then if an opponent lost life from a source other than combat damage this turn, you gain 2 life.
+
+Head Hunting
+rules_text: Put a bounty counter on up to one target permanent.
+Each opponent loses 1 life.
+Draw a card. => Put a bounty counter on up to one target permanent. Its controller loses loses 1 life.
+If you've completed a bounty this turn, draw a card.
+
+The Battle of Geonosis
+rules_text: [i](As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)[/i]
+When this Siege enters, it deals X damage to each opponent and each creature they control. Creatures you control get +X/+0 until end of turn. => [i](As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)[/i]
+When this Siege enters, create X 1/1 white Trooper creature tokens. Creatures you control get +X/+0 and gain haste until end of turn.
+loyalty: 6 => 8
+
+Dark Apprenticeship
+
+Force Lightning
+
+Sith Ravager
+rules_text: [i]Hate[/i] — As long as an opponent has lost life from a source other than combat damage this turn, this creature gets +1/+0 and gains haste and trample until end of turn. => [i]Hate[/i] — As long as an opponent lost life from a source other than combat damage this turn, this creature gets +1/+0 and gains haste and trample until end of turn.
+
+V-Wing
+type: Kindred Artifact — Rebel Spacecraft => Kindred Artifact — Rebel Vehicle
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+
+[level 1+] Haste
+Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i] [2/2] => Haste
+Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Crew 1 [i](Tap any number of creatures you control with total power 1 or more: This Rebel Vehicle becomes an artifact creature until end of turn.)[/i]
+pt:  => 2/2
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+
+[level 1+] Haste
+Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i] [2/2] => 
+
+The Battle of Endor
+rules_text: [i](As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)[/i]
+When this Siege enters, create X 1/1 green Ewok Rebel creature tokens. Then put X +1/+1 counters on each creature you control. They gain trample and haste until end of turn. => [i](As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)[/i]
+When this Siege enters, create X 1/1 green Ewok Rebel creature tokens. Then put X +1/+1 counters on each creature you control.
+
+Blind Worship
+rules_text: Enchant creature
+Whenever enchanted creature attacks, each other attacking creature gets +X/+X until end of turn, where X is enchanted creature's power. => Enchant creature
+Enchanted creature gets +1/+1 for each creature you control.
+Whenever enchanted creature attacks, put a +1/+1 counter on each other creature you control.
+
+Maintenance Droid
+rules_text: Artifact spells you cast cost {1} less to cast.
+{1}, {T}: Remove a time counter from a card you own in exile.
+Repair 4 [i](When this creature dies, you may exile it with four time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)[/i] => Artifact spells you cast cost {1} less to cast.
+Repair 4 [i](When this creature dies, you may exile it with four time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)[/i]
+
+March of the Droids
+rules_text: Remove all time counters from cards you own in exile. Put each permanent card that had a counter removed this way from exile onto the battlefield. Then create a 1/1 colorless Droid artifact creature token for each Droid you control. => Remove all time counters from cards you own in exile. Put up to two permanent cards that had a counter removed this way from exile onto the battlefield. Then create a 1/1 colorless Droid artifact creature token for each Droid you control.
+
+Slave I
+type: Legendary Kindred Artifact — Mercenary Spacecraft => Legendary Kindred Artifact — Mercenary Vehicle
+rules_text: Station
+Whenever you complete a bounty, put a +1/+1 counter on this Spacecraft.
+[level 2+] First strike, spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i] [3/3]
+[level 12+] Double strike [3/3] => First strike, spaceflight
+Whenever a creature dealt damage by Slave I this turn dies, put two +1/+1 counters on Slave I.
+pt:  => 3/3
+special_text: Station
+Whenever you complete a bounty, put a +1/+1 counter on this Spacecraft.
+[level 2+] First strike, spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i] [3/3]
+[level 12+] Double strike [3/3] => 
+
+The Battle of Heroes
+
+The Battle of Utapau
+rules_text: When this Siege enters, return up to one target creature or Vehicle card from your graveyard to your hand. => [i](As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)[/i] [i](Players protect permanents that can be attacked.)[/i]
+When this Siege enters, return up to one target creature or Vehicle card from your graveyard to your hand.
+
+A-Wing
+type: Kindred Artifact — Rebel Spacecraft => Kindred Artifact — Rebel Vehicle
+rules_text: Flash
+Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+When this Vehicle enters, another target attacking creature you control gets +2/+0 until end of turn. If it's a Rebel, it also gains first strike until end of turn.
+
+[level 3+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i] [3/3] => Flash
+This Vehicle can't block
+Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+When this Vehicle enters, another target attacking creature you control gets +2/+0 until end of turn. If it's a Rebel, it also gains first strike until end of turn.
+Crew 1
+pt:  => 3/3
+special_text: Flash
+Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+When this Vehicle enters, another target attacking creature you control gets +2/+0 until end of turn. If it's a Rebel, it also gains first strike until end of turn.
+
+[level 3+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i] [3/3] => 
+
+TIE Bomber
+type: Artifact — Spacecraft => Artifact — Vehicle
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+When this Spacecraft enters, each opponent sacrifices a creature.
+
+[level 5+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this Spacecraft deals combat damage to a player or a permanent an opponent protects, you may sacrifice this Vehicle. If you do, destroy target creature defending player controls. [i](Players protect permanents that can be attacked. The protector of an attacked permanent is also a defending player.)[/i] [3/2] => Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this Vehicle deals combat damage to a player or a permanent an opponent protects, you may sacrifice this Vehicle. If you do, destroy target creature defending player controls. [i](Players protect permanents that can be attacked. The protector of an attacked permanent is also a defending player.)[/i]
+Crew 1
+pt:  => 3/2
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+When this Spacecraft enters, each opponent sacrifices a creature.
+
+[level 5+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this Spacecraft deals combat damage to a player or a permanent an opponent protects, you may sacrifice this Vehicle. If you do, destroy target creature defending player controls. [i](Players protect permanents that can be attacked. The protector of an attacked permanent is also a defending player.)[/i] [3/2] => 
+
+TIE Interceptor
+type: Artifact — Spacecraft => Artifact — Vehicle
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+
+[level 2+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this Spacecraft attacks, each opponent loses 2 life. [1/1] => Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this Vehicle attacks, each opponent loses 2 life.
+Crew 1
+pt:  => 1/1
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+
+[level 2+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this Spacecraft attacks, each opponent loses 2 life. [1/1] => 
+
+Y-Wing
+type: Kindred Artifact — Rebel Spacecraft => Kindred Artifact — Rebel Vehicle
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+
+[level 3+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this Vehicle deals combat damage to an opponent or a permanent an opponent protects, you may pay {1}. If you do, put a stun counter on target creature defending player controls. Tap that creature. [i](The protector of an attacked permanent is also a defending player.)[/i] [2/3] => Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this Vehicle deals combat damage to an opponent or a permanent an opponent protects, you may pay {1}. If you do, put a stun counter on target creature defending player controls. Tap that creature. [i](Players protect permanents that can be attacked. The protector of an attacked permanent is also a defending player.)[/i]
+Crew 1
+pt:  => 2/3
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+
+[level 3+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this Vehicle deals combat damage to an opponent or a permanent an opponent protects, you may pay {1}. If you do, put a stun counter on target creature defending player controls. Tap that creature. [i](The protector of an attacked permanent is also a defending player.)[/i] [2/3] => 
+
+N-1 Starfighter
+type: Artifact — Spacecraft => Artifact — Vehicle
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+
+[level 4+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this Spacecraft deals combat damage to an opponent or a permanent they protect, you may pay {2}{WU}. If you do, exile target creature you control, then return that card to the battlefield under its owner's control. [2/2] => Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this Vehicle deals combat damage to an opponent or a permanent they protect, you may pay {2}{WU}. If you do, exile target creature you control, then return that card to the battlefield under its owner's control. [i](Players protect permanents that can be attacked.)[/i]
+Crew 1
+pt:  => 2/2
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+
+[level 4+] Spaceflight [i](This creature can only block or be blocked by creatures with spaceflight.)[/i]
+Whenever this Spacecraft deals combat damage to an opponent or a permanent they protect, you may pay {2}{WU}. If you do, exile target creature you control, then return that card to the battlefield under its owner's control. [2/2] => 
+
+SWTG 3+Color Archetypes
+
+SWTG 2-Color Archetypes
+
+The Battle of Hoth
+
+The Battle of Scarif
+
+Anakin Skywalker
+
+Yoda, Jedi Master
+type: Legendary Planeswalker — Yoda => Legendary Creature — Jedi
+cost: {1}{G}{U} => {G}{U}
+rules_text: [+1]: Look at the top two cards of your library. Put one on the bottom of your library.
+[0]: Exile another target permanent you own. Return that card to the battlefield under your control at the beginning of your next end step.
+[-5]: You get an emblem with “Hexproof, you and your creatures have.” => Ward {2}
+Whenever a Jedi you control leaves the battlefield without dying, reveal cards from the top of your library until you reveal a land card. Put that card onto the battlefield tapped and the rest on the bottom of your library in a random order.
+Meditate {3}
+pt:  => 2/2
+special_text: [+1]: Look at the top two cards of your library. Put one on the bottom of your library.
+[0]: Exile another target permanent you own. Return that card to the battlefield under your control at the beginning of your next end step.
+[-5]: You get an emblem with “Hexproof, you and your creatures have.” => 
+loyalty: 3 => 
+
+Aurra Sing, Bane of Jedi
+type: Legendary Planeswalker — Aurra => Legendary Creature — Palliduvan Mercenary
+rules_text: [+1]: Put a bounty counter on target creature, battle, or planeswalker. Aurra Sing, Bane of Jedi deals 2 damage to that permanent and 1 damage to you.
+[-X]: Return target creature card with mana value X or less from your graveyard to the battlefield. It gains haste until end of turn.
+[-5]: Target opponent gets an emblem with “Whenever a nontoken creature you control leaves the battlefield, discard a card.” => Whenever Aurra Sing attacks, you may sacrifice an artifact. If you do, draw a card and lose 1 life.
+Whenever you complete a bounty, create a colorless artifact token named Munitions with “When this token leaves the battlefield, it deals 2 damage to any target.” [i](You complete a bounty when a permanent you don't control with a bounty counter leaves the battlefield.)[/i]
+pt:  => 4/4
+special_text: [+1]: Put a bounty counter on target creature, battle, or planeswalker. Aurra Sing, Bane of Jedi deals 2 damage to that permanent and 1 damage to you.
+[-X]: Return target creature card with mana value X or less from your graveyard to the battlefield. It gains haste until end of turn.
+[-5]: Target opponent gets an emblem with “Whenever a nontoken creature you control leaves the battlefield, discard a card.” => 
+loyalty: 3 => 
+
+Darth Sidious, Sith Lord
+type: Legendary Planeswalker — Sidious => Legendary Creature — Human Sith
+rules_text: [+2]: Darth Sidious, Sith Lord deals 3 damage to any target.
+[-3]: Gain control of target creature.
+[-9]: You get an emblem with “If a source you control would deal noncombat damage, it deals that much damage plus 3 instead.” => Whenever Darth Sidious enters or attacks, he deals 3 damage to any target.
+[i]Hate[/i] — {T}: Gain control of target nontoken creature with mana value less than or equal to the amount of life its controller lost to a source other than combat damage this turn.
+pt:  => 4/4
+special_text: [+2]: Darth Sidious, Sith Lord deals 3 damage to any target.
+[-3]: Gain control of target creature.
+[-9]: You get an emblem with “If a source you control would deal noncombat damage, it deals that much damage plus 3 instead.” => 
+loyalty: 4 => 
+
+Darth Tyranus, Count Dooku
+type: Legendary Planeswalker — Dooku => Legendary Creature — Human Noble Sith
+rules_text: [+1]: Until your next turn, whenever a creature attacks you or a permanent you protect, that creature gets -1/-0 until end of turn.
+[0]: Draw a card. Each player loses 1 life.
+[-4]: You may sacrifice an artifact. If you do, search your library for an artifact card, put it onto the battlefield, then shuffle. => [i]Hate[/i] — Whenever you cast an instant or sorcery spell, if an opponent has lost life from a source other than combat damage this turn, up to one target Sith you control connives. [i](Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)[/i]
+pt:  => 2/2
+special_text: [+1]: Until your next turn, whenever a creature attacks you or a permanent you protect, that creature gets -1/-0 until end of turn.
+[0]: Draw a card. Each player loses 1 life.
+[-4]: You may sacrifice an artifact. If you do, search your library for an artifact card, put it onto the battlefield, then shuffle. => 
+loyalty: 3 => 
+
+Obi-Wan Kenobi
+type: Legendary Planeswalker — Obi-Wan => Legendary Creature — Human Jedi
+rules_text: [+1]: Until your next turn, up to one target creature you control gains vigilance and protection from the color of your choice.
+[-1]: Tap up to three target creatures.
+[-7]: You get an emblem with “Creatures you control get +1/+1 and have vigilance, first strike, and lifelink.” => When Obi-Wan Kenobi enters, up to one other target creature you control gains hexproof until end of turn. That creature can't be blocked this turn.
+Whenever a creature you control leaves the battlefield without dying, tap up to one target creature.
+Meditate {2}
+pt:  => 4/4
+special_text: [+1]: Until your next turn, up to one target creature you control gains vigilance and protection from the color of your choice.
+[-1]: Tap up to three target creatures.
+[-7]: You get an emblem with “Creatures you control get +1/+1 and have vigilance, first strike, and lifelink.” => 
+loyalty: 4 => 
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

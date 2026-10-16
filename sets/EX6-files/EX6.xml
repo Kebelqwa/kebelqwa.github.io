@@ -1,0 +1,4533 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>EX6</name>
+			<longname>Erex VI</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-10-16</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Glory&apos;s Return</name>
+			<text>Untap target creature. That creature gets +0/+2 until end of turn.
+Create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/0.png" num="20">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Braeil Protector</name>
+			<text>{3}{C}: Put a +1/+1 counter on target creature. Activate this ability only if you control an artifact.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/1.png" num="12">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Repel Munitions</name>
+			<text>Prevent all combat damage that would be dealt to target creature this turn. If that creature has a counter on it, draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/2.png" num="31">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rigger Prodigy</name>
+			<text>When this creature enters, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)
+Whenever one or more artifacts you control leave the battlefield, you gain 1 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/3.png" num="33">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prodigal Sniper</name>
+			<text>{1}{C}, {T}: Tap target creature unless its controller sacrifices an artifact.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/4.png" num="30">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Brave the Night</name>
+			<text>Target creature you control gets +2/+2 and gains protection from all colors until end of turn. (It can&apos;t be blocked, targeted, dealt damage, enchanted, or equipped by anything that&apos;s white, blue, black, red, or green until end of turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/5.png" num="13">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Alzhir Merchant</name>
+			<text>Tap three untapped creatures you control: Create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/6.png" num="4">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Headshot</name>
+			<text>Exile target attacking creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/7.png" num="21">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ancestral Inventor</name>
+			<text>Whenever you draw one or more cards, if any of them aren&apos;t the first card you drew this turn, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/8.png" num="42">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Factory Analyst</name>
+			<text>Whenever you sacrifice a permanent, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/9.png" num="60">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fluxfire Initiate</name>
+			<text>Whenever you cast your second spell each turn, this creature gains hexproof until end of turn and can&apos;t be blocked this turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/10.png" num="61">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Encounter the Infinite</name>
+			<text>Draw two cards then discard a card.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/11.png" num="59">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fortune&apos;s Hand</name>
+			<text>Draw a card. Surveil 1 (Look at the top card of your library. You may put it into your graveyard.)
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/12.png" num="62">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sudden Warp</name>
+			<text>Target creature gains flying and hexproof until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/13.png" num="76">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Divertive Strides</name>
+			<text>Untap target nonland permanent without a spell encoded on it.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/14.png" num="48">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rigger&apos;s Resolve</name>
+			<text>Return any number of target creatures with different controllers each to their owners&apos; hands.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/15.png" num="71">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Machine&apos;s Resonance</name>
+			<text>As an additional cost to cast this spell, you may tap any number of untapped artifacts you control.
+Draw X cards, where X is equal to the number of artifacts tapped to cast this spell.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/16.png" num="66">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Elet Soulstealer</name>
+			<text>When this creature enters, you may return a permanent you control to its owner&apos;s hand. If you do, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/17.png" num="55">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Viscous Unmaking</name>
+			<text>Target creature creature gets -3/-3 until end of turn.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/18.png" num="117">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Airlock</name>
+			<text>{T}, Sacrifice this artifact: Destroy target creature. Create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/19.png" num="81">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Darkstar Lurker</name>
+			<text>Deathtouch
+When this creature enters, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/20.png" num="87">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shade Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wrath of Nightbringer</name>
+			<text>Target player loses 2 life.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/21.png" num="118">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Poeion Probe</name>
+			<text>Whenever one or more artifacts you control leave the battlefield, this creature gets +1/+0 and gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/22.png" num="106">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>0/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Poisonous Visions</name>
+			<text>At the beginning of your upkeep, you may sacrifice a creature. If you do, you lose 1 life and draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/23.png" num="108">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Toxic Rigger</name>
+			<text>When this creature dies, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/24.png" num="113">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Underground Predator</name>
+			<text>Sacrifice another creature: This creature gets +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/25.png" num="114">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grisly Discovery</name>
+			<text>Surveil 2. Then reveal the top two cards of your library. You lose life equal to the greatest mana value among cards revealed this way. Put those cards into your hand. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/26.png" num="91">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Part Scrapper</name>
+			<text>When this creature enters, choose one—
+• Create a tapped 2/2 Black Zombie creature token.
+• Create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/27.png" num="100">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nightbringer Splicer</name>
+			<text>This creature gets +1/+1 for each Powerstone permanent you control.
+{3}{B}{B}, Exile two cards from your graveyard: Create a tapped Powerstone token.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/28.png" num="97">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Poeion Immortal</name>
+			<text>When this creature dies, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)
+Whenever one or more artifacts you control leave the battlefield, each opponent loses 1 life.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/29.png" num="104">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alien Abduction</name>
+			<text>Enchant creature you control
+When enchanted creature dies, exile it. You may cast it from exile until the end of your next turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/30.png" num="82">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nightbringer Reaper</name>
+			<text>Menace (This creature can&apos;t be blocked except by two or more creatures.)
+Whenever a card you own is put into exile from anywhere, this creature gets +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/31.png" num="96">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blade Hunter</name>
+			<text>Menace
+Whenever you complete a bounty, you may discard a card. If you do, draw a card. (You complete a bounty when a permanent you don&apos;t control with a bounty counter leaves the battlefield.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/32.png" num="122">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stokeflame Instigator</name>
+			<text>Flying, defender, haste
+This creature can attack as though it didn&apos;t have defender if you&apos;ve sacrificed a permanent this turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/33.png" num="153">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Adrenaline Rush</name>
+			<text>Draw two cards then discard two cards.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/34.png" num="119">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Missile Array</name>
+			<text>Choose target creature. For each Powerstone permanent you control, choose up to one additional target creature. Missile Array deals X damage to each creature chosen this way.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/35.png" num="138">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XRR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Spell Molding</name>
+			<text>Return another instant or sorcery card chosen at random from your graveyard to your hand.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/36.png" num="152">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Torch Drone</name>
+			<text>Whenever one or more artifacts you control leave the battlefield, this creature gets +1/+0 and gains haste until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/37.png" num="155">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bounty Sniper</name>
+			<text>Haste
+Whenever you complete a bounty, Bounty Sniper deals 2 damage to any noncreature target. (You complete a bounty when a permanent you don&apos;t control with a bounty counter leaves the battlefield.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/38.png" num="125">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rajal Hellion</name>
+			<text>Haste
+Sacrifice an artifact: This creature gains trample until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/39.png" num="145">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hellion</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kaxul Gunner</name>
+			<text>{T}: This creature deals 1 damage to target player.
+Whenever you sacrifice an artifact, untap this creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/40.png" num="135">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alzhir Defiler</name>
+			<text>Whenever this creature attacks, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)
+Whenever one or more artifacts you control leave the battlefield, creatures you control get +1/+0 until end of turn.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/41.png" num="120">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Disheveling Hellion</name>
+			<text>When this creature enters, target creature can&apos;t block this turn.
+Whenever this creature attacks, target creature can&apos;t block this turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/42.png" num="129">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Hellion</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plaxium Hunter</name>
+			<text>Whenever another artifact enters the battlefield under your control, this creature gets +1/+0 and gains first strike until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/43.png" num="141">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hangarcrash Tank</name>
+			<text>Menace
+Whenever one or more artifacts you control leave the battlefield, target creature can&apos;t block this turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/44.png" num="134">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oughash Mutationists</name>
+			<text>{T}: Look at the top card of your library. You may reveal it. If a creature card is revealed this way, target creature gains trample until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/45.png" num="179">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Munching Turah</name>
+			<text>Trample
+Sacrifice an artifact: This creature gets +2/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/46.png" num="172">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>A New World</name>
+			<text>Reveal the top two cards of your library. Put all land cards revealed this way onto the battlefield tapped and the rest into your graveyard. If no land cards were revealed this way, return this spell to your hand.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/47.png" num="174">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oughash Defiler</name>
+			<text>You may have this creature assign its combat damage as though it weren&apos;t blocked.
+Sacrifice an artifact: This creature gets +2/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/48.png" num="175">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stubborn Troll</name>
+			<text>Whenever this creature attacks, target creature you control gets +0/+3 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/49.png" num="190">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bridgebreaker Troll</name>
+			<text>When this creature enters, draw a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/50.png" num="161">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Worldly Celebration</name>
+			<text>Untap up to two target lands you control. If you control an artifact, until end of turn, those lands gain &quot;{T}: Add one mana of any color.&quot;</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/51.png" num="196">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crickshaw Rigger</name>
+			<text>Whenever a creature you control is dealt damage, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/52.png" num="164">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plaxium Shards</name>
+			<text>Destroy target artifact or enchantment.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/53.png" num="184">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Plated Guardian</name>
+			<text>Trample
+When this creature enters, put a +1/+1 counter on each artifact creature you control. Nonartifact creatures you control get +1/+1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/54.png" num="180">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2GGG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Primal Prerogative</name>
+			<text>Until end of turn, you may assign combat damage as though creatures you control weren&apos;t blocked.
+Surveil 1 (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/55.png" num="186">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rockscale Troll</name>
+			<text>{1}{G}: Regenerate this creature. (The next time this creature would be destroyed this turn, it isn&apos;t. Instead tap it, remove all damage from it, and remove it from combat.)
+{2}{C}: Put a +1/+1 counter on this creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/56.png" num="187">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Observer Automaton</name>
+			<text>{T}: Target player reveals a card from their hand chosen at random.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/57.png" num="219">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tinkerbot</name>
+			<text>When this creature enters, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/58.png" num="228">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Slaughterbot</name>
+			<text>{2}: This creature gets +1/+1 until end of turn.
+{4}: This creature gains double strike until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/59.png" num="226">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scrapped Parts</name>
+			<text>Charge 2 (This permanent enters with two charge counters.)
+When this artifact enters, draw a card.
+{2}{C}: Until end of turn, this artifact becomes a colorless Construct artifact creature with power and toughness each equal to the number of charge counters on it.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/60.png" num="223">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Soulclamp</name>
+			<text>Equipped creature gets +1/-1.
+Whenever equipped creature dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+Equip {1}</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/61.png" num="227">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Leyline Gadget</name>
+			<text>{T}: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/62.png" num="217">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Powerstone Mine</name>
+			<text>{T}: Add {C}.
+{T}, Sacrifice this land: Create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/63.png" num="239">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Elet Sanctum</name>
+			<text>Metalcraft — This land enters tapped unless you control three or more artifacts.
+{T}: Add {W} or {U}.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/64.png" num="236">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Alzhir Rigger</name>
+			<text>Lifelink
+Whenever you cast a noncreature spell, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/65.png" num="5">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Imu Militant</name>
+			<text>Sacrifice an artifact: Tap this creature. It gains indestructible until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/66.png" num="23">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Girati Banisher</name>
+			<text>Lifelink</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/67.png" num="19">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elet Supervision</name>
+			<text>When this enchantment enters, return up to one target instant or sorcery card from your graveyard to your hand.
+Whenever you cast your second spell each turn, draw a card.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/68.png" num="57">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Elet Voidsphere</name>
+			<text>When this artifact enters or leaves the battlefield, draw two cards.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/69.png" num="58">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Reality Sculptor</name>
+			<text>Charge X (This permanent enters with X charge counters.)
+{T}: Draw a card, then discard a card unless you remove two charge counters from this creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/70.png" num="69">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>X1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Void Tunneler</name>
+			<text>Charge 2 (This permanent enters with two charge counters.)
+{U}, {T}, Remove a charge counter from this creature: Target player mills three. (That player puts the top three cards of their library into their graveyard.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/71.png" num="80">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rewiring Automaton</name>
+			<text>When this creature enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+Artifact spells you cast cost {1} less to cast.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/72.png" num="70">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Darts of Dalthrai</name>
+			<text>Destroy each creature that dealt damage to a creature you control that died this turn.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/73.png" num="88">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Poeion Decree</name>
+			<text>Target opponent loses 1 life for each attacking creature you control. You gain life equal to the amount of life lost this way.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/74.png" num="101">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Horror of Brakta</name>
+			<text>When this creature enters, destroy target creature.
+Whenever a creature you don&apos;t control dies, create a 2/2 black Zombie creature token.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/75.png" num="92">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nightbringer Oblex</name>
+			<text>When this creature dies, return all cards you own in exile encoded on it to your hand.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/76.png" num="95">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shapeshifter Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Predatory Lurker</name>
+			<text>Menace
+When this creature dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/77.png" num="109">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dalthrai Goliath</name>
+			<text>Menace
+When this creature enters, sacrifice a creature.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/78.png" num="85">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Poeion Marauder</name>
+			<text>Flying
+{3}{C}: This creature gets +1/+1 for each Powerstone permanent you control until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/79.png" num="105">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mantleborn Arsonist</name>
+			<text>{1}{R}: This creature gets +1/+0 until end of turn.
+{C}: Target artifact creature gains haste until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/80.png" num="137">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Courrier Rigger</name>
+			<text>Haste
+Whenever this creature attacks, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/81.png" num="127">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hangarcrash Elemental</name>
+			<text>Trample
+Whenever this creature deals combat damage to a player, it deals that much damage to target creature that player controls.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/82.png" num="133">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Volatile Cache</name>
+			<text>When this artifact enters or leaves the battlefield, it deals 1 damage to target creature or planeswalker.
+{2}{R}, Sacrifice an artifact: This artifact deals 1 damage to target creature or planeswalker.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/83.png" num="156">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Alzhir Pyromancer</name>
+			<text>Menace (This creature can&apos;t be blocked except by two or more creatures.)
+Whenever this creature becomes tapped, it deals 1 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/84.png" num="121">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Turret Drone</name>
+			<text>Menace
+Whenever one or more artifacts you control leave the battlefield, target creature you control gets +1/+0 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/85.png" num="206">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1CB/R</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blessings of the Ur</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+2 and has trample
+When enchanted creature dies, create a 2/2 green Beast creature token named Turah.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/86.png" num="160">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Plaxium Processor</name>
+			<text>{T}: Add {C}.
+{T}, Sacrifice any number of artifact tokens: Add {C} for each permanent sacrificed this way.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/87.png" num="183">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Crickshaw Vengeant</name>
+			<text>Whenever this creature blocks or becomes blocked, it gets +1/+1 until end of turn.
+Whenever this creature deals combat damage to a player, untap it.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/88.png" num="165">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Avalanche Troll</name>
+			<text>Flash (You may cast this spell any time you could cast an instant.)
+When this creature enters, this creature and up to one other target creature you control each get +2/+2 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/89.png" num="159">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Turah Domesticator</name>
+			<text>Whenever you discard a creature card, create a 2/2 green Beast creature token named Turah.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/90.png" num="194">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Naturalize</name>
+			<text>Destroy target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/91.png" num="173">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mimic Probe</name>
+			<text>This creature enters with a number of +1/+1 counters equal to the greatest power among creature cards in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/92.png" num="218">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prism Hulk</name>
+			<text>Sacrifice five artifacts: Add {W}{U}{B}{R}{G}. Then proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/93.png" num="220">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3CC</manacost>
+				<cmc>5</cmc>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Interplanetary Leyline</name>
+			<text>When this artifact enters, draw a card.
+Lands you control have &quot;{T}: Add one mana of any color.&quot;</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/94.png" num="216">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3C</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Oughash Forest</name>
+			<text>Metalcraft — This land enters tapped unless you control three or more artifacts.
+{T}: Add {B} or {G}.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/95.png" num="238">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Imu&apos;Braan, Supreme Tactician</name>
+			<text>Lifelink
+Imu&apos;Braan and other Soldier creatures you control can block an additional creature each combat.
+{6}{W}{W}: Creatures you control get +1/+1 for each attacking or blocking creature you control.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/96.png" num="24">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stratus Cannon</name>
+			<text>Vigilance
+Sacrifice three artifacts: Exile target attacking creature.
+Cycling {1}{W} ({1}{W}, Discard this card: Draw a card.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/97.png" num="38">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scrapper Savant</name>
+			<text>Whenever a creature with power 2 or less enters the battlefield under your control, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/98.png" num="35">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skyway Patrol</name>
+			<text>Whenever this creature becomes tapped, target creature you control gains flying until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/99.png" num="36">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rigger&apos;s Guile</name>
+			<text>Create X tapped Powerstone tokens, where X is the number of Powerstone permanents you control. (The tokens are artifacts with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/100.png" num="2">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4C</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Elet Mastermind</name>
+			<text>When this creature enters, gain control of target artifact or creature for as long as you control this creature.
+Sacrifice an artifact: Exile this creature, then return it to the battlefield at the beginning of the next end step.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/EX6-files/img/101.png" num="52">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dahlmus, Elet Supreme</name>
+			<text>Flash
+Whenever one or more cards you own are exiled from anywhere, draw a card.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/102.png" num="46">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Antigrav Rogue</name>
+			<text>Whenever an artifact enters the battlefield under your control, this creature can&apos;t be blocked this turn.
+Sacrifice an artifact: This creature gains hexproof until end of turn.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/103.png" num="43">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elet Possession</name>
+			<text>Enchant creature
+You control enchanted creature.
+When enchanted creature dies, draw a number of cards equal to its mana value.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/104.png" num="53">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Memory Augmentation</name>
+			<text>Create a token that is a copy of target creature you control.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/105.png" num="67">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unnerving Lurker</name>
+			<text>Flying
+Sacrifice three artifacts: Return this creature card from your graveyard to the battlefield tapped.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/106.png" num="116">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blind Lurker</name>
+			<text>Flying
+When this creature dies, its owner may may put it on top of their library.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/107.png" num="83">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Terrifying Truth</name>
+			<text>As an additional cost to cast this spell, discard your hand. (At least one card must be discarded to cast Terrifying Truth.)
+Target player discards their hand.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/108.png" num="112">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scuttling Sniper</name>
+			<text>Whenever you lose life, untap this creature.
+{T}: Target player loses 1 life.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/109.png" num="111">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Poeion Dementer</name>
+			<text>Lifelink
+Other Horror creatures you control have lifelink.
+Whenever one or more Horror creatures you control deal combat damage to a player, you may pay 1 life. If you do, draw a card.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/110.png" num="102">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lurker Goliath</name>
+			<text>Menace
+When this creature enters, return all creature cards from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/111.png" num="93">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror Giant</type>
+				<maintype>Creature</maintype>
+				<manacost>3BBB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rasha, Crime Boss</name>
+			<text>When Rasha enters, you may have them deal X damage to target creature or planeswalker, where X is the number of nonbasic lands controlled by that permanent&apos;s controller. If you do, Rasha deals damage to you equal to the number of nonbasic lands you control.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/112.png" num="147">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Goblin Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rajal Bounty Hunter</name>
+			<text>Haste
+Whenever you complete a bounty, put a bounty counter on up to one target creature an opponent controls. (You complete a bounty when a permanent you don&apos;t control with a bounty counter leaves the battlefield.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/113.png" num="142">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Turah Bonebreaker</name>
+			<text>Whenever a creature you control with power 5 or greater deals combat damage to a player, draw that many cards.
+{2}{G}: Put target creature you control on the bottom of your library.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/114.png" num="192">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Command Center</name>
+			<text>Whenever you cast a spell, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/115.png" num="210">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Elet Battlepod</name>
+			<text>Whenever this Vehicle attacks, tap target creature defending player controls. That creature doesn&apos;t untap during its controller&apos;s next untap step.
+Crew 3</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/116.png" num="50">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Crucible Arena</name>
+			<text>{T}: Add {C}.
+{2}, {T}: Add three mana of any one color. This land doesn&apos;t untap during your next untap step.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/117.png" num="234">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Blade of Girati</name>
+			<text>Metalcraft — This creature has first strike as long as you control three or more artifacts.
+At the beginning of your upkeep, if you control five or more Powerstone permanents, put a +1/+1 counter on this creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/118.png" num="209">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2C</manacost>
+				<cmc>3</cmc>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Signal Relayer</name>
+			<text>{T}: Add {C}. Each player mills one. (That player puts the top card of their library into their graveyard.)
+{4}{C}{C}, {T}, Sacrifice this creature: You may put an artifact creature card from your hand onto the battlefield tapped.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/119.png" num="224">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crucible Sentinel</name>
+			<text>Sacrifice an artifact: This creature gains trample until end of turn.
+Sacrifice an artifact: This creature gains menace until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/120.png" num="211">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>7</manacost>
+				<cmc>7</cmc>
+				<pt>7/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Braeil Citadel</name>
+			<text>Metalcraft — This land enters tapped unless you control three or more artifacts.
+{T}: Add {R} or {W}.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/121.png" num="233">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rajal Wastes</name>
+			<text>Metalcraft — This land enters tapped unless you control three or more artifacts.
+{T}: Add {R} or {G}.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/122.png" num="240">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Nightbringer Caves</name>
+			<text>Metalcraft — This land enters tapped unless you control three or more artifacts.
+{T}: Add {U} or {B}.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/123.png" num="237">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Barrier Magus</name>
+			<text>Whenever a card you own is exiled from anywhere, creatures you don&apos;t control get -1/-0 until end of turn.
+{T}: Look at the top card of your library. You may exile that card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/124.png" num="44">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elet Spectre</name>
+			<text>When you cast this spell, if it isn&apos;t the first spell you&apos;ve cast this turn, draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/125.png" num="56">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cybernetic Ghostbuster</name>
+			<text>Whenever this creature deals combat damage to a player, choose one—
+• Create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)
+• Draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/126.png" num="45">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghost in the Machine</name>
+			<text>Flying
+This creature can&apos;t attack unless a card is encoded on it.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/127.png" num="63">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dread</name>
+			<text>All creatures get -4/-4 until end of turn. Proliferate twice. (To proliferate, choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/EX6-files/img/128.png" num="89">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Alzhir Activist</name>
+			<text>Other artifact creatures you control have hexproof.
+{4}{C}{C}: Create a 1/1 colorless Cyborg artifact creature token. Then put a +1/+1 on each artifact creature you control.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/129.png" num="158">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ruthless Bombardment</name>
+			<text>Create X tapped Powerstone tokens. Ruthless Bombardment deals damage equal to the number of Powerstone permanents you control to each opponent and each creature they control. (The tokens are artifacts with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/EX6-files/img/130.png" num="148">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XRRR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Braeil Goliath</name>
+			<text>Lifelink
+When you cast this spell, create two tapped Powerstone tokens. (The tokens are artifacts with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)
+This creature gets +1/+1 for each Powerstone you control.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/EX6-files/img/131.png" num="11">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Technologic Dynasty</name>
+			<text>Create three tapped Powerstone tokens. (The tokens are artifacts with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)
+Draw three cards.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/132.png" num="77">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Moonwalk Lurker</name>
+			<text>This creature and other Horror creatures you control enter tapped.
+You may cast non-Horror creature spells from your graveyard. They enter as black Horror creatures in addition to their other colors and types.
+Whenever a Horror creature you control dies, exile it.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/EX6-files/img/133.png" num="94">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blastrigger</name>
+			<text>Whenever an opponent is dealt noncombat damage, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/134.png" num="123">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Firecore Oddity</name>
+			<text>{1}{R}: This creature gets +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/135.png" num="131">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Poeion Scuttler</name>
+			<text>Whenever this creature attacks defending player loses 2 life.
+Sacrifice two artifacts: Target player loses 2 life. You gain 2 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/136.png" num="107">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>0/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sandsifter</name>
+			<text>{T}, Sacrifice an artifact: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+{T}: Return target artifact you control to its owner&apos;s hand.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/137.png" num="222">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shield Fortifier</name>
+			<text>Whenever you cast an instant or sorcery spell, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/138.png" num="72">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plaxium Elemental</name>
+			<text>When Plaxium Elemental enters the battlefield, target creature gets +2/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/139.png" num="182">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rescue Mission</name>
+			<text>Return target creature card with mana value 2 or less from your graveyard to the battlefield.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/140.png" num="32">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wartorn Front</name>
+			<text>Enchant land
+Enchanted land has &quot;{T}: Create a 1/1 colorless Cyborg artifact creature token.&quot;</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/141.png" num="39">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Underworld Gearpunk</name>
+			<text>Charge 1 (This permanent enters with a charge counter.)
+Remove a charge counter from an artifact you control: This creature gets +1/+0 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/142.png" num="115">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alzhir Cyberknight</name>
+			<text>Vigilance
+Other artifact creatures you control get +1/+1 and have vigilance.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/143.png" num="3">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Horizon Lens</name>
+			<text>{1}, {T}: Add one mana of any color.
+{3}, {T}: Add {C}{C}{C}.
+{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/144.png" num="215">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Powerstone</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wasteland Crafter</name>
+			<text>{5}{C}, {T}: Create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/145.png" num="40">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cybersphere</name>
+			<text>{1}, {T}: Tap target creature with power less than or equal to the number of artifacts you control.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/146.png" num="15">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Twist Space</name>
+			<text>Choose one —
+• You may reselect which battle, planeswalker, or player target attacking creature is attacking.
+• Remove target attacking creature from combat. Draw a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/147.png" num="79">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Disappearance</name>
+			<text>Exile target creature. Put X plus one time counters on that card. At the beginning of the upkeep of that card&apos;s owner, that player removes a time counter from that card. When the last is removed, return that card to the battlefield tapped under its owner&apos;s control.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/148.png" num="47">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XX1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Spaceport Cruiser</name>
+			<text>Flying, lifelink
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/149.png" num="37">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Manaflesh Troll</name>
+			<text>{C}: This creature gains trample until end of turn.
+Sacrifice three artifacts: This creature deals damage equal to its power to target creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/150.png" num="171">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nightbringer Visitor</name>
+			<text>Menace (This creature can&apos;t be blocked except by two or more creatures.)
+{2}{C}: Target player loses 1 life. You gain 1 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/151.png" num="98">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Void Jump</name>
+			<text>Exile target creature, then return it to the battlefield under its owner&apos;s control.
+Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/152.png" num="208">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>CW/U</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dark Discovery</name>
+			<text>You mill a card. Then return to your hand a card in your graveyard that was put there from anywhere this turn. (Put the top a cards of your library into your graveyard.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/153.png" num="202">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>CU/B</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Space Oddity</name>
+			<text>Flash
+Flying
+When this creature enters, gain control of target creature until end of turn. Untap it and remove it from combat.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/154.png" num="74">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bone Crunch</name>
+			<text>Target creature you control deals damage equal to its power to target creature or player</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/155.png" num="200">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1CR/G</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cyber Reflex</name>
+			<text>Cyber Reflex deals 2 damage to target attacking creature. If you control an artifact, Cyber Reflex deals 5 damage to that creature instead.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/156.png" num="201">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>CR/W</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sojourn to Vaxx</name>
+			<text>Draw two cards, then discard a card.
+Put a bounty counter on up to one target creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/157.png" num="150">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Prophet of Girati</name>
+			<text>Whenever you cast a colorless spell, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/158.png" num="221">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>2C</manacost>
+				<cmc>3</cmc>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Otherworld Instincts</name>
+			<text>Target creature gets +3/+3 until end of turn. Another target creature blocks this turn if able. Destroy those creatures at the beginning of the next end step.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/159.png" num="203">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2CB/G</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Clockwork Madness</name>
+			<text>Discard your hand. Then draw three cards. Clockwork Madness deals damage equal to the total mana value of cards discarded this way divided as you choose among any number of target creatures and/or planeswalkers.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/160.png" num="126">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Plaxium Blood</name>
+			<text>Create a 1/1 colorless Cyborg artifact creature token.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/161.png" num="29">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wastes ERE;</name>
+			<text>{T}: Add {C}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/162.png" num="242">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Wastes2 ERE;</name>
+			<text>{T}: Add {C}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/163.png" num="243">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Plains ERE;</name>
+			<text>{T}: Add {W}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/164.png" num="244">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Plains2 ERE;</name>
+			<text>{T}: Add {W}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/165.png" num="245">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Plains3 ERE;</name>
+			<text>{T}: Add {W}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/166.png" num="246">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Plains4 ERE;</name>
+			<text>{T}: Add {W}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/167.png" num="247">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island3 ERE;</name>
+			<text>{T}: Add {U}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/168.png" num="250">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island ERE;</name>
+			<text>{T}: Add {U}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/169.png" num="248">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island4 ERE;</name>
+			<text>{T}: Add {U}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/170.png" num="251">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island2 ERE;</name>
+			<text>{T}: Add {U}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/171.png" num="249">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp2 ERE;</name>
+			<text>{T}: Add {B}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/172.png" num="253">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp ERE;</name>
+			<text>{T}: Add {B}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/173.png" num="252">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp3 ERE;</name>
+			<text>{T}: Add {B}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/174.png" num="254">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp4 ERE;</name>
+			<text>{T}: Add {B}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/175.png" num="255">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain ERE;</name>
+			<text>{T}: Add {R}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/176.png" num="256">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain2 ERE;</name>
+			<text>{T}: Add {R}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/177.png" num="257">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain3 ERE;</name>
+			<text>{T}: Add {R}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/178.png" num="258">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain4 ERE;</name>
+			<text>{T}: Add {R}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/179.png" num="259">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest ERE;</name>
+			<text>{T}: Add {G}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/180.png" num="260">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest2 ERE;</name>
+			<text>{T}: Add {G}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/181.png" num="261">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest3 ERE;</name>
+			<text>{T}: Add {G}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/182.png" num="262">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest4 ERE;</name>
+			<text>{T}: Add {G}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/183.png" num="263">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Shrapnel Spew</name>
+			<text>Shrapnel Spew deals 2 damage divided among up to two targets.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/184.png" num="149">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Darksteel Citadel</name>
+			<text>Indestructible (Effects that say &quot;destroy&quot; don&apos;t destroy this land.)
+{T}: Add {C}.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/185.png" num="235">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Ezzerdrex, The last Miitu</name>
+			<text>Whenever a spell you control becomes encoded on a creature you control, untap that creature.
+Creatures you control have &quot;{T}: For each spell encoded on this creature, you may cast a copy of that spell without paying its mana costs.&quot;</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/EX6-files/img/186.png" num="198">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Insect Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1UBR</manacost>
+				<cmc>4</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cleave</name>
+			<text>Target creature you control fights target creature you don&apos;t control. Then the creature you control fights up to one other target creature you don&apos;t control.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/187.png" num="162">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wasteland Trinket</name>
+			<text>{T}: Add {C}.
+Sacrifice this artifact: Search your library for a land card. Put that card into your hand, then shuffle your library.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/188.png" num="231">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Relentless Marine</name>
+			<text>This creature enters tapped unless you control a Horror.
+This creature has deathtouch as long as you control one or more Powerstone tokens.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/189.png" num="110">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sudden Propulsion</name>
+			<text>Target creature you control gains haste until end of turn. You may have that creature assign its combat damage as though it weren&apos;t blocked this turn.
+Draw a card.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/190.png" num="154">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Plaxium Boilweird</name>
+			<text>Flying
+Whenever you cast a spell from anywhere except your hand, you may pay {2}{R}. If you do, copy that spell. You may choose new targets for the copy.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/EX6-files/img/191.png" num="140">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Elemental Weird</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Evolved State</name>
+			<text>Enchant creature
+Whenever a creature you control enters, if its power is greater than enchanted creature&apos;s power, put a number of +1/+1 counters on enchanted creature equal to the difference between those powers.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/192.png" num="166">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Derive from Steel</name>
+			<text>Create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)
+Draw X plus one cards then discard X cards, where X is equal to the number of Powerstone permanents you control.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/193.png" num="128">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Easy Contract</name>
+			<text>Easy Contract deals 4 damage divided among any number of targets. Easy Contract deals twice as much damage to creatures with a bounty counter.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/194.png" num="130">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Turah Shredder</name>
+			<text>You may have this creature assign its combat damage as though it weren&apos;t blocked.
+{2}{C}: Put a +1/+1 counter on this creature.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/195.png" num="205">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>3CR/G</manacost>
+				<cmc>5</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Undying Troll</name>
+			<text>When this creature dies, search your library for a basic land named Wastes. Put that card onto the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/196.png" num="207">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>CB/G</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Poeion Magus</name>
+			<text>Hexproof
+This creature can&apos;t be blocked by artifact creatures.
+Whenever this creature deals combat damage to a player, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/197.png" num="204">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1CU/B</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lumahind Turah</name>
+			<text>When this creature enters, you may pay {1}{G} or sacrifice an artifact. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/198.png" num="170">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Catastrophic Terraforming</name>
+			<text>Exile all nonland permanents.
+At the beginning of your upkeep, if this card is in your graveyard, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/199.png" num="14">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4WWW</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crickshaw Knight</name>
+			<text>Trample
+This creature gets +2/+2 as long as you control an artifact.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/200.png" num="163">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Exodus Ship</name>
+			<text>Flying
+This Vehicle&apos;s power and toughness are each equal to the total powers of creature that have crewed it this turn.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/201.png" num="90">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Alzhir Starfighter</name>
+			<text>Flying, vigilance
+Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/202.png" num="6">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Alzhir Vengeant</name>
+			<text>This spell costs {1} less to cast for each Powerstone you control.
+First strike</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/203.png" num="7">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Battlefield Weaponsmith</name>
+			<text>Whenever this creature and at least two other creatures you control attack, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/204.png" num="8">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bound by the Suns</name>
+			<text>Flash (You may cast this spell any time you could cast an instant.)
+Enchant nonland permanent
+Enchanted permanent can&apos;t attack or block and its activated abilities can&apos;t be activated and its triggered abilities can&apos;t be triggered.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/205.png" num="9">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Braeil Cruiser</name>
+			<text>Flying
+Whenever this Vehicle attacks a battle or planeswalker, draw a card.
+Crew 1</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/206.png" num="10">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Runaway Cyber</name>
+			<text>This spell costs {1} less to cast for each Powerstone you control.
+Lifelink</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/207.png" num="34">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Empire&apos;s Resolve</name>
+			<text>Put a +1/+1 counter on each creature you control.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/208.png" num="16">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>5WW</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Engine Builder</name>
+			<text>Whenever another creature enters the battlefield under your control, you may pay {1}. If you do, create a tapped Powerstone token.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/209.png" num="17">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Geargraft Cyber</name>
+			<text>Whenever one or more artifacts you control leave the battlefield, put a +1/+1 counter on this creature. You gain 1 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/210.png" num="18">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Impossibility Seeker</name>
+			<text>Whenever this creature becomes tapped, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/211.png" num="22">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lockdown</name>
+			<text>Enchant artifact or creature
+Enchanted permanent can&apos;t attack or block and its activated abilities can&apos;t be activated.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/212.png" num="25">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>New Recruits</name>
+			<text>Choose one—
+• Create three tapped Powerstone tokens. (The tokens are artifacts with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)
+• Create three colorless 1/1 Cyborg artifact creature tokens.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/213.png" num="27">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Null Sphere</name>
+			<text>When this artifact enters or is put into your graveyard from the battlefield, target creature can&apos;t attack or block until the beginning of your next turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/214.png" num="28">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wasteland Scourer</name>
+			<text>Vigilance
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/215.png" num="41">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Dreadspeaker</name>
+			<text>When this creature enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/216.png" num="49">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Spirit Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elet Dart</name>
+			<text>Flying
+Whenever this Vehicle attacks, if you own three or more cards in exile, untap this Vehicle.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/217.png" num="51">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Homeworld Harvester</name>
+			<text>When this creature enters, target creature can&apos;t be blocked this turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/218.png" num="64">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elet Scoutship</name>
+			<text>Flying
+Whenever this Vehicle attacks, you may draw a card. If you do, discard a card.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/219.png" num="54">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Infested Cyber</name>
+			<text>Whenever one or more cards you own are exiled from anywhere, you may switch this creature&apos;s power and toughness until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/220.png" num="65">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Spirit Cyborg</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Miitu Avenger</name>
+			<text>Whenever a card you own becomes encoded on this creature, this creature can&apos;t be blocked this turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/221.png" num="68">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sight Beyond Sight</name>
+			<text>Draw a card
+Then look at the top card of each player&apos;s library.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/222.png" num="73">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Submerge</name>
+			<text>Tap target creature. That creature doesn&apos;t untap during its controller&apos;s next untap step.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/223.png" num="75">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Brakta&apos;s Wrath</name>
+			<text>Choose one or more—
+• Artifact creatures you control gain indestructible until end of turn.
+• Destroy all creatures.
+• Each player returns all colorless permanent cards from their graveyard to their hand.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/224.png" num="84">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dalthrai Scourge</name>
+			<text>Menace
+Whenever this creature attacks, you may sacrifice a creature or artifact. If you do, target creature gets -4/-4 until end of turn.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/225.png" num="86">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oughash Vermin</name>
+			<text>Whenever this creature becomes the target of a spell or ability, each opponent loses 1 life.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/226.png" num="99">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Rat</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bounty Pilot</name>
+			<text>Haste
+Whenever this creature crews a vehicle, put a bounty counter on up to one target creature an opponent controls.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/227.png" num="124">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Pilot Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Firelance Cyborg</name>
+			<text>Charge 2 (This permanent enters with two charge counters.)
+Sacrifice this creature: This creature deals damage equal to the number of charge counters on it to target creature or planeswalker</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/228.png" num="132">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Cyborg Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Moltenwing Scrapper</name>
+			<text>Whenever one or more artifacts you control leave the battlefield, this creature gets +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/229.png" num="139">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rajal Fireblade</name>
+			<text>When this creature enters, target player sacrifices two artifacts.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/230.png" num="143">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rajal Freighter</name>
+			<text>Flying, haste
+When this Vehicle enters, it becomes an artifact creature until end of turn.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/231.png" num="144">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Rajal War Machine</name>
+			<text>Haste
+Whenever a Powerstone enters the battlefield under your control, create a 1/1 colorless Cyborg artifact creature token. That token gains haste until end of turn.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/232.png" num="146">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spacewalk Hellkite</name>
+			<text>Flying
+{1}{R}: This creature gets +1/+0 until end of turn.
+Sacrifice an artifact: This creature deals damage equal to its power to target creature.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/233.png" num="151">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kaxul Mine Boss</name>
+			<text>Whenever this creature or another Rigger you control enters, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/234.png" num="136">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Workshop Crusher</name>
+			<text>Menace (This creature can&apos;t be blocked except by two or more creatures.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/235.png" num="157">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>5RR</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hull Droid</name>
+			<text>Whenever one or more artifacts you control leave the battlefield, put a +1/+1 counter on target creature you control.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/236.png" num="167">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Krogjai Spawn</name>
+			<text>Trample
+When this creature dies, create two 1/1 green Saproling creature tokens.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/237.png" num="168">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Krogjai Strangeling</name>
+			<text>When this creature enters, distribute X +1/+1 counters among any number of creatures you control.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/238.png" num="169">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll</type>
+				<maintype>Creature</maintype>
+				<manacost>XX2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oughash Envoy</name>
+			<text>Flying
+Whenever this Vehicle attacks, untap, target creature.
+Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/239.png" num="176">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Oughash Grub</name>
+			<text>{T}, Sacrifice this creature: Target creature gets +2/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/240.png" num="177">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oughash Hiveship</name>
+			<text>Flying
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/241.png" num="178">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Plaxic Pulse</name>
+			<text>Choose one or both —
+• Destroy target artifact.
+• Untap each creature you control.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/242.png" num="181">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Plaxium Wormhole</name>
+			<text>Search your library for a creature card. Put that card onto the battlefield, then shuffle your library.
+Encode (Then if you cast this spell from your hand, exile it encoded on a creature you control. The next time that creature deals combat damage to noncreature permanent or player, you may cast this spell from exile without paying its mana cost.)</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/EX6-files/img/243.png" num="185">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sentient Turah</name>
+			<text>Trample
+Whenever this creature deals combat damage to a player, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/244.png" num="188">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spinewretch</name>
+			<text>Trample
+At the beginning of your end step, sacrifice this creature unless you control another creature.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/245.png" num="189">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Titan of Ur</name>
+			<text>Trample
+Sacrifice an artifact: This creature gets +2/+2 until end of turn.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/246.png" num="191">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>4GGG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Turah Carnivore</name>
+			<text>Trample
+Whenever one or more artifacts you control leave the battlefield, put two +1/+1 counters on this creature.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/247.png" num="193">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Turah Krogjai</name>
+			<text>Whenever one or more +1/+1 counters are placed on another creature you control, put that many +1/+1 counters on Turah Krogjai.
+{T}: Target creature gets +X/+X until end of turn, where X is Turah Krogjai&apos;s power.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/EX6-files/img/248.png" num="195">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Exosuit</name>
+			<text>Whenever this Vehicle attacks, create a 1/1 colorless Cyborg artifact creature token.
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/249.png" num="212">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>6</manacost>
+				<cmc>6</cmc>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Farworld Fighter</name>
+			<text>Flying
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/250.png" num="213">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hangar Colossus</name>
+			<text>This spell costs {1} less for each artifact token you control.
+Indestructible</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/251.png" num="214">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>9CC</manacost>
+				<cmc>11</cmc>
+				<pt>10/10</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Silencer&apos;s Helm</name>
+			<text>Equipped creature gets +2/+2 and has menace and protection from red and white. (This permanent can&apos;t be targeted, dealt damage, enchanted, or equipped by anything red and white.)
+Whenever equipped creature deals combat damage to a player, that player sacrifices a permanent.
+Equip {3}</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/EX6-files/img/252.png" num="225">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Voltaic Brute</name>
+			<text>At the beginning of your upkeep, you may return this creature to its owner&apos;s hand. If you do, create a 1/1 colorless Cyborg artifact creature token.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/253.png" num="229">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vrod, Cyber Pariah</name>
+			<text>When Vrod enters, create a tapped Powerstone token. (It&apos;s an artifact with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)
+Whenever one or more artifacts you control leave the battlefield, artifact creatures you control get +1/+1 and gain vigilance until end of turn.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/EX6-files/img/254.png" num="230">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Cyborg Rigger</type>
+				<maintype>Creature</maintype>
+				<manacost>4C</manacost>
+				<cmc>5</cmc>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alien Caves</name>
+			<text>{T}: Add {C}.
+{1}, {T}: Add one mana of any color.
+{3}, {T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/255.png" num="232">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rigger&apos;s Craft</name>
+			<text>Create two tapped Powerstone tokens. (The tokens are artifacts with &quot;{T}: Add {C}. This mana can&apos;t be spent to cast a nonartifact spell.&quot;)</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/256.png" num="1">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1C</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Spaceport</name>
+			<text>{T}: Add {C}.
+{2}, {T}, Sacrifice an artifact token: Target creature you control gains flying until end of turn.</text>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/EX6-files/img/257.png" num="241">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Poeion Destroyer</name>
+			<text>Flying
+Whenever this Vehicle attacks, each player sacrifices a creature.
+Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/258.png" num="103">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tezzeret, the Inventor</name>
+			<text>[+1]: Create a Powerstone token.
+[-2]: Target artifact you control becomes a 5/5 colorless Cyborg artifact creature.
+[-8]: Draw a card for each artifact you control.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/EX6-files/img/259.png" num="78">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Tezzeret</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sorin, Corrupted</name>
+			<text>[+1]: Sorin deals 3 damage to target creature unless its controller pays 3 life.
+[0]: Reveal the top card of your library. Any opponent may pay life equal to that card&apos;s mana value. If no player does, put that card into your hand. Otherwise, put it into your graveyard.
+[-7]: You get an emblem with &quot;Whenever a creature you don&apos;t control dies, create a 3/2 black red Vampire creature token with haste.&quot;</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/EX6-files/img/260.png" num="199">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Sorin</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>3BR</manacost>
+				<cmc>5</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Arlinn, Trespasser</name>
+			<text>[+1]: Put a +1/+1 counter on up to one target creature.
+[0]: Creatures you control get +1/+1 and gain trample until end of turn.
+[-8]: You get an emblem with &quot;At the beginning of each upkeep, if no spells were cast last turn, this emblem deals 4 damage to any target.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/EX6-files/img/261.png" num="197">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Arlinn</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nahiri, the Lost</name>
+			<text>[+2]: Target permanent gains indestructible until your next turn.
+[0]: Creatures can&apos;t attack planeswalkers you control until your next turn.
+[-3]: Creatures can&apos;t attack until your next turn.
+[-11]: Target opponent gets an emblem with &quot;No more than one creature you control can attack each combat.&quot;</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/EX6-files/img/262.png" num="26">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Nahiri</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Erex Six Draft Archetypes EX6</name>
+			<text>{W}{U} POWERSTONE CONTROL 
+{B}{U} SNEAKY ENCODE 
+{B}{R} BOUNTY HUNTERS 
+{R}{G} BEAST STOMPY 
+{G}{W} POWERSTONE RAMP 
+{W}{B} MEEK WEENIES 
+{U}{R} ENCODE TEMPO 
+{G}{B} ARTIFACT SACRIFICE 
+{R}{W} CYBORG AGGRO 
+{U}{G} BIG MANA 
+These might be archetypes for the set as it exists. Need to completely redevelop.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/263.png" num="2">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Erex Draft Archetypes EX6</name>
+			<text>{W}{U} 
+{B}{U} SNEAKY ENCODE 
+{B}{R} BOUNTY HUNTERS 
+{R}{G} 
+{G}{W} 
+{W}{B} 
+{U}{R} ENCODE TEMPO 
+{G}{B} 
+{R}{W} CYBORG AGGRO 
+{U}{G} 
+This is the ideal list of archetypes after the rebuild.</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/EX6-files/img/264.png" num="1">EX6</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

@@ -1,0 +1,3507 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Glory's Return",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/0.png"
+			}
+		},
+		{
+			"name": "Braeil Protector",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/1.png"
+			}
+		},
+		{
+			"name": "Repel Munitions",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/2.png"
+			}
+		},
+		{
+			"name": "Rigger Prodigy",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Rigger",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/3.png"
+			}
+		},
+		{
+			"name": "Prodigal Sniper",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/4.png"
+			}
+		},
+		{
+			"name": "Brave the Night",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Instant",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/5.png"
+			}
+		},
+		{
+			"name": "Alzhir Merchant",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Artifact Creature — Cyborg Rigger",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/6.png"
+			}
+		},
+		{
+			"name": "Headshot",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Instant",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/7.png"
+			}
+		},
+		{
+			"name": "Ancestral Inventor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Rogue Rigger",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/8.png"
+			}
+		},
+		{
+			"name": "Factory Analyst",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Rigger",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/9.png"
+			}
+		},
+		{
+			"name": "Fluxfire Initiate",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/10.png"
+			}
+		},
+		{
+			"name": "Encounter the Infinite",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/11.png"
+			}
+		},
+		{
+			"name": "Fortune's Hand",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/12.png"
+			}
+		},
+		{
+			"name": "Sudden Warp",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/13.png"
+			}
+		},
+		{
+			"name": "Divertive Strides",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/14.png"
+			}
+		},
+		{
+			"name": "Rigger's Resolve",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/15.png"
+			}
+		},
+		{
+			"name": "Machine's Resonance",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/16.png"
+			}
+		},
+		{
+			"name": "Elet Soulstealer",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Spirit Rigger",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/17.png"
+			}
+		},
+		{
+			"name": "Viscous Unmaking",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Instant",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/18.png"
+			}
+		},
+		{
+			"name": "Airlock",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Artifact",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/19.png"
+			}
+		},
+		{
+			"name": "Darkstar Lurker",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Shade Rigger",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/20.png"
+			}
+		},
+		{
+			"name": "Wrath of Nightbringer",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/21.png"
+			}
+		},
+		{
+			"name": "Poeion Probe",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/22.png"
+			}
+		},
+		{
+			"name": "Poisonous Visions",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/23.png"
+			}
+		},
+		{
+			"name": "Toxic Rigger",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Rigger",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/24.png"
+			}
+		},
+		{
+			"name": "Underground Predator",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Lizard",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/25.png"
+			}
+		},
+		{
+			"name": "Grisly Discovery",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/26.png"
+			}
+		},
+		{
+			"name": "Part Scrapper",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Rigger",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/27.png"
+			}
+		},
+		{
+			"name": "Nightbringer Splicer",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Zombie Rigger",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/28.png"
+			}
+		},
+		{
+			"name": "Poeion Immortal",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Artifact Creature — Cyborg Rigger",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/29.png"
+			}
+		},
+		{
+			"name": "Alien Abduction",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/30.png"
+			}
+		},
+		{
+			"name": "Nightbringer Reaper",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/31.png"
+			}
+		},
+		{
+			"name": "Blade Hunter",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Warrior Mercenary",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/32.png"
+			}
+		},
+		{
+			"name": "Stokeflame Instigator",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/33.png"
+			}
+		},
+		{
+			"name": "Adrenaline Rush",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/34.png"
+			}
+		},
+		{
+			"name": "Missile Array",
+			"rarity": "common",
+			"mana_cost": "{X}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/35.png"
+			}
+		},
+		{
+			"name": "Spell Molding",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Instant",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/36.png"
+			}
+		},
+		{
+			"name": "Torch Drone",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/37.png"
+			}
+		},
+		{
+			"name": "Bounty Sniper",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Soldier Mercenary",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/38.png"
+			}
+		},
+		{
+			"name": "Rajal Hellion",
+			"rarity": "common",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Hellion",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/39.png"
+			}
+		},
+		{
+			"name": "Kaxul Gunner",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Goblin Soldier",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/40.png"
+			}
+		},
+		{
+			"name": "Alzhir Defiler",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Cyborg Rigger",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/41.png"
+			}
+		},
+		{
+			"name": "Disheveling Hellion",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Hellion",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/42.png"
+			}
+		},
+		{
+			"name": "Plaxium Hunter",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Cyborg Mercenary",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/43.png"
+			}
+		},
+		{
+			"name": "Hangarcrash Tank",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/44.png"
+			}
+		},
+		{
+			"name": "Oughash Mutationists",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Troll Wizard",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/45.png"
+			}
+		},
+		{
+			"name": "Munching Turah",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/46.png"
+			}
+		},
+		{
+			"name": "A New World",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/47.png"
+			}
+		},
+		{
+			"name": "Oughash Defiler",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Troll Warrior",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/48.png"
+			}
+		},
+		{
+			"name": "Stubborn Troll",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Troll",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/49.png"
+			}
+		},
+		{
+			"name": "Bridgebreaker Troll",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Troll Warrior",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/50.png"
+			}
+		},
+		{
+			"name": "Worldly Celebration",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/51.png"
+			}
+		},
+		{
+			"name": "Crickshaw Rigger",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Troll Rigger",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/52.png"
+			}
+		},
+		{
+			"name": "Plaxium Shards",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Instant",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/53.png"
+			}
+		},
+		{
+			"name": "Plated Guardian",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}{G}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/54.png"
+			}
+		},
+		{
+			"name": "Primal Prerogative",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Sorcery",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/55.png"
+			}
+		},
+		{
+			"name": "Rockscale Troll",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Troll",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/56.png"
+			}
+		},
+		{
+			"name": "Observer Automaton",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/57.png"
+			}
+		},
+		{
+			"name": "Tinkerbot",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct Rigger",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/58.png"
+			}
+		},
+		{
+			"name": "Slaughterbot",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/59.png"
+			}
+		},
+		{
+			"name": "Scrapped Parts",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/60.png"
+			}
+		},
+		{
+			"name": "Soulclamp",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/61.png"
+			}
+		},
+		{
+			"name": "Leyline Gadget",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/62.png"
+			}
+		},
+		{
+			"name": "Powerstone Mine",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/63.png"
+			}
+		},
+		{
+			"name": "Elet Sanctum",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/64.png"
+			}
+		},
+		{
+			"name": "Alzhir Rigger",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Cyborg Rigger",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/65.png"
+			}
+		},
+		{
+			"name": "Imu Militant",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/66.png"
+			}
+		},
+		{
+			"name": "Girati Banisher",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/67.png"
+			}
+		},
+		{
+			"name": "Elet Supervision",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/68.png"
+			}
+		},
+		{
+			"name": "Elet Voidsphere",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Artifact",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/69.png"
+			}
+		},
+		{
+			"name": "Reality Sculptor",
+			"rarity": "common",
+			"mana_cost": "{X}{1}{U}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/70.png"
+			}
+		},
+		{
+			"name": "Void Tunneler",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/71.png"
+			}
+		},
+		{
+			"name": "Rewiring Automaton",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/72.png"
+			}
+		},
+		{
+			"name": "Darts of Dalthrai",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/73.png"
+			}
+		},
+		{
+			"name": "Poeion Decree",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Instant",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/74.png"
+			}
+		},
+		{
+			"name": "Horror of Brakta",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/75.png"
+			}
+		},
+		{
+			"name": "Nightbringer Oblex",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Shapeshifter Horror",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/76.png"
+			}
+		},
+		{
+			"name": "Predatory Lurker",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/77.png"
+			}
+		},
+		{
+			"name": "Dalthrai Goliath",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Zombie",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/78.png"
+			}
+		},
+		{
+			"name": "Poeion Marauder",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/79.png"
+			}
+		},
+		{
+			"name": "Mantleborn Arsonist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/80.png"
+			}
+		},
+		{
+			"name": "Courrier Rigger",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Goblin Rigger",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/81.png"
+			}
+		},
+		{
+			"name": "Hangarcrash Elemental",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/82.png"
+			}
+		},
+		{
+			"name": "Volatile Cache",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/83.png"
+			}
+		},
+		{
+			"name": "Alzhir Pyromancer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Cyborg Wizard",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/84.png"
+			}
+		},
+		{
+			"name": "Turret Drone",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{C}{B/R}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/85.png"
+			}
+		},
+		{
+			"name": "Blessings of the Ur",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/86.png"
+			}
+		},
+		{
+			"name": "Plaxium Processor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/87.png"
+			}
+		},
+		{
+			"name": "Crickshaw Vengeant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Troll Knight",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/88.png"
+			}
+		},
+		{
+			"name": "Avalanche Troll",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Troll Warrior",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/89.png"
+			}
+		},
+		{
+			"name": "Turah Domesticator",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Troll Druid",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/90.png"
+			}
+		},
+		{
+			"name": "Naturalize",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/91.png"
+			}
+		},
+		{
+			"name": "Mimic Probe",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/92.png"
+			}
+		},
+		{
+			"name": "Prism Hulk",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{C}{C}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/93.png"
+			}
+		},
+		{
+			"name": "Interplanetary Leyline",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{C}",
+			"type": "Artifact",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/94.png"
+			}
+		},
+		{
+			"name": "Oughash Forest",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/95.png"
+			}
+		},
+		{
+			"name": "Imu'Braan, Supreme Tactician",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Creature — Human Soldier",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/96.png"
+			}
+		},
+		{
+			"name": "Stratus Cannon",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/97.png"
+			}
+		},
+		{
+			"name": "Scrapper Savant",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Artifact Creature — Cyborg Rigger",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/98.png"
+			}
+		},
+		{
+			"name": "Skyway Patrol",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/99.png"
+			}
+		},
+		{
+			"name": "Rigger's Guile",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{C}",
+			"type": "Sorcery",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/100.png"
+			}
+		},
+		{
+			"name": "Elet Mastermind",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Spirit Wizard",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/101.png"
+			}
+		},
+		{
+			"name": "Dahlmus, Elet Supreme",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Spirit",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/102.png"
+			}
+		},
+		{
+			"name": "Antigrav Rogue",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/103.png"
+			}
+		},
+		{
+			"name": "Elet Possession",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/104.png"
+			}
+		},
+		{
+			"name": "Memory Augmentation",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/105.png"
+			}
+		},
+		{
+			"name": "Unnerving Lurker",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/106.png"
+			}
+		},
+		{
+			"name": "Blind Lurker",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/107.png"
+			}
+		},
+		{
+			"name": "Terrifying Truth",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/108.png"
+			}
+		},
+		{
+			"name": "Scuttling Sniper",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/109.png"
+			}
+		},
+		{
+			"name": "Poeion Dementer",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/110.png"
+			}
+		},
+		{
+			"name": "Lurker Goliath",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}{B}",
+			"type": "Creature — Horror Giant",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/111.png"
+			}
+		},
+		{
+			"name": "Rasha, Crime Boss",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Legendary Creature — Goblin Wizard",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/112.png"
+			}
+		},
+		{
+			"name": "Rajal Bounty Hunter",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Rogue Mercenary",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/113.png"
+			}
+		},
+		{
+			"name": "Turah Bonebreaker",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/114.png"
+			}
+		},
+		{
+			"name": "Command Center",
+			"rarity": "rare",
+			"mana_cost": "{7}",
+			"type": "Artifact",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/115.png"
+			}
+		},
+		{
+			"name": "Elet Battlepod",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/116.png"
+			}
+		},
+		{
+			"name": "Crucible Arena",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/117.png"
+			}
+		},
+		{
+			"name": "Blade of Girati",
+			"rarity": "common",
+			"mana_cost": "{2}{C}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/118.png"
+			}
+		},
+		{
+			"name": "Signal Relayer",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/119.png"
+			}
+		},
+		{
+			"name": "Crucible Sentinel",
+			"rarity": "common",
+			"mana_cost": "{7}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/120.png"
+			}
+		},
+		{
+			"name": "Braeil Citadel",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/121.png"
+			}
+		},
+		{
+			"name": "Rajal Wastes",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/122.png"
+			}
+		},
+		{
+			"name": "Nightbringer Caves",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/123.png"
+			}
+		},
+		{
+			"name": "Barrier Magus",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/124.png"
+			}
+		},
+		{
+			"name": "Elet Spectre",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/125.png"
+			}
+		},
+		{
+			"name": "Cybernetic Ghostbuster",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Artifact Creature — Cyborg Rigger",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/126.png"
+			}
+		},
+		{
+			"name": "Ghost in the Machine",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/127.png"
+			}
+		},
+		{
+			"name": "Dread",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/128.png"
+			}
+		},
+		{
+			"name": "Alzhir Activist",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Artifact Creature — Cyborg Rigger",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/129.png"
+			}
+		},
+		{
+			"name": "Ruthless Bombardment",
+			"rarity": "mythic",
+			"mana_cost": "{X}{R}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/130.png"
+			}
+		},
+		{
+			"name": "Braeil Goliath",
+			"rarity": "mythic",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/131.png"
+			}
+		},
+		{
+			"name": "Technologic Dynasty",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/132.png"
+			}
+		},
+		{
+			"name": "Moonwalk Lurker",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/133.png"
+			}
+		},
+		{
+			"name": "Blastrigger",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Goblin Rigger",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/134.png"
+			}
+		},
+		{
+			"name": "Firecore Oddity",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Elemental",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/135.png"
+			}
+		},
+		{
+			"name": "Poeion Scuttler",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/136.png"
+			}
+		},
+		{
+			"name": "Sandsifter",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/137.png"
+			}
+		},
+		{
+			"name": "Shield Fortifier",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard Rigger",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/138.png"
+			}
+		},
+		{
+			"name": "Plaxium Elemental",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Elemental",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/139.png"
+			}
+		},
+		{
+			"name": "Rescue Mission",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Instant",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/140.png"
+			}
+		},
+		{
+			"name": "Wartorn Front",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/141.png"
+			}
+		},
+		{
+			"name": "Underworld Gearpunk",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/142.png"
+			}
+		},
+		{
+			"name": "Alzhir Cyberknight",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Artifact Creature — Cyborg",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/143.png"
+			}
+		},
+		{
+			"name": "Horizon Lens",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Powerstone",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/144.png"
+			}
+		},
+		{
+			"name": "Wasteland Crafter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Rigger",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/145.png"
+			}
+		},
+		{
+			"name": "Cybersphere",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/146.png"
+			}
+		},
+		{
+			"name": "Twist Space",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/147.png"
+			}
+		},
+		{
+			"name": "Disappearance",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{X}{1}{U}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/148.png"
+			}
+		},
+		{
+			"name": "Spaceport Cruiser",
+			"rarity": "common",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/149.png"
+			}
+		},
+		{
+			"name": "Manaflesh Troll",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Troll",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/150.png"
+			}
+		},
+		{
+			"name": "Nightbringer Visitor",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/151.png"
+			}
+		},
+		{
+			"name": "Void Jump",
+			"rarity": "common",
+			"mana_cost": "{C}{W/U}",
+			"type": "Instant",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/152.png"
+			}
+		},
+		{
+			"name": "Dark Discovery",
+			"rarity": "common",
+			"mana_cost": "{C}{U/B}",
+			"type": "Sorcery",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/153.png"
+			}
+		},
+		{
+			"name": "Space Oddity",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Spirit",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/154.png"
+			}
+		},
+		{
+			"name": "Bone Crunch",
+			"rarity": "common",
+			"mana_cost": "{1}{C}{R/G}",
+			"type": "Instant",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/155.png"
+			}
+		},
+		{
+			"name": "Cyber Reflex",
+			"rarity": "common",
+			"mana_cost": "{C}{R/W}",
+			"type": "Instant",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/156.png"
+			}
+		},
+		{
+			"name": "Sojourn to Vaxx",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/157.png"
+			}
+		},
+		{
+			"name": "Prophet of Girati",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{C}",
+			"type": "Artifact Creature — Construct Rigger",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/158.png"
+			}
+		},
+		{
+			"name": "Otherworld Instincts",
+			"rarity": "common",
+			"mana_cost": "{2}{C}{B/G}",
+			"type": "Sorcery",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/159.png"
+			}
+		},
+		{
+			"name": "Clockwork Madness",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/160.png"
+			}
+		},
+		{
+			"name": "Plaxium Blood",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/161.png"
+			}
+		},
+		{
+			"name": "Wastes ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/162.png"
+			}
+		},
+		{
+			"name": "Wastes2 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/163.png"
+			}
+		},
+		{
+			"name": "Plains ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/164.png"
+			}
+		},
+		{
+			"name": "Plains2 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/165.png"
+			}
+		},
+		{
+			"name": "Plains3 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/166.png"
+			}
+		},
+		{
+			"name": "Plains4 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/167.png"
+			}
+		},
+		{
+			"name": "Island3 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/168.png"
+			}
+		},
+		{
+			"name": "Island ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/169.png"
+			}
+		},
+		{
+			"name": "Island4 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/170.png"
+			}
+		},
+		{
+			"name": "Island2 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/171.png"
+			}
+		},
+		{
+			"name": "Swamp2 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/172.png"
+			}
+		},
+		{
+			"name": "Swamp ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/173.png"
+			}
+		},
+		{
+			"name": "Swamp3 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/174.png"
+			}
+		},
+		{
+			"name": "Swamp4 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/175.png"
+			}
+		},
+		{
+			"name": "Mountain ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/176.png"
+			}
+		},
+		{
+			"name": "Mountain2 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/177.png"
+			}
+		},
+		{
+			"name": "Mountain3 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/178.png"
+			}
+		},
+		{
+			"name": "Mountain4 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/179.png"
+			}
+		},
+		{
+			"name": "Forest ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/180.png"
+			}
+		},
+		{
+			"name": "Forest2 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/181.png"
+			}
+		},
+		{
+			"name": "Forest3 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/182.png"
+			}
+		},
+		{
+			"name": "Forest4 ERE;",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/183.png"
+			}
+		},
+		{
+			"name": "Shrapnel Spew",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/184.png"
+			}
+		},
+		{
+			"name": "Darksteel Citadel",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Artifact Land",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/185.png"
+			}
+		},
+		{
+			"name": "Ezzerdrex, The last Miitu",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{B}{R}",
+			"type": "Legendary Creature — Insect Wizard",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/186.png"
+			}
+		},
+		{
+			"name": "Cleave",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/187.png"
+			}
+		},
+		{
+			"name": "Wasteland Trinket",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/188.png"
+			}
+		},
+		{
+			"name": "Relentless Marine",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/189.png"
+			}
+		},
+		{
+			"name": "Sudden Propulsion",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/190.png"
+			}
+		},
+		{
+			"name": "Plaxium Boilweird",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Artifact Creature — Elemental Weird",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/191.png"
+			}
+		},
+		{
+			"name": "Evolved State",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/192.png"
+			}
+		},
+		{
+			"name": "Derive from Steel",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/193.png"
+			}
+		},
+		{
+			"name": "Easy Contract",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Instant",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/194.png"
+			}
+		},
+		{
+			"name": "Turah Shredder",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{C}{R/G}",
+			"type": "Creature — Beast",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/195.png"
+			}
+		},
+		{
+			"name": "Undying Troll",
+			"rarity": "uncommon",
+			"mana_cost": "{C}{B/G}",
+			"type": "Creature — Troll Zombie",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/196.png"
+			}
+		},
+		{
+			"name": "Poeion Magus",
+			"rarity": "common",
+			"mana_cost": "{1}{C}{U/B}",
+			"type": "Creature — Horror Wizard",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/197.png"
+			}
+		},
+		{
+			"name": "Lumahind Turah",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/198.png"
+			}
+		},
+		{
+			"name": "Catastrophic Terraforming",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/199.png"
+			}
+		},
+		{
+			"name": "Crickshaw Knight",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Troll Knight",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/200.png"
+			}
+		},
+		{
+			"name": "Exodus Ship",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/201.png"
+			}
+		},
+		{
+			"name": "Alzhir Starfighter",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/202.png"
+			}
+		},
+		{
+			"name": "Alzhir Vengeant",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Artifact Creature — Cyborg",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/203.png"
+			}
+		},
+		{
+			"name": "Battlefield Weaponsmith",
+			"rarity": "common",
+			"mana_cost": "{W}{W}",
+			"type": "Creature — Human Soldier Rigger",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/204.png"
+			}
+		},
+		{
+			"name": "Bound by the Suns",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/205.png"
+			}
+		},
+		{
+			"name": "Braeil Cruiser",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/206.png"
+			}
+		},
+		{
+			"name": "Runaway Cyber",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Cyborg",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/207.png"
+			}
+		},
+		{
+			"name": "Empire's Resolve",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}{W}",
+			"type": "Instant",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/208.png"
+			}
+		},
+		{
+			"name": "Engine Builder",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Human Rigger",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/209.png"
+			}
+		},
+		{
+			"name": "Geargraft Cyber",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Cyborg",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/210.png"
+			}
+		},
+		{
+			"name": "Impossibility Seeker",
+			"rarity": "common",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Human Rigger",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/211.png"
+			}
+		},
+		{
+			"name": "Lockdown",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/212.png"
+			}
+		},
+		{
+			"name": "New Recruits",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Instant",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/213.png"
+			}
+		},
+		{
+			"name": "Null Sphere",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/214.png"
+			}
+		},
+		{
+			"name": "Wasteland Scourer",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/215.png"
+			}
+		},
+		{
+			"name": "Dreadspeaker",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Spirit Wizard",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/216.png"
+			}
+		},
+		{
+			"name": "Elet Dart",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/217.png"
+			}
+		},
+		{
+			"name": "Homeworld Harvester",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/218.png"
+			}
+		},
+		{
+			"name": "Elet Scoutship",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/219.png"
+			}
+		},
+		{
+			"name": "Infested Cyber",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Spirit Cyborg",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/220.png"
+			}
+		},
+		{
+			"name": "Miitu Avenger",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Insect Knight",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/221.png"
+			}
+		},
+		{
+			"name": "Sight Beyond Sight",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/222.png"
+			}
+		},
+		{
+			"name": "Submerge",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/223.png"
+			}
+		},
+		{
+			"name": "Brakta's Wrath",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/224.png"
+			}
+		},
+		{
+			"name": "Dalthrai Scourge",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/225.png"
+			}
+		},
+		{
+			"name": "Oughash Vermin",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Rat",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/226.png"
+			}
+		},
+		{
+			"name": "Bounty Pilot",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Goblin Pilot Mercenary",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/227.png"
+			}
+		},
+		{
+			"name": "Firelance Cyborg",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Cyborg Wizard",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/228.png"
+			}
+		},
+		{
+			"name": "Moltenwing Scrapper",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Goblin Wizard",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/229.png"
+			}
+		},
+		{
+			"name": "Rajal Fireblade",
+			"rarity": "common",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/230.png"
+			}
+		},
+		{
+			"name": "Rajal Freighter",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/231.png"
+			}
+		},
+		{
+			"name": "Rajal War Machine",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/232.png"
+			}
+		},
+		{
+			"name": "Spacewalk Hellkite",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Dragon",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/233.png"
+			}
+		},
+		{
+			"name": "Kaxul Mine Boss",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Goblin Rigger",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/234.png"
+			}
+		},
+		{
+			"name": "Workshop Crusher",
+			"rarity": "common",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Artifact Creature — Elemental",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/235.png"
+			}
+		},
+		{
+			"name": "Hull Droid",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/236.png"
+			}
+		},
+		{
+			"name": "Krogjai Spawn",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/237.png"
+			}
+		},
+		{
+			"name": "Krogjai Strangeling",
+			"rarity": "common",
+			"mana_cost": "{X}{X}{2}{G}{G}",
+			"type": "Creature — Troll",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/238.png"
+			}
+		},
+		{
+			"name": "Oughash Envoy",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/239.png"
+			}
+		},
+		{
+			"name": "Oughash Grub",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Insect",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/240.png"
+			}
+		},
+		{
+			"name": "Oughash Hiveship",
+			"rarity": "common",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/241.png"
+			}
+		},
+		{
+			"name": "Plaxic Pulse",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/242.png"
+			}
+		},
+		{
+			"name": "Plaxium Wormhole",
+			"rarity": "mythic",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/243.png"
+			}
+		},
+		{
+			"name": "Sentient Turah",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Beast Rigger",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/244.png"
+			}
+		},
+		{
+			"name": "Spinewretch",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Horror",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/245.png"
+			}
+		},
+		{
+			"name": "Titan of Ur",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}{G}",
+			"type": "Creature — Elemental",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/246.png"
+			}
+		},
+		{
+			"name": "Turah Carnivore",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Beast",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/247.png"
+			}
+		},
+		{
+			"name": "Turah Krogjai",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Creature — Beast",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/248.png"
+			}
+		},
+		{
+			"name": "Exosuit",
+			"rarity": "common",
+			"mana_cost": "{6}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/249.png"
+			}
+		},
+		{
+			"name": "Farworld Fighter",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/250.png"
+			}
+		},
+		{
+			"name": "Hangar Colossus",
+			"rarity": "rare",
+			"mana_cost": "{9}{C}{C}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/251.png"
+			}
+		},
+		{
+			"name": "Silencer's Helm",
+			"rarity": "mythic",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/252.png"
+			}
+		},
+		{
+			"name": "Voltaic Brute",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/253.png"
+			}
+		},
+		{
+			"name": "Vrod, Cyber Pariah",
+			"rarity": "rare",
+			"mana_cost": "{4}{C}",
+			"type": "Legendary Artifact Creature — Cyborg Rigger",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/254.png"
+			}
+		},
+		{
+			"name": "Alien Caves",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/255.png"
+			}
+		},
+		{
+			"name": "Rigger's Craft",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{C}",
+			"type": "Sorcery",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/256.png"
+			}
+		},
+		{
+			"name": "Spaceport",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/257.png"
+			}
+		},
+		{
+			"name": "Poeion Destroyer",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/258.png"
+			}
+		},
+		{
+			"name": "Tezzeret, the Inventor",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Planeswalker — Tezzeret",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/259.png"
+			}
+		},
+		{
+			"name": "Sorin, Corrupted",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Legendary Planeswalker — Sorin",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/260.png"
+			}
+		},
+		{
+			"name": "Arlinn, Trespasser",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Planeswalker — Arlinn",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/261.png"
+			}
+		},
+		{
+			"name": "Nahiri, the Lost",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Planeswalker — Nahiri",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/262.png"
+			}
+		},
+		{
+			"name": "Erex Six Draft Archetypes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/263.png"
+			}
+		},
+		{
+			"name": "Erex Draft Archetypes",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://kebelqwa.github.io/sets/EX6-files/img/264.png"
+			}
+		}
+	]
+
+[rare(1)]
+	2 Alzhir Defiler
+	2 Elet Supervision
+	2 Imu'Braan, Supreme Tactician
+	2 Stratus Cannon
+	2 Scrapper Savant
+	1 Elet Mastermind
+	2 Dahlmus, Elet Supreme
+	2 Antigrav Rogue
+	2 Elet Possession
+	2 Memory Augmentation
+	2 Unnerving Lurker
+	2 Blind Lurker
+	2 Terrifying Truth
+	2 Poeion Dementer
+	2 Lurker Goliath
+	2 Rasha, Crime Boss
+	2 Rajal Bounty Hunter
+	2 Turah Bonebreaker
+	2 Command Center
+	2 Elet Battlepod
+	2 Crucible Arena
+	1 Dread
+	2 Alzhir Activist
+	1 Ruthless Bombardment
+	1 Braeil Goliath
+	1 Moonwalk Lurker
+	2 Alzhir Cyberknight
+	2 Space Oddity
+	2 Clockwork Madness
+	1 Ezzerdrex, The last Miitu
+	1 Plaxium Boilweird
+	2 Catastrophic Terraforming
+	2 Braeil Cruiser
+	2 Engine Builder
+	2 Brakta's Wrath
+	2 Dalthrai Scourge
+	2 Rajal War Machine
+	2 Spacewalk Hellkite
+	2 Kaxul Mine Boss
+	2 Hull Droid
+	1 Plaxium Wormhole
+	2 Sentient Turah
+	2 Titan of Ur
+	2 Turah Carnivore
+	1 Turah Krogjai
+	2 Hangar Colossus
+	1 Silencer's Helm
+	2 Vrod, Cyber Pariah
+	1 Tezzeret, the Inventor
+	1 Sorin, Corrupted
+	1 Arlinn, Trespasser
+	1 Nahiri, the Lost
+[uncommon(3)]
+	4 Ancestral Inventor
+	4 Fortune's Hand
+	4 Machine's Resonance
+	4 Poeion Immortal
+	4 Stokeflame Instigator
+	4 Spell Molding
+	4 Disheveling Hellion
+	4 Bridgebreaker Troll
+	4 Plaxium Shards
+	4 Plated Guardian
+	4 Primal Prerogative
+	4 Powerstone Mine
+	4 Elet Sanctum
+	4 Alzhir Rigger
+	4 Imu Militant
+	4 Girati Banisher
+	4 Rewiring Automaton
+	4 Poeion Decree
+	4 Horror of Brakta
+	4 Nightbringer Oblex
+	4 Dalthrai Goliath
+	4 Poeion Marauder
+	4 Mantleborn Arsonist
+	4 Hangarcrash Elemental
+	4 Alzhir Pyromancer
+	4 Turret Drone
+	4 Blessings of the Ur
+	4 Plaxium Processor
+	4 Crickshaw Vengeant
+	4 Avalanche Troll
+	4 Mimic Probe
+	4 Prism Hulk
+	4 Interplanetary Leyline
+	4 Oughash Forest
+	4 Skyway Patrol
+	4 Rigger's Guile
+	4 Scuttling Sniper
+	4 Braeil Citadel
+	4 Rajal Wastes
+	4 Nightbringer Caves
+	4 Technologic Dynasty
+	4 Shield Fortifier
+	4 Rescue Mission
+	4 Underworld Gearpunk
+	4 Wasteland Crafter
+	4 Cybersphere
+	4 Twist Space
+	4 Disappearance
+	4 Prophet of Girati
+	4 Plaxium Blood
+	4 Cleave
+	4 Relentless Marine
+	4 Sudden Propulsion
+	4 Evolved State
+	4 Easy Contract
+	4 Turah Shredder
+	4 Undying Troll
+	4 Crickshaw Knight
+	4 Empire's Resolve
+	4 New Recruits
+	4 Submerge
+	4 Bounty Pilot
+	4 Firelance Cyborg
+	4 Rigger's Craft
+	4 Spaceport
+[common(6)]
+	8 Glory's Return
+	8 Braeil Protector
+	8 Repel Munitions
+	8 Rigger Prodigy
+	8 Prodigal Sniper
+	8 Brave the Night
+	8 Alzhir Merchant
+	8 Headshot
+	8 Factory Analyst
+	8 Fluxfire Initiate
+	8 Encounter the Infinite
+	8 Sudden Warp
+	8 Divertive Strides
+	8 Rigger's Resolve
+	8 Elet Soulstealer
+	8 Viscous Unmaking
+	8 Airlock
+	8 Darkstar Lurker
+	8 Wrath of Nightbringer
+	8 Poeion Probe
+	8 Poisonous Visions
+	8 Toxic Rigger
+	8 Underground Predator
+	8 Grisly Discovery
+	8 Part Scrapper
+	8 Nightbringer Splicer
+	8 Alien Abduction
+	8 Nightbringer Reaper
+	8 Blade Hunter
+	8 Adrenaline Rush
+	8 Missile Array
+	8 Torch Drone
+	8 Bounty Sniper
+	8 Rajal Hellion
+	8 Kaxul Gunner
+	8 Plaxium Hunter
+	8 Hangarcrash Tank
+	8 Oughash Mutationists
+	8 Munching Turah
+	8 A New World
+	8 Oughash Defiler
+	8 Stubborn Troll
+	8 Worldly Celebration
+	8 Crickshaw Rigger
+	8 Rockscale Troll
+	8 Observer Automaton
+	8 Tinkerbot
+	8 Slaughterbot
+	8 Scrapped Parts
+	8 Soulclamp
+	8 Leyline Gadget
+	8 Elet Voidsphere
+	8 Reality Sculptor
+	8 Void Tunneler
+	8 Darts of Dalthrai
+	8 Predatory Lurker
+	8 Courrier Rigger
+	8 Volatile Cache
+	8 Turah Domesticator
+	8 Naturalize
+	8 Blade of Girati
+	8 Signal Relayer
+	8 Crucible Sentinel
+	8 Barrier Magus
+	8 Elet Spectre
+	8 Cybernetic Ghostbuster
+	8 Ghost in the Machine
+	8 Blastrigger
+	8 Firecore Oddity
+	8 Poeion Scuttler
+	8 Sandsifter
+	8 Plaxium Elemental
+	8 Wartorn Front
+	8 Horizon Lens
+	8 Spaceport Cruiser
+	8 Manaflesh Troll
+	8 Nightbringer Visitor
+	8 Void Jump
+	8 Dark Discovery
+	8 Bone Crunch
+	8 Cyber Reflex
+	8 Sojourn to Vaxx
+	8 Otherworld Instincts
+	8 Shrapnel Spew
+	8 Darksteel Citadel
+	8 Wasteland Trinket
+	8 Derive from Steel
+	8 Poeion Magus
+	8 Lumahind Turah
+	8 Exodus Ship
+	8 Alzhir Starfighter
+	8 Alzhir Vengeant
+	8 Battlefield Weaponsmith
+	8 Bound by the Suns
+	8 Runaway Cyber
+	8 Geargraft Cyber
+	8 Impossibility Seeker
+	8 Lockdown
+	8 Null Sphere
+	8 Wasteland Scourer
+	8 Dreadspeaker
+	8 Elet Dart
+	8 Homeworld Harvester
+	8 Elet Scoutship
+	8 Infested Cyber
+	8 Miitu Avenger
+	8 Sight Beyond Sight
+	8 Oughash Vermin
+	8 Moltenwing Scrapper
+	8 Rajal Fireblade
+	8 Rajal Freighter
+	8 Workshop Crusher
+	8 Krogjai Spawn
+	8 Krogjai Strangeling
+	8 Oughash Envoy
+	8 Oughash Grub
+	8 Oughash Hiveship
+	8 Plaxic Pulse
+	8 Spinewretch
+	8 Exosuit
+	8 Farworld Fighter
+	8 Voltaic Brute
+	8 Alien Caves
+	8 Poeion Destroyer
+[common | masterpiece(1)]
+	8 Glory's Return
+	8 Braeil Protector
+	8 Repel Munitions
+	8 Rigger Prodigy
+	8 Prodigal Sniper
+	8 Brave the Night
+	8 Alzhir Merchant
+	8 Headshot
+	8 Factory Analyst
+	8 Fluxfire Initiate
+	8 Encounter the Infinite
+	8 Sudden Warp
+	8 Divertive Strides
+	8 Rigger's Resolve
+	8 Elet Soulstealer
+	8 Viscous Unmaking
+	8 Airlock
+	8 Darkstar Lurker
+	8 Wrath of Nightbringer
+	8 Poeion Probe
+	8 Poisonous Visions
+	8 Toxic Rigger
+	8 Underground Predator
+	8 Grisly Discovery
+	8 Part Scrapper
+	8 Nightbringer Splicer
+	8 Alien Abduction
+	8 Nightbringer Reaper
+	8 Blade Hunter
+	8 Adrenaline Rush
+	8 Missile Array
+	8 Torch Drone
+	8 Bounty Sniper
+	8 Rajal Hellion
+	8 Kaxul Gunner
+	8 Plaxium Hunter
+	8 Hangarcrash Tank
+	8 Oughash Mutationists
+	8 Munching Turah
+	8 A New World
+	8 Oughash Defiler
+	8 Stubborn Troll
+	8 Worldly Celebration
+	8 Crickshaw Rigger
+	8 Rockscale Troll
+	8 Observer Automaton
+	8 Tinkerbot
+	8 Slaughterbot
+	8 Scrapped Parts
+	8 Soulclamp
+	8 Leyline Gadget
+	8 Elet Voidsphere
+	8 Reality Sculptor
+	8 Void Tunneler
+	8 Darts of Dalthrai
+	8 Predatory Lurker
+	8 Courrier Rigger
+	8 Volatile Cache
+	8 Turah Domesticator
+	8 Naturalize
+	8 Blade of Girati
+	8 Signal Relayer
+	8 Crucible Sentinel
+	8 Barrier Magus
+	8 Elet Spectre
+	8 Cybernetic Ghostbuster
+	8 Ghost in the Machine
+	8 Blastrigger
+	8 Firecore Oddity
+	8 Poeion Scuttler
+	8 Sandsifter
+	8 Plaxium Elemental
+	8 Wartorn Front
+	8 Horizon Lens
+	8 Spaceport Cruiser
+	8 Manaflesh Troll
+	8 Nightbringer Visitor
+	8 Void Jump
+	8 Dark Discovery
+	8 Bone Crunch
+	8 Cyber Reflex
+	8 Sojourn to Vaxx
+	8 Otherworld Instincts
+	8 Shrapnel Spew
+	8 Darksteel Citadel
+	8 Wasteland Trinket
+	8 Derive from Steel
+	8 Poeion Magus
+	8 Lumahind Turah
+	8 Exodus Ship
+	8 Alzhir Starfighter
+	8 Alzhir Vengeant
+	8 Battlefield Weaponsmith
+	8 Bound by the Suns
+	8 Runaway Cyber
+	8 Geargraft Cyber
+	8 Impossibility Seeker
+	8 Lockdown
+	8 Null Sphere
+	8 Wasteland Scourer
+	8 Dreadspeaker
+	8 Elet Dart
+	8 Homeworld Harvester
+	8 Elet Scoutship
+	8 Infested Cyber
+	8 Miitu Avenger
+	8 Sight Beyond Sight
+	8 Oughash Vermin
+	8 Moltenwing Scrapper
+	8 Rajal Fireblade
+	8 Rajal Freighter
+	8 Workshop Crusher
+	8 Krogjai Spawn
+	8 Krogjai Strangeling
+	8 Oughash Envoy
+	8 Oughash Grub
+	8 Oughash Hiveship
+	8 Plaxic Pulse
+	8 Spinewretch
+	8 Exosuit
+	8 Farworld Fighter
+	8 Voltaic Brute
+	8 Alien Caves
+	8 Poeion Destroyer
+[foil(1)]
+	12 Glory's Return
+	12 Braeil Protector
+	12 Repel Munitions
+	12 Rigger Prodigy
+	12 Prodigal Sniper
+	12 Brave the Night
+	12 Alzhir Merchant
+	12 Headshot
+	6 Ancestral Inventor
+	12 Factory Analyst
+	12 Fluxfire Initiate
+	12 Encounter the Infinite
+	6 Fortune's Hand
+	12 Sudden Warp
+	12 Divertive Strides
+	12 Rigger's Resolve
+	6 Machine's Resonance
+	12 Elet Soulstealer
+	12 Viscous Unmaking
+	12 Airlock
+	12 Darkstar Lurker
+	12 Wrath of Nightbringer
+	12 Poeion Probe
+	12 Poisonous Visions
+	12 Toxic Rigger
+	12 Underground Predator
+	12 Grisly Discovery
+	12 Part Scrapper
+	12 Nightbringer Splicer
+	6 Poeion Immortal
+	12 Alien Abduction
+	12 Nightbringer Reaper
+	12 Blade Hunter
+	6 Stokeflame Instigator
+	12 Adrenaline Rush
+	12 Missile Array
+	6 Spell Molding
+	12 Torch Drone
+	12 Bounty Sniper
+	12 Rajal Hellion
+	12 Kaxul Gunner
+	2 Alzhir Defiler
+	6 Disheveling Hellion
+	12 Plaxium Hunter
+	12 Hangarcrash Tank
+	12 Oughash Mutationists
+	12 Munching Turah
+	12 A New World
+	12 Oughash Defiler
+	12 Stubborn Troll
+	6 Bridgebreaker Troll
+	12 Worldly Celebration
+	12 Crickshaw Rigger
+	6 Plaxium Shards
+	6 Plated Guardian
+	6 Primal Prerogative
+	12 Rockscale Troll
+	12 Observer Automaton
+	12 Tinkerbot
+	12 Slaughterbot
+	12 Scrapped Parts
+	12 Soulclamp
+	12 Leyline Gadget
+	6 Powerstone Mine
+	6 Elet Sanctum
+	6 Alzhir Rigger
+	6 Imu Militant
+	6 Girati Banisher
+	2 Elet Supervision
+	12 Elet Voidsphere
+	12 Reality Sculptor
+	12 Void Tunneler
+	6 Rewiring Automaton
+	12 Darts of Dalthrai
+	6 Poeion Decree
+	6 Horror of Brakta
+	6 Nightbringer Oblex
+	12 Predatory Lurker
+	6 Dalthrai Goliath
+	6 Poeion Marauder
+	6 Mantleborn Arsonist
+	12 Courrier Rigger
+	6 Hangarcrash Elemental
+	12 Volatile Cache
+	6 Alzhir Pyromancer
+	6 Turret Drone
+	6 Blessings of the Ur
+	6 Plaxium Processor
+	6 Crickshaw Vengeant
+	6 Avalanche Troll
+	12 Turah Domesticator
+	12 Naturalize
+	6 Mimic Probe
+	6 Prism Hulk
+	6 Interplanetary Leyline
+	6 Oughash Forest
+	2 Imu'Braan, Supreme Tactician
+	2 Stratus Cannon
+	2 Scrapper Savant
+	6 Skyway Patrol
+	6 Rigger's Guile
+	1 Elet Mastermind
+	2 Dahlmus, Elet Supreme
+	2 Antigrav Rogue
+	2 Elet Possession
+	2 Memory Augmentation
+	2 Unnerving Lurker
+	2 Blind Lurker
+	2 Terrifying Truth
+	6 Scuttling Sniper
+	2 Poeion Dementer
+	2 Lurker Goliath
+	2 Rasha, Crime Boss
+	2 Rajal Bounty Hunter
+	2 Turah Bonebreaker
+	2 Command Center
+	2 Elet Battlepod
+	2 Crucible Arena
+	12 Blade of Girati
+	12 Signal Relayer
+	12 Crucible Sentinel
+	6 Braeil Citadel
+	6 Rajal Wastes
+	6 Nightbringer Caves
+	12 Barrier Magus
+	12 Elet Spectre
+	12 Cybernetic Ghostbuster
+	12 Ghost in the Machine
+	1 Dread
+	2 Alzhir Activist
+	1 Ruthless Bombardment
+	1 Braeil Goliath
+	6 Technologic Dynasty
+	1 Moonwalk Lurker
+	12 Blastrigger
+	12 Firecore Oddity
+	12 Poeion Scuttler
+	12 Sandsifter
+	6 Shield Fortifier
+	12 Plaxium Elemental
+	6 Rescue Mission
+	12 Wartorn Front
+	6 Underworld Gearpunk
+	2 Alzhir Cyberknight
+	12 Horizon Lens
+	6 Wasteland Crafter
+	6 Cybersphere
+	6 Twist Space
+	6 Disappearance
+	12 Spaceport Cruiser
+	12 Manaflesh Troll
+	12 Nightbringer Visitor
+	12 Void Jump
+	12 Dark Discovery
+	2 Space Oddity
+	12 Bone Crunch
+	12 Cyber Reflex
+	12 Sojourn to Vaxx
+	6 Prophet of Girati
+	12 Otherworld Instincts
+	2 Clockwork Madness
+	6 Plaxium Blood
+	12 Shrapnel Spew
+	12 Darksteel Citadel
+	1 Ezzerdrex, The last Miitu
+	6 Cleave
+	12 Wasteland Trinket
+	6 Relentless Marine
+	6 Sudden Propulsion
+	1 Plaxium Boilweird
+	6 Evolved State
+	12 Derive from Steel
+	6 Easy Contract
+	6 Turah Shredder
+	6 Undying Troll
+	12 Poeion Magus
+	12 Lumahind Turah
+	2 Catastrophic Terraforming
+	6 Crickshaw Knight
+	12 Exodus Ship
+	12 Alzhir Starfighter
+	12 Alzhir Vengeant
+	12 Battlefield Weaponsmith
+	12 Bound by the Suns
+	2 Braeil Cruiser
+	12 Runaway Cyber
+	6 Empire's Resolve
+	2 Engine Builder
+	12 Geargraft Cyber
+	12 Impossibility Seeker
+	12 Lockdown
+	6 New Recruits
+	12 Null Sphere
+	12 Wasteland Scourer
+	12 Dreadspeaker
+	12 Elet Dart
+	12 Homeworld Harvester
+	12 Elet Scoutship
+	12 Infested Cyber
+	12 Miitu Avenger
+	12 Sight Beyond Sight
+	6 Submerge
+	2 Brakta's Wrath
+	2 Dalthrai Scourge
+	12 Oughash Vermin
+	6 Bounty Pilot
+	6 Firelance Cyborg
+	12 Moltenwing Scrapper
+	12 Rajal Fireblade
+	12 Rajal Freighter
+	2 Rajal War Machine
+	2 Spacewalk Hellkite
+	2 Kaxul Mine Boss
+	12 Workshop Crusher
+	2 Hull Droid
+	12 Krogjai Spawn
+	12 Krogjai Strangeling
+	12 Oughash Envoy
+	12 Oughash Grub
+	12 Oughash Hiveship
+	12 Plaxic Pulse
+	1 Plaxium Wormhole
+	2 Sentient Turah
+	12 Spinewretch
+	2 Titan of Ur
+	2 Turah Carnivore
+	1 Turah Krogjai
+	12 Exosuit
+	12 Farworld Fighter
+	2 Hangar Colossus
+	1 Silencer's Helm
+	12 Voltaic Brute
+	2 Vrod, Cyber Pariah
+	12 Alien Caves
+	6 Rigger's Craft
+	6 Spaceport
+	12 Poeion Destroyer
+	1 Tezzeret, the Inventor
+	1 Sorin, Corrupted
+	1 Arlinn, Trespasser
+	1 Nahiri, the Lost
+[wildcard(1)]
+	6 Glory's Return
+	6 Braeil Protector
+	6 Repel Munitions
+	6 Rigger Prodigy
+	6 Prodigal Sniper
+	6 Brave the Night
+	6 Alzhir Merchant
+	6 Headshot
+	15 Ancestral Inventor
+	6 Factory Analyst
+	6 Fluxfire Initiate
+	6 Encounter the Infinite
+	15 Fortune's Hand
+	6 Sudden Warp
+	6 Divertive Strides
+	6 Rigger's Resolve
+	15 Machine's Resonance
+	6 Elet Soulstealer
+	6 Viscous Unmaking
+	6 Airlock
+	6 Darkstar Lurker
+	6 Wrath of Nightbringer
+	6 Poeion Probe
+	6 Poisonous Visions
+	6 Toxic Rigger
+	6 Underground Predator
+	6 Grisly Discovery
+	6 Part Scrapper
+	6 Nightbringer Splicer
+	15 Poeion Immortal
+	6 Alien Abduction
+	6 Nightbringer Reaper
+	6 Blade Hunter
+	15 Stokeflame Instigator
+	6 Adrenaline Rush
+	6 Missile Array
+	15 Spell Molding
+	6 Torch Drone
+	6 Bounty Sniper
+	6 Rajal Hellion
+	6 Kaxul Gunner
+	7 Alzhir Defiler
+	15 Disheveling Hellion
+	6 Plaxium Hunter
+	6 Hangarcrash Tank
+	6 Oughash Mutationists
+	6 Munching Turah
+	6 A New World
+	6 Oughash Defiler
+	6 Stubborn Troll
+	15 Bridgebreaker Troll
+	6 Worldly Celebration
+	6 Crickshaw Rigger
+	15 Plaxium Shards
+	15 Plated Guardian
+	15 Primal Prerogative
+	6 Rockscale Troll
+	6 Observer Automaton
+	6 Tinkerbot
+	6 Slaughterbot
+	6 Scrapped Parts
+	6 Soulclamp
+	6 Leyline Gadget
+	15 Powerstone Mine
+	15 Elet Sanctum
+	15 Alzhir Rigger
+	15 Imu Militant
+	15 Girati Banisher
+	7 Elet Supervision
+	6 Elet Voidsphere
+	6 Reality Sculptor
+	6 Void Tunneler
+	15 Rewiring Automaton
+	6 Darts of Dalthrai
+	15 Poeion Decree
+	15 Horror of Brakta
+	15 Nightbringer Oblex
+	6 Predatory Lurker
+	15 Dalthrai Goliath
+	15 Poeion Marauder
+	15 Mantleborn Arsonist
+	6 Courrier Rigger
+	15 Hangarcrash Elemental
+	6 Volatile Cache
+	15 Alzhir Pyromancer
+	15 Turret Drone
+	15 Blessings of the Ur
+	15 Plaxium Processor
+	15 Crickshaw Vengeant
+	15 Avalanche Troll
+	6 Turah Domesticator
+	6 Naturalize
+	15 Mimic Probe
+	15 Prism Hulk
+	15 Interplanetary Leyline
+	15 Oughash Forest
+	7 Imu'Braan, Supreme Tactician
+	7 Stratus Cannon
+	7 Scrapper Savant
+	15 Skyway Patrol
+	15 Rigger's Guile
+	4 Elet Mastermind
+	7 Dahlmus, Elet Supreme
+	7 Antigrav Rogue
+	7 Elet Possession
+	7 Memory Augmentation
+	7 Unnerving Lurker
+	7 Blind Lurker
+	7 Terrifying Truth
+	15 Scuttling Sniper
+	7 Poeion Dementer
+	7 Lurker Goliath
+	7 Rasha, Crime Boss
+	7 Rajal Bounty Hunter
+	7 Turah Bonebreaker
+	7 Command Center
+	7 Elet Battlepod
+	7 Crucible Arena
+	6 Blade of Girati
+	6 Signal Relayer
+	6 Crucible Sentinel
+	15 Braeil Citadel
+	15 Rajal Wastes
+	15 Nightbringer Caves
+	6 Barrier Magus
+	6 Elet Spectre
+	6 Cybernetic Ghostbuster
+	6 Ghost in the Machine
+	4 Dread
+	7 Alzhir Activist
+	4 Ruthless Bombardment
+	4 Braeil Goliath
+	15 Technologic Dynasty
+	4 Moonwalk Lurker
+	6 Blastrigger
+	6 Firecore Oddity
+	6 Poeion Scuttler
+	6 Sandsifter
+	15 Shield Fortifier
+	6 Plaxium Elemental
+	15 Rescue Mission
+	6 Wartorn Front
+	15 Underworld Gearpunk
+	7 Alzhir Cyberknight
+	6 Horizon Lens
+	15 Wasteland Crafter
+	15 Cybersphere
+	15 Twist Space
+	15 Disappearance
+	6 Spaceport Cruiser
+	6 Manaflesh Troll
+	6 Nightbringer Visitor
+	6 Void Jump
+	6 Dark Discovery
+	7 Space Oddity
+	6 Bone Crunch
+	6 Cyber Reflex
+	6 Sojourn to Vaxx
+	15 Prophet of Girati
+	6 Otherworld Instincts
+	7 Clockwork Madness
+	15 Plaxium Blood
+	6 Shrapnel Spew
+	6 Darksteel Citadel
+	4 Ezzerdrex, The last Miitu
+	15 Cleave
+	6 Wasteland Trinket
+	15 Relentless Marine
+	15 Sudden Propulsion
+	4 Plaxium Boilweird
+	15 Evolved State
+	6 Derive from Steel
+	15 Easy Contract
+	15 Turah Shredder
+	15 Undying Troll
+	6 Poeion Magus
+	6 Lumahind Turah
+	7 Catastrophic Terraforming
+	15 Crickshaw Knight
+	6 Exodus Ship
+	6 Alzhir Starfighter
+	6 Alzhir Vengeant
+	6 Battlefield Weaponsmith
+	6 Bound by the Suns
+	7 Braeil Cruiser
+	6 Runaway Cyber
+	15 Empire's Resolve
+	7 Engine Builder
+	6 Geargraft Cyber
+	6 Impossibility Seeker
+	6 Lockdown
+	15 New Recruits
+	6 Null Sphere
+	6 Wasteland Scourer
+	6 Dreadspeaker
+	6 Elet Dart
+	6 Homeworld Harvester
+	6 Elet Scoutship
+	6 Infested Cyber
+	6 Miitu Avenger
+	6 Sight Beyond Sight
+	15 Submerge
+	7 Brakta's Wrath
+	7 Dalthrai Scourge
+	6 Oughash Vermin
+	15 Bounty Pilot
+	15 Firelance Cyborg
+	6 Moltenwing Scrapper
+	6 Rajal Fireblade
+	6 Rajal Freighter
+	7 Rajal War Machine
+	7 Spacewalk Hellkite
+	7 Kaxul Mine Boss
+	6 Workshop Crusher
+	7 Hull Droid
+	6 Krogjai Spawn
+	6 Krogjai Strangeling
+	6 Oughash Envoy
+	6 Oughash Grub
+	6 Oughash Hiveship
+	6 Plaxic Pulse
+	4 Plaxium Wormhole
+	7 Sentient Turah
+	6 Spinewretch
+	7 Titan of Ur
+	7 Turah Carnivore
+	4 Turah Krogjai
+	6 Exosuit
+	6 Farworld Fighter
+	7 Hangar Colossus
+	4 Silencer's Helm
+	6 Voltaic Brute
+	7 Vrod, Cyber Pariah
+	6 Alien Caves
+	15 Rigger's Craft
+	15 Spaceport
+	6 Poeion Destroyer
+	4 Tezzeret, the Inventor
+	4 Sorin, Corrupted
+	4 Arlinn, Trespasser
+	4 Nahiri, the Lost

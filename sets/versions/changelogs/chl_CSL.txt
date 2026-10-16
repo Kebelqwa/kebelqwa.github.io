@@ -1,4 +1,655 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+
+Seya Hexblade
+rules_text: Flash
+Sacrifice Seya Hexblade: Target creature you control gains flying and hexproof until end of turn. => Flash
+Sacrifice this creature: Target creature you control gains flying and hexproof until end of turn.
+
+Olphris Hexblade
+rules_text: Empower [i](You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)[/i]
+Lifelink
+When this creature enters, if it was empowered, you gain X life and target opponent loses X life, where X is the mana value of the card exiled to empower this spell. [i](You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)[/i] => Empower [i](You may exile a card with equal or greater mana value from your hand or graveyard as an additional cost to cast this spell.)[/i]
+Lifelink
+When this creature enters, if it was empowered, you gain X life and target opponent loses X life, where X is the mana value of the card exiled to empower this spell.
+
+Kroll Hexblade
+rules_text: When Kroll Hexblade enters, you may discard a card. If you do, Scry 2 then draw a card.
+{1}{R}, Exile an instant or sorcery card from your graveyard: Kroll Hexblade deals 2 damage to target player or planeswalker. => When this creature enters, you may discard a card. If you do, Scry 2 then draw a card.
+{1}{R}, Exile an instant or sorcery card from your graveyard: This creature deals 2 damage to target player or planeswalker.
+
+Haldor Hexblade
+rules_text: {4}{G}: Pitfall [i](Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)[/i]
+First strike => Pitfall {4}{G} [i](You may cast this card for {4}{G} if you control a blocked attacker. If you do, it enters tapped, attacking the same permanent or player, and blocked by each of the creatures blocking that creature.)[/i]
+First strike
+
+Seya Forethinker
+rules_text: When Seya Forethinker enters, reveal the top four cards of your library. You may put an instant or sorcery card revealed this way into your hand. Put all other cards revealed this way into your graveyard => When this creature enters, reveal the top four cards of your library. You may put an instant or sorcery card revealed this way into your hand. Put all other cards revealed this way into your graveyard
+
+Kroll Requisitioner
+rules_text: Flash
+When Kroll Requisitioner enters, tap up to one target creature. That creature doesn't untap during its controller's next untap step. => Flash
+When this creature enters, tap up to one target creature. That creature doesn't untap during its controller's next untap step.
+
+Winterwalk Elk
+rules_text: {2}{G}: Pitfall [i](Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)[/i]
+When Winterwalk Elk enters, prevent all combat damage that would be dealt to target creature you control this turn. => Pitfall {2}{G} [i](You may cast this card for {2}{G} if you control a blocked attacker. If you do, it enters tapped, attacking the same permanent or player, and blocked by each of the creatures blocking that creature.)[/i]
+When this creature enters, prevent all combat damage that would be dealt to target creature you control this turn.
+
+Farscape
+rules_text: {T}: Add {C}.
+{1}, {T}, Sacrifice Farscape: Search your library for a basic land. Put that card onto the battlefield, then shuffle. => {T}: Add {C}.
+{1}, {T}, Sacrifice this land: Search your library for a basic land. Put that card onto the battlefield, then shuffle.
+
+Haldor Punisher
+rules_text: {5}{R}{R}: Pitfall [i](Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)[/i]
+First strike => Pitfall {5}{R}{R} [i](You may cast this card for {5}{R}{R} if you control a blocked attacker. If you do, it enters tapped, attacking the same permanent or player, and blocked by each of the creatures blocking that creature.)[/i]
+First strike
+
+Deathcast Lich
+rules_text: When Deathcast Lich enters, put the top four cards of your library into your graveyard.
+Mould—Sacrifice a creature without mould. [i](Sacrifice a creature without mould, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i] => When this creature enters, put the top four cards of your library into your graveyard.
+Mould—Sacrifice a creature without mould. [i](Sacrifice a creature without mould, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i]
+
+Outskirt Strangelings
+rules_text: Sacrifice a creature: Pitfall [i](Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)[/i]
+Trample => Pitfall—Sacrifice a nontoken creature [i](You may cast this card for Sacrifice a nontoken creature if you control a blocked attacker. If you do, it enters tapped, attacking the same permanent or player, and blocked by each of the creatures blocking that creature.)[/i]
+Trample
+
+Tome Inspector
+rules_text: When Tome Inspector enters, scry 2. => When this creature enters, scry 2.
+
+Kroll Trickster
+rules_text: Flying
+{3}, Sacrifice Kroll Trickster: Return target instant or sorcery card from your graveyard to your hand. => Flying
+{3}, Sacrifice this creature: Return target instant or sorcery card from your graveyard to your hand.
+
+Aek Guardian
+rules_text: When Aek Guardian is exiled from your graveyard, draw a card.
+Mould {4}{G} [i]({4}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i] => When this creature is exiled from your graveyard, draw a card.
+Mould {4}{G} [i]({4}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i]
+
+Horde Hellkite
+rules_text: Flying
+{1}{R}: Creatures you control get +1/+0 until end of turn. Horde Hellkite deals 1 damage to each player. => Flying
+{1}{R}: Creatures you control get +1/+0 until end of turn. This creature deals 1 damage to each player.
+
+Arcanum Spirit
+rules_text: Flying
+When Arcanum Spirit enters, mill four cards. [i](Put the top four cards of your library into your graveyard.)[/i] => Flying
+When this creature enters, mill four cards. [i](Put the top four cards of your library into your graveyard.)[/i]
+
+Tlanoc Abomination
+rules_text: When Tlanoc Abomination is exiled from your graveyard, target creature gets -3/-3 until end of turn.
+Mould {5}{B}{G} [i]({5}{B}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i] => When this creature card is exiled from your graveyard, target creature gets -3/-3 until end of turn.
+Mould {5}{B}{G} [i]({5}{B}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i]
+
+Cruel Lich
+rules_text: When Cruel Lich enters, target opponent discards a card.
+Mould {2}{B}{B} [i]({2}{B}{B}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i] => When this creature enters, target opponent discards a card.
+Mould {2}{B}{B} [i]({2}{B}{B}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i]
+
+Expanse Sniper
+rules_text: Bestow {2}{W} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+Sacrifice this permanent: Destroy target attacking creature. Activate only if Expanse Sniper is an Aura. => Bestow {2}{W} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+Sacrifice this permanent: Destroy target attacking creature. Activate only if this permanent is an Aura.
+
+Rumbleform Elemental
+rules_text: Rumbleform Elemental enters tapped.
+When Rumbleform Elemental enters, it doesn't untap during your next untap step. => This creature enters tapped.
+When this creature enters, it doesn't untap during your next untap step.
+
+Boon Raider
+rules_text: Whenever Boon Raider becomes tapped, add two mana in any combination of colors at the beginning of your next main phase. => Whenever this creature becomes tapped, add two mana in any combination of colors at the beginning of your next main phase.
+
+Seal of Antimagic
+rules_text: Sacrifice Seal of Antimagic: Target creature you control gains hexproof until end of turn. => Sacrifice this enchantment: Target creature you control gains hexproof until end of turn.
+
+Clan Veteran
+rules_text: {4}{W}: Pitfall [i](Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)[/i]
+Clan Veteran has first strike as long as its your turn. => Pitfall {4}{W} [i](You may cast this card for {4}{W} if you control a blocked attacker. If you do, it enters tapped, attacking the same permanent or player, and blocked by each of the creatures blocking that creature.)[/i]
+This creature has first strike as long as its your turn.
+
+Seyan Banisher
+rules_text: Bestow {3}{W} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+When Seyan Banisher enters as an Aura, exile target creature with power 4 or greater until Seyan Banisher isn't an Aura. => Bestow {3}{W} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+When this creature enters as an Aura, exile target creature with power 4 or greater until this creature isn't an Aura.
+
+Etis Paragon
+rules_text: Vigilance
+Whenever Etis Paragon and at least two other creatures you control attack or block, you gain 3 life. => Vigilance
+Whenever this creature and two or more other creatures you control attack or block, you gain 3 life.
+
+Foresword Commander
+rules_text: Bestow {3}{W} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+Whenever Foresword Commander or enchanted creature attacks, other creatures you control get +1/+1 until end of turn. => Bestow {3}{W} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+Whenever this creature or enchanted creature attacks, other creatures you control get +1/+1 until end of turn.
+
+Knight of Ancient Tresh
+rules_text: Menace, vigilance
+{2}{R}{W}, Sacrifice another attacking creature: Knight of Ancient Tresh gains indestructible until end of combat. => Menace, vigilance
+{2}{R}{W}, Sacrifice another attacking creature: This creature gains indestructible until end of combat.
+
+Lynxpact Knight
+rules_text: {4}{W}: Pitfall [i](Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)[/i]
+When Lynxpact Knight enters, put a +1/+1 counter on target creature. => Pitfall {4}{W} [i](You may cast this card for {4}{W} if you control a blocked attacker. If you do, it enters tapped, attacking the same permanent or player, and blocked by each of the creatures blocking that creature.)[/i]
+When this creature enters, put a +1/+1 counter on target creature.
+
+Merciful Spirit
+rules_text: Flying
+When Merciful Spirit enters, you gain 3 life. => Flying
+When this creature enters, you gain 3 life.
+
+Knight of Tribulations
+rules_text: First strike
+Hexproof from red
+Knight of Tribulations gets +1/+0 as long as a player controls a red permanent. => First strike
+Hexproof from red
+this creature gets +1/+0 as long as a player controls a red permanent.
+
+Meadow Ambusher
+rules_text: {1}{W}: Pitfall [i](Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)[/i]
+Whenever Meadow Ambusher dies, you gain 3 life. => Pitfall {1}{W} [i](You may cast this card for {1}{W} if you control a blocked attacker. If you do, it enters tapped, attacking the same permanent or player, and blocked by each of the creatures blocking that creature.)[/i]
+Whenever this creature dies, you gain 3 life.
+
+Seyan Forcemage
+rules_text: Lifelink
+{3}{W}, Sacrifice Seyan Forcemage: Exile target creature you control. Then return it to the battlefield. => Lifelink
+{3}{W}, Sacrifice this creature: Exile target creature you control. Then return it to the battlefield.
+
+Solmist Warrior
+rules_text: {2}{W}{W}: Pitfall [i](Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)[/i]
+Lifelink
+Other blocked creatures you control get +2/+2. => Pitfall {2}{W}{W} [i](You may cast this card for {2}{W}{W} if you control a blocked attacker. If you do, it enters tapped, attacking the same permanent or player, and blocked by each of the creatures blocking that creature.)[/i]
+Lifelink
+Other blocked creatures you control get +2/+2.
+
+Goliath Drake
+rules_text: Flying
+Whenever Goliath Drake attacks, up to one target creature gains flying until end of turn. => Flying
+Whenever this creature attacks, up to one target creature gains flying until end of turn.
+
+Drake Darkling
+rules_text: Flying
+As long as Drake Darkling is modified, it can't be blocked. [i](Equipment, Auras you control, and counters are modifications.)[/i] => Flying
+This creature can't be blocked as long as it's modified. [i](Equipment, Auras you control, and counters are modifications.)[/i]
+
+Truthtwister Sprite
+rules_text: Bestow {4}{U}{U} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+Truthtwister Sprite and enchanted creature can't be blocked. => Bestow {4}{U}{U} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+This creature and enchanted creature can't be blocked.
+
+Riftborn Mindsealer
+rules_text: When Riftborn Mindsealer enters, gain control of target creature until Riftborn Mindsealer leaves the battlefield. => When this creature enters, gain control of target creature until this creature leaves the battlefield.
+
+Roofjumper
+rules_text: Menace
+{2}{B}{B}: Regenerate Roofjumper. [i](The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)[/i] => Menace
+{2}{B}{B}: Regenerate this creature. [i](The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)[/i]
+
+Olphris Forcemage
+rules_text: {B}, Sacrifice Olphris Forcemage: Target creature gets -X/-X until end of turn, where X is the number of cards in your graveyard that have a mana value equal to or greater than that creature's mana value. => {B}, Sacrifice this creature: Target creature gets -X/-X until end of turn, where X is the number of cards in your graveyard that have a mana value equal to or greater than that creature's mana value.
+
+Arvitch Forcemage
+rules_text: Haste
+{2}{R}{R}, Sacrifice Arvitch Forcemage: Arvitch Forcemage deals 4 damage to target creature or planeswalker. => Haste
+{2}{R}{R}, Sacrifice this creature: This creature deals 4 damage to target creature or planeswalker.
+
+Orcish Gutwrencher
+rules_text: {3}{R}: Pitfall [i](Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)[/i]
+Double strike
+{4}{R}{R}: Orcish Gutwrencher gets +2/+0 until end of turn. => Pitfall {3}{R} [i](You may cast this card for {3}{R} if you control a blocked attacker. If you do, it enters tapped, attacking the same permanent or player, and blocked by each of the creatures blocking that creature.)[/i]
+Double strike
+{4}{R}{R}: This creature gets +2/+0 until end of turn.
+
+Exiled Firebrand
+rules_text: {T}, Sacrifice Exiled Firebrand: The next time a red source you control would deal noncombat damage this turn, it deals that much damage plus 2 instead. => {T}, Sacrifice this creature: The next time a red source you control would deal noncombat damage this turn, it deals that much damage plus 2 instead.
+
+Impflesh
+rules_text: Enchant creature
+Enchanted creature gets +2/+2 and has menace.
+When Impflesh is put into a graveyard from the battlefield, you may have it deal 2 damage to target creature. => Enchant creature
+Enchanted creature gets +2/+2 and has menace.
+When this Aura is put into a graveyard from the battlefield, you may have it deal 2 damage to target creature.
+
+Infusion Shardshank
+rules_text: {R}: Infusion Shardshank gets +1/+0 until end of turn. Sacrifice Infusion Shardshank at beginning of the next end step. => {R}: This creature gets +1/+0 until end of turn. Sacrifice this creature at beginning of the next end step.
+
+Plumes of Destruction
+rules_text: Whenever you cast a spell, you may pay {1}{R} and sacrifice Plumes of Destruction. If you do, it deals 3 damage to any target. => Whenever you cast a spell, you may pay {1}{R} and sacrifice this enchantment. When you do, this enchantment deals 3 damage to any target.
+
+Primordial Atronach
+rules_text: Trample, hexproof
+Spells and abilities your opponents control can't cause you to sacrifice permanents.
+When Primordial Atronach dies, you may return target creature card from your graveyard to your hand. => Trample, hexproof
+Spells and abilities your opponents control can't cause you to sacrifice permanents.
+When this creature dies, you may return target creature card from your graveyard to your hand.
+
+Elusive Arachnid
+rules_text: Reach
+Elusive Arachnid can't block more than one creature and can't be blocked by more than one creature.
+Whenever a creature enters under an opponents control during combat, remove that creature from combat. => Reach
+This creature can't block more than one creature and can't be blocked by more than one creature.
+Whenever a creature an opponent controls enters during combat, remove that creature from combat.
+
+Fogwalker Behemoth
+rules_text: When Fogwalker Behemoth enters or is exiled from your graveyard, untap up to three target lands you control.
+Mould {2}{G} [i]({2}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i] => When this creature enters or this creature card is exiled from your graveyard, untap up to three target lands you control.
+Mould {2}{G} [i]({2}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i]
+
+Haldor Forcemage
+rules_text: {4}{G}{G}, Sacrifice Haldor Forcemage: Put three +1/+1 counters on target creature you control. That creature fights target creature an opponent controls. => {4}{G}{G}, Sacrifice this creature: Put three +1/+1 counters on target creature you control. That creature fights target creature an opponent controls.
+
+Worldrender Hydra
+rules_text: When this spell is countered, return Worldrender Hydra from exile or your graveyard to its owner's hand
+Trample, hexproof
+Worldrender Hydra enters with X +1/+1 counters. => When this spell is countered, return this creature card from exile or your graveyard to its owner's hand
+Trample, hexproof
+This creature enters with X +1/+1 counters.
+
+Aether Forcemage
+rules_text: {1}{U}, Sacrifice Aether Forcemage: Counter target spell unless that spell's controller has you draw two cards. => {1}{U}, Sacrifice this creature: Counter target spell unless that spell's controller has you draw two cards.
+
+Hexsnatch Golem
+rules_text: When Hexsnatch Golem enters, if it was cast, return up to one target instant or sorcery card with mana value 3 or less from your graveyard to your hand. => When this creature enters, if it was cast, return up to one target instant or sorcery card with mana value 3 or less from your graveyard to your hand.
+
+Primordial Ritualist
+rules_text: Menace
+When Primordial Ritualist is exiled from your graveyard, target creature gains menace until end of turn.
+Mould {3}{B}{G} [i]({3}{B}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i] => Menace
+When this creature card is exiled from your graveyard, target creature gains menace until end of turn.
+Mould {3}{B}{G} [i]({3}{B}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i]
+
+Skyraid Darter
+rules_text: Flying, haste
+{R}: Skyraid Darter gets +1/+0 and gains trample until end of turn. Sacrifice it at the beginning of your next end step. => Flying, haste
+{R}: This creature gets +1/+0 and gains trample until end of turn. Sacrifice it at the beginning of your next end step.
+
+Kroll Inquisitor
+rules_text: Kroll Inquisitor can't be the target of spells or abilities with only one target.
+Whenever you cast an instant or sorcery spell, Kroll Inquisitor gains menace until end of turn. => This creature can't be the target of spells or abilities with only one target.
+Whenever you cast an instant or sorcery spell, this creature gains menace until end of turn.
+
+Sigiled Tiger
+rules_text: When Sigiled Tiger enters, target creature you control gains trample until Sigiled Tiger leaves the battlefield. => When this creature enters, target creature you control gains trample until this creature leaves the battlefield.
+
+Aek Predator
+rules_text: Bestow {4}{G}{G} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+When Aek Predator becomes attached to a creature, that creature fights target creature an opponent controls.
+Enchanted creature gets +3/+3. => Bestow {4}{G}{G} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+When this permanent becomes attached to a creature, that creature fights target creature an opponent controls.
+Enchanted creature gets +3/+3.
+
+Knight of Despair
+rules_text: First strike
+Hexproof from green
+Knight of Despair gets +1/+0 as long as a player controls a green permanent. => First strike
+Hexproof from green
+This creature gets +1/+0 as long as a player controls a green permanent.
+
+Mage of the Elder Realm
+rules_text: Lifelink
+Mage of the Elder Realm can't be blocked if a card you own was put into exile this turn. => Lifelink
+This creature can't be blocked as long as card you own was put into exile from anywhere this turn.
+
+Kroll Witch
+rules_text: Kroll Witch can't be blocked if you've cast two or more spells this turn. => This creature can't be blocked as long as you've cast two or more spells this turn.
+
+Snapshifter
+rules_text: Flash
+Snapshifter can't be blocked.
+When Snapshifter enters, if you cast it, put up to one target nonland permanent on top of its owner's library. => Flash
+This creature can't be blocked.
+When this creature enters, if you cast it, put up to one target nonland permanent on top of its owner's library.
+
+Cunning Jailer
+rules_text: Vigilance
+Whenever an Aura becomes attached to Cunning Jailer, exile up to one target creature until Cunning Jailer leaves the battlefield. => Vigilance
+Whenever an Aura becomes attached to this creature, exile up to one target creature until this creature leaves the battlefield.
+
+Greenfist Provoker
+rules_text: {3}{G}: Pitfall [i](Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)[/i]
+Creature cards in your hand have “{X}: Pitfall”, where X is that creature's mana cost. => Pitfall {3}{G} [i](You may cast this card for {3}{G} if you control a blocked attacker. If you do, it enters tapped, attacking the same permanent or player, and blocked by each of the creatures blocking that creature.)[/i]
+You may cast creature spells as though they had pitfall. Their pitfall cost is equal to their mana cost.
+
+Arcane Parasitism
+rules_text: When Arcane Parasitism enters, target opponent reveals their hand, then exiles a nonland card from their hand.
+Sacrifice Arcane Parasitism: You may cast cards exiled with Arcane Parasitism until the beginning of your next turn. => When this enchantment enters, target opponent reveals their hand, then exiles a nonland card from their hand.
+Sacrifice this enchantment: You may cast cards exiled with this enchantment until the beginning of your next turn.
+
+Primeval Genesis
+
+Emberflesh Salamander
+rules_text: {R}: Emberflesh Salamander gets +1/+0 until end of turn.
+{2}{R}: Target creature gains haste until end of turn. => {R}: This creature gets +1/+0 until end of turn.
+{2}{R}: Target creature gains haste until end of turn.
+
+Gilded Seraph
+rules_text: Flying
+Whenever you cast an enchantment spell, draw a card.
+Gilded Seraph gets +1/+0 for each Aura attached to it. => Flying
+Whenever you cast an enchantment spell, draw a card.
+This creature gets +1/+0 for each Aura attached to it.
+
+Gorecrash Null
+rules_text: When Gorecrash Null dies, put a +1/+1 counter on target creature you control. => When this creature dies, put a +1/+1 counter on target creature you control.
+
+Riftborn Seeker
+rules_text: Flying
+Mould {B} [i]({B}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i]
+When Riftborn Seeker is exiled from your graveyard, each opponent loses 2 life. => Flying
+Mould {B} [i]({B}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i]
+When this creature card is exiled from your graveyard, each opponent loses 2 life.
+
+Brotherhood Revanant
+rules_text: Whenever another creature enters under your control, put a +1/+1 counter on Brotherhood Revanant. If that creature entered attacking, put a +1/+1 counter on that creature. => Whenever another creature enters under your control, put a +1/+1 counter on this creature. If that creature entered attacking, put a +1/+1 counter on that creature.
+
+Flowering Atronach
+rules_text: Bestow {G} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+Flowering Atronach and enchanted creature have “{T}: Add {G} for each aura attached to this creature.” => Bestow {G} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+This creature and enchanted creature have “{T}: Add {G} for each Aura attached to this creature.”
+
+Stalking Leopard
+rules_text: {3}{G}: Pitfall [i](Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)[/i]
+When Stalking Leopard enters, draw a card. => Pitfall {3}{G} [i](You may cast this card for {3}{G} if you control a blocked attacker. If you do, it enters tapped, attacking the same permanent or player, and blocked by each of the creatures blocking that creature.)[/i]
+When this creature enters, draw a card.
+
+Wayward Nexus
+rules_text: Wayward Nexus enters tapped with two charge counters.
+{T}: Add {U}.
+{U}, {T}, Remove a charge counter from Wayward Nexus: Scry 1 => This land enters tapped with two charge counters.
+{T}: Add {U}.
+{U}, {T}, Remove a charge counter from this land: Scry 1
+
+Cultivator Druid
+rules_text: Sacrifice Cultivator Druid: You may put a land card from your hand onto the battlefield.
+When Cultivator Druid dies, you may pay {1}{G}. If you do, draw a card. => Sacrifice this creature: You may put a land card from your hand onto the battlefield.
+When this creature dies, you may pay {1}{G}. If you do, draw a card.
+
+Chivalrous Keeper
+rules_text: Vigilance
+Whenever an Aura or Equipment becomes attached to Chivalrous Keeper, tap target creature an opponent controls. => Vigilance
+Whenever an Aura or Equipment becomes attached to this creature, tap target creature an opponent controls.
+
+Betrayed Watcher
+rules_text: Whenever an Aura you control becomes attached to Betrayed Watcher, draw a card. This ability triggers only once each turn. => Whenever an Aura you control becomes attached to this creature, draw a card. This ability triggers only once each turn.
+
+Hydrokin
+rules_text: Bestow {1}{G}{U} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+Hydrokin and enchanted creature get +1/+1 for each of their colors. => Bestow {1}{G}{U} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+This creature and enchanted creature get +1/+1 for each of their colors.
+
+Fieldtreader Paladin
+rules_text: First strike
+Whenever a creature dealt damage by Fieldtreader Paladin this turn dies, you gain 3 life. => First strike
+Whenever a creature dealt damage by this creature this turn dies, you gain 3 life.
+
+Shadow Mage
+rules_text: Menace
+When Shadow Mage enters, each opponent loses 2 life. => Menace
+When this creature enters, each opponent loses 2 life.
+
+Demigod's Fervor
+rules_text: Enchant creature
+Enchanted creature gets +1/+0 and has haste.
+Whenever enchanted creature deals combat damage to a player, you may return Demigod's Fervor to its owners hand. => Enchant creature
+Enchanted creature gets +1/+0 and has haste.
+Whenever enchanted creature deals combat damage to a player, you may return this Aura to its owner's hand.
+
+Arcanum Benefactor
+rules_text: Whenever you cast your second spell each turn, scry 1.
+{2}{U}, Sacrifice Arcanum Benefactor: Draw a card. => Whenever you cast your second spell each turn, scry 1.
+{2}{U}, Sacrifice this creature: Draw a card.
+
+Blaze Baron
+rules_text: When Blaze Baron enters, target creature you control gains double strike until Blaze Baron leaves the battlefield. => When this creature enters, target creature you control gains double strike until this creature leaves the battlefield.
+
+Napalm Elemental
+rules_text: Haste
+When Napalm Elemental enters or dies, it deals 3 damage to any non-player target.
+Mould {2}{B}{R} [i]({2}{B}{R}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i] => Haste
+When this creature enters or dies, it deals 3 damage to any nonplayer target.
+Mould {2}{B}{R} [i]({2}{B}{R}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i]
+
+Fate Scribbler
+rules_text: Flash
+When Fate Scribbler enters, draw two cards and lose 2 life. => Flash
+When this creature enters, draw two cards and lose 2 life.
+
+Taritha the Liberator
+rules_text: {1}{R}{G}{W}: Pitfall [i](Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)[/i]
+When Taritha the Liberator enters or dies, you may have her deal 2 damage to target creature or planeswalker. => Pitfall {1}{R}{G}{W} [i](You may cast this card for {1}{R}{G}{W} if you control a blocked attacker. If you do, it enters tapped, attacking the same permanent or player, and blocked by each of the creatures blocking that creature.)[/i]
+When Taritha the Liberator enters or dies, you may have her deal 2 damage to target creature or planeswalker.
+
+Curious Arcanist
+rules_text: Bestow {2}{U} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+Whenever Curious Arcanist or enchanted creature deal combat damage to a player, draw a card. => Bestow {2}{U} [i](If you cast this card for its bestow cost, it's an Aura spell with enchant creature. It becomes a creature again if it's not attached.)[/i]
+Whenever this creature or enchanted creature deals combat damage to a player, draw a card.
+
+Fraying Elemental
+rules_text: Haste
+When Fraying Elemental is exiled from your graveyard, target creature gains haste until end of turn.
+Mould {2}{R} [i]({2}{R}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i] => Haste
+When this creature card is exiled from your graveyard, target creature gains haste until end of turn.
+Mould {2}{R} [i]({2}{R}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i]
+
+Baelfire Mage
+rules_text: Flash
+When Baelfire Mage enters, the next time target spell, ability, or permanent you control would deal damage this turn, it deals twice that much damage instead. => Flash
+When this creature enters, the next time target spell, ability, or permanent you control would deal damage this turn, it deals twice that much damage instead.
+
+Emberflame Atronach
+rules_text: {3}{R}{R}: Pitfall [i](Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)[/i]
+Trample, haste
+When Emberflame Atronach deals combat damage to a player, sacrifice it. => Pitfall {3}{R}{R} [i](You may cast this card for {3}{R}{R} if you control a blocked attacker. If you do, it enters tapped, attacking the same permanent or player, and blocked by each of the creatures blocking that creature.)[/i]
+Trample, haste
+When this creature deals combat damage to a player, sacrifice it.
+
+Rubble Renegade
+rules_text: Double strike
+When Rubble Renegade is exiled from your graveyard, target creature gains double strike until end of turn.
+Mould {3}{R}{R} [i]({3}{R}{R}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i] => Double strike
+When this creature card is exiled from your graveyard, target creature gains double strike until end of turn.
+Mould {3}{R}{R} [i]({3}{R}{R}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i]
+
+Mayhem Feaster
+rules_text: Menace
+When Mayhem Feaster dies, you may pay 6 life. If you do, draw six cards. => Menace
+When this creature dies, you may pay 6 life. If you do, draw six cards.
+
+Void Augur
+rules_text: Void Augur enters tapped.
+Whenever one or more cards you own leave your graveyard, you may return Void Augur from your graveyard to the battlefield. => This creature enters tapped.
+Whenever one or more cards you own leave your graveyard, you may return this creature card from your graveyard to the battlefield.
+
+Goreling
+rules_text: When Goreling enters, target player sacrifices a creature. Put a number of +1/+1 counters on Goreling equal to the power of the creature sacrificed this way. => When this creature enters, target player sacrifices a creature. Put a number of +1/+1 counters on this creature equal to the power of the creature sacrificed this way.
+
+Flourish
+rules_text: You may put a land card from your hand onto the battlefield.
+Search your library for a land card, reveal it, and put it into your hand. Then shuffle. => You may put a land card from your hand onto the battlefield.
+Search your library for a land card, reveal it, put it into your hand, then shuffle.
+
+Dauntless Overgrowth
+rules_text: Enchant permanent
+Enchanted permanent is a colorless Forest land. [i](It loses all other types and abilities.)[/i]
+At the beginning of your upkeep, you may return Dauntless Overgrowth to its owner's hand. => Enchant permanent
+Enchanted permanent is a colorless Forest land. [i](It loses all other types and abilities.)[/i]
+At the beginning of your upkeep, you may return this Aura to its owner's hand.
+
+Arcanum Vanguard
+rules_text: Whenever one or more cards are put into exile from your graveyard, put a +1/+1 counter on Arcanum Vanguard. => Whenever one or more cards are put into exile from your graveyard, put a +1/+1 counter on this creature.
+
+Nurturing Peatland
+rules_text: {T}, Pay 1 life: Add {B} or {G}.
+{1}, {T}, Sacrifice Nurturing Peatland: Draw a card. => {T}, Pay 1 life: Add {B} or {G}.
+{1}, {T}, Sacrifice this land: Draw a card.
+
+Sunbaked Canyon
+rules_text: {T}, Pay 1 life: Add {R} or {W}.
+{1}, {T}, Sacrifice Sunbaked Canyon: Draw a card. => {T}, Pay 1 life: Add {R} or {W}.
+{1}, {T}, Sacrifice this land: Draw a card.
+
+Fiery Islet
+rules_text: {T}, Pay 1 life: Add {U} or {R}.
+{1}, {T}, Sacrifice Fiery Islet: Draw a card. => {T}, Pay 1 life: Add {U} or {R}.
+{1}, {T}, Sacrifice this land: Draw a card.
+
+Waterlogged Grove
+rules_text: {T}, Pay 1 life: Add {G} or {U}.
+{1}, {T}, Sacrifice Waterlogged Grove: Draw a card. => {T}, Pay 1 life: Add {G} or {U}.
+{1}, {T}, Sacrifice this land: Draw a card.
+
+Silent Clearing
+rules_text: {T}, Pay 1 life: Add {W} or {B}.
+{1}, {T}, Sacrifice Silent Clearing: Draw a card. => {T}, Pay 1 life: Add {W} or {B}.
+{1}, {T}, Sacrifice this land: Draw a card.
+
+Void Bauble
+rules_text: {5}: Put Void Bauble and another target permanent you don't control each on the bottom of their owners libraries. => {5}: Put this artifact and another target permanent you don't control each on the bottom of their owners libraries.
+
+Perplexing Codex
+rules_text: {T}: Draw a card then discard a card.
+{T}, Sacrifice Perplexing Codex: Choose a card type. You gain life equal to the number of cards of the chosen type in your graveyard. => {T}: Draw a card then discard a card.
+{T}, Sacrifice this artifact: Choose a card type. You gain life equal to the number of cards of the chosen type in your graveyard.
+
+Photomancer's Lens
+rules_text: {1}, {T}: Add one mana of any color.
+{2}, {T}, Sacrifice Photomancer's Lens: Draw a card. => {1}, {T}: Add one mana of any color.
+{2}, {T}, Sacrifice this artifact: Draw a card.
+
+Arcanum Reject
+rules_text: At the beginning of your upkeep, you may sacrifice an artifact and discard a card. If you do, return Arcanum Reject from your graveyard to your hand. => At the beginning of your upkeep, you may sacrifice an artifact and discard a card. If you do, return this creature card from your graveyard to your hand.
+
+Arcanum Reverie
+rules_text: Target nonland permanents owner puts it on top of their library.
+When Arcanum Reverie is exiled from your graveyard, you may draw a card. => Target nonland permanents owner puts it on top of their library.
+When this card is exiled from your graveyard, you may draw a card.
+
+Rusted Automaton
+rules_text: When Rusted Automaton enters, you may discard a card. If you do, draw a card. => When this creature enters, you may discard a card. If you do, draw a card.
+
+Survivalist Domain
+rules_text: Survivalist Domain enters tapped with two charge counters.
+{T}: Add {G}.
+{G}, {T}, Remove a charge counter from Survivalist Domain: Target creature gets +1/+1 until end of turn. => This land enters tapped with two charge counters.
+{T}: Add {G}.
+{G}, {T}, Remove a charge counter from this land: Target creature gets +1/+1 until end of turn.
+
+Caste Stronghold
+rules_text: Caste Stronghold enters tapped with two charge counters.
+{T}: Add {W}.
+{W}, {T}, Remove a charge counter from Caste Stronghold: Create a 1/1 white Soldier creature token. => This land enters tapped with two charge counters.
+{T}: Add {W}.
+{W}, {T}, Remove a charge counter from this land: Create a 1/1 white Soldier creature token.
+
+Urchin's Cradle
+rules_text: Urchin's Cradle enters tapped with two charge counters.
+{T}: Add {B}.
+{B}, {T}, Remove a charge counter from Urchin's Cradle: Each opponent loses 1 life and you gain 1 life. => This land enters tapped with two charge counters.
+{T}: Add {B}.
+{B}, {T}, Remove a charge counter from this land: Each opponent loses 1 life and you gain 1 life.
+
+Rugged Vantage
+rules_text: Rugged Vantage enters tapped with two charge counters.
+{T}: Add {R}.
+{R}, {T}, Remove a charge counter from Rugged Vantage: Discard a card then draw a card. => This land enters tapped with two charge counters.
+{T}: Add {R}.
+{R}, {T}, Remove a charge counter from this land: Discard a card then draw a card.
+
+Darkveil Borderpost
+rules_text: You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
+Darkveil Borderpost enters tapped.
+{T}: Add {W} or {B}. => You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
+This artifact enters tapped.
+{T}: Add {W} or {B}.
+
+Cinderstorm Borderpost
+rules_text: You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
+Cinderstorm Borderpost enters tapped.
+{T}: Add {U} or {R}. => You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
+This artifact enters tapped.
+{T}: Add {U} or {R}.
+
+Direwood Borderpost
+rules_text: You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
+Direwood Borderpost enters tapped.
+{T}: Add {B} or {G}. => You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
+This artifact enters tapped.
+{T}: Add {B} or {G}.
+
+Midland Borderpost
+rules_text: You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
+Midland Borderpost enters tapped.
+{T}: Add {R} or {W}. => You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
+This artifact enters tapped.
+{T}: Add {R} or {W}.
+
+Mossfall Borderpost
+rules_text: You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
+Mossfall Borderpost enters tapped.
+{T}: Add {G} or {U}. => You may pay {1} and return a basic land you control to its owner's hand rather than pay this spell's mana cost.
+This artifact enters tapped.
+{T}: Add {G} or {U}.
+
+Sparkeater Hellkite
+rules_text: Flying, haste
+Protection from planeswalkers
+Whenever Sparkeater Hellkite attacks, defending player sacrifices a planeswalker. If that player doesn't, they sacrifice an artifact. => Flying, haste
+Protection from planeswalkers
+Whenever this creature attacks, defending player sacrifices a planeswalker. If that player doesn't, they sacrifice an artifact.
+
+Vaato, Banished Necromancer
+rules_text: Deathtouch
+When Vaato, Banished Necromancer dies, choose target creature card in your graveyard. You may pay {X}, where X is twice that creature's mana value. If you do, return Vaato, Banished Necromancer and that creature from your graveyard to the battlefield. => Deathtouch
+When Vaato dies, choose target creature card in your graveyard. You may pay {X}, where X is twice that creature's mana value. If you do, return Vaato and that creature from your graveyard to the battlefield.
+
+Keeper's Resolve
+rules_text: Enchant creature or planeswalker
+If enchanted permanent would die, instead remove all damage from it and sacrifice Keeper's Resolve. Put two +1/+1 counters on that permanent if it's a creature then put two loyalty counters on that permanent if it's a planeswalker. => Enchant creature or planeswalker
+If enchanted permanent would die, instead remove all damage from it and sacrifice this Aura. Put two +1/+1 counters on that permanent if it's a creature then put two loyalty counters on that permanent if it's a planeswalker.
+
+Sorceror's Familiar
+rules_text: Flying
+Whenever you cast a spell, if you've cast another spell this turn, Sorceror's Familiar gets +1/+1 until end until end of turn. => Flying
+Whenever you cast a spell, if you've cast another spell this turn, this creature gets +1/+1 until end until end of turn.
+
+Invigorator Tyrant
+rules_text: Sacrifice a creature: Invigorator Tyrant gains trample until end of turn.
+Mould {1}{G} [i]({1}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i] => Sacrifice a creature: This creature gains trample until end of turn.
+Mould {1}{G} [i]({1}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i]
+
+Slayer of Clans
+rules_text: When Slayer of Clans leaves your graveyard, return another target card in your graveyard to your hand.
+Mould {B}{R}{G} [i]({B}{R}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i] => When this creature card leaves your graveyard, return another target card in your graveyard to your hand.
+Mould {B}{R}{G} [i]({B}{R}{G}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i]
+
+Fleshfire Atronach
+rules_text: When Fleshfire Atronach enters, it gains first strike until the beginning of your next turn.
+Mould {1}{R} [i]({1}{R}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i] => When this creature enters, it gains first strike until the beginning of your next turn.
+Mould {1}{R} [i]({1}{R}, Exile another card with mould from your graveyard: Return this card from your graveyard to your hand. Activate this ability only any time you could cast a sorcery.)[/i]
+
+Arcane Acquiescence
+rules_text: When Arcane Acquiescence enters, draw a card.
+Whenever you cast your second spell each turn, Arcane Acquiescence deals 1 damage to each opponent. => When this enchantment enters, draw a card.
+Whenever you cast your second spell each turn, this enchantment deals 1 damage to each opponent.
+
+Frillmane Ambusher
+rules_text: {4}{R}{G}: Pitfall [i](Put this creature onto the battlefield tapped, attacking, and in the conflict of your choice. Activate only if there is a conflict.)[/i] => Pitfall {4}{R}{G} [i](You may cast this card for {4}{R}{G} if you control a blocked attacker. If you do, it enters tapped, attacking the same permanent or player, and blocked by each of the creatures blocking that creature.)[/i]
+
+Rumbleform Liege
+rules_text: When Rumbleform Liege enters, destroy target land. => When this creature enters, destroy target land.
+
+Skilled Diplomat
+rules_text: When Skilled Diplomat enters, up to one target creature can't attack or block until Skilled Diplomat leaves the battlefield. => When this creature enters, up to one target creature can't attack or block until this creature leaves the battlefield.
+
+Razorglaive Slayer
+rules_text: When Razorglaive Slayer enters, target creature you control gains deathtouch until Razorglaive Slayer leaves the battlefield. => When this creature enters, target creature you control gains deathtouch until this creature leaves the battlefield.
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
