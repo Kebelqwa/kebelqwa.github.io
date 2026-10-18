@@ -5,7 +5,7 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "236"
+        "position": "233"
     },
     {
         "card_name": "The Battle of Naboo",
@@ -17,7 +17,7 @@
     },
     {
         "card_name": "The Battle of Yavin",
-        "number": 71,
+        "number": 70,
         "shape": "transform double faced split",
         "set": "SWTG",
         "rotated": true,
@@ -33,11 +33,11 @@
     },
     {
         "card_name": "The Battle of Endor",
-        "number": 136,
+        "number": 135,
         "shape": "transform double faced split",
         "set": "SWTG",
         "rotated": true,
-        "position": "114"
+        "position": "113"
     },
     {
         "card_name": "Bantha Herd",
@@ -57,11 +57,11 @@
     },
     {
         "card_name": "The Battle of Utapau",
-        "number": 70,
+        "number": 69,
         "shape": "transform double faced split",
         "set": "SWTG",
         "rotated": true,
-        "position": "247"
+        "position": "244"
     },
     {
         "card_name": "The Battle of Heroes",
@@ -69,15 +69,15 @@
         "shape": "transform double faced split",
         "set": "SWTG",
         "rotated": true,
-        "position": "238"
+        "position": "235"
     },
     {
-        "card_name": "AT-ST",
-        "number": 134,
-        "shape": "normal",
+        "card_name": "The Battle of Felucia",
+        "number": 136,
+        "shape": "transform double faced split",
         "set": "SWTG",
-        "rotated": false,
-        "position": "112"
+        "rotated": true,
+        "position": "239"
     },
     {
         "card_name": "The Battle of Scarif",
@@ -85,7 +85,7 @@
         "shape": "transform double faced split",
         "set": "SWTG",
         "rotated": true,
-        "position": "279"
+        "position": "276"
     },
     {
         "card_name": "The Battle of Christophsis",
@@ -93,11 +93,11 @@
         "shape": "transform double faced split",
         "set": "SWTG",
         "rotated": true,
-        "position": "240"
+        "position": "237"
     },
     {
         "card_name": "Bib Fortuna",
-        "number": 72,
+        "number": 71,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
@@ -109,15 +109,15 @@
         "shape": "transform double faced split",
         "set": "SWTG",
         "rotated": true,
-        "position": "241"
+        "position": "238"
     },
     {
-        "card_name": "The Battle of Felucia",
-        "number": 137,
-        "shape": "transform double faced split",
+        "card_name": "Bossk",
+        "number": 138,
+        "shape": "normal",
         "set": "SWTG",
-        "rotated": true,
-        "position": "242"
+        "rotated": false,
+        "position": "114"
     },
     {
         "card_name": "Lando Calrissian",
@@ -152,12 +152,12 @@
         "position": "89"
     },
     {
-        "card_name": "Bossk",
-        "number": 139,
+        "card_name": "Exogorth",
+        "number": 143,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "115"
+        "position": "118"
     },
     {
         "card_name": "Maintenance Hangar",
@@ -192,12 +192,12 @@
         "position": "94"
     },
     {
-        "card_name": "Exogorth",
-        "number": 144,
+        "card_name": "Ki-Adi-Mundi",
+        "number": 149,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "119"
+        "position": "124"
     },
     {
         "card_name": "Orbital Bombardment",
@@ -213,7 +213,7 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "263"
+        "position": "260"
     },
     {
         "card_name": "Order 66",
@@ -232,12 +232,12 @@
         "position": "96"
     },
     {
-        "card_name": "Ki-Adi-Mundi",
-        "number": 150,
-        "shape": "normal",
+        "card_name": "Millennium Falcon",
+        "number": 153,
+        "shape": "leveler",
         "set": "SWTG",
         "rotated": false,
-        "position": "125"
+        "position": "128"
     },
     {
         "card_name": "Plo Koon",
@@ -272,12 +272,12 @@
         "position": "102"
     },
     {
-        "card_name": "Millennium Falcon",
-        "number": 154,
-        "shape": "leveler",
+        "card_name": "Wicket, Ewok Rascal",
+        "number": 165,
+        "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "129"
+        "position": "300"
     },
     {
         "card_name": "The Battle of Hoth",
@@ -285,7 +285,7 @@
         "shape": "transform double faced split",
         "set": "SWTG",
         "rotated": true,
-        "position": "277"
+        "position": "274"
     },
     {
         "card_name": "Armed Protocol Droid",
@@ -297,7 +297,7 @@
     },
     {
         "card_name": "Black Market Dealer",
-        "number": 73,
+        "number": 72,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
@@ -309,15 +309,15 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "251"
+        "position": "248"
     },
     {
         "card_name": "The Battle of Kashyyyk",
-        "number": 138,
+        "number": 137,
         "shape": "transform double faced split",
         "set": "SWTG",
         "rotated": true,
-        "position": "246"
+        "position": "243"
     },
     {
         "card_name": "Battle Tactics",
@@ -333,11 +333,11 @@
         "shape": "transform double faced split",
         "set": "SWTG",
         "rotated": true,
-        "position": "239"
+        "position": "236"
     },
     {
         "card_name": "Bounty Spotter",
-        "number": 75,
+        "number": 74,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
@@ -349,15 +349,15 @@
         "shape": "transform double faced split",
         "set": "SWTG",
         "rotated": true,
-        "position": "237"
+        "position": "234"
     },
     {
         "card_name": "Bounty Collector",
-        "number": 140,
+        "number": 139,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "116"
+        "position": "115"
     },
     {
         "card_name": "Condemn",
@@ -393,11 +393,11 @@
     },
     {
         "card_name": "Hutt Crime Lord",
-        "number": 147,
+        "number": 146,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "122"
+        "position": "121"
     },
     {
         "card_name": "Deploy the Troops",
@@ -421,7 +421,7 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "248"
+        "position": "245"
     },
     {
         "card_name": "Dark Apprenticeship",
@@ -433,11 +433,11 @@
     },
     {
         "card_name": "Jedi Battle Sage",
-        "number": 149,
+        "number": 148,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "124"
+        "position": "123"
     },
     {
         "card_name": "Droideka",
@@ -473,11 +473,11 @@
     },
     {
         "card_name": "Legacy of the Beloved",
-        "number": 151,
+        "number": 150,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "126"
+        "position": "125"
     },
     {
         "card_name": "Jedi Inquirer",
@@ -485,7 +485,7 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "235"
+        "position": "232"
     },
     {
         "card_name": "Jump to Hyperspace",
@@ -493,7 +493,7 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "250"
+        "position": "247"
     },
     {
         "card_name": "Open Season",
@@ -513,11 +513,11 @@
     },
     {
         "card_name": "Mantellian Savrip",
-        "number": 152,
+        "number": 151,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "127"
+        "position": "126"
     },
     {
         "card_name": "Jedi Starfighter",
@@ -533,7 +533,7 @@
         "shape": "leveler",
         "set": "SWTG",
         "rotated": false,
-        "position": "255"
+        "position": "252"
     },
     {
         "card_name": "Rule of Two",
@@ -553,11 +553,11 @@
     },
     {
         "card_name": "Nerf Herder",
-        "number": 155,
+        "number": 154,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "130"
+        "position": "129"
     },
     {
         "card_name": "LAAT Gunship",
@@ -593,11 +593,11 @@
     },
     {
         "card_name": "Nexu Stalker",
-        "number": 156,
+        "number": 155,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "131"
+        "position": "130"
     },
     {
         "card_name": "Miraculous Recovery",
@@ -633,11 +633,11 @@
     },
     {
         "card_name": "Rancor",
-        "number": 159,
+        "number": 158,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "134"
+        "position": "133"
     },
     {
         "card_name": "Riding Ronto",
@@ -661,7 +661,7 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "253"
+        "position": "250"
     },
     {
         "card_name": "Smash to Smithereens",
@@ -673,11 +673,11 @@
     },
     {
         "card_name": "Show of Dominance",
-        "number": 164,
+        "number": 163,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "139"
+        "position": "138"
     },
     {
         "card_name": "Snow Trooper",
@@ -693,7 +693,7 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "256"
+        "position": "253"
     },
     {
         "card_name": "Unruly Sureshot",
@@ -713,11 +713,11 @@
     },
     {
         "card_name": "Trooper Commando",
-        "number": 165,
+        "number": 164,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "140"
+        "position": "139"
     },
     {
         "card_name": "Cantina Band",
@@ -736,12 +736,12 @@
         "position": "32"
     },
     {
-        "card_name": "Acquire Target",
+        "card_name": "Aqualish Bounty Hunter",
         "number": 68,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "56"
+        "position": "57"
     },
     {
         "card_name": "Capture",
@@ -753,11 +753,11 @@
     },
     {
         "card_name": "Bathe in Bacta",
-        "number": 135,
+        "number": 134,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "113"
+        "position": "112"
     },
     {
         "card_name": "Escape Pod",
@@ -776,12 +776,12 @@
         "position": "33"
     },
     {
-        "card_name": "Aqualish Bounty Hunter",
-        "number": 69,
+        "card_name": "Bludgeoning Pain",
+        "number": 73,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "57"
+        "position": "241"
     },
     {
         "card_name": "Crossfire",
@@ -793,11 +793,11 @@
     },
     {
         "card_name": "Corellian Corvette",
-        "number": 141,
+        "number": 140,
         "shape": "leveler",
         "set": "SWTG",
         "rotated": false,
-        "position": "257"
+        "position": "254"
     },
     {
         "card_name": "Force Healing",
@@ -816,12 +816,12 @@
         "position": "35"
     },
     {
-        "card_name": "Bludgeoning Pain",
-        "number": 74,
+        "card_name": "Dead or Alive",
+        "number": 75,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "244"
+        "position": "56"
     },
     {
         "card_name": "Force Spark",
@@ -833,11 +833,11 @@
     },
     {
         "card_name": "Ewok Ambush",
-        "number": 142,
+        "number": 141,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "117"
+        "position": "116"
     },
     {
         "card_name": "Gifted Initiate",
@@ -873,11 +873,11 @@
     },
     {
         "card_name": "Ewok Firedancers",
-        "number": 143,
+        "number": 142,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "118"
+        "position": "117"
     },
     {
         "card_name": "Gonk Droid",
@@ -913,11 +913,11 @@
     },
     {
         "card_name": "Force Pull",
-        "number": 145,
+        "number": 144,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "120"
+        "position": "119"
     },
     {
         "card_name": "Hello There",
@@ -953,11 +953,11 @@
     },
     {
         "card_name": "Hungry Dragonsnake",
-        "number": 146,
+        "number": 145,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "121"
+        "position": "120"
     },
     {
         "card_name": "Jedi Battle Healer",
@@ -993,11 +993,11 @@
     },
     {
         "card_name": "Ithorian Initiate",
-        "number": 148,
+        "number": 147,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "123"
+        "position": "122"
     },
     {
         "card_name": "Jedi Instructor",
@@ -1033,11 +1033,11 @@
     },
     {
         "card_name": "Massiff Swarm",
-        "number": 153,
+        "number": 152,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "128"
+        "position": "127"
     },
     {
         "card_name": "Lockdown",
@@ -1069,15 +1069,15 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "199"
+        "position": "196"
     },
     {
         "card_name": "Nightspider",
-        "number": 157,
+        "number": 156,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "132"
+        "position": "131"
     },
     {
         "card_name": "Loyal Tauntaun",
@@ -1113,11 +1113,11 @@
     },
     {
         "card_name": "No Contest",
-        "number": 158,
+        "number": 157,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "133"
+        "position": "132"
     },
     {
         "card_name": "Nebulon-B Frigate",
@@ -1153,11 +1153,11 @@
     },
     {
         "card_name": "Regression",
-        "number": 160,
+        "number": 159,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "135"
+        "position": "134"
     },
     {
         "card_name": "Sand Trooper",
@@ -1193,11 +1193,11 @@
     },
     {
         "card_name": "Scout the Perimeter",
-        "number": 161,
+        "number": 160,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "136"
+        "position": "135"
     },
     {
         "card_name": "Security Droid",
@@ -1233,11 +1233,11 @@
     },
     {
         "card_name": "Scout Trooper",
-        "number": 162,
+        "number": 161,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "137"
+        "position": "136"
     },
     {
         "card_name": "Womp Rat",
@@ -1273,11 +1273,11 @@
     },
     {
         "card_name": "Shaak Herd",
-        "number": 163,
+        "number": 162,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "138"
+        "position": "137"
     },
     {
         "card_name": "X-Wing",
@@ -1301,7 +1301,7 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "254"
+        "position": "251"
     },
     {
         "card_name": "V-Wing",
@@ -1317,7 +1317,7 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "141"
+        "position": "140"
     },
     {
         "card_name": "er"
@@ -1334,211 +1334,211 @@
     "a->gold",
     {
         "card_name": "Obi-Wan Kenobi",
-        "number": 211,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "298"
-    },
-    {
-        "card_name": "Darth Tyranus, Count Dooku",
-        "number": 189,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "297"
-    },
-    {
-        "card_name": "Aurra Sing, Bane of Jedi",
-        "number": 174,
+        "number": 212,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "295"
     },
     {
-        "card_name": "Sarlacc Pit",
-        "number": 219,
+        "card_name": "Darth Tyranus, Count Dooku",
+        "number": 188,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "184"
+        "position": "294"
+    },
+    {
+        "card_name": "Aurra Sing, Bane of Jedi",
+        "number": 173,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "292"
+    },
+    {
+        "card_name": "Sarlacc Pit",
+        "number": 220,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "181"
     },
     {
         "card_name": "Luke Skywalker",
-        "number": 206,
+        "number": 205,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "172"
+        "position": "170"
     },
     {
         "card_name": "C-3PO and R2D2",
+        "number": 177,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "147"
+    },
+    {
+        "card_name": "Cunning Abduction",
+        "number": 183,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "153"
+    },
+    {
+        "card_name": "Darth Maul",
+        "number": 186,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "156"
+    },
+    {
+        "card_name": "Wedge Antilles",
+        "number": 233,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "257"
+    },
+    {
+        "card_name": "Amidala, Queen of Naboo",
+        "number": 169,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "240"
+    },
+    {
+        "card_name": "Carbonite Chamber",
         "number": 178,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "149"
-    },
-    {
-        "card_name": "Cunning Abduction",
-        "number": 184,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "155"
-    },
-    {
-        "card_name": "Darth Maul",
-        "number": 187,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "158"
-    },
-    {
-        "card_name": "Wedge Antilles",
-        "number": 231,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "260"
-    },
-    {
-        "card_name": "Amidala, Queen of Naboo",
-        "number": 170,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "243"
-    },
-    {
-        "card_name": "Carbonite Chamber",
-        "number": 179,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "150"
+        "position": "148"
     },
     {
         "card_name": "Senator Lott Dod",
-        "number": 221,
+        "number": 222,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "183"
+    },
+    {
+        "card_name": "Hondo Ohnaka",
+        "number": 195,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "186"
     },
     {
-        "card_name": "Hondo Ohnaka",
-        "number": 196,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "189"
-    },
-    {
         "card_name": "Tarfful, Wookiee General",
-        "number": 228,
+        "number": 229,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "187"
+        "position": "184"
     },
     {
         "card_name": "Senator Bail Organa",
-        "number": 220,
+        "number": 221,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "182"
+    },
+    {
+        "card_name": "Senator Padm\u00e9 Amidala",
+        "number": 223,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "185"
     },
     {
-        "card_name": "Senator Padm\u00e9 Amidala",
-        "number": 222,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "188"
-    },
-    {
         "card_name": "Force Choke",
-        "number": 191,
+        "number": 190,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "160"
+        "position": "158"
     },
     {
         "card_name": "Dark Decision",
-        "number": 186,
+        "number": 185,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "157"
+        "position": "155"
     },
     {
         "card_name": "Primal Instinct",
-        "number": 214,
+        "number": 215,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "179"
+        "position": "177"
     },
     {
         "card_name": "Images of the Past",
-        "number": 199,
+        "number": 198,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "167"
+        "position": "165"
     },
     {
         "card_name": "Maintenance Droid",
-        "number": 207,
+        "number": 206,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "173"
+        "position": "171"
     },
     {
         "card_name": "Tri-Fighter",
-        "number": 238,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "201"
-    },
-    {
-        "card_name": "Fulfill Contract",
-        "number": 235,
+        "number": 240,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "198"
     },
     {
-        "card_name": "Wookiee Raidleader",
-        "number": 239,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "202"
-    },
-    {
-        "card_name": "Strike Team Commando",
+        "card_name": "Fulfill Contract",
         "number": 237,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "200"
+        "position": "195"
     },
     {
-        "card_name": "N-1 Starfighter",
-        "number": 236,
+        "card_name": "Wookiee Raidleader",
+        "number": 241,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "258"
+        "position": "199"
+    },
+    {
+        "card_name": "Strike Team Commando",
+        "number": 239,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "197"
+    },
+    {
+        "card_name": "N-1 Starfighter",
+        "number": 238,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "255"
     },
     {
         "card_name": "e"
@@ -1573,54 +1573,39 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "174"
+        "position": "172"
     },
     {
         "card_name": "Asajj Ventress",
-        "number": 173,
+        "number": 172,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "145"
+        "position": "143"
     },
     {
         "card_name": "Greedo",
-        "number": 195,
+        "number": 194,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "164"
+        "position": "162"
     },
     {
-        "card_name": "e"
-    },
-    {
-        "card_name": "Yoda, Jedi Master",
-        "number": 234,
+        "card_name": "Chewbacca",
+        "number": 179,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "294"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
+        "position": "149"
     },
     {
         "card_name": "Kit Fisto",
-        "number": 205,
+        "number": 204,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "245"
+        "position": "242"
     },
     {
         "card_name": "er"
@@ -1639,163 +1624,203 @@
     },
     {
         "card_name": "General Grievous",
-        "number": 193,
+        "number": 192,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "162"
+        "position": "160"
     },
     {
         "card_name": "Anakin Skywalker",
-        "number": 172,
+        "number": 171,
         "shape": "transform double faced",
         "set": "SWTG",
         "rotated": false,
-        "position": "290"
+        "position": "287"
     },
     {
         "card_name": "Boba Fett",
-        "number": 176,
+        "number": 175,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "147"
+        "position": "145"
     },
     {
         "card_name": "Greater Krayt Dragon",
-        "number": 194,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "163"
-    },
-    {
-        "card_name": "Anakin and Obi-Wan",
-        "number": 171,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "259"
-    },
-    {
-        "card_name": "Nute Gunray",
-        "number": 210,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "176"
-    },
-    {
-        "card_name": "Darth Sidious, Sith Lord",
-        "number": 188,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "296"
-    },
-    {
-        "card_name": "Hot Pursuit",
-        "number": 197,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "165"
-    },
-    {
-        "card_name": "Acklay of the Arena",
-        "number": 168,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "143"
-    },
-    {
-        "card_name": "Force Mastery",
-        "number": 192,
+        "number": 193,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "161"
     },
     {
-        "card_name": "Tank Droid",
-        "number": 227,
+        "card_name": "Yoda, Jedi Master",
+        "number": 236,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "194"
+        "position": "291"
+    },
+    {
+        "card_name": "Nute Gunray",
+        "number": 211,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "174"
+    },
+    {
+        "card_name": "Darth Sidious, Sith Lord",
+        "number": 187,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "293"
+    },
+    {
+        "card_name": "Hot Pursuit",
+        "number": 196,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "163"
+    },
+    {
+        "card_name": "Blind Worship",
+        "number": 174,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "144"
+    },
+    {
+        "card_name": "Anakin and Obi-Wan",
+        "number": 170,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "256"
+    },
+    {
+        "card_name": "Tank Droid",
+        "number": 228,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "191"
     },
     {
         "card_name": "Iron Fist of the Empire",
-        "number": 200,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "168"
-    },
-    {
-        "card_name": "Hunt to Extinction",
-        "number": 198,
+        "number": 199,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "166"
     },
     {
-        "card_name": "Blind Worship",
-        "number": 175,
+        "card_name": "Hunt to Extinction",
+        "number": 197,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "164"
+    },
+    {
+        "card_name": "Bull Rancor",
+        "number": 176,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "146"
     },
     {
-        "card_name": "Jedi Survivor",
-        "number": 204,
+        "card_name": "Force Mastery",
+        "number": 191,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "261"
+        "position": "159"
     },
     {
         "card_name": "Trade Federation Battleship",
-        "number": 229,
+        "number": 230,
         "shape": "leveler",
         "set": "SWTG",
         "rotated": false,
-        "position": "252"
+        "position": "249"
     },
     {
         "card_name": "Sith Magic",
-        "number": 223,
+        "number": 224,
         "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "187"
+    },
+    {
+        "card_name": "Jabba the Hutt",
+        "number": 200,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "167"
+    },
+    {
+        "card_name": "Chief Chirpa",
+        "number": 180,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "150"
+    },
+    {
+        "card_name": "Jedi Survivor",
+        "number": 203,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "258"
+    },
+    {
+        "card_name": "Vulture Droid",
+        "number": 232,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "297"
+    },
+    {
+        "card_name": "Star Destroyer",
+        "number": 227,
+        "shape": "leveler",
         "set": "SWTG",
         "rotated": false,
         "position": "190"
     },
     {
-        "card_name": "Jabba the Hutt",
-        "number": 201,
+        "card_name": "The Mandalorian",
+        "number": 207,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "169"
+        "position": "298"
     },
     {
-        "card_name": "Bull Rancor",
-        "number": 177,
+        "card_name": "Mon Mothma, Voice of Rebellion",
+        "number": 210,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "148"
+        "position": "301"
     },
     {
         "card_name": "Precipice of Mortis",
-        "number": 213,
+        "number": 214,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "178"
+        "position": "176"
     },
     {
         "card_name": "AAT-1",
@@ -1803,103 +1828,23 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "142"
-    },
-    {
-        "card_name": "Star Destroyer",
-        "number": 226,
-        "shape": "leveler",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "193"
-    },
-    {
-        "card_name": "Slave I",
-        "number": 225,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "192"
-    },
-    {
-        "card_name": "Chewbacca",
-        "number": 180,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "151"
-    },
-    {
-        "card_name": "Princess Leia",
-        "number": 215,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "180"
-    },
-    {
-        "card_name": "Unity of the Droids",
-        "number": 230,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "195"
+        "position": "141"
     },
     {
         "card_name": "Cruelty of the Sith",
-        "number": 183,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "154"
-    },
-    {
-        "card_name": "Ferocity of the Underworld",
-        "number": 190,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "159"
-    },
-    {
-        "card_name": "Chief Chirpa",
-        "number": 181,
+        "number": 182,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "152"
     },
     {
-        "card_name": "Qui-Gon Jinn",
-        "number": 216,
+        "card_name": "Slave I",
+        "number": 226,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "181"
-    },
-    {
-        "card_name": "Salvage Squad",
-        "number": 218,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "183"
-    },
-    {
-        "card_name": "Sith Mindseer",
-        "number": 224,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "191"
-    },
-    {
-        "card_name": "Rumor Monger",
-        "number": 217,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "182"
+        "position": "189"
     },
     {
         "card_name": "Might of the Wild",
@@ -1907,75 +1852,120 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "175"
+        "position": "173"
+    },
+    {
+        "card_name": "Qui-Gon Jinn",
+        "number": 217,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "178"
+    },
+    {
+        "card_name": "Unity of the Droids",
+        "number": 231,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "192"
+    },
+    {
+        "card_name": "Sith Mindseer",
+        "number": 225,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "188"
+    },
+    {
+        "card_name": "Ferocity of the Underworld",
+        "number": 189,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "157"
+    },
+    {
+        "card_name": "Wookiee Mystic",
+        "number": 235,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "194"
     },
     {
         "card_name": "Jedi Knight",
+        "number": 201,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "168"
+    },
+    {
+        "card_name": "Salvage Squad",
+        "number": 219,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "180"
+    },
+    {
+        "card_name": "Adroit Hateflayer",
+        "number": 168,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "142"
+    },
+    {
+        "card_name": "Rumor Monger",
+        "number": 218,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "179"
+    },
+    {
+        "card_name": "Dagobah Maw Slug",
+        "number": 184,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "154"
+    },
+    {
+        "card_name": "Wisdom of the Jedi",
+        "number": 234,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "193"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Outer Rim Slaver",
+        "number": 213,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "175"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Jedi Sentinel",
         "number": 202,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "170"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "Adroit Hateflayer",
-        "number": 169,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "144"
-    },
-    {
-        "card_name": "Outer Rim Slaver",
-        "number": 212,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "177"
-    },
-    {
-        "card_name": "Wookiee Mystic",
-        "number": 233,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "197"
-    },
-    {
-        "card_name": "Wisdom of the Jedi",
-        "number": 232,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "196"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "Dagobah Maw Slug",
-        "number": 185,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "156"
-    },
-    {
-        "card_name": "Jedi Sentinel",
-        "number": 203,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "171"
+        "position": "169"
     },
     {
         "card_name": "er"
@@ -1994,11 +1984,11 @@
     },
     {
         "card_name": "Commander Cody",
-        "number": 182,
+        "number": 181,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "153"
+        "position": "151"
     },
     {
         "card_name": "e"
@@ -2027,27 +2017,27 @@
     "a->colorless",
     {
         "card_name": "Ancient Holocron",
-        "number": 240,
+        "number": 242,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "203"
+        "position": "200"
     },
     {
         "card_name": "Dark Trooper",
-        "number": 241,
+        "number": 243,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "204"
+        "position": "201"
     },
     {
         "card_name": "Trooper Armor",
-        "number": 247,
+        "number": 249,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "212"
+        "position": "209"
     },
     {
         "card_name": "May the Force be with You",
@@ -2055,55 +2045,55 @@
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "262"
+        "position": "259"
     },
     {
         "card_name": "Drone Holocron",
-        "number": 242,
+        "number": 244,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "205"
+        "position": "202"
     },
     {
         "card_name": "Jedi Holocron",
-        "number": 243,
+        "number": 245,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "206"
+        "position": "203"
     },
     {
         "card_name": "Lightsaber",
-        "number": 244,
+        "number": 246,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "204"
+    },
+    {
+        "card_name": "Outlaw Holocron",
+        "number": 247,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "207"
     },
     {
-        "card_name": "Outlaw Holocron",
-        "number": 245,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "210"
-    },
-    {
         "card_name": "Sith Holocron",
-        "number": 246,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "209"
-    },
-    {
-        "card_name": "Wild Holocron",
         "number": 248,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "211"
+        "position": "206"
+    },
+    {
+        "card_name": "Wild Holocron",
+        "number": 250,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "208"
     },
     {
         "card_name": "er"
@@ -2122,115 +2112,115 @@
     },
     {
         "card_name": "The Death Star",
-        "number": 250,
+        "number": 252,
         "shape": "leveler",
         "set": "SWTG",
         "rotated": false,
-        "position": "208"
+        "position": "205"
     },
     {
         "card_name": "The Tomb of Miktrull",
-        "number": 262,
+        "number": 264,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "249"
+        "position": "246"
     },
     {
         "card_name": "Droid Foundry",
-        "number": 252,
+        "number": 253,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "216"
+    },
+    {
+        "card_name": "Ewok Village",
+        "number": 254,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "219"
     },
     {
-        "card_name": "Ewok Village",
-        "number": 253,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "222"
-    },
-    {
         "card_name": "Hutt Palace",
-        "number": 254,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "221"
-    },
-    {
-        "card_name": "Jedi Temple",
-        "number": 255,
+        "number": 256,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "218"
     },
     {
-        "card_name": "Kamino",
-        "number": 256,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "224"
-    },
-    {
-        "card_name": "Sith Citadel",
-        "number": 260,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "220"
-    },
-    {
-        "card_name": "Tatooine",
-        "number": 261,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "223"
-    },
-    {
-        "card_name": "Dantooine",
-        "number": 249,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "213"
-    },
-    {
-        "card_name": "Droid Factory",
-        "number": 251,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "214"
-    },
-    {
-        "card_name": "Kashyyyk",
+        "card_name": "Jedi Temple",
         "number": 257,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "217"
-    },
-    {
-        "card_name": "Korriban",
-        "number": 258,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "215"
     },
     {
-        "card_name": "Nar Shaddaa",
+        "card_name": "Kamino",
+        "number": 258,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "221"
+    },
+    {
+        "card_name": "Sith Citadel",
+        "number": 262,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "217"
+    },
+    {
+        "card_name": "Tatooine",
+        "number": 263,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "220"
+    },
+    {
+        "card_name": "Dantooine",
+        "number": 251,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "210"
+    },
+    {
+        "card_name": "Geonosis",
+        "number": 255,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "211"
+    },
+    {
+        "card_name": "Kashyyyk",
         "number": 259,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
-        "position": "216"
+        "position": "214"
+    },
+    {
+        "card_name": "Korriban",
+        "number": 260,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "212"
+    },
+    {
+        "card_name": "Nar Shaddaa",
+        "number": 261,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "213"
     },
     {
         "card_name": "e"
@@ -2252,83 +2242,83 @@
     },
     {
         "card_name": "SWTG Plains;",
-        "number": 264,
+        "number": 266,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "222"
+    },
+    {
+        "card_name": "SWTG Island1;",
+        "number": 267,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "223"
+    },
+    {
+        "card_name": "SWTG Swamp;",
+        "number": 270,
+        "shape": "normal",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "224"
+    },
+    {
+        "card_name": "SWTG Mountain;",
+        "number": 272,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "225"
     },
     {
-        "card_name": "SWTG Island1;",
-        "number": 265,
+        "card_name": "SWTG Forest;",
+        "number": 274,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "226"
     },
     {
-        "card_name": "SWTG Swamp;",
-        "number": 268,
+        "card_name": "SWTG Plains1;",
+        "number": 265,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "227"
     },
     {
-        "card_name": "SWTG Mountain;",
-        "number": 270,
+        "card_name": "SWTG Island;",
+        "number": 268,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "228"
     },
     {
-        "card_name": "SWTG Forest;",
-        "number": 272,
+        "card_name": "SWTG Mountain1;",
+        "number": 271,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "229"
     },
     {
-        "card_name": "SWTG Plains1;",
-        "number": 263,
+        "card_name": "SWTG Swamp1;",
+        "number": 269,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "230"
     },
     {
-        "card_name": "SWTG Island;",
-        "number": 266,
+        "card_name": "SWTG Forest1;",
+        "number": 273,
         "shape": "normal",
         "set": "SWTG",
         "rotated": false,
         "position": "231"
-    },
-    {
-        "card_name": "SWTG Mountain1;",
-        "number": 269,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "232"
-    },
-    {
-        "card_name": "SWTG Swamp1;",
-        "number": 267,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "233"
-    },
-    {
-        "card_name": "SWTG Forest1;",
-        "number": 271,
-        "shape": "normal",
-        "set": "SWTG",
-        "rotated": false,
-        "position": "234"
     },
     {
         "card_name": "er"
@@ -2349,7 +2339,7 @@
         "shape": "token",
         "set": "SWTG",
         "rotated": false,
-        "position": "275"
+        "position": "272"
     },
     {
         "card_name": "SWTG 3+Color Archetypes",
@@ -2357,7 +2347,7 @@
         "shape": "token",
         "set": "SWTG",
         "rotated": false,
-        "position": "265"
+        "position": "262"
     },
     {
         "card_name": "Droid",
@@ -2365,7 +2355,7 @@
         "shape": "token",
         "set": "SWTG",
         "rotated": false,
-        "position": "268"
+        "position": "265"
     },
     {
         "card_name": "Munitions",
@@ -2373,7 +2363,7 @@
         "shape": "token",
         "set": "SWTG",
         "rotated": false,
-        "position": "299"
+        "position": "296"
     },
     {
         "card_name": "Rebel",
@@ -2381,7 +2371,7 @@
         "shape": "token",
         "set": "SWTG",
         "rotated": false,
-        "position": "271"
+        "position": "268"
     },
     {
         "card_name": "Trooper",
@@ -2389,7 +2379,7 @@
         "shape": "token",
         "set": "SWTG",
         "rotated": false,
-        "position": "269"
+        "position": "266"
     },
     {
         "card_name": "Trooper",
@@ -2397,7 +2387,7 @@
         "shape": "token",
         "set": "SWTG",
         "rotated": false,
-        "position": "276"
+        "position": "273"
     },
     {
         "card_name": "Tusken Raider",
@@ -2405,7 +2395,7 @@
         "shape": "token",
         "set": "SWTG",
         "rotated": false,
-        "position": "266"
+        "position": "263"
     },
     {
         "card_name": "B-Wing",
@@ -2413,7 +2403,7 @@
         "shape": "token",
         "set": "SWTG",
         "rotated": false,
-        "position": "272"
+        "position": "269"
     },
     {
         "card_name": "TIE Fighter",
@@ -2421,7 +2411,7 @@
         "shape": "token",
         "set": "SWTG",
         "rotated": false,
-        "position": "267"
+        "position": "264"
     },
     {
         "card_name": "Bounty Hunter",
@@ -2429,7 +2419,7 @@
         "shape": "token",
         "set": "SWTG",
         "rotated": false,
-        "position": "274"
+        "position": "271"
     },
     {
         "card_name": "Royal Guard",
@@ -2437,7 +2427,7 @@
         "shape": "token",
         "set": "SWTG",
         "rotated": false,
-        "position": "270"
+        "position": "267"
     },
     {
         "card_name": "Ewok Rebel",
@@ -2445,10 +2435,15 @@
         "shape": "token",
         "set": "SWTG",
         "rotated": false,
-        "position": "273"
+        "position": "270"
     },
     {
-        "card_name": "e"
+        "card_name": "Princess Leia",
+        "number": 216,
+        "shape": "token",
+        "set": "SWTG",
+        "rotated": false,
+        "position": "299"
     },
     {
         "card_name": "e"

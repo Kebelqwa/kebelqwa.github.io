@@ -5,7 +5,7 @@
 			<name>SWTG</name>
 			<longname>Star Wars: The Gathering</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-10-16</releasedate>
+			<releasedate>2026-10-18</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -400,7 +400,7 @@ Destroy all Vehicles without spaceflight.</text>
 			<name>Plo Koon</name>
 			<text>Flash
 You may activate meditate abilities any time you could cast an instant.
-Meditate {1}{W} ({1}{W}: Return this creature to its owner&apos;s hand. Meditate only as a sorcery.)</text>
+Meditate {1}{W}</text>
 			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/22.png" num="28">SWTG</set>
 			<prop>
 				<layout>normal</layout>
@@ -1025,10 +1025,10 @@ Whenever one or more nontoken creatures you control leave the battlefield while 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Acquire Target</name>
+			<name>Dead or Alive</name>
 			<text>You may put a bounty counter on up to one target permanent. If you don&apos;t, scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)
 Target player draws two cards and loses 2 life.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/56.png" num="68">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/56.png" num="75">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1045,7 +1045,7 @@ Target player draws two cards and loses 2 life.</text>
 			<name>Aqualish Bounty Hunter</name>
 			<text>When this creature enters, put a bounty counter on target permanent.
 Whenever you complete a bounty, target player discards a card. (You complete a bounty when a permanent you don&apos;t control with a bounty counter leaves the battlefield.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/57.png" num="69">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/57.png" num="68">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1065,7 +1065,7 @@ Whenever you complete a bounty, target player discards a card. (You complete a b
 When this Siege enters, for each creature, Spacecraft, and Vehicle you don&apos;t control, its controller sacrifices it unless they pay X life.
 ---
 (Back): Trench Run</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/58_front.png" num="71a">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/58_front.png" num="70a">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -1085,7 +1085,7 @@ When this Siege enters, for each creature, Spacecraft, and Vehicle you don&apos;
 			<text>Each opponent sacrifices a legendary permanent. Each opponent that can&apos;t sacrifices a creature instead.
 ---
 (Front): The Battle of Yavin</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/58_back.png" num="71b">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/58_back.png" num="70b">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -1103,7 +1103,7 @@ When this Siege enters, for each creature, Spacecraft, and Vehicle you don&apos;
 			<name>Bib Fortuna</name>
 			<text>When Bib Fortuna enters, search your library for a card, then shuffle, then put that card on top of it. You lose 1 life.
 When Bib Fortuna dies, shuffle your library.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/59.png" num="72">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/59.png" num="71">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1121,7 +1121,7 @@ When Bib Fortuna dies, shuffle your library.</text>
 			<name>Black Market Dealer</name>
 			<text>Whenever an outlaw creature you control dies, put a bounty counter on target permanent. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)
 Whenever you complete a bounty, you lose 1 life and draw a card. (You complete a bounty when a permanent you don&apos;t control with a bounty counter leaves the battlefield.)</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/60.png" num="73">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/60.png" num="72">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1140,7 +1140,7 @@ Whenever you complete a bounty, you lose 1 life and draw a card. (You complete a
 			<text>This creature doesn&apos;t untap during your untap step.
 {T}: Put a bounty counter on target permanent.
 Whenever you complete a bounty, untap this creature. (You complete a bounty when a permanent you don&apos;t control with a bounty counter leaves the battlefield.)</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/61.png" num="75">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/61.png" num="74">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1263,7 +1263,7 @@ When this creature enters, up to one target creature gets -1/-1 for each Trooper
 		</card>
 		<card>
 			<name>Head Hunting</name>
-			<text>Put a bounty counter on up to one target permanent. Its controller loses loses 1 life.
+			<text>Put a bounty counter on up to one target permanent. Its controller loses 1 life.
 If you&apos;ve completed a bounty this turn, draw a card.</text>
 			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/68.png" num="82">SWTG</set>
 			<prop>
@@ -2045,27 +2045,9 @@ Whenever a creature you control becomes monstrous, put a +1/+1 counter on that c
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>AT-ST</name>
-			<text>Attacking Troopers you control get +2/+2.
-Crew 2</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/112.png" num="134">SWTG</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Kindred Artifact — Trooper Vehicle</type>
-				<maintype>Artifact</maintype>
-				<manacost>5G</manacost>
-				<cmc>6</cmc>
-				<colors>G</colors>
-				<coloridentity>G</coloridentity>
-				<pt>3/3</pt>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
 			<name>Bathe in Bacta</name>
 			<text>Put a +1/+1 counter on up to one target creature. You gain life equal to that creatures power. Then if you lost life from a source other than combat damage this turn, draw a card.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/113.png" num="135">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/112.png" num="134">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2084,7 +2066,7 @@ Crew 2</text>
 When this Siege enters, create X 1/1 green Ewok Rebel creature tokens. Then put X +1/+1 counters on each creature you control.
 ---
 (Back): Planetary Shield-Generator</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/114_front.png" num="136a">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/113_front.png" num="135a">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -2104,7 +2086,7 @@ When this Siege enters, create X 1/1 green Ewok Rebel creature tokens. Then put 
 			<text>{1}{G}, {T}: Put two +1/+1 counters on target creature or Vehicle you control. Activate only as a sorcery.
 ---
 (Front): The Battle of Endor</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/114_back.png" num="136b">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/113_back.png" num="135b">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -2123,7 +2105,7 @@ When this Siege enters, create X 1/1 green Ewok Rebel creature tokens. Then put 
 			<text>Deathtouch
 Whenever a land you control enters, put a bounty counter on up to one target creature.
 Whenever you complete a bounty, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/115.png" num="139">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/114.png" num="138">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2141,7 +2123,7 @@ Whenever you complete a bounty, you may search your library for a basic land car
 			<name>Bounty Collector</name>
 			<text>{T}: Untap target land.
 Whenever you complete a bounty, untap this creature. (You complete a bounty when a permanent you don&apos;t control with a bounty counter leaves the battlefield.)</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/116.png" num="140">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/115.png" num="139">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2158,7 +2140,7 @@ Whenever you complete a bounty, untap this creature. (You complete a bounty when
 		<card>
 			<name>Ewok Ambush</name>
 			<text>Create two 1/1 green Ewok Rebel creature tokens.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/117.png" num="142">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/116.png" num="141">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2173,9 +2155,9 @@ Whenever you complete a bounty, untap this creature. (You complete a bounty when
 		</card>
 		<card>
 			<name>Ewok Firedancers</name>
-			<text>Trample
-Whenever this creature and at least two other creatures you control attack, monstrosity 2. (If this creature isn&apos;t monstrous, put two +1/+1 counters on it and it becomes monstrous.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/118.png" num="143">SWTG</set>
+			<text>Backup 1 (When this creature enters, put a +1/+1 counter on target creature. If that&apos;s another creature, it gains the following abilities until end of turn.)
+Trample</text>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/117.png" num="142">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2195,7 +2177,7 @@ Whenever this creature and at least two other creatures you control attack, mons
 Trample, spaceflight
 Whenever a creature dealt damage by this creature this turn dies, monstrosity 1.
 Whenever one or more monstrous creatures you control deal combat damage to an opponent and/or a permanent they protect, that player sacrifices an artifact.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/119.png" num="144">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/118.png" num="143">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2215,7 +2197,7 @@ Whenever one or more monstrous creatures you control deal combat damage to an op
 • Destroy target artifact creature.
 • Destroy target noncreature permanent.
 Scry 2. (Look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/120.png" num="145">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/119.png" num="144">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2232,7 +2214,7 @@ Scry 2. (Look at the top two cards of your library, then put any number of them 
 			<name>Hungry Dragonsnake</name>
 			<text>Trample
 Whenever a creature an opponent controls enters, untap this creature. If this is the second time this ability has resolved this turn, put a +1/+1 counter on this creature.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/121.png" num="146">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/120.png" num="145">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2250,7 +2232,7 @@ Whenever a creature an opponent controls enters, untap this creature. If this is
 			<name>Hutt Crime Lord</name>
 			<text>This creature enters with a bounty counter.
 Whenever this creature attacks, put a stun counter on it and a bounty counter on target creature defending player controls. (If a permanent with a stun counter would become untapped, remove one from it instead. The protector of an attacked permanent is also a defending player.)</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/122.png" num="147">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/121.png" num="146">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2268,7 +2250,7 @@ Whenever this creature attacks, put a stun counter on it and a bounty counter on
 			<name>Ithorian Initiate</name>
 			<text>When this creature enters, you may search your library for a land card, reveal it, put it into your hand, then shuffle.
 Meditate {1}{G} ({1}{G}: Return this creature to its owner&apos;s hand. Meditate only as a sorcery.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/123.png" num="148">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/122.png" num="147">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2287,7 +2269,7 @@ Meditate {1}{G} ({1}{G}: Return this creature to its owner&apos;s hand. Meditate
 			<text>Flash
 When this creature enters, target creature gets +2/+2 until end of turn.
 Meditate {1}{G} ({1}{G}: Return this creature to its owner&apos;s hand. Meditate only as a sorcery.)</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/124.png" num="149">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/123.png" num="148">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2305,7 +2287,7 @@ Meditate {1}{G} ({1}{G}: Return this creature to its owner&apos;s hand. Meditate
 			<name>Ki-Adi-Mundi</name>
 			<text>When Ki-Adi-Mundi enters, put a +1/+1 counter on each other creature you control.
 Meditate {2} ({2}: Return this creature to its owner&apos;s hand. Meditate only as a sorcery.)</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/125.png" num="150">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/124.png" num="149">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2322,7 +2304,7 @@ Meditate {2} ({2}: Return this creature to its owner&apos;s hand. Meditate only 
 		<card>
 			<name>Legacy of the Beloved</name>
 			<text>Reveal cards from the top of your library until you reveal two creature cards. If an opponent controls more creatures than you, you may put one of those creature cards onto the battlefield. Put all other creature cards revealed this way into your hand, then shuffle</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/126.png" num="151">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/125.png" num="150">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2339,7 +2321,7 @@ Meditate {2} ({2}: Return this creature to its owner&apos;s hand. Meditate only 
 			<name>Mantellian Savrip</name>
 			<text>{5}{G}{G}: Monstrosity 2. (If this creature isn&apos;t monstrous, put two +1/+1 counters on it and it becomes monstrous.)
 Creatures with power less than this creature&apos;s power can&apos;t block it.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/127.png" num="152">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/126.png" num="151">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2356,7 +2338,7 @@ Creatures with power less than this creature&apos;s power can&apos;t block it.</
 		<card>
 			<name>Massiff Swarm</name>
 			<text>{1}{G}: Monstrosity 1. (If this creature isn&apos;t monstrous, put a +1/+1 counter on it and it becomes monstrous.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/128.png" num="153">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/127.png" num="152">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2377,7 +2359,7 @@ When Millennium Falcon enters, it becomes a 5/4 artifact creature with spaceflig
 Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
 
 [level 5+] Spaceflight [5/4]</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/129.png" num="154">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/128.png" num="153">SWTG</set>
 			<prop>
 				<layout>leveler</layout>
 				<side>front</side>
@@ -2394,7 +2376,7 @@ Station (Tap another creature you control: Put charge counters equal to its powe
 			<name>Nerf Herder</name>
 			<text>Whenever one or more +1/+1 are placed on a creature you control, you may pay {2}. If you do, draw a card. Do this only once each turn.
 Monstrous creatures you control have trample.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/130.png" num="155">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/129.png" num="154">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2413,7 +2395,7 @@ Monstrous creatures you control have trample.</text>
 			<text>Deathtouch
 Whenever this creature deals combat damage to a player, if it isn&apos;t monstrous, it becomes monstrous.
 {X}{X}{G}: This creature gets +X/+X until end of turn. Activate only if this creature is monstrous.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/131.png" num="156">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/130.png" num="155">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2431,7 +2413,7 @@ Whenever this creature deals combat damage to a player, if it isn&apos;t monstro
 			<name>Nightspider</name>
 			<text>Deathtouch
 {4}{G}: Monstrosity 2. Activate only if a creature died this turn. (If this creature isn&apos;t monstrous, put two +1/+1 counters on it and it becomes monstrous.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/132.png" num="157">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/131.png" num="156">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2448,7 +2430,7 @@ Whenever this creature deals combat damage to a player, if it isn&apos;t monstro
 		<card>
 			<name>No Contest</name>
 			<text>Target creature you control fights target creature you don&apos;t control. Excess damage the creature you control would deal is dealt to the other creature&apos;s controller instead.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/133.png" num="158">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/132.png" num="157">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2466,7 +2448,7 @@ Whenever this creature deals combat damage to a player, if it isn&apos;t monstro
 			<text>Enchant creature
 Enchanted creature gets +2/+0 and has trample.
 When this Aura is put into a graveyard from the battlefield, return it to its owner&apos;s hand.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/134.png" num="159">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/133.png" num="158">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2482,7 +2464,7 @@ When this Aura is put into a graveyard from the battlefield, return it to its ow
 		<card>
 			<name>Regression</name>
 			<text>The owner of target artifact, battle, or enchantment shuffles it into their library and gains life equal to its mana value.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/135.png" num="160">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/134.png" num="159">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2499,7 +2481,7 @@ When this Aura is put into a graveyard from the battlefield, return it to its ow
 			<name>Scout the Perimeter</name>
 			<text>When Scout the Perimeter enters, draw a card and put a bounty counter on up to one target permanent.
 Whenever you complete a bounty, you may put a land card from your hand onto the battlefield tapped. This ability triggers only once each turn. (You complete a bounty when a permanent you don&apos;t control with a bounty counter leaves the battlefield.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/136.png" num="161">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/135.png" num="160">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2516,7 +2498,7 @@ Whenever you complete a bounty, you may put a land card from your hand onto the 
 			<name>Scout Trooper</name>
 			<text>{T}: Add {C}.
 Other Troopers you control have &quot;{T}: Add {C}.&quot;</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/137.png" num="162">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/136.png" num="161">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2534,7 +2516,7 @@ Other Troopers you control have &quot;{T}: Add {C}.&quot;</text>
 			<name>Shaak Herd</name>
 			<text>{1}{G}: Monstrosity 1. (If this creature isn&apos;t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
 Whenever this creature dies, you may put any of its counters on target creature you control.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/138.png" num="163">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/137.png" num="162">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2551,7 +2533,7 @@ Whenever this creature dies, you may put any of its counters on target creature 
 		<card>
 			<name>Show of Dominance</name>
 			<text>Put three +1/+1 counters on the creature with the highest power. If two or more creatures are tied for the greatest power, you choose one of them. That creature gains trample until end of turn.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/139.png" num="164">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/138.png" num="163">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2568,7 +2550,7 @@ Whenever this creature dies, you may put any of its counters on target creature 
 			<name>Trooper Commando</name>
 			<text>Trample
 Whenever one or more Troopers you control attack, put a +1/+1 counter on this creature.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/140.png" num="165">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/139.png" num="164">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2585,7 +2567,7 @@ Whenever one or more Troopers you control attack, put a +1/+1 counter on this cr
 		<card>
 			<name>Wookiee Bounty Hunter</name>
 			<text>Whenever you complete a bounty, you gain 3 life. (You complete a bounty when a permanent you don&apos;t control with a bounty counter leaves the battlefield.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/141.png" num="166">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/140.png" num="166">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2604,7 +2586,7 @@ Whenever one or more Troopers you control attack, put a +1/+1 counter on this cr
 			<text>Whenever you remove one or more time counters from a card you own in exile, target opponent loses 1 life and you gain 1 life.
 Repair 4 (When this creature dies, you may exile it with four time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)
 Crew 1</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/142.png" num="167">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/141.png" num="167">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2619,28 +2601,10 @@ Crew 1</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Acklay of the Arena</name>
-			<text>{2}{R}{G}{W}: Monstrosity 1. (If this creature isn&apos;t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
-Whenever a creature you control becomes monstrous, that creature fights target creature an opponent controls.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/143.png" num="168">SWTG</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Creature — Insect Beast</type>
-				<maintype>Creature</maintype>
-				<manacost>1RGW</manacost>
-				<cmc>4</cmc>
-				<colors>WRG</colors>
-				<coloridentity>WRG</coloridentity>
-				<pt>5/4</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
 			<name>Adroit Hateflayer</name>
 			<text>Menace (This creature can&apos;t be blocked except by two or more creatures.)
 Whenever this creature attacks, each player loses 2 life.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/144.png" num="169">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/142.png" num="168">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2659,7 +2623,7 @@ Whenever this creature attacks, each player loses 2 life.</text>
 			<text>Double strike
 When a creature blocks Asajj Ventress, she gets +1/+1 until end of turn.
 Hate — Whenever Asajj Ventress attacks, if an opponent lost life from a source other than combat damage this turn, up to one target creature blocks this turn if able.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/145.png" num="173">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/143.png" num="172">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2678,7 +2642,7 @@ Hate — Whenever Asajj Ventress attacks, if an opponent lost life from a source
 			<text>Enchant creature
 Enchanted creature gets +1/+1 for each creature you control.
 Whenever enchanted creature attacks, put a +1/+1 counter on each other creature you control.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/146.png" num="175">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/144.png" num="174">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2696,7 +2660,7 @@ Whenever enchanted creature attacks, put a +1/+1 counter on each other creature 
 			<text>Menace, deathtouch, haste
 When Boba Fett enters, put a bounty counter on up to one target nonland permanent an opponent controls.
 Whenever you complete a bounty, you may draw two cards. If you do, discard two cards.</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/147.png" num="176">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/145.png" num="175">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2715,7 +2679,7 @@ Whenever you complete a bounty, you may draw two cards. If you do, discard two c
 			<text>Trample
 {1}{R}{G}{W}: Monstrosity 1. (If this creature isn&apos;t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
 Whenever a creature you control becomes monstrous, that creature gains hexproof until end of turn.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/148.png" num="177">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/146.png" num="176">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2735,7 +2699,7 @@ Whenever a creature you control becomes monstrous, that creature gains hexproof 
 • Draw two cards, then discard a card. You gain 4 life.
 • Return target another target artifact card from your graveyard to the battlefield. Sacrifice it when it enters.
 Repair 3 (When this creature dies, you may exile it with three time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/149.png" num="178">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/147.png" num="177">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2753,7 +2717,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
 			<name>Carbonite Chamber</name>
 			<text>Enchant creature
 You control enchanted creature. It can&apos;t attack or block, its activated abilities can&apos;t be activated, and it&apos;s an artifact in addition to its other types.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/150.png" num="179">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/148.png" num="178">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2768,29 +2732,29 @@ You control enchanted creature. It can&apos;t attack or block, its activated abi
 		</card>
 		<card>
 			<name>Chewbacca</name>
-			<text>Vigilance
-Whenever Chewbacca attacks alone, monstrosity 1.
-Whenever Chewbacca or another creature you control becomes monstrous, that creature gets +2/+2 until end of turn.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/151.png" num="180">SWTG</set>
+			<text>Backup 1
+Vigilance
+Whenever this creature attacks alone, double the number of +1/+1 counters on it.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/149.png" num="179">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Legendary Creature — Wookiee Rebel Warrior</type>
 				<maintype>Creature</maintype>
-				<manacost>2RGW</manacost>
+				<manacost>3RW</manacost>
 				<cmc>5</cmc>
-				<colors>WRG</colors>
-				<coloridentity>WRG</coloridentity>
-				<pt>4/5</pt>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>4/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Chief Chirpa</name>
-			<text>{2}{R}{G}{W}: Monstrosity 2.
-Whenever a green creature you control dies, you may put a +1/+1 counter on another target Ewok Rebel creature you control.
+			<text>Backup 1
+Whenever another Rebel creature you control dies, you may put a +1/+1 counter on another target Rebel creature you control.
 When one or more +1/+1 counters are placed on Chief Chirpa, create that many 1/1 green Ewok Rebel creature tokens.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/152.png" num="181">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/150.png" num="180">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2807,7 +2771,7 @@ When one or more +1/+1 counters are placed on Chief Chirpa, create that many 1/1
 		<card>
 			<name>Commander Cody</name>
 			<text>Whenever one or more nontoken Troopers you control attack, create that many 1/1 white Trooper creature tokens that are tapped and attacking.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/153.png" num="182">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/151.png" num="181">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2827,7 +2791,7 @@ When one or more +1/+1 counters are placed on Chief Chirpa, create that many 1/1
 • Counter target noncreature spell.
 • Target player sacrifices a creature.
 • Cruelty of the Sith deals 3 damage to target player or target permanent an opponent protects. That player or that permanents protector discards a card. (Players protect permanents that can be attacked.)</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/154.png" num="183">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/152.png" num="182">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2843,7 +2807,7 @@ When one or more +1/+1 counters are placed on Chief Chirpa, create that many 1/1
 		<card>
 			<name>Cunning Abduction</name>
 			<text>Target opponent reveals their hand. Exile a nonland card revealed this way. You may cast that card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast that spell.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/155.png" num="184">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/153.png" num="183">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2860,7 +2824,7 @@ When one or more +1/+1 counters are placed on Chief Chirpa, create that many 1/1
 			<name>Dagobah Maw Slug</name>
 			<text>{2}{R}{G}{W}: Monstrosity 2. (If this creature isn&apos;t monstrous, put two +1/+1 counters on it and it becomes monstrous.)
 As long as this creature is monstrous, it has menace.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/156.png" num="185">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/154.png" num="184">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2878,7 +2842,7 @@ As long as this creature is monstrous, it has menace.</text>
 			<name>Dark Decision</name>
 			<text>As an additional cost to cast this spell, pay 1 life.
 Look at the top ten cards of your library. Exile a card from among them, then shuffle. You may play that card this turn.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/157.png" num="186">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/155.png" num="185">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2895,7 +2859,7 @@ Look at the top ten cards of your library. Exile a card from among them, then sh
 			<name>Darth Maul</name>
 			<text>Double strike, haste
 Hate — Whenever Darth Maul attacks, target creature defending player controls can&apos;t block Darth Maul this turn if an opponent lost life from a source other than combat damage this turn. (The protector of an attacked permanent is also a defending player.)</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/158.png" num="187">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/156.png" num="186">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2915,7 +2879,7 @@ Hate — Whenever Darth Maul attacks, target creature defending player controls 
 • Destroy target nonland permanent.
 • Copy target instant or sorcery spell. You may choose new targets for the copy.
 • Return target card from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/159.png" num="190">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/157.png" num="189">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2931,7 +2895,7 @@ Hate — Whenever Darth Maul attacks, target creature defending player controls 
 		<card>
 			<name>Force Choke</name>
 			<text>Counter target spell. When a spell is countered this way, its owner may pay life equal to that spell&apos;s mana value. If they do, they return that card from their graveyard to their hand. Scry 2.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/160.png" num="191">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/158.png" num="190">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2947,7 +2911,7 @@ Hate — Whenever Darth Maul attacks, target creature defending player controls 
 		<card>
 			<name>Force Mastery</name>
 			<text>At the beginning of your upkeep, reveal the top card of your library and put that card into your hand. You gain life equal to its mana value.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/161.png" num="192">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/159.png" num="191">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2965,7 +2929,7 @@ Hate — Whenever Darth Maul attacks, target creature defending player controls 
 			<text>Double strike
 Whenever a Droid you control dies, you may remove a time counter from a card you own in exile with repair.
 Sacrifice another artifact: Put a +1/+1 counter on General Grievous.</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/162.png" num="193">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/160.png" num="192">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2984,7 +2948,7 @@ Sacrifice another artifact: Put a +1/+1 counter on General Grievous.</text>
 			<text>This creature can&apos;t be blocked by more than one creature.
 {X}{X}{R}{G}{W}: Monstrosity X. (If this creature isn&apos;t monstrous, put X +1/+1 counters on it and it becomes monstrous.)
 When this creature becomes monstrous, draw a card for each +1/+1 counter among creatures you control.</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/163.png" num="194">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/161.png" num="193">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3002,7 +2966,7 @@ When this creature becomes monstrous, draw a card for each +1/+1 counter among c
 			<name>Greedo</name>
 			<text>Last strike (This creature deals combat damage after creatures without last strike.)
 When Greedo dies, you may search your library for an outlaw card, reveal it, put it into your hand, then shuffle. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/164.png" num="195">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/162.png" num="194">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3021,7 +2985,7 @@ When Greedo dies, you may search your library for an outlaw card, reveal it, put
 			<text>When this enchantment enters, put a bounty counter on up to one target permanent.
 Creatures your opponents control get -1/-1 for each bounty counter on them.
 Whenever you complete a bounty, put a bounty counter on up to one target creature.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/165.png" num="197">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/163.png" num="196">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3038,7 +3002,7 @@ Whenever you complete a bounty, put a bounty counter on up to one target creatur
 			<name>Hunt to Extinction</name>
 			<text>Put a bounty counter on each of up to two target nonland permanents.
 Hunt to Extinction deals X damage to target opponent and each creature they control. Hunt to Extinction deals an additional X damage to each of those creatures with a bounty counter.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/166.png" num="198">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/164.png" num="197">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3054,7 +3018,7 @@ Hunt to Extinction deals X damage to target opponent and each creature they cont
 		<card>
 			<name>Images of the Past</name>
 			<text>Return up to two target creature cards from your graveyard to the battlefield, then exile those creatures.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/167.png" num="199">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/165.png" num="198">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3070,7 +3034,7 @@ Hunt to Extinction deals X damage to target opponent and each creature they cont
 		<card>
 			<name>Iron Fist of the Empire</name>
 			<text>Hate — At the beginning of each end step, if an opponent lost life from a source other than combat damage this turn, you may pay {1}. If you do, you gain 2 life and create a 2/2 red Soldier creature token with first strike named Royal Guard.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/168.png" num="200">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/166.png" num="199">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3088,7 +3052,7 @@ Hunt to Extinction deals X damage to target opponent and each creature they cont
 			<text>Defender
 {T}: Put a bounty counter on target permanent.
 {2}{R}, {T}: Create a tapped 4/4 red Mercenary creature token named Bounty Hunter. It fights target creature an opponent controls with a bounty counter. Activate only as a sorcery.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/169.png" num="201">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/167.png" num="200">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3106,7 +3070,7 @@ Hunt to Extinction deals X damage to target opponent and each creature they cont
 			<name>Jedi Knight</name>
 			<text>When this creature leaves the battlefield, return target nonland permanent you don&apos;t control to its owner&apos;s hand.
 Meditate {1}{U} ({1}{U}: Return this creature to its owner&apos;s hand. Meditate only as a sorcery.)</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/170.png" num="202">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/168.png" num="201">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3125,7 +3089,7 @@ Meditate {1}{U} ({1}{U}: Return this creature to its owner&apos;s hand. Meditate
 			<text>Flash
 When this creature enters, you may return another target creature you control and target creature you don&apos;t control each to their owners&apos; hands.
 Meditate {5} ({5}: Return this creature to its owner&apos;s hand. Meditate only as a sorcery.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/171.png" num="203">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/169.png" num="202">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3142,9 +3106,9 @@ Meditate {5} ({5}: Return this creature to its owner&apos;s hand. Meditate only 
 		<card>
 			<name>Luke Skywalker</name>
 			<text>Lifelink, vigilance
-Whenever Luke Skywalker or another Jedi you control leaves the battlefield without dying, put two +1/+1 counters on target Jedi you control.
+Whenever Luke Skywalker or another Jedi you control leaves the battlefield without dying, put a +1/+1 counter on Luke Skywalker and up to one other target creature you control.
 Meditate {2}</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/172.png" num="206">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/170.png" num="205">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3162,7 +3126,7 @@ Meditate {2}</text>
 			<name>Maintenance Droid</name>
 			<text>Artifact spells you cast cost {1} less to cast.
 Repair 4 (When this creature dies, you may exile it with four time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/173.png" num="207">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/171.png" num="206">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3179,7 +3143,7 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
 		<card>
 			<name>March of the Droids</name>
 			<text>Remove all time counters from cards you own in exile. Put up to two permanent cards that had a counter removed this way from exile onto the battlefield. Then create a 1/1 colorless Droid artifact creature token for each Droid you control.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/174.png" num="208">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/172.png" num="208">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3198,7 +3162,7 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
 • Creatures with power 3 or less can&apos;t block this turn.
 • Destroy target artifact or enchantment.
 • Creatures you control gain indestructible until end of turn.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/175.png" num="209">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/173.png" num="209">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3215,7 +3179,7 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
 			<name>Nute Gunray</name>
 			<text>Whenever an artifact you control enters, you may pay {1}. If you do, draw a card. Do this only once each turn.
 {1}, {T}, Sacrifice a nontoken artifact: Create a 1/1 colorless Droid artifact creature token.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/176.png" num="210">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/174.png" num="211">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3232,7 +3196,7 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
 		<card>
 			<name>Outer Rim Slaver</name>
 			<text>When this creature enters, you may put a bounty counter on target nonland permanent. If that permanent is a creature, you may have up to one target creature you control fight that creature. (Each deals damage equal to its power to the other.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/177.png" num="212">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/175.png" num="213">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3249,7 +3213,7 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
 		<card>
 			<name>Precipice of Mortis</name>
 			<text>If a Jedi entering or leaving the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/178.png" num="213">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/176.png" num="214">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3265,7 +3229,7 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
 		<card>
 			<name>Primal Instinct</name>
 			<text>Put a +1/+1 counter on target creature, then double the number of +1/+1 counters on that creature.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/179.png" num="214">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/177.png" num="215">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3279,30 +3243,11 @@ Repair 4 (When this creature dies, you may exile it with four time counters. At 
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Princess Leia</name>
-			<text>When Princess Leia enters, create two 1/1 white Rebel creature tokens.
-Princess Leia gets +1/+1 for each other Rebel creature you control.
-Other Rebel creatures you control get +1/+1.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/180.png" num="215">SWTG</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Legendary Creature — Human Rebel</type>
-				<maintype>Creature</maintype>
-				<manacost>3GWU</manacost>
-				<cmc>6</cmc>
-				<colors>WUG</colors>
-				<coloridentity>WUG</coloridentity>
-				<pt>2/2</pt>
-			</prop>
-			<tablerow>2</tablerow>
-		</card>
-		<card>
 			<name>Qui-Gon Jinn</name>
 			<text>Vigilance, lifelink
 Whenever you attack, if a Jedi you control entered this turn, untap up to one target attacking creature. It gains lifelink until end of turn.
 Meditate {1}{W}</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/181.png" num="216">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/178.png" num="217">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3320,7 +3265,7 @@ Meditate {1}{W}</text>
 			<name>Rumor Monger</name>
 			<text>When this creature enters, put a bounty counter on up to one target permanent.
 Whenever you complete a bounty, distribute two bounty counters among up to two target permanents. This ability triggers only once each turn. (You complete a bounty when a permanent you don&apos;t control with a bounty counter leaves the battlefield.)</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/182.png" num="217">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/179.png" num="218">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3337,7 +3282,7 @@ Whenever you complete a bounty, distribute two bounty counters among up to two t
 		<card>
 			<name>Salvage Squad</name>
 			<text>When this creature enters, you may sacrifice an artifact. If you do, you gain 2 life and draw two cards.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/183.png" num="218">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/180.png" num="219">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3357,7 +3302,7 @@ Whenever you complete a bounty, distribute two bounty counters among up to two t
 {T}: Add {C}.
 {2}{R}{G}, Sacrifice a land: Monstrosity 1. (If this creature isn&apos;t monstrous, put a +1/+1 counter on it and it becomes monstrous.)
 When this creature becomes monstrous, it loses hexproof and gains first strike and deathtouch.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/184.png" num="219">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/181.png" num="220">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3375,7 +3320,7 @@ When this creature becomes monstrous, it loses hexproof and gains first strike a
 			<name>Senator Bail Organa</name>
 			<text>Activated abilities of creatures you control cost {1} less to activate. This effect can&apos;t reduce the mana in that cost to less than one mana.
 As long as you control four or more creatures, Senator Bail Organa gets +2/+2.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/185.png" num="220">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/182.png" num="221">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3393,7 +3338,7 @@ As long as you control four or more creatures, Senator Bail Organa gets +2/+2.</
 			<name>Senator Lott Dod</name>
 			<text>Whenever one or more artifacts you control enter, each opponent loses 1 life.
 {2}, {T}, Sacrifice Senator Lott Dod: Copy target activated or triggered ability you control. You may choose new targets for the copy.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/186.png" num="221">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/183.png" num="222">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3411,7 +3356,7 @@ As long as you control four or more creatures, Senator Bail Organa gets +2/+2.</
 			<name>Tarfful, Wookiee General</name>
 			<text>Whenever you put one or more counters on one or more creatures, you may discard a card. If you do, draw a card. Do this only once each turn.
 {2}{R}{G}: Monstrosity 2. (If this creature isn&apos;t monstrous, put two +1/+1 counters on it and it becomes monstrous.)</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/187.png" num="228">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/184.png" num="229">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3429,7 +3374,7 @@ As long as you control four or more creatures, Senator Bail Organa gets +2/+2.</
 			<name>Senator Padmé Amidala</name>
 			<text>Lifelink
 Whenever Senator Padmé Amidala or another nontoken creature you control enters, you may return another creature you control to its owner&apos;s hand. This ability triggers only once each turn.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/188.png" num="222">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/185.png" num="223">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3447,7 +3392,7 @@ Whenever Senator Padmé Amidala or another nontoken creature you control enters,
 			<name>Hondo Ohnaka</name>
 			<text>{1}, {T}: Put a bounty counter on target nonland permanent an opponent controls.
 Whenever you complete a bounty, you may exile the top card of your library. You may play that card until the end of your next turn. (You complete a bounty when a permanent you don&apos;t control with a bounty counter leaves the battlefield.)</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/189.png" num="196">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/186.png" num="195">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3464,7 +3409,7 @@ Whenever you complete a bounty, you may exile the top card of your library. You 
 		<card>
 			<name>Sith Magic</name>
 			<text>Hate — At the beginning of each combat, if an opponent lost life from a source other than combat damage this turn, you may return up to one target creature card from a graveyard to the battlefield under your control with a finality counter. It gains lifelink and haste. Exile it at the beginning of the next end step. (If a creature with a finality counter on it would die, exile it instead.)</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/190.png" num="223">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/187.png" num="224">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3480,7 +3425,7 @@ Whenever you complete a bounty, you may exile the top card of your library. You 
 		<card>
 			<name>Sith Mindseer</name>
 			<text>Hate — When this creature enters, if an opponent lost life from a source other than combat damage this turn, gain control of target creature for as long as this creature remains on the battlefield.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/191.png" num="224">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/188.png" num="225">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3498,7 +3443,7 @@ Whenever you complete a bounty, you may exile the top card of your library. You 
 			<name>Slave I</name>
 			<text>First strike, spaceflight
 Whenever a creature dealt damage by Slave I this turn dies, put two +1/+1 counters on Slave I.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/192.png" num="225">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/189.png" num="226">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3520,7 +3465,7 @@ When this Spacecraft enters, destroy target permanent an opponent controls.
 [level 6+] Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
 {3}{B}: Create a 1/1 white Trooper creature token. [4/4]
 [level 12+] {3}{R}: This Spacecraft deals 2 damage to any target without spaceflight. [6/6]</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/193.png" num="226">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/190.png" num="227">SWTG</set>
 			<prop>
 				<layout>leveler</layout>
 				<side>front</side>
@@ -3537,7 +3482,7 @@ When this Spacecraft enters, destroy target permanent an opponent controls.
 			<name>Tank Droid</name>
 			<text>Whenever this creature enters, attacks, blocks, or dies, create a 1/1 colorless Droid artifact creature token.
 Repair 3 (When this creature dies, you may exile it with three time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/194.png" num="227">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/191.png" num="228">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3557,7 +3502,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
 • Prevent all damage that would be dealt to target artifact creature this turn.
 • Look at the top four cards of your library. Put two of them into your hand and the rest into your graveyard.
 • Destroy target nonartifact creature.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/195.png" num="230">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/192.png" num="231">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3576,7 +3521,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
 • Reveal the top four cards of your library. An opponent separates those cards into two piles. Put one of those piles into your hand, then shuffle.
 • Target creature you control gets +2/+2 and gains protection from the color of your choice until end of turn.
 • Counter target permanent spell.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/196.png" num="232">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/193.png" num="234">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3592,7 +3537,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
 		<card>
 			<name>Wookiee Mystic</name>
 			<text>{T}: Add {R}, {G}, or {W}. If that mana is spent to cast a creature spell, that creature enters with an additional +1/+1 counter.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/197.png" num="233">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/194.png" num="235">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3609,7 +3554,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
 		<card>
 			<name>Fulfill Contract</name>
 			<text>Destroy up to one target creature with a bounty counter. Put a +1/+1 counter on up to one target outlaw creature you control. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/198.png" num="235">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/195.png" num="237">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3626,7 +3571,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
 			<name>Ravenous Wampa</name>
 			<text>{2}{R}, Sacrifice a creature: Monstrosity 2. (If this creature isn&apos;t monstrous, put two +1/+1 counters on it and it becomes monstrous.)
 When this creature becomes monstrous, it deals 2 damage to any target.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/199.png" num="122">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/196.png" num="122">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3643,7 +3588,7 @@ When this creature becomes monstrous, it deals 2 damage to any target.</text>
 		<card>
 			<name>Strike Team Commando</name>
 			<text>When this creature enters, destroy up to one target artifact without spaceflight.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/200.png" num="237">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/197.png" num="239">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3661,7 +3606,7 @@ When this creature becomes monstrous, it deals 2 damage to any target.</text>
 			<name>Tri-Fighter</name>
 			<text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
 Repair 3 (When this creature dies, you may exile it with three time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/201.png" num="238">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/198.png" num="240">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3679,7 +3624,7 @@ Repair 3 (When this creature dies, you may exile it with three time counters. At
 			<name>Wookiee Raidleader</name>
 			<text>Trample
 Whenever this creature attacks, put a +1/+1 counter on target creature you control that already has one.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/202.png" num="239">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/199.png" num="241">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3697,7 +3642,7 @@ Whenever this creature attacks, put a +1/+1 counter on target creature you contr
 			<name>Ancient Holocron</name>
 			<text>{T}: Add one mana of any color.
 {T}: Add two mana in any combination of colors. Spend this mana only to cast multicolored spells.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/203.png" num="240">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/200.png" num="242">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3711,7 +3656,7 @@ Whenever this creature attacks, put a +1/+1 counter on target creature you contr
 		<card>
 			<name>Dark Trooper</name>
 			<text>Repair 2 (When this creature dies, you may exile it with two time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/204.png" num="241">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/201.png" num="243">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3728,7 +3673,7 @@ Whenever this creature attacks, put a +1/+1 counter on target creature you contr
 			<text>{T}: Put a charge counter on this artifact.
 {T}, Remove a charge counter from this artifact: Add {W}, {U}, or {B}.
 {T}, Remove two charge counters from this artifact: Add {W}{U} or {U}{B}.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/205.png" num="242">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/202.png" num="244">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3745,7 +3690,7 @@ Whenever this creature attacks, put a +1/+1 counter on target creature you contr
 			<text>{T}: Put a charge counter on this artifact.
 {T}, Remove a charge counter from this artifact: Add {G}, {W}, or {U}.
 {T}, Remove two charge counters from this artifact: Add {G}{W} or {W}{U}.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/206.png" num="243">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/203.png" num="245">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3762,7 +3707,7 @@ Whenever this creature attacks, put a +1/+1 counter on target creature you contr
 			<text>Equipped creature gets +1/+0 and has first strike.
 Equip {3}
 Equip Jedi or Sith {2}</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/207.png" num="244">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/204.png" num="246">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3778,8 +3723,8 @@ Equip Jedi or Sith {2}</text>
 			<text>Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
 {T}: Add {C}.
 [level 10+] {1}, {T}: Double the number of charge counter on The Death Star.
-[level 1000+] {T}, Sacrifice this The Death Star: Target player loses the game.</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/208.png" num="250">SWTG</set>
+[level 1000+] {T}, Sacrifice The Death Star: Target player loses the game.</text>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/205.png" num="252">SWTG</set>
 			<prop>
 				<layout>leveler</layout>
 				<side>front</side>
@@ -3795,7 +3740,7 @@ Equip Jedi or Sith {2}</text>
 			<text>{T}: Put a charge counter on this artifact.
 {T}, Remove a charge counter from this artifact: Add {U}, {B}, or {R}.
 {T}, Remove two charge counters from this artifact: Add {U}{B} or {B}{R}.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/209.png" num="246">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/206.png" num="248">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3812,7 +3757,7 @@ Equip Jedi or Sith {2}</text>
 			<text>{T}: Put a charge counter on this artifact.
 {T}, Remove a charge counter from this artifact: Add {B}, {R}, or {G}.
 {T}, Remove two charge counters from this artifact: Add {B}{R} or {R}{G}.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/210.png" num="245">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/207.png" num="247">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3829,7 +3774,7 @@ Equip Jedi or Sith {2}</text>
 			<text>{T}: Put a charge counter on this artifact.
 {T}, Remove a charge counter from this artifact: Add {R}, {G} or {W}.
 {T}, Remove two charge counters from this artifact: Add {R}{G} or {G}{W}.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/211.png" num="248">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/208.png" num="250">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3846,7 +3791,7 @@ Equip Jedi or Sith {2}</text>
 			<text>Whenever a creature you control enters, attach this Equipment to it.
 Equipped creature gets +1/+1 and is a Trooper in addition to its other types.
 Equip {3}</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/212.png" num="247">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/209.png" num="249">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3862,7 +3807,7 @@ Equip {3}</text>
 			<text>{T}: Add {C}.
 {T}, Sacrifice this land: Search your library for a basic Forest, Plains, or Island card, put it onto the battlefield tapped, then shuffle.
 Cycling {G}{W}{U} ({G}{W}{U}, Discard this card: Draw a card.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/213.png" num="249">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/210.png" num="251">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3875,15 +3820,15 @@ Cycling {G}{W}{U} ({G}{W}{U}, Discard this card: Draw a card.)</text>
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>Droid Factory</name>
+			<name>Geonosis</name>
 			<text>{T}: Add {C}.
 {T}, Sacrifice this land: Search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle.
 Cycling {W}{U}{B} ({W}{U}{B}, Discard this card: Draw a card.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/214.png" num="251">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/211.png" num="255">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Land</type>
+				<type>Land — Planet</type>
 				<maintype>Land</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
@@ -3896,7 +3841,7 @@ Cycling {W}{U}{B} ({W}{U}{B}, Discard this card: Draw a card.)</text>
 			<text>{T}: Add {C}.
 {T}, Sacrifice this land: Search your library for a basic Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.
 Cycling {U}{B}{R} ({U}{B}{R}, Discard this card: Draw a card.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/215.png" num="258">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/212.png" num="260">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3913,7 +3858,7 @@ Cycling {U}{B}{R} ({U}{B}{R}, Discard this card: Draw a card.)</text>
 			<text>{T}: Add {C}.
 {T}, Sacrifice this land: Search your library for a basic Swamp, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle.
 Cycling {B}{R}{G} ({B}{R}{G}, Discard this card: Draw a card.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/216.png" num="259">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/213.png" num="261">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3930,7 +3875,7 @@ Cycling {B}{R}{G} ({B}{R}{G}, Discard this card: Draw a card.)</text>
 			<text>{T}: Add {C}.
 {T}, Sacrifice this land: Search your library for a basic Mountain, Forest, or Plains card, put it onto the battlefield tapped, then shuffle.
 Cycling {R}{G}{W} ({R}{G}{W}, Discard this card: Draw a card.)</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/217.png" num="257">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/214.png" num="259">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3947,7 +3892,7 @@ Cycling {R}{G}{W} ({R}{G}{W}, Discard this card: Draw a card.)</text>
 			<text>This land enters tapped.
 When this land enters, add {W}.
 {T}: Add {G} or {U}.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/218.png" num="255">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/215.png" num="257">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3964,7 +3909,7 @@ When this land enters, add {W}.
 			<text>This land enters tapped.
 When this land enters, add {U}.
 {T}: Add {W} or {B}.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/219.png" num="252">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/216.png" num="253">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3981,7 +3926,7 @@ When this land enters, add {U}.
 			<text>This land enters tapped.
 When this land enters, add {B}.
 {T}: Add {U} or {R}.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/220.png" num="260">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/217.png" num="262">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3998,7 +3943,7 @@ When this land enters, add {B}.
 			<text>This land enters tapped.
 When this land enters, add {R}.
 {T}: Add {B} or {G}.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/221.png" num="254">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/218.png" num="256">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4015,7 +3960,7 @@ When this land enters, add {R}.
 			<text>This land enters tapped.
 When this land enters, add {G}.
 {T}: Add {R} or {W}.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/222.png" num="253">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/219.png" num="254">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4032,7 +3977,7 @@ When this land enters, add {G}.
 			<text>{T}: Add {C}.
 {T}: Put a charge counter on this land.
 {T}, Remove a charge counter from this land: Add one mana of any color.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/223.png" num="261">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/220.png" num="263">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4048,7 +3993,7 @@ When this land enters, add {G}.
 			<text>{T}: Add {C}.
 {T}: Add one mana of any color. Spend this mana only to cast a Trooper spell.
 {4}, {T}: Create a 1/1 white Trooper creature token.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/224.png" num="256">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/221.png" num="258">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4062,7 +4007,7 @@ When this land enters, add {G}.
 		<card>
 			<name>SWTG Plains;</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/225.png" num="264">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/222.png" num="266">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4077,7 +4022,7 @@ When this land enters, add {G}.
 		<card>
 			<name>SWTG Island1;</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/226.png" num="265">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/223.png" num="267">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4092,7 +4037,7 @@ When this land enters, add {G}.
 		<card>
 			<name>SWTG Swamp;</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/227.png" num="268">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/224.png" num="270">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4107,7 +4052,7 @@ When this land enters, add {G}.
 		<card>
 			<name>SWTG Mountain;</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/228.png" num="270">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/225.png" num="272">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4122,7 +4067,7 @@ When this land enters, add {G}.
 		<card>
 			<name>SWTG Forest;</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/229.png" num="272">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/226.png" num="274">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4137,7 +4082,7 @@ When this land enters, add {G}.
 		<card>
 			<name>SWTG Plains1;</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/230.png" num="263">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/227.png" num="265">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4152,7 +4097,7 @@ When this land enters, add {G}.
 		<card>
 			<name>SWTG Island;</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/231.png" num="266">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/228.png" num="268">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4167,7 +4112,7 @@ When this land enters, add {G}.
 		<card>
 			<name>SWTG Mountain1;</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/232.png" num="269">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/229.png" num="271">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4182,7 +4127,7 @@ When this land enters, add {G}.
 		<card>
 			<name>SWTG Swamp1;</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/233.png" num="267">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/230.png" num="269">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4197,7 +4142,7 @@ When this land enters, add {G}.
 		<card>
 			<name>SWTG Forest1;</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/234.png" num="271">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/231.png" num="273">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4213,7 +4158,7 @@ When this land enters, add {G}.
 			<name>Jedi Inquirer</name>
 			<text>When this creature enters, exile up to one target battle, enchantment, or card in a graveyard.
 Meditate {2}{W} ({2}{W}: Return this creature to its owner&apos;s hand. Meditate only as a sorcery.)</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/235.png" num="17">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/232.png" num="17">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4233,7 +4178,7 @@ Meditate {2}{W} ({2}{W}: Return this creature to its owner&apos;s hand. Meditate
 When this Vehicle enters, create two 1/1 white Trooper creature tokens.
 During your turn, your opponents can&apos;t cast spells.
 Crew 2</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/236.png" num="2">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/233.png" num="2">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4254,7 +4199,7 @@ When this Siege enters, you may discard a card or sacrifice a land. If you do, d
 Creatures you control with spaceflight attacking this battle can&apos;t be blocked.
 ---
 (Back): Do It!</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/237_front.png" num="102a">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/234_front.png" num="102a">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -4274,7 +4219,7 @@ Creatures you control with spaceflight attacking this battle can&apos;t be block
 			<text>Target creature you control deals damage equal to its power to target creature you don&apos;t control.
 ---
 (Front): The Battle of Coruscant</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/237_back.png" num="102b">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/234_back.png" num="102b">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -4294,7 +4239,7 @@ Creatures you control with spaceflight attacking this battle can&apos;t be block
 When this Siege enters, you may have target creature you control deal damage equal to its power to target creature an opponent controls.
 ---
 (Back): Fiery Rebirth</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/238_front.png" num="104a">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/235_front.png" num="104a">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -4312,10 +4257,10 @@ When this Siege enters, you may have target creature you control deal damage equ
 		<card>
 			<name>Fiery Rebirth</name>
 			<text>Whenever you cast a Jedi or Sith spell, this enchantment deals 1 damage to each opponent.
-Whenever one or permanents you control transform, you may return this enchantment to its owner&apos;s hand.
+Whenever another permanent you control transforms, you may return this enchantment to its owner&apos;s hand.
 ---
 (Front): The Battle of Heroes</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/238_back.png" num="104b">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/235_back.png" num="104b">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -4335,7 +4280,7 @@ Whenever one or permanents you control transform, you may return this enchantmen
 When this Siege enters, return target artifact or creature to its owner&apos;s hand.
 ---
 (Back): Embryo Chamber</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/239_front.png" num="38a">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/236_front.png" num="38a">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -4355,7 +4300,7 @@ When this Siege enters, return target artifact or creature to its owner&apos;s h
 			<text>{3}, {T}, Sacrifice this artifact: Copy target creature spell you control.
 ---
 (Front): The Battle of Kamino</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/239_back.png" num="38b">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/236_back.png" num="38b">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -4376,7 +4321,7 @@ Flash
 When this Siege enters, reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.
 ---
 (Back): Ahsoka Tano</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/240_front.png" num="37a">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/237_front.png" num="37a">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -4397,7 +4342,7 @@ When this Siege enters, reveal the top five cards of your library. An opponent s
 Meditate—{1}{U}, Pay 3 life ({1}{U}, Pay 3 life: Return this creature to its owner&apos;s hand. Meditate only as a sorcery.)
 ---
 (Front): The Battle of Christophsis</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/240_back.png" num="37b">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/237_back.png" num="37b">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -4417,7 +4362,7 @@ Meditate—{1}{U}, Pay 3 life ({1}{U}, Pay 3 life: Return this creature to its o
 Whenever one or more creatures you control deal combat damage to a player, exile the top card of your library. You may play that card until the end of your next turn.
 ---
 (Back): The Sith Revealed</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/241_front.png" num="109a">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/238_front.png" num="109a">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -4437,7 +4382,7 @@ Whenever one or more creatures you control deal combat damage to a player, exile
 			<text>Search your library for a legendary creature, Jedi, or Sith card, reveal it, put it into your hand, then shuffle.
 ---
 (Front): Duel of the Fates</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/241_back.png" num="109b">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/238_back.png" num="109b">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -4457,7 +4402,7 @@ Whenever one or more creatures you control deal combat damage to a player, exile
 When this Siege enters, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.
 ---
 (Back): HAVw A6 Juggernaut</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/242_front.png" num="137a">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/239_front.png" num="136a">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -4479,7 +4424,7 @@ Whenever one or more +1/+1 counters are placed on another creature you control, 
 Crew 2 (Tap any number of creatures you control with total power 2 or more: This Trooper Vehicle becomes an artifact creature until end of turn.)
 ---
 (Front): The Battle of Felucia</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/242_back.png" num="137b">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/239_back.png" num="136b">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -4498,7 +4443,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 			<name>Amidala, Queen of Naboo</name>
 			<text>Whenever Amidala, Queen of Naboo or another creature you control enters, you gain 1 life.
 At the beginning of your end step, if you&apos;ve gained 5 or more life this turn, destroy up to one target artifact or enchantment.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/243.png" num="170">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/240.png" num="169">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4515,7 +4460,7 @@ At the beginning of your end step, if you&apos;ve gained 5 or more life this tur
 		<card>
 			<name>Bludgeoning Pain</name>
 			<text>Target creature gets -3/-3 until end of turn. Tap that creature.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/244.png" num="74">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/241.png" num="73">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4532,7 +4477,7 @@ At the beginning of your end step, if you&apos;ve gained 5 or more life this tur
 			<name>Kit Fisto</name>
 			<text>When Kit Fisto enters, look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
 Meditate {1}{U} ({1}{U}: Return this creature to its owner&apos;s hand. Meditate only as a sorcery.)</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/245.png" num="205">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/242.png" num="204">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4552,7 +4497,7 @@ Meditate {1}{U} ({1}{U}: Return this creature to its owner&apos;s hand. Meditate
 When this Siege enters, draw a card. You may put a land card from your hand onto the battlefield tapped.
 ---
 (Back): Orders Received</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/246_front.png" num="138a">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/243_front.png" num="137a">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -4572,7 +4517,7 @@ When this Siege enters, draw a card. You may put a land card from your hand onto
 			<text>Put a +1/+1 counter on each creature you control.
 ---
 (Front): The Battle of Kashyyyk</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/246_back.png" num="138b">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/243_back.png" num="137b">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -4592,7 +4537,7 @@ When this Siege enters, draw a card. You may put a land card from your hand onto
 When this Siege enters, return up to one target creature or Vehicle card from your graveyard to your hand.
 ---
 (Back): TSMEU-6 Wheel Bike</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/247_front.png" num="70a">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/244_front.png" num="69a">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -4614,7 +4559,7 @@ Whenever this Vehicle attacks, defending player loses 2 life for each creature t
 Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)
 ---
 (Front): The Battle of Utapau</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/247_back.png" num="70b">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/244_back.png" num="69b">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -4632,7 +4577,7 @@ Crew 1 (Tap any number of creatures you control with total power 1 or more: This
 			<name>Dengar</name>
 			<text>When Dengar enters, put a bounty counter on target permanent.
 Whenever you complete a bounty, return up to one target creature card from your graveyard to your hand unless an opponent pays 3 life. (You complete a bounty when a permanent you don&apos;t control with a bounty counter leaves the battlefield.)</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/248.png" num="77">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/245.png" num="77">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4650,7 +4595,7 @@ Whenever you complete a bounty, return up to one target creature card from your 
 			<name>The Tomb of Miktrull</name>
 			<text>{T}: Add {C}.
 {T}: Add one mana of any color an artifact you control could produce.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/249.png" num="262">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/246.png" num="264">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4666,7 +4611,7 @@ Whenever you complete a bounty, return up to one target creature card from your 
 			<text>Choose one. If you&apos;ve cast another spell this turn, choose both instead.
 • Attacking creatures you don&apos;t control get -1/-0 for each Spacecraft and Vehicle you control until end of turn.
 • Return up to one target artifact card from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/250.png" num="48">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/247.png" num="48">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4686,7 +4631,7 @@ This Vehicle can&apos;t block
 Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
 When this Vehicle enters, another target attacking creature you control gets +2/+0 until end of turn. If it&apos;s a Rebel, it also gains first strike until end of turn.
 Crew 1</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/251.png" num="101">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/248.png" num="101">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4708,7 +4653,7 @@ Other Droid creatures you control get +1/+1.
 
 [level 8+] Spaceflight, defender (This creature can only block or be blocked by creatures with spaceflight.)
 {3}, {T}: Create two 1/1 colorless Droid artifact creature tokens. [4/6]</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/252.png" num="229">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/249.png" num="230">SWTG</set>
 			<prop>
 				<layout>leveler</layout>
 				<side>front</side>
@@ -4726,7 +4671,7 @@ Other Droid creatures you control get +1/+1.
 			<text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
 Whenever this Vehicle deals combat damage to a player or a permanent an opponent protects, you may sacrifice this Vehicle. If you do, destroy target creature defending player controls. (Players protect permanents that can be attacked. The protector of an attacked permanent is also a defending player.)
 Crew 1</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/253.png" num="98">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/250.png" num="98">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4745,7 +4690,7 @@ Crew 1</text>
 			<text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
 Whenever this Vehicle attacks, each opponent loses 2 life.
 Crew 1</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/254.png" num="99">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/251.png" num="99">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4764,7 +4709,7 @@ Crew 1</text>
 			<text>Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
 [level 3+] Spaceflight (This creature can only block or be blocked by creatures with spaceflight.) [3/4]
 [level 7+] Whenever this creature deals combat damage to an opponent or a permanent they protect, draw a card. (Players protect permanents that can be attacked.) [3/4]</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/255.png" num="50">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/252.png" num="50">SWTG</set>
 			<prop>
 				<layout>leveler</layout>
 				<side>front</side>
@@ -4782,7 +4727,7 @@ Crew 1</text>
 			<text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
 Whenever this Vehicle deals combat damage to an opponent or a permanent an opponent protects, you may pay {1}. If you do, put a stun counter on target creature defending player controls. Tap that creature. (Players protect permanents that can be attacked. The protector of an attacked permanent is also a defending player.)
 Crew 1</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/256.png" num="66">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/253.png" num="66">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4802,7 +4747,7 @@ Crew 1</text>
 Whenever a +1/+1 counter is put on another creature you control, put a +1/+1 counter on this Vehicle. This ability triggers only once each turn.
 
 [level 2+] Spaceflight (This creature can only block or be blocked by creatures with spaceflight.) [3/3]</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/257.png" num="141">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/254.png" num="140">SWTG</set>
 			<prop>
 				<layout>leveler</layout>
 				<side>front</side>
@@ -4820,7 +4765,7 @@ Whenever a +1/+1 counter is put on another creature you control, put a +1/+1 cou
 			<text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
 Whenever this Vehicle deals combat damage to an opponent or a permanent they protect, you may pay {2}{WU}. If you do, exile target creature you control, then return that card to the battlefield under its owner&apos;s control. (Players protect permanents that can be attacked.)
 Crew 1</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/258.png" num="236">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/255.png" num="238">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4840,7 +4785,7 @@ Crew 1</text>
 • Create a 1/1 white Trooper creature token.
 • Put a +1/+1 counter on each creature token you control.
 Meditate {3} ({3}: Return this creature to its owner&apos;s hand. Meditate only as a sorcery.)</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/259.png" num="171">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/256.png" num="170">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4856,9 +4801,9 @@ Meditate {3} ({3}: Return this creature to its owner&apos;s hand. Meditate only 
 		</card>
 		<card>
 			<name>Wedge Antilles</name>
-			<text>Whenever you attack, create a 1/1 white Rebel creature token.
-Whenever a Rebel creature you control attacks, this creature deals 1 damage to any noncreature target.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/260.png" num="231">SWTG</set>
+			<text>Backup 2
+Whenever a modified creature you control attacks, this creature deals 1 damage to any noncreature target. (Equipment, Auras you control, and counters are modifications.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/257.png" num="233">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4876,7 +4821,7 @@ Whenever a Rebel creature you control attacks, this creature deals 1 damage to a
 			<name>Jedi Survivor</name>
 			<text>Vigilance
 Whenever another creature you control leaves the battlefield without dying, this creature explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/261.png" num="204">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/258.png" num="203">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4893,7 +4838,7 @@ Whenever another creature you control leaves the battlefield without dying, this
 		<card>
 			<name>May the Force be with You</name>
 			<text>Scry 2, then you may reveal the top card of your library. If a land card is revealed this way, put it onto the battlefield tapped. Otherwise, draw a card.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/262.png" num="1">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/259.png" num="1">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4907,7 +4852,7 @@ Whenever another creature you control leaves the battlefield without dying, this
 		<card>
 			<name>Watto, Junk Dealer</name>
 			<text>Whenever one or more cards leave your graveyard, draw a card. This ability triggers only once each turn.</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/263.png" num="65">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/260.png" num="65">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4929,7 +4874,7 @@ Whenever another creature you control leaves the battlefield without dying, this
 {B}{R}{G} BOUNTY HUNTERS Criminals and bounty hunters place bounty counters on opposing creatures and reward you when those creatures die.
 {R}{G}{W} THE WILDS Wookiees, Ewoks, and large beasts use the Monstrosity mechanic to get larger and have abilities that care about being monstrous.
 {W}{U}{B}{R}{G} KINDRED TROOPER Go big with trooper creature and vehicle cards.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/265.png" num="2">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/262.png" num="2">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4945,7 +4890,7 @@ Whenever another creature you control leaves the battlefield without dying, this
 		<card>
 			<name>Tusken Raider SWTG</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/266.png" num="6">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/263.png" num="6">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4964,7 +4909,7 @@ Whenever another creature you control leaves the battlefield without dying, this
 			<name>TIE Fighter SWTG</name>
 			<text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
 Crew 1</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/267.png" num="8">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/264.png" num="8">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4982,7 +4927,7 @@ Crew 1</text>
 		<card>
 			<name>Droid SWTG</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/268.png" num="12">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/265.png" num="12">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4998,7 +4943,7 @@ Crew 1</text>
 		<card>
 			<name>Trooper SWTG</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/269.png" num="4">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/266.png" num="4">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5016,7 +4961,7 @@ Crew 1</text>
 		<card>
 			<name>Royal Guard SWTG</name>
 			<text>First strike</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/270.png" num="10">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/267.png" num="10">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5034,7 +4979,7 @@ Crew 1</text>
 		<card>
 			<name>Rebel SWTG</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/271.png" num="3">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/268.png" num="3">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5053,7 +4998,7 @@ Crew 1</text>
 			<name>B-Wing SWTG</name>
 			<text>Spaceflight (This creature can only block or be blocked by creatures with spaceflight.)
 Crew 1</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/272.png" num="7">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/269.png" num="7">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5071,7 +5016,7 @@ Crew 1</text>
 		<card>
 			<name>Ewok Rebel SWTG</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/273.png" num="11">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/270.png" num="11">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5089,7 +5034,7 @@ Crew 1</text>
 		<card>
 			<name>Bounty Hunter SWTG</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/274.png" num="9">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/271.png" num="9">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5116,7 +5061,7 @@ Crew 1</text>
 {U}{R} SITH EMPIRE Sith get stronger with the Hate mechanic, granting stronger effects or new abilities if an opponent has lost life from anything but combat damage.
 {B}{G} BOUNTY HUNTERS Criminals and bounty hunters place bounty counters on opposing creatures and reward you when those creatures die.
 {R}{W} THE WILDS Wookiees, Ewoks, and large beasts use the Monstrosity mechanic to get larger and have abilities that care about being monstrous.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/275.png" num="1">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/272.png" num="1">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5132,7 +5077,7 @@ Crew 1</text>
 		<card>
 			<name>Trooper SWTG</name>
 			<text></text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/276.png" num="5">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/273.png" num="5">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5153,7 +5098,7 @@ Crew 1</text>
 When this Siege enters, create a 1/1 white Rebel creature token and a 1/1 white Trooper creature token.
 ---
 (Back): Echo Base</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/277_front.png" num="4a">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/274_front.png" num="4a">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -5173,7 +5118,7 @@ When this Siege enters, create a 1/1 white Rebel creature token and a 1/1 white 
 			<text>{2}{W}, {T}: Create a token copy of target token creature you control that didn&apos;t enter this turn.
 ---
 (Front): The Battle of Hoth</text>
-			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/277_back.png" num="4b">SWTG</set>
+			<set rarity="uncommon" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/274_back.png" num="4b">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -5193,7 +5138,7 @@ When this Siege enters, create a 1/1 white Rebel creature token and a 1/1 white 
 When this Siege enters, look at the top four cards of your library. You may reveal a creature, land, or Vehicle card from among them, put it into your hand, then shuffle.
 ---
 (Back): Landing Pad</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/279_front.png" num="5a">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/276_front.png" num="5a">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -5203,6 +5148,7 @@ When this Siege enters, look at the top four cards of your library. You may reve
 				<cmc>2</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
+				<loyalty>5</loyalty>
 			</prop>
 			<tablerow>1</tablerow>
 			<related attach="transform">Landing Pad</related>
@@ -5213,7 +5159,7 @@ When this Siege enters, look at the top four cards of your library. You may reve
 {2}, {T}: Put a +1/+1 counter on target creature, Spacecraft, or Vehicle.
 ---
 (Front): The Battle of Scarif</text>
-			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/279_back.png" num="5b">SWTG</set>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/276_back.png" num="5b">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -5234,7 +5180,7 @@ Sacrifice another creature: Target creature gets -1/-1 until end of turn. Activa
 If Anakin Skywalker would die, instead remove all damage from him, remove him from combat, transform him.
 ---
 (Back): Darth Vader</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/290_front.png" num="172a">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/287_front.png" num="171a">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>front</side>
@@ -5255,7 +5201,7 @@ If Anakin Skywalker would die, instead remove all damage from him, remove him fr
 Whenever Darth Vader attacks, creatures defending player controls get -1/-1 until end of turn for each +1/+1 counter on Darth Vader. (The protector of an attacked permanent is also a defending player.)
 ---
 (Front): Anakin Skywalker</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/290_back.png" num="172b">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/287_back.png" num="171b">SWTG</set>
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
@@ -5275,16 +5221,16 @@ Whenever Darth Vader attacks, creatures defending player controls get -1/-1 unti
 			<text>Ward {2}
 Whenever a Jedi you control leaves the battlefield without dying, reveal cards from the top of your library until you reveal a land card. Put that card onto the battlefield tapped and the rest on the bottom of your library in a random order.
 Meditate {3}</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/294.png" num="234">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/291.png" num="236">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Legendary Creature — Jedi</type>
 				<maintype>Creature</maintype>
-				<manacost>GU</manacost>
-				<cmc>2</cmc>
-				<colors>UG</colors>
-				<coloridentity>UG</coloridentity>
+				<manacost>GWU</manacost>
+				<cmc>3</cmc>
+				<colors>WUG</colors>
+				<coloridentity>WUG</coloridentity>
 				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
@@ -5293,7 +5239,7 @@ Meditate {3}</text>
 			<name>Aurra Sing, Bane of Jedi</name>
 			<text>Whenever Aurra Sing attacks, you may sacrifice an artifact. If you do, draw a card and lose 1 life.
 Whenever you complete a bounty, create a colorless artifact token named Munitions with &quot;When this token leaves the battlefield, it deals 2 damage to any target.&quot; (You complete a bounty when a permanent you don&apos;t control with a bounty counter leaves the battlefield.)</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/295.png" num="174">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/292.png" num="173">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5309,9 +5255,10 @@ Whenever you complete a bounty, create a colorless artifact token named Munition
 		</card>
 		<card>
 			<name>Darth Sidious, Sith Lord</name>
-			<text>Whenever Darth Sidious enters or attacks, he deals 3 damage to any target.
+			<text>Haste
+Whenever Darth Sidious attacks, he deals 3 damage to any target.
 Hate — {T}: Gain control of target nontoken creature with mana value less than or equal to the amount of life its controller lost to a source other than combat damage this turn.</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/296.png" num="188">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/293.png" num="187">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5321,14 +5268,14 @@ Hate — {T}: Gain control of target nontoken creature with mana value less than
 				<cmc>7</cmc>
 				<colors>UBR</colors>
 				<coloridentity>UBR</coloridentity>
-				<pt>4/4</pt>
+				<pt>4/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Darth Tyranus, Count Dooku</name>
 			<text>Hate — Whenever you cast an instant or sorcery spell, if an opponent has lost life from a source other than combat damage this turn, up to one target Sith you control connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/297.png" num="189">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/294.png" num="188">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5344,10 +5291,10 @@ Hate — {T}: Gain control of target nontoken creature with mana value less than
 		</card>
 		<card>
 			<name>Obi-Wan Kenobi</name>
-			<text>When Obi-Wan Kenobi enters, up to one other target creature you control gains hexproof until end of turn. That creature can&apos;t be blocked this turn.
+			<text>When Obi-Wan Kenobi dies, if it was a creature, return it to the battlefield under its owner&apos;s control. It&apos;s an enchantment.
 Whenever a creature you control leaves the battlefield without dying, tap up to one target creature.
 Meditate {2}</text>
-			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/298.png" num="211">SWTG</set>
+			<set rarity="mythic" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/295.png" num="212">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5364,7 +5311,7 @@ Meditate {2}</text>
 		<card>
 			<name>Munitions SWTG</name>
 			<text>When this token leaves the battlefield, it deals 2 damage to any target.</text>
-			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/299.png" num="13">SWTG</set>
+			<set rarity="common" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/296.png" num="13">SWTG</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5375,6 +5322,99 @@ Meditate {2}</text>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
+		</card>
+		<card>
+			<name>Vulture Droid</name>
+			<text>Whenever you cast a spell from anywhere other than your hand, this creature gains lifelink and spaceflight until end of turn. (This creature can only block or be blocked by creatures with spaceflight.)
+Repair 3 (When this creature dies, you may exile it with three time counters. At the beginning of your upkeep, remove one. When the last is removed, you may cast it this turn.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/297.png" num="232">SWTG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Droid</type>
+				<maintype>Creature</maintype>
+				<manacost>2WUB</manacost>
+				<cmc>5</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Mandalorian</name>
+			<text>When The Mandalorian enters or attacks, put a bounty counter on target nonland permanent.
+Whenever you complete a bounty, put a +1/+1 counter on each of up to two target outlaws you control. (You complete a bounty when a permanent you don&apos;t control with a bounty counter leaves the battlefield. Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/298.png" num="207">SWTG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>1BRG</manacost>
+				<cmc>4</cmc>
+				<colors>BRG</colors>
+				<coloridentity>BRG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Princess Leia SWTG</name>
+			<text>Backup 1
+When this creature enters or attacks, create a 1/1 white Rebel creature token.
+This creature gets +1/+1 for each other Rebel creature you control.
+Other Rebel creatures you control get +1/+1.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/299.png" num="216">SWTG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rebel</type>
+				<maintype>Creature</maintype>
+				<manacost>3RGW</manacost>
+				<cmc>6</cmc>
+				<colors>WRG</colors>
+				<coloridentity>WRG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Wicket, Ewok Rascal</name>
+			<text>Backup 1 (When this creature enters, put a +1/+1 counter on target creature. If that&apos;s another creature, it gains the following abilities until end of turn.)
+Whenever this creature deals combat damage to a player, you may return target permanent card from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/300.png" num="165">SWTG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Ewok Rebel</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mon Mothma, Voice of Rebellion</name>
+			<text>Backup 1 (When this creature enters, put a +1/+1 counter on target creature. If that&apos;s another creature, it gains the following abilities until end of turn.)
+Whenever this creature attacks, create a tapped and attacking 1/1 Rebel creature token.</text>
+			<set rarity="rare" picurl="https://kebelqwa.github.io/sets/SWTG-files/img/301.png" num="210">SWTG</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Advisor Rebel</type>
+				<maintype>Creature</maintype>
+				<manacost>RGW</manacost>
+				<cmc>3</cmc>
+				<colors>WRG</colors>
+				<coloridentity>WRG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

@@ -1,4 +1,410 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Dead or Alive added.
+Geonosis added.
+Vulture Droid added.
+The Mandalorian added.
+Wicket, Ewok Rascal added.
+Mon Mothma, Voice of Rebellion added.
+
+Acquire Target removed.
+AT-ST removed.
+Acklay of the Arena removed.
+Droid Factory removed.
+
+Plo Koon
+rules_text: Flash
+You may activate meditate abilities any time you could cast an instant.
+Meditate {1}{W} [i]({1}{W}: Return this creature to its owner's hand. Meditate only as a sorcery.)[/i] => Flash
+You may activate meditate abilities any time you could cast an instant.
+Meditate {1}{W}
+
+Head Hunting
+rules_text: Put a bounty counter on up to one target permanent. Its controller loses loses 1 life.
+If you've completed a bounty this turn, draw a card. => Put a bounty counter on up to one target permanent. Its controller loses 1 life.
+If you've completed a bounty this turn, draw a card.
+
+Sith Lord
+
+Bathe in Bacta
+
+The Battle of Endor
+
+Bossk
+
+Bounty Collector
+
+Ewok Ambush
+
+Ewok Firedancers
+rules_text: Trample
+Whenever this creature and at least two other creatures you control attack, monstrosity 2. [i](If this creature isn't monstrous, put two +1/+1 counters on it and it becomes monstrous.)[/i] => Backup 1 [i](When this creature enters, put a +1/+1 counter on target creature. If that's another creature, it gains the following abilities until end of turn.)[/i]
+Trample
+
+Exogorth
+
+Force Pull
+
+Hungry Dragonsnake
+
+Hutt Crime Lord
+
+Ithorian Initiate
+
+Jedi Battle Sage
+
+Ki-Adi-Mundi
+
+Legacy of the Beloved
+
+Mantellian Savrip
+
+Massiff Swarm
+
+Millennium Falcon
+
+Nerf Herder
+
+Nexu Stalker
+
+Nightspider
+
+No Contest
+
+Rancor
+
+Regression
+
+Scout the Perimeter
+
+Scout Trooper
+
+Shaak Herd
+
+Show of Dominance
+
+Trooper Commando
+
+Wookiee Bounty Hunter
+
+AAT-1
+
+Adroit Hateflayer
+
+Asajj Ventress
+
+Blind Worship
+
+Boba Fett
+
+Bull Rancor
+
+C-3PO and R2D2
+
+Carbonite Chamber
+
+Chewbacca
+cost: {2}{R}{G}{W} => {3}{R}{W}
+rules_text: Vigilance
+Whenever Chewbacca attacks alone, monstrosity 1.
+Whenever Chewbacca or another creature you control becomes monstrous, that creature gets +2/+2 until end of turn. => Backup 1
+Vigilance
+Whenever this creature attacks alone, double the number of +1/+1 counters on it.
+pt: 4/5 => 4/4
+
+Chief Chirpa
+rules_text: {2}{R}{G}{W}: Monstrosity 2.
+Whenever a green creature you control dies, you may put a +1/+1 counter on another target Ewok Rebel creature you control.
+When one or more +1/+1 counters are placed on Chief Chirpa, create that many 1/1 green Ewok Rebel creature tokens. => Backup 1
+Whenever another Rebel creature you control dies, you may put a +1/+1 counter on another target Rebel creature you control.
+When one or more +1/+1 counters are placed on Chief Chirpa, create that many 1/1 green Ewok Rebel creature tokens.
+
+Commander Cody
+
+Cruelty of the Sith
+
+Cunning Abduction
+
+Dagobah Maw Slug
+
+Dark Decision
+
+Darth Maul
+
+Ferocity of the Underworld
+
+Force Choke
+
+Force Mastery
+
+General Grievous
+
+Greater Krayt Dragon
+
+Greedo
+
+Hot Pursuit
+
+Hunt to Extinction
+
+Images of the Past
+
+Iron Fist of the Empire
+
+Jabba the Hutt
+
+Jedi Knight
+
+Jedi Sentinel
+
+Luke Skywalker
+rules_text: Lifelink, vigilance
+Whenever Luke Skywalker or another Jedi you control leaves the battlefield without dying, put two +1/+1 counters on target Jedi you control.
+Meditate {2} => Lifelink, vigilance
+Whenever Luke Skywalker or another Jedi you control leaves the battlefield without dying, put a +1/+1 counter on Luke Skywalker and up to one other target creature you control.
+Meditate {2}
+
+Maintenance Droid
+
+March of the Droids
+
+Might of the Wild
+
+Nute Gunray
+
+Outer Rim Slaver
+
+Precipice of Mortis
+
+Primal Instinct
+
+Qui-Gon Jinn
+
+Rumor Monger
+
+Salvage Squad
+
+Sarlacc Pit
+
+Senator Bail Organa
+
+Senator Lott Dod
+
+Tarfful, Wookiee General
+
+Senator Padmé Amidala
+
+Hondo Ohnaka
+
+Sith Magic
+
+Sith Mindseer
+
+Slave I
+
+Star Destroyer
+
+Tank Droid
+
+Unity of the Droids
+
+Wisdom of the Jedi
+
+Wookiee Mystic
+
+Fulfill Contract
+
+Ravenous Wampa
+
+Strike Team Commando
+
+Tri-Fighter
+
+Wookiee Raidleader
+
+Ancient Holocron
+
+Dark Trooper
+
+Drone Holocron
+
+Jedi Holocron
+
+Lightsaber
+
+The Death Star
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+{T}: Add {C}.
+[level 10+] {1}, {T}: Double the number of charge counter on The Death Star.
+[level 1000+] {T}, Sacrifice this The Death Star: Target player loses the game. => Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+{T}: Add {C}.
+[level 10+] {1}, {T}: Double the number of charge counter on The Death Star.
+[level 1000+] {T}, Sacrifice The Death Star: Target player loses the game.
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+{T}: Add {C}.
+[level 10+] {1}, {T}: Double the number of charge counter on The Death Star.
+[level 1000+] {T}, Sacrifice this The Death Star: Target player loses the game. => Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+{T}: Add {C}.
+[level 10+] {1}, {T}: Double the number of charge counter on The Death Star.
+[level 1000+] {T}, Sacrifice The Death Star: Target player loses the game.
+
+Sith Holocron
+
+Outlaw Holocron
+
+Wild Holocron
+
+Trooper Armor
+
+Dantooine
+
+Korriban
+
+Nar Shaddaa
+
+Kashyyyk
+
+Jedi Temple
+
+Droid Foundry
+
+Sith Citadel
+
+Hutt Palace
+
+Ewok Village
+
+Tatooine
+
+Kamino
+
+Jedi Inquirer
+
+AT-AT
+
+The Battle of Coruscant
+
+The Battle of Heroes
+
+The Battle of Kamino
+
+The Battle of Christophsis
+
+Duel of the Fates
+
+The Battle of Felucia
+
+Amidala, Queen of Naboo
+
+Bludgeoning Pain
+
+Kit Fisto
+
+The Battle of Kashyyyk
+
+The Battle of Utapau
+
+Dengar
+
+The Tomb of Miktrull
+
+Jump to Hyperspace
+
+A-Wing
+
+Trade Federation Battleship
+
+TIE Bomber
+
+TIE Interceptor
+
+Mon Calamari Cruiser
+
+Y-Wing
+
+Corellian Corvette
+
+N-1 Starfighter
+
+Anakin and Obi-Wan
+
+Wedge Antilles
+rules_text: Whenever you attack, create a 1/1 white Rebel creature token.
+Whenever a Rebel creature you control attacks, this creature deals 1 damage to any noncreature target. => Backup 2
+Whenever a modified creature you control attacks, this creature deals 1 damage to any noncreature target. [i](Equipment, Auras you control, and counters are modifications.)[/i]
+
+Jedi Survivor
+
+May the Force be with You
+
+Watto, Junk Dealer
+
+SWTG 3+Color Archetypes
+
+Tusken Raider
+
+TIE Fighter
+
+Droid
+
+Trooper
+
+Royal Guard
+
+Rebel
+
+B-Wing
+
+Ewok Rebel
+
+Bounty Hunter
+
+SWTG 2-Color Archetypes
+
+Trooper
+
+The Battle of Hoth
+
+The Battle of Scarif
+loyalty:  => 5
+
+Anakin Skywalker
+
+Yoda, Jedi Master
+cost: {G}{U} => {G}{W}{U}
+
+Aurra Sing, Bane of Jedi
+
+Darth Sidious, Sith Lord
+rules_text: Whenever Darth Sidious enters or attacks, he deals 3 damage to any target.
+[i]Hate[/i] — {T}: Gain control of target nontoken creature with mana value less than or equal to the amount of life its controller lost to a source other than combat damage this turn. => Haste
+Whenever Darth Sidious attacks, he deals 3 damage to any target.
+[i]Hate[/i] — {T}: Gain control of target nontoken creature with mana value less than or equal to the amount of life its controller lost to a source other than combat damage this turn.
+pt: 4/4 => 4/3
+
+Darth Tyranus, Count Dooku
+
+Obi-Wan Kenobi
+rules_text: When Obi-Wan Kenobi enters, up to one other target creature you control gains hexproof until end of turn. That creature can't be blocked this turn.
+Whenever a creature you control leaves the battlefield without dying, tap up to one target creature.
+Meditate {2} => When Obi-Wan Kenobi dies, if it was a creature, return it to the battlefield under its owner's control. It's an enchantment.
+Whenever a creature you control leaves the battlefield without dying, tap up to one target creature.
+Meditate {2}
+
+Munitions
+
+Princess Leia
+cost: {3}{G}{W}{U} => {3}{R}{G}{W}
+rules_text: When Princess Leia enters, create two 1/1 white Rebel creature tokens.
+Princess Leia gets +1/+1 for each other Rebel creature you control.
+Other Rebel creatures you control get +1/+1. => Backup 1
+When this creature enters or attacks, create a 1/1 white Rebel creature token.
+This creature gets +1/+1 for each other Rebel creature you control.
+Other Rebel creatures you control get +1/+1.
+
+
+VERSION 2 CHANGELOG
 ====================
 
 Search Your Feelings added.
